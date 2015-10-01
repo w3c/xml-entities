@@ -56,7 +56,7 @@
     <xsl:attribute name="href"><xsl:value-of select="$f"/>map.xsl</xsl:attribute>
   </xsl:element>
   
-  <xsl:result-document  href="../{$d}/{$f}map.xsl">
+  <xsl:result-document  href="{$d}/{$f}map.xsl">
     <xsl:text>&#10;</xsl:text>
     <xsl:comment>
       <xsl:text>&#10;     File </xsl:text>
@@ -130,7 +130,7 @@
 
 <xsl:template match="group">
   
-  <xsl:result-document href="../{@name}/entitynamesmap.xsl">
+  <xsl:result-document href="{@name}/entitynamesmap.xsl">
     <xsl:element name="xsl:stylesheet">
       <xsl:attribute name="version">2.0</xsl:attribute>
       <xsl:text>&#10;</xsl:text>
@@ -164,7 +164,7 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:result-document>
 
-  <xsl:result-document href="../{@name}/htmlmathml.xsl">
+  <xsl:result-document href="{@name}/htmlmathml.xsl">
     <xsl:element name="xsl:stylesheet">
       <xsl:attribute name="version">2.0</xsl:attribute>
       <xsl:text>&#10;</xsl:text>

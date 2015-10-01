@@ -102,7 +102,7 @@ David Carlisle
 <xsl:value-of select="$f"/>
 <xsl:text>;</xsl:text>
 <xsl:if test="$write-file">
-<xsl:result-document method="text"  href="../{$d}/{$f}.ent">
+<xsl:result-document method="text"  href="{$d}/{$f}.ent">
   <xsl:text>
 &lt;!--
      File </xsl:text>
@@ -175,18 +175,24 @@ David Carlisle
     <xsl:variable name="a" select="string(../@id)"/>
     <xsl:variable name="b" select="string(key('mml2',@id,$mml2)/@val)"/>
     <xsl:variable name="n" select="@set"/>
+<!--
     <xsl:if test="not($a=$b) and $n=/unicode/entitygroups/group[@name='mathml']/set/@name">
       <xsl:message>mathml2: <xsl:value-of select="@id,$a,$b"/></xsl:message>
     </xsl:if>
+-->
     <xsl:variable name="ad" select="string(../@dec)"/>
     <xsl:variable name="c" select="string(key('mml2',@id,$xhtml1)/@dec)"/>
+<!--
     <xsl:if test="not($ad=$c) and $n=/unicode/entitygroups/group[@name='xhtml1']/set/@name">
       <xsl:message>xhtml1: <xsl:value-of select="@id,$ad,$c"/></xsl:message>
     </xsl:if>
+-->
     <xsl:variable name="m" select="key('m',@id,$mathmap)/@hex"/>
+<!--
     <xsl:if test="exists($m) and not($a=$m)">
            <xsl:message>unicode tr: <xsl:value-of select="@id,',',$a,',',$m"/></xsl:message>
     </xsl:if>
+-->
 <!--
     <xsl:if test="../unicodedata/@decomp[not(contains(.,'&lt;'))]">
      <xsl:message>DECOMP: <xsl:value-of select="@id,../@id,':',../unicodedata/@decomp"/></xsl:message>
@@ -240,8 +246,8 @@ David Carlisle
 <xsl:template match="charlist"/>
 
 <xsl:template match="group[@name='2007']">
-<!--
-<xsl:result-document method="text"  href="../2007/w3centities.ent">
+
+<xsl:result-document method="text"  href="2007/w3centities.ent">
   <xsl:call-template name="preamble">
     <xsl:with-param name="name" select="'Combined Set'"/>
     <xsl:with-param name="file" select="'w3centities'"/>
@@ -249,7 +255,7 @@ David Carlisle
   </xsl:call-template>
   <xsl:apply-templates select="set"/>
 </xsl:result-document>
-<xsl:result-document method="text"  href="../2007/w3centities-f.ent">
+<xsl:result-document method="text"  href="2007/w3centities-f.ent">
   <xsl:call-template name="preamble">
     <xsl:with-param name="name" select="'Combined Set'"/>
     <xsl:with-param name="file" select="'w3centities-f'"/>
@@ -260,7 +266,7 @@ David Carlisle
     <xsl:apply-templates select="."/>
   </xsl:for-each-group>
 </xsl:result-document>
-<xsl:result-document method="text"  href="../2007/htmlmathml.ent">
+<xsl:result-document method="text"  href="2007/htmlmathml.ent">
   <xsl:call-template name="preamble">
     <xsl:with-param name="name" select="'HTML MathML Set'"/>
     <xsl:with-param name="file" select="'htmlmathml'"/>
@@ -273,7 +279,7 @@ David Carlisle
     <xsl:with-param name="write-file" select="false()"/>
 </xsl:apply-templates>
 </xsl:result-document>
-<xsl:result-document method="text"  href="../2007/htmlmathml-f.ent">
+<xsl:result-document method="text"  href="2007/htmlmathml-f.ent">
   <xsl:call-template name="preamble">
     <xsl:with-param name="name" select="'HTML MathML Set'"/>
     <xsl:with-param name="file" select="'htmlmathml-f'"/>
@@ -284,8 +290,8 @@ David Carlisle
     <xsl:apply-templates select="."/>
     </xsl:for-each-group>
 </xsl:result-document>
--->
-<xsl:result-document method="text"  href="../2007/htmlmathml.json">
+
+<xsl:result-document method="text"  href="2007/htmlmathml.json">
  <xsl:text>&#10;{</xsl:text>
  <xsl:text>&#10; "characters": {</xsl:text>
     <xsl:for-each-group select="key('set',../group[@name=('mathml','html5')]/set/@name)" group-by="@id">

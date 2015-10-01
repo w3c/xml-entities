@@ -22,7 +22,7 @@ originally for MathML chapter 6.
 
 <xsl:param name="cssbase" select="'http://www.w3.org/StyleSheets/TR/'"/>
 <xsl:param name="baseuri" select="'http://www.w3.org/2003/entities/'"/>
-<xsl:param name="resultbase" select="'../2007doc/'"/>
+<xsl:param name="resultbase" select="'2007doc/'"/>
 <xsl:param name="editors-copy" select="''"/>
 <xsl:param name="script" select="'no'"/>
 <xsl:param name="longtitle" select="'yes'"/>
@@ -45,7 +45,7 @@ originally for MathML chapter 6.
 <xsl:strip-space elements="group"/>
 
 
-<xsl:variable name="u" select="doc('../2007xml/unicode.xml')"/>
+<xsl:variable name="u" select="doc('unicode.xml')"/>
 <xsl:variable name="blocks" select="$u/unicode/unicodeblocks/block"/>
 <xsl:variable name="hex" select="('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F')"/>
 <xsl:key name="set" match="entity" use="@set"/>
@@ -760,7 +760,7 @@ string-length(description))"/>
   <ul>
    <xsl:for-each select="$u/unicode/entitygroups/group[@name='2007']/set">
     <li>
-     <a href="{replace(@name,'^[0-9][0-9---]*','')}.html">
+     <a href="{replace(@name,'^[0-9][0-9\-]*','')}.html">
       <xsl:apply-templates select="." mode="name"/>
      </a>
      <xsl:choose>
@@ -802,7 +802,7 @@ string-length(description))"/>
     <xsl:for-each select="current-group()">
       <dt><xsl:value-of select="@name"/></dt>
     </xsl:for-each>
-    <dd><a href="../2007doc/{current-grouping-key()}.html"><xsl:value-of select="current-grouping-key()"/></a></dd>
+    <dd><a href="{current-grouping-key()}.html"><xsl:value-of select="current-grouping-key()"/></a></dd>
   </xsl:for-each-group>
   </dl>
 </div>
