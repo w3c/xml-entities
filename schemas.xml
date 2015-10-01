@@ -1,0 +1,6 @@
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="uc-new.xml" uri="charlist.rnc"/>
+  <uri resource="unicode.xml" uri="charlist.rnc"/>
+  <uri resource="character-set.xml" uri="../../../Math/Group/spec/pubtext/mathmlspec.rnc"/>
+  <uri resource="xhtml-public-id.xml" uri="../../../Math/Group/spec/pubtext/mathmlspec.rnc"/>
+</locatingRules>

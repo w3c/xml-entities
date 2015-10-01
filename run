@@ -1,0 +1,64 @@
+# saxon9 character-set.xml characters.xsl glyphs=../glyphs editors-copy=yes  #cssbase=../../../StyleSheets/TR/
+# saxon9 character-set.xml characters.xsl glyphs=glyphs resultbase=../xml-entities-tr/ 
+
+saxon9 character-set.xml characters.xsl glyphs=glyphs  editors-copy=yes 
+
+saxon9 unicode.xml charmap.xsl
+saxon9 unicode.xml entities.xsl
+saxon9 unicode.xml unicode-names.xsl > unicode-names.js
+
+# dont use grep /sort to make combined file now
+# dont zip up directory for publication
+exit
+# cd ../xml-entities-tr/glyphs
+# for i in ???; do cp ../../glyphs/$i/*.png $i;done
+# cp ../../glyphs/none.png .
+# cd ..
+
+
+cd ../2007;
+echo "
+<!--
+     Copyright 1998 - 2010 W3C.
+
+     Use and distribution of this code are permitted under the terms of the
+     W3C Software Notice and License.
+     http://www.w3.org/Consortium/Legal/copyright-software-19980720
+
+       Public identifier: -//W3C//ENTITIES Combined Set//EN//XML
+       System identifier: http://www.w3.org/2003/entities/2007/w3centities-f.ent
+
+     Please report any errors to David Carlisle
+     via the public W3C list www-math@w3.org.
+
+
+     The public identifier should always be used verbatim.
+     The system identifier may be changed to suit local requirements.
+
+     Typical invocation:
+
+       <!ENTITY % w3centities PUBLIC
+         \"-//W3C//ENTITIES Combined Set//EN//XML\"
+         \"http://www.w3.org/2003/entities/2007/w3centities-f.ent\"
+       >
+       %w3centities;
+
+
+     Some entity names in this file are derived from files carrying the
+     following notices:
+
+     (C) International Organization for Standardization 1986,1991
+     Permission to copy in any form is granted for use with
+     conforming SGML systems and applications as defined in
+     ISO 8879, provided this notice is included in all copies.
+
+-->
+
+" >w3centities-f.ent
+grep  -h "<.ENTITY [^%]" *.ent  | sort -u >> w3centities-f.ent
+ 
+
+
+
+cd ..
+zip -r -q xml-entities-tr.zip xml-entities-tr

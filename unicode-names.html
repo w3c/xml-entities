@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Unicode Names</title>
+<script src="unicode-names.js"></script>
+<script>
+//<![CDATA[
+
+function convert () {
+var iput = document.getElementById("input").value;
+var rslt = document.getElementById("result");
+resultstr="Result:\n";
+rslt.innerHTML="";
+var i =0;
+var flag = false;
+for (i=0;i<iput.length;i++) {
+var ccode=iput.charCodeAt(i)
+if(flag) {
+ccode=((ccodea - 0xD800) * 0x400) + (ccode - 0xDC00) + 0x10000;
+flag=false;
+} else{
+if(ccode >= 0xD800){
+var ccodea=ccode;
+flag=true;
+}
+}
+if(!flag) {
+var hex=ccode.toString(16);
+var namestr = nms[ccode];
+if(namestr==null) {
+if(ccode >= 0x4E00 && ccode <= 0x9FCC) {
+  namestr = "CJK Ideograph " + hex;
+ } else if(ccode >= 0xAC00 && ccode <= 0xD7A3) {
+  namestr = "Hangul Syllable " + hex;
+ } else if(ccode >= 0xE000 && ccode <= 0xF8FF) {
+  namestr = "Private Use " + hex;
+ } else if(ccode >= 0x20000 && ccode <= 0x2B81D) {
+  namestr = "CJK Ideograph " + hex;
+ } else if(ccode >= 0xF0000 && ccode <= 0x10FFFD) {
+  namestr = "Private Use " + hex;
+ } else {
+  namestr="??";
+}
+}
+
+ while (hex.length < 4) {
+        hex = "0" + hex;
+    }
+var pad = "  "
+if(hex.length==5) pad=" ";
+if(hex.length==6) pad="";
+resultstr = resultstr + "\n" + pad + "U+" + hex + " " + namestr;
+}
+}
+rslt.innerHTML=resultstr;
+}
+
+
+
+
+//]]>
+</script>
+</head>
+<body>
+<textarea id="input" cols="80" rows="10">
+test this
+&#x1D531;&#x1D522;&#x1D530;&#x1D531; &#x1D531;&#x1D525;&#x1D526;&#x1D530;
+</textarea>
+<br/>
+<button onclick="convert()"> convert</button>
+<pre id="result">
+</pre>
+</body>
+</html>
+

@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: character-set.xml,v 1.129 2015/09/07 08:37:08 dcarlis Exp $ -->
+<!DOCTYPE spec [<!ENTITY date "20150621">]>
+<spec w3c-doctype="rec">
+<header>
+<title>XML Entity Definitions for Characters (3rd Edition)</title>
+<w3c-designation>xml-entity-names-&date;</w3c-designation>
+<w3c-doctype>W3C Working Draft</w3c-doctype>
+<pubdate><day>21</day> <month>June</month> <year>2015</year></pubdate>
+<publoc>
+<!--<loc href="http://www.w3.org/TR/2014/REC-xml-entity-names-&date;/">http://www.w3.org/TR/2014/REC-xml-entity-names-&date;/</loc>-->
+<loc href="http://www.w3.org/2003/entities/2007doc/">http://www.w3.org/2003/entities/2007doc/</loc>
+<!--
+<loc href="http://www.w3.org/2003/entities/2007doc/">http://www.w3.org/2003/entities/2007doc/</loc>
+-->
+</publoc>
+<latestloc>
+<loc href="http://www.w3.org/TR/xml-entity-names/">http://www.w3.org/TR/xml-entity-names/</loc>
+</latestloc>
+<prevlocs>
+  <loc href="http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</loc><!--
+  <loc href="http://www.w3.org/TR/2014/PER-xml-entity-names-20140211/">http://www.w3.org/TR/2014/PER-xml-entity-names-20140211/</loc>
+  <loc href="http://www.w3.org/TR/2010/REC-xml-entity-names-20100401/">http://www.w3.org/TR/2010/REC-xml-entity-names-20100401/</loc>
+-->
+<!--
+  <loc href="http://www.w3.org/TR/2010/PR-xml-entity-names-20100211/">http://www.w3.org/TR/2010/PR-xml-entity-names-20100211/</loc>
+  <loc href="http://www.w3.org/TR/2009/WD-xml-entity-names-20091117/">http://www.w3.org/TR/2009/WD-xml-entity-names-20091117/</loc>
+  <loc href="http://www.w3.org/TR/2007/WD-xml-entity-names-20071214/">http://www.w3.org/TR/2007/WD-xml-entity-names-20071214/</loc>
+-->
+</prevlocs>
+<edlocs>
+  <loc href="http://www.w3.org/2003/entities/2007doc/">http://www.w3.org/2003/entities/2007doc/</loc>
+</edlocs>
+<authlist>
+<author>
+<name>David Carlisle</name>
+<affiliation>NAG</affiliation>
+</author>
+<author>
+<name>Patrick Ion</name>
+<affiliation>Mathematical Reviews, American Mathematical Society</affiliation>
+</author>
+</authlist>
+<errataloc href="http://www.w3.org/2003/entities/2007xml/errata.html"/>
+<translationloc href="http://www.w3.org/2005/11/Translations/Query?titleMatch=XML+Entity+definitions+for+Characters"/>
+
+<status id="status">
+
+
+<p><emph> This section describes the status of this document at the time
+of its publication. Other documents may supersede this document. A
+list of current W3C publications and the latest revision of this
+technical report can be found in the <loc
+href="http://www.w3.org/TR/">W3C technical reports index</loc> at
+http://www.w3.org/TR/.</emph>
+</p> 
+<!--
+<p>Publication as a Proposed Edited Recommendation does not imply endorsement by the W3C Membership. This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress.</p>
+-->
+
+<p>This document has been reviewed by W3C Members, by software
+developers, and by other W3C groups and interested parties, and is
+endorsed by the Director as a W3C Recommendation. It is a stable
+document and may be used as reference material or cited from another
+document. W3C's role in making the Recommendation is to draw attention
+to the specification and to promote its widespread deployment. This
+enhances the functionality and interoperability of the Web.</p>
+
+
+<p>This third edition is based on Unicode <phrase role="unicode"/> and
+incorporates changes to Unicode since Unicode 5.2 and 6.3,
+on which the first and second editions of this document were based. Note these updates only affect
+the non normative descriptions of the Unicode blocks. There are no changes to the Normative entity definitions.
+It also has been updated and restructured slightly to note that <bibref ref="HTML5"/> now uses these definitions.
+and to more clearly highlight that the HTML-MathML entity set should be used in preference to the older ISO sets
+that are also defined in this document.</p>
+<p>
+This document was produced by the 
+<loc href="http://www.w3.org/Math/">W3C Math Working Group</loc>
+as a Recommendation and as part of the W3C 
+<loc href="http://www.w3.org/Math/Activity">Math Activity</loc>.
+The goals of the W3C Math Working Group are discussed in the 
+<loc href="http://www.w3.org/Math/Documents/Charter2006.html"> W3C Math WG Charter</loc>.  
+The authors of this document are W3C Math Working Group members.
+</p>
+
+<!--
+<p>
+W3C asks members of the Advisory Committee to review this document
+and fill in the <loc href="https://www.w3.org/2002/09/wbs/33280/">
+review form.</loc> The deadline for this is 11 March 2014. The document did not
+undergo Candidate Recommendation review, because no software
+is needed to implement the specification other than a standard XML parser and there are no changes to
+the normative content of this Recommendation, the entity definitions, since the first edition Recommendation.
+</p>
+-->
+<p>
+Comments should be sent to the 
+<loc href="mailto:www-math@w3.org">Public W3C Math mailing list</loc>
+(<loc href="http://lists.w3.org/Archives/Public/www-math/">list archives</loc>;
+see also <loc href="http://www.w3.org/Mail/Request">instructions</loc>).
+When sending an e-mail comment on the XML Entity Definitions for Characters, please 
+put the text &#x201C;XML-Entities&#x201D; in the subject line, preferably like this: 
+ &#x201C;[XML-Entities] &#x2026;summary of comment &#x201D;.
+</p>
+
+<p> This document was produced by a group operating under the 
+<loc href="http://www.w3.org/Consortium/Patent-Policy-20040205/">5 February 2004 W3C Patent Policy</loc>. 
+W3C maintains a 
+<loc role="disclosure" href="http://www.w3.org/2004/01/pp-impl/35549/status">
+public list of any patent disclosures</loc> made in connection with 
+the deliverables of the group; that page also includes instructions 
+for disclosing a patent. An individual who has actual knowledge of 
+a patent which the individual believes contains 
+<loc href="http://www.w3.org/Consortium/Patent-Policy-20040205/#def-essential">Essential Claim(s)</loc> 
+must disclose the information in accordance with 
+<loc href="http://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Disclosure">section 6 of the W3C Patent Policy</loc>. 
+</p>
+<p> Appendix <specref ref="changes"/>  details the changes since earlier versions of this document.</p>
+
+</status>
+<abstract id="abstract">
+<p>
+This document defines several sets of names, so that to each name is assigned 
+a Unicode character or sequence of characters.
+Each of these sets is expressed as a file of XML entity declarations.
+</p>
+</abstract>
+
+<langusage>
+<language id="en">English</language>
+</langusage>
+
+<revisiondesc>
+<p>
+First draft, derived from the MathML2 sources.
+</p>
+<p>
+Second draft, incorporating comments from Karl Tomlinson, 
+Ian Hickson and others.
+</p>
+<p>
+Final Last Call draft, incorporating new comments from many and 
+ensuring that the listings are fully up-to-date with W3C and 
+Unicode development.
+</p>
+<p>
+Proposed Recommendation form incorporating editorial changes from the
+Director's meeting at which the decision to advance the status
+was reached and a couple of tiny late corrections.</p>
+<p>2nd edition version incorporating the Arabic Mathematical symbols block.</p>
+</revisiondesc>
+
+</header>
+<body>
+
+<div1 id="chars_intro"><head>Introduction</head>
+
+
+<p>
+Notation and symbols have proved very important for human communication,
+especially in scientific documents. Mathematics has 
+grown in part because its notation continually changes toward being succinct
+and suggestive. There have been many new signs
+<phrase>developed</phrase> for use in mathematical notation, and
+mathematicians have not held back from making use of many symbols
+originally <phrase>introduced</phrase> elsewhere. The result is that
+science in general, and particularly mathematics, makes use of 
+a very large collection of symbols.  It is
+difficult to write science fluently if these characters are not
+available for use. It is difficult to read science if
+corresponding glyphs are not available for presentation on specific
+display devices. In the majority of cases it is preferable to store
+characters directly as Unicode character data or as XML numeric
+character references.
+</p>
+<p>However, in some environments it is more
+convenient to use the ASCII input mechanism provided by XML entity
+references. Many entity names are in common use, and this 
+specification aims to provide standard mappings to Unicode for each of
+these names. It introduces no names that have not already been used in
+earlier specifications. Note that these names are short mnemonic names 
+designed for input methods such as XML entity references, not the longer formal names
+that form part of the Unicode standard.
+</p>
+<p>
+Specifically, the entity names in the sets
+starting with the letters <quote>iso</quote> were first standardized in SGML (<bibref
+ref="SGML"/>) and updated in <bibref ref="ISO9573-13-1991"/>.
+The  W3C Math Working Group has been
+invited to take over the maintenance and development of these sets by the
+original standards committee (ISO/IEC JTC1 SC34). The sets with names
+starting  <quote>mml</quote> were first standardized in 
+MathML <bibref ref="MathML2"/> and those starting
+with <quote>xhtml</quote> were first standardized in HTML <bibref ref="HTML4"/>.
+</p>
+<p>This document is the result of years of employing entity names on the Web.  There were
+always a few named entities used for special characters in HTML, and many more names
+used for MathML. This means that this document can be
+viewed as an extension and final revision of Chapter 6 of the MathML 2.0 
+<bibref ref="MathML2"/> recommendation.  Now it presents a completed listing harmonizing
+the known uses of character entity names in XML and HTML, together with defined mappings to Unicode.
+</p>
+<p>Since there are so many character entity names, and the files specifying them 
+are resources that may be subject to frequent lookup, a template catalog file has also been
+provided.  Users are strongly encouraged to design their implementations so that 
+relevant entity name tables are cached locally, since it is not expected that 
+the listings provided with this specification will need changing for some long time.
+</p>
+
+</div1>
+
+<div1 id="sets">
+<head>Sets of names</head>
+
+<div2 id="htmlmathml">
+<head>The HTML MathML entity set</head>
+<p>Historically the entity sets have been split into relatively small groups of related characters
+however for any new document type that is being defined it is strongly recommended that the combined
+<kw>htmlmathml</kw> set is used. This defines an identical set of names to the names built in to
+the HTML parser (derived from the same source materials as this document see <specref ref="source"/>).</p>
+<p>To incorporate the <kw>htmlmathml</kw> set into an XML DTD, a typical construct is:</p>
+<eg><![CDATA[
+       <!ENTITY % htmlmathml-f PUBLIC
+         "-//W3C//ENTITIES HTML MathML Set//EN//XML"
+         "http://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
+       >
+       %htmlmathml-f;
+]]>
+</eg>
+<p>
+The public identifier should always be used verbatim,
+The system identifier should be changed to suit local requirements.
+</p>
+<p>The entity set is available in two forms: </p>
+<ulist>
+<item><p><loc href="http://www.w3.org/2003/entities/2007/htmlmathml-f.ent">htmlmathml-f</loc> the expanded set of HTML and MathML entity definitions</p></item>
+<item><p><loc href="http://www.w3.org/2003/entities/2007/htmlmathml.ent">htmlmathml</loc> the HTML and MathML entities defined via reference to the legacy entity set definitions as listed in the following section.</p></item>
+</ulist>
+<p>The information is also available in JSON format. The JSON arrays encode the entity names and mappings to Unicode and also a list of those entity references for which the HTML (but not XML) parser allows the trailing semicolon to be omitted. So <code>&amp;amp</code> may be used as well as <code>&amp;amp;</code> when using HTML.</p>
+<ulist>
+<item><p><loc href="http://www.w3.org/2003/entities/2007/htmlmathml.json">htmlmathml.json</loc></p></item>
+</ulist>
+<p>An XSLT2 stylesheet is available which performs the reverse mapping, replacing Unicode characters by entity references.</p>
+<ulist>
+<item><p><loc href="http://www.w3.org/2003/entities/2007/htmlmathml.xsl">htmlmathml.xsl</loc></p></item>
+</ulist>
+</div2>
+
+<div2 id="legacysets">
+<head>Legacy Entity sets</head>
+
+<p>This specification defines mappings to Unicode of many sets of names
+that have been defined by earlier specifications.</p>
+
+<p>We present two tables listing all the sets combined, first in 
+Unicode order and then in alphabetic order:</p>
+<ulist>
+<item><p>All in <loc href="bycodes.html">Unicode order</loc></p></item>
+<item><p>All in <loc href="byalpha.html">alphabetic order</loc>.</p></item>
+</ulist>
+<p>Then there come tables
+documenting each of the entity sets. Each set has a link to the DTD
+entity declaration for the corresponding entity set, and also a link
+to an XSLT2 stylesheet that will implement a reverse mapping from
+characters to entity names (this is, of course, only possible for  entity names
+that map to a single Unicode code point).
+</p>
+</div2>
+</div1>
+
+<div1 id="blocks">
+<head>Unicode Character Ranges for Scientific Documents</head>
+<p>
+Certain characters are of particular relevance to scientific document production. The following 
+tables display Unicode ranges containing the characters that are most used in mathematics.
+</p>
+<p>Note that each of the tables linked from this section contains 256 images and may take a 
+while to load if the images have not been cached locally.</p>
+</div1>
+
+
+<div1 id="alphabets">
+<head>Mathematical Alphanumeric Characters</head>
+<p>
+Many of the entities defined by this specification relate to the
+mathematical alphanumeric characters contained in the letter-like
+symbols block of Unicode Plane 0, or in the Mathematical Alphanumeric Symbols
+block in Unicode Plane 1.  The following tables list all these symbols,
+highlighting those that are not in Plane 1, and giving entity names
+where appropriate.
+</p>
+</div1>
+
+
+<div1 id="combining">
+<head>Entities for Negated and Variant Characters</head>
+<p>
+Each of the entity definitions in a majority of the specification expands 
+to a single Unicode character. The definitions that expand to a sequence of 
+two or more characters are outlined in this section.
+</p>
+
+<div2 id="chars_math-negated-tables">
+<head>Negated Mathematical Characters</head>
+
+<p>
+In addition to the Unicode Characters so far listed, one may use the
+combining characters <phrase diff="chg">U+0338</phrase> (/), 
+<phrase diff="chg">U+20D2</phrase> (|) and 
+<phrase diff="chg">U+20E5</phrase> (\) to produce
+negated or <phrase diff="chg">canceled</phrase> forms of 
+characters. A combining character
+should be placed immediately after its <quote>base</quote> character, with no
+intervening markup or space, just as is the case for combining accents.
+</p>
+
+<p>
+In principle, the negation characters may be applied to any Unicode
+character, although fonts designed for mathematics typically have some
+negated glyphs ready composed. A MathML renderer should be able to use
+these pre-composed glyphs in these cases.  A compound character code
+either represents a UCS character that is already available, as in the
+case of <phrase diff="chg">U+003D U+0338</phrase> which amounts to 
+<phrase diff="chg">U+2260</phrase>, or it does not, as is the
+case for <phrase diff="chg">U+2202 U+0338</phrase>. The common cases of 
+negations, <phrase diff="chg">of the latter  type</phrase>,
+that have been identified are listed in the tables.</p>
+
+<p id="cancellations"/>
+
+<p>
+Note that it is the policy of the W3C and of Unicode that if a single
+character is already defined for what can be achieved with a combining
+character, that character must be used instead of the decomposed form.
+It is also intended that no new single characters representing what
+can be done by with existing compositions will be introduced. 
+<phrase diff="add">For further information on these matters see
+the Unicode Standard Annex 15, Unicode Normalization Forms 
+<bibref ref="Unicode15"/>, especially
+the discussion of Normalization Form C.</phrase>
+</p>
+
+
+</div2>
+
+<div2 id="chars_math-variant-tables"><head>Variant
+Mathematical Characters</head>
+
+<p>
+Unicode attempts to avoid having several character codes for simple
+font variants.  For a code point to be assigned there should be
+more than a nuance in glyphs to be recorded.  To record 
+variants worth noting there is a special character <phrase diff="chg">in</phrase>
+Unicode 3.2, U+FE00 (VARIATION SELECTOR-1), which
+acts as a postfix modifier.  However the legally allowed
+combinations with this variation selector are restricted to a
+list recorded as part of Unicode. The  VARIATION SELECTOR-1
+character may only be applied to the characters listed here.
+The resulting combination is not regarded by Unicode as a separate
+character, but a variation on the base character. Unicode aware systems
+may render the combination as the base if the available fonts do not
+support the variant glyph shape.
+</p>
+
+<p id="variants"/>
+
+</div2>
+
+</div1>
+
+</body>
+<back>
+  <div1 id="oddities">
+    <head>Special Considerations</head>
+    <div2 id="epsilon">
+      <head>Epsilon</head>
+      <p>Historically there has been much confusion and lack of
+      agreement over variant forms for lower case epsilon.</p>
+      <p>This specification uses the definitions below. Note that the
+      name <kw>epsilon</kw> is used for the character used in textual
+      Greek (U+03B5) and <kw>varepsilon</kw> used for the epsilon
+      symbol character more commonly used in mathematics
+      (U+03F5). Note that this usage is compatible with the naming of
+      similar pairs of characters (for example <kw>theta</kw>,
+      <kw>vartheta</kw>) but <emph>incompatible</emph> with the naming
+      convention used in TeX, MathML2 and some earlier mappings of the
+      ISO entity sets to Unicode.</p>
+      <p id="epsilontab"/>
+    </div2>
+    <div2 id="phi">
+      <head>Phi</head>
+      <p>The situation for phi is very similar to that of epsilon,
+      although with the further complication that early versions of
+      Unicode had the sample glyphs for U+03C6 and U+03D5 swapped
+      from the current usage, and some older fonts still in use follow
+      that older convention. The definitions used in this
+      specification are as listed below.</p>
+      <p id="phitab"/>
+    </div2>
+
+<div2 id="chars_math-multiple-tables">
+<head>Multiple Character Entities</head>
+<p>
+In addition to the combining and variant character combinations
+listed in the previous sections,
+the following table lists the remaining entity replacement texts that
+consist of more than one character.
+</p>
+
+<p id="multiple"/>
+
+<p>Unicode does not have an fj character, although the other common f ligatures 
+such as fi (U+FB01) are contained in the Alphabetic Presentation Forms block.
+The <kw>fjlig</kw> entity is mapped to the pair of characters <quote>fj</quote>; 
+modern typesetting engines should automatically use the fj ligature for this 
+combination if the font supplies such a ligature.</p>
+<p>Unicode has a range of space characters (including all multiples of
+1/18 em up to 6/18, except for 5/18 em) thus the <kw>ThickSpace</kw> entity is 
+mapped to a pair of space characters.  An alternative would have been to use
+U+2005 (1/4 em), but 1/4 em is not equal to 5/18 em, so the above definition was
+chosen, despite the fact that the difference is unlikely to be visibly
+noticeable at most typeset font sizes.</p>
+<p>The entities <kw>race</kw> and <kw>acE</kw> denote underlined
+characters for which Unicode does not have codepoints, thus combining
+underline characters have been used, in a way analogous to the use of
+combining strokes for negated operators.</p>
+<p>For reasons explained further in <bibref ref="Charmod-norm"/>, it is
+not advisable to to start the replacement text of an entity with a
+combining character, as then potentially different results may be
+produced depending on the order in which entity expansion and Unicode
+normalisation are performed. As far as possible this specification
+uses non-combining characters, however, in the cases <kw>tdot</kw>,
+<kw>TripleDot</kw> and <kw>DotDot</kw>
+Unicode only has combining forms of the accents, and so the entity
+replacement text starts with a space, to avoid the possibility that
+the expansion of the entity combines with preceding text.</p>
+</div2>
+
+  </div1>
+  <div1 id="changes">
+    <head>Changes</head>
+    <div2 id="changes20140410">
+      <head>Changes since 2014-04-10 (Second Edition Recommendation)</head>
+      <p>Source files updated to Unicode 8.0, affecting the character tables,
+         but with no changes to generated entity files or stylesheets.</p>
+    </div2>
+    <div2 id="changes20100401">
+      <head>Changes between 2010-04-01 and 2014-04-10 (First and Second Edition Recommendations)</head>
+      <p>Source files updated to Unicode 6.3, affecting the character tables,
+      but with no changes to generated entity files or stylesheets.</p>
+      <p>Source files updated Unicode 6.1 data on Arabic math alphabets (U+1EE??). Additional tables shown in Sections 3 and 4.</p>
+      <p>Section <specref ref="sets"/> reorganized to highlight the <code>htmlmathml</code> set which is used in MathML and HTML. Also link to XSL and JSON formats for the HTML MathML set.</p>
+      <p>References updated: <bibref ref="MathML3"/>, <bibref ref="HTML5"/> and  <bibref ref="Unicode"/>.</p>
+    </div2>
+    <div2 id="changes20100211">
+      <head>Changes between 2010-04-01 and 2010-02-11</head>
+      <p>Several example images improved, bringing them more in line with the Unicode reference images.</p>
+    </div2>
+    <div2 id="changes20091117">
+      <head>Changes between 2010-02-11 and 2009-11-17</head>
+      <p>Various editorial improvements, including using Unicode U+1234
+      notation more consistently rather than displaying the  internal
+      IDs of the form U01234.</p>
+      <p>The combined entities file distributed with the 2009-11-17
+      draft introduced an error that if two entity names differed only
+      by case, only one was included. This has been corrected.</p>
+      <p>The combined entity set htmlmathml corresponding to the
+      entities usable in HTML and MathML is now explicitly provided. The
+      predefined set, corresponding to the entities predefined in XML
+      is now documented (it was previously used internally).</p>
+      <p>The entities <kw>xvee</kw> and <kw>xwedge</kw> had the correct
+      Unicode assignments (U+22C1 and U+22C0) but the entity descriptions
+      have been swapped, <kw>xvee</kw> is logical or and <kw>xwedge</kw> is logical and.
+      This error in <bibref ref="ISO9573-13-1991"/> was reported in 1999,
+      <!--<loc href="http://www.jtc1sc34.org/repository/0063.htm">-->in a Proposed Technical Corrigendum,<!--</loc>-->
+      but not previously fixed. The entity files are unaffected by this change.</p>
+      <p>The entity <kw>NotGreaterFullEqual</kw> which had been erroneously assigned to 
+      a negated less than operator (U+2266 U+0338) has been corrected to be the negated greater than operator (U+2267 U+0338).</p>
+      <p>A sample <loc href="#catalog">catalog</loc> is now provided to redirect references to the entity files to copies on the local machine rather than the W3C server.</p>
+    </div2>
+    <div2 id="changes20080721">
+      <head>Changes between 2009-11-17 and 2008-07-21</head>
+      <p>The html5-uppercase set is now documented.</p>
+      <p>The entities <kw>ohm</kw> and <kw>angst</kw> have changed to U+03A9 and U+00C5 to match NFC. See 
+      <loc href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=5897">w3c bugzilla entry</loc>.</p>
+      <p>The entity <kw>race</kw>, which had been erroneously assigned  U+29DA,
+      is now assigned the combination U+223D U+0331. (U+223D isn't
+      quite the shape shown in the original ISO document which is a
+      rotated S rather than a rotated tilde, but this appears to be
+      the closest character in Unicode 5.2.)</p>
+      <p>The entities <kw>bsolhsub</kw> and <kw>suphsol</kw> which were previously
+      mapped to two-character combinations U+005C U+2282 and U+2283 U+002F
+      are now mapped to the Unicode 5 characters that were added
+      specifically to support these entities, U+27C8 and U+27C9.</p>
+      <p>The source files have all been updated to match Unicode 5.2.</p>
+      <p>The entity <kw>ThickSpace</kw> now maps to the pair
+        U+205F U+200A rather than the triple U+2009 U+200A U+200A
+      (4/18 + 1/18)em rather than (3/18 + 1/18 + 1/18)em.</p>
+      <p>The entity <kw>UnderBar</kw> maps to the spacing character
+       _ rather than the combining character U+0332.</p>
+      <p>The entity <kw>OverBar</kw> maps to the spacing character
+       U+203E (like the XHTML entity <kw>oline</kw>) rather than the macron character U+00AF.</p>
+       <p>The entities <kw>epsiv</kw> and <kw>varepsilon</kw> are now mapped to the epsilon symbol 
+       U+03F5 rather than being aliases for  the entity <kw>epsilon</kw>, U+03B5.</p>
+       <p>The entities <kw>phiv</kw> and <kw>varphi</kw> are now mapped to the phi symbol U+03D5 
+       rather than being aliases for  the entity <kw>phi</kw>, U+03C6.</p>
+    </div2>
+    <div2 id="changes20071214">
+      <head>Changes between 2008-07-21 and 2007-12-14</head>
+      <p>The following entity definitions have changed at this draft:</p>
+      <p><kw>phi</kw>, <kw>lang</kw>, <kw>rang</kw>, 
+      <kw>OverParenthesis</kw>, <kw>UnderParenthesis</kw>, 
+      <kw>OverBrace</kw>, <kw>UnderBrace</kw>,
+      <kw>lbbrk</kw>, <kw>rbbrk</kw>.</p>
+    </div2>
+  </div1>
+  <div1 id="diffs">
+    <head>Differences between these entities and earlier W3C DTDs</head>
+    <div2 id="diff-xhtml1">
+      <head>Differences from XHTML 1.0</head>
+      <p>Differences between the XHTML entity definitions described here and the entity set 
+      described in the <loc href="http://www.w3.org/TR/xhtml1/dtds.html">XHTML 1.0 DTD</loc>.</p>
+      <glist>
+	<gitem><label><kw>lang</kw> and <kw>rang</kw></label><def><p>U+27E8 and
+	U+27E9; XHTML 1.0 used U+2329 and  U+232A (which have canonical
+	decomposition to U+3008 and U+3009).</p></def></gitem>
+      </glist>
+      <note><p>The current drafts of <bibref ref="HTML5"/> use entity definitions derived from 
+      this specification.</p></note>
+	
+    </div2>
+    <div2 id="diff-mathml2">
+      <head>Differences from MathML 2.0 (second edition)</head>
+      <p>The differences between MathML 2 and the current entity
+      definitions are listed below.</p>
+      <glist>
+	<gitem><label><kw>fjlig</kw></label><def><p>ISOPUB (and MathML 1) defined an fj ligature; 
+   Unicode does not have a specific character and the entity was dropped from MathML2.
+   It is re-instated here for maximum compatibility with <bibref ref="SGML"/>.</p></def></gitem>
+	<gitem><label><kw>phi</kw></label><def><p>U+03C6 GREEK SMALL LETTER PHI 
+	(the definition used in HTML4); 
+	MathML2 used  U+03D5 GREEK PHI SYMBOL. </p></def></gitem>
+	<gitem><label><kw>epsiv</kw>, <kw>varepsilon</kw>, <kw>phiv</kw>, 
+	<kw>varphi</kw></label><def><p>these have been changed to map to the symbol character 
+	(to match other uses of the var prefix such as <kw>vartheta</kw>).</p></def>
+<!--
+      <note><p>It is very difficult for (X)HTML
+      definitions to change since HTML is so widely deployed. Many of
+      the assignments in the current definitions would be different if
+      it were not for HTML compatibility.  However in this case,
+      perhaps this change could be made in an XHTML2/HTML5 time frame.
+      Currently U+03D5 has the entity names:
+      straightphi,phis. U+03C6 has the entity names phi, phgr, phiv,varphi.</p>
+      <p>It is also worth noting that Unicode has changed (swapped)
+      the default glyphs for U+03C6 and U+03D5 since the publication
+      of HTML4. The current recommendation is to use a cursive form
+      for U+03C6 (<graphic role="glyph" source="U003C6"/>), and a form
+      with a straight vertical bar for  U+03D5 (<graphic role="glyph"
+      source="U003D5"/>). Some newer fonts  
+      use glyphs that correspond to the change made by Unicode, while a number of
+      older fonts remain unchanged and hence will display the glyphs swapped
+      relative to the current version of Unicode.  There is no way to guarantee
+	that the intended glyph is displayed without font-specific knowledge.</p></note>
+--></gitem>
+	<gitem><label><kw>jmath</kw></label><def><p>U+0237; MathML 2 used U+006A (j) as
+	there was no dotless j before Unicode 4.1.</p></def></gitem>
+	<gitem><label><kw>trpezium</kw>, <kw>elinters</kw></label><def><p>U+23E2 and U+23E7;
+	MathML 2 used U+FFFD (REPLACEMENT CHARACTER) as these characters were added at Unicode 5.0
+	specifically to support these entities. </p></def></gitem>
+	<gitem><label><kw>ohm</kw>, <kw>angst</kw></label><def><p>As noted above, the
+	definitions of these entities have been changed so that the
+	definitions use characters that are in NFC normal
+	form.</p></def></gitem>
+	<gitem><label><kw>bsolhsub</kw> and <kw>suphsol</kw></label><def><p> U+27C8 and
+	U+27C9;
+MathML2 used U+005C U+02282 and   U+2283 U+002F.</p></def></gitem>
+	<gitem><label><kw>NotGreaterFullEqual</kw></label><def><p> U+2267 U+0338 ;
+             MathML2 used the erroneous definition U+2266 U+0338.</p></def></gitem>
+      </glist>
+      <p>The following bracket  symbols have been added to the Mathematical
+      symbols block in Unicode versions between 3.1 and 5.1. MathML2 used
+      similar characters intended for CJK punctuation.</p>
+      <glist>
+	<gitem><label><kw>lang</kw>, <kw>langle</kw>, <kw>LeftAngleBracket</kw> and 
+	<kw>rang</kw>, <kw>rangle</kw>, <kw>RightAngleBracket</kw></label><def><p>U+27E8 and
+	U+27E9; MathML2 used U+2329 and  U+232A (which have canonical
+	decomposition to U+3008 and U+3009).</p></def></gitem>
+	<gitem><label><kw>Lang</kw> and <kw>Rang</kw></label><def><p>U+27EA and U+27EB;
+	MathML2 used U+300A and U+300B.</p></def></gitem>
+	<gitem><label><kw>lbbrk</kw> and <kw>rbbrk</kw></label><def><p>U+2772 and
+	U+2773; MathML2 used U+3014 and  U+3015.</p></def></gitem>
+	<gitem><label><kw>loang</kw> and <kw>roang</kw></label><def><p>U+27EC and
+	U+27ED; MathML2 used U+3018 and  U+3019.</p></def></gitem>
+	<gitem><label><kw>lobrk</kw> and <kw>robrk</kw></label><def><p>U+27E6 and
+	U+27E7; MathML2 used U+301A and U+301B.</p></def></gitem>
+
+	<gitem><label><kw>OverBrace</kw> and <kw>UnderBrace</kw></label><def><p>U+23DE and U+23DF; MathML2
+	used U+FE37 and  U+FE38.</p></def></gitem>
+	<gitem><label><kw>OverParenthesis</kw> and
+	<kw>UnderParenthesis</kw></label><def><p>U+23DC and U+23DD;
+	MathML2 used U+FE35 and U+FE36.</p></def></gitem>
+	<gitem><label><kw>LeftDoubleBracket</kw> and
+	<kw>RightDoubleBracket</kw></label><def><p>U+27E6 and U+27E7;
+	MathML2 used U+301A and U+301B.</p></def></gitem>
+      </glist>
+      <note><p><bibref ref="MathML3"/> uses the entity sets defined by this specification.</p></note>
+    </div2>
+
+  </div1>
+  <div1 id="source">
+    <head>Source Files</head>
+    <p>All data files used to construct the entity declarations, XSLT character maps, and 
+    HTML tables referenced from this document are available from 
+    <loc href="http://www.w3.org/2003/entities/2007xml/">http://www.w3.org/2003/entities/2007xml/</loc>.</p>
+<p>
+
+</p>
+   <ulist>
+     <item><p><loc
+		  href="http://www.w3.org/2003/entities/2007xml/unicode.xml">unicode.xml</loc> master file detailing all Unicode characters with names in various entity sets and applications, TeX equivalents and other data. This file has been maintained for many years, originally by Sebastian Rahtz as part of the jadetex distribution and since around 1999 as part of the MathML specification sources by David Carlisle. The current version encodes data for all characters in Unicode <phrase role="unicode"/>.
+<emph>Note: unicode.xml is over 5MB in size and may not really be suitable for direct viewing in a browser. You may prefer to save the file rather than follow the above link to unicode.xml in a browser.</emph></p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/charlist.rnc">charlist.rnc</loc> relax NG schema for unicode.xml.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/unicode.xsl">unicode.xsl</loc> XSLT stylesheet that renders unicode.xml as an HTML table.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/character-set.xml">character-set.xml</loc> the source file for this document.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/xmlspec.xsl">xmlspec.xsl</loc> a copy of the  standard xmlspec stylesheet.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/run">run</loc> small script file that builds this collection.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/xhtml1.xml">xhtml1.xml</loc> record of XHTML 1.0 entity definitions.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/mml2.xml">mml2.xml</loc> record of MathML 2.0 (second edition) entity definitions.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/unicodedata.xsl">unicodedata.xsl</loc> stylesheet that generates a new copy of unicode.xml, incorporating data from the Unicode data file, used to update unicode.xml as new versions of Unicode are released.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/entities.xsl">entities.xsl</loc> stylesheet to generate the DTD declarations for the entities.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/charmap.xsl">charmap.xsl</loc> stylesheet to generate the XSLT character maps.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/characters.xsl">characters.xsl</loc> stylesheet to generate this document, including the referenced HTML tables.</p></item>
+     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/schemas.xml">schemas.xml</loc> file associating XML documents with appropriate Relax NG schema.</p></item>
+     <item id="catalog"><p><loc href="http://www.w3.org/2003/entities/2007xml/catalog">catalog</loc> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at http://www.w3.org/2003/entities/2007/ to the local file system at
+   /etc/xml/w3c-entities. It should be edited to  refer to the location of a local copy of the files. Many XML parsers may be configured to read this catalog format, but the specific options depend on the parser being used.</p></item>
+   </ulist>
+     
+  </div1>
+  <div1 id="references"><head>References</head>
+  <blist>
+     <bibl id="SGML">ISO/IEC 8879:1986, Information processing &#x2014;  Text and office 
+     systems &#x2014;  Standard Generalized Markup Language (SGML)</bibl>
+     <bibl id="ISO9573-13-1991">ISO/IEC TR :1991, Information
+technology &#x2014; SGML support facilities
+Techniques for using
+SGML &#x2014; Part 13: Public entity sets for
+mathematics and science</bibl>
+    <bibl id="Unicode">The Unicode Consortium. The Unicode Standard, Version 5.2.0, defined by: 
+    The Unicode Standard, Version 5.2 (Mountain View, CA: The Unicode Consortium, 2009. ISBN 978-1-936213-00-9). Unicode 6.3 update
+    (<loc
+    href="http://www.unicode.org/versions/Unicode6.3.0/">http://www.unicode.org/versions/Unicode6.3.0/</loc>) 
+    </bibl>
+    <bibl id="Unicode15">Unicode Standard Annex 15, Version 6.3.0;
+<emph><loc
+href="http://www.unicode.org/reports/tr15/">Unicode Normalization Forms</loc></emph>, 
+The Unicode Consortium, 2013-09-20. 
+(<loc
+href="http://www.unicode.org/reports/tr15/">http://www.unicode.org/reports/tr15/</loc>) 
+</bibl>
+
+    <bibl id="Unicode25">Barbara Beeton, Asmus Freytag, Murray Sargent III,
+    <emph><loc
+	      href="http://www.unicode.org/reports/tr25/">Unicode Support for Mathematics</loc></emph>, 
+    Unicode Technical Report #25 2012-04-02.
+    (<loc
+    href="http://www.unicode.org/reports/tr25/">http://www.unicode.org/reports/tr25/</loc>) 
+    </bibl>
+    <bibl id="MathML2">David Carlisle, Patrick Ion, Robert Miner, Nico Poppelier,
+    <emph><loc href="http://www.w3.org/TR/MathML2/">Mathematical Markup Language (MathML) 
+    Version 2.0 (Second Edition)</loc></emph>
+    W3C Recommendation 21 October 2003
+    (<loc href="http://www.w3.org/TR/2003/REC-MathML2-20031021/">http://www.w3.org/TR/2003/REC-MathML2-20031021/</loc>) 
+    </bibl>
+    <bibl id="MathML3">David Carlisle, Patrick Ion, Robert Miner,
+    <emph><loc href="http://www.w3.org/TR/MathML3/">Mathematical Markup Language (MathML) Version 3.0 2nd Edition</loc></emph>
+    W3C Recommendation 10 April 2014 
+    (<loc href="http://www.w3.org/TR/2014/REC-MathML3-20140410/">http://www.w3.org/TR/2014/REC-MathML3-20140410/</loc>) 
+    </bibl>
+    <bibl id="HTML4">Dave Raggett, Arnaud Le Hors, Ian Jacobs,
+ <emph><loc href="http://www.w3.org/TR/html4/"/>HTML 4.01 Specification</emph>
+W3C Recommendation 24 December 1999
+(<loc
+href="http://www.w3.org/TR/1999/REC-html401-19991224/">http://www.w3.org/TR/1999/REC-html401-19991224</loc>)</bibl>
+<bibl id="HTML5">Robin Berjon,
+    Steve Faulkner,
+    Travis Leithead,
+    Erika Doyle Navara,
+    Edward O'Connor,
+    Silvia Pfeiffer,
+    Ian Hickson
+<emph><loc href="http://www.w3.org/TR/html5/">HTML 5,
+A vocabulary and associated APIs for HTML and XHTML</loc></emph>
+W3C Candidate Recommendation 6 August 2013
+(<loc href="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</loc>)</bibl>
+<bibl id="Charmod-norm"> Fran&#xe7;ois Yergeau,
+    Martin J. D&#xfc;rst,
+    Richard Ishida,
+    Addison Phillips,
+    Misha Wolf,
+    Tex Texin,
+<emph><loc  href="http://www.w3.org/TR/charmod-norm/">Character Model
+for the World Wide Web 1.0: Normalization</loc></emph>
+W3C Working Draft 1 May 2012
+(<loc href="http://www.w3.org/TR/charmod-norm/">http://www.w3.org/TR/charmod-norm/</loc>)
+  </bibl>
+</blist>
+  </div1>
+</back>
+</spec>
