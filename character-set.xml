@@ -256,8 +256,8 @@ that have been defined by earlier specifications.</p>
 <p>We present two tables listing all the sets combined, first in 
 Unicode order and then in alphabetic order:</p>
 <ulist>
-<item><p>All in <loc href="bycodes.html">Unicode order</loc></p></item>
-<item><p>All in <loc href="byalpha.html">alphabetic order</loc>.</p></item>
+<item><p>All in <loc href="2007doc/bycodes.html">Unicode order</loc></p></item>
+<item><p>All in <loc href="2007doc/byalpha.html">alphabetic order</loc>.</p></item>
 </ulist>
 <p>Then there come tables
 documenting each of the entity sets. Each set has a link to the DTD
