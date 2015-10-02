@@ -60,7 +60,7 @@ originally for MathML chapter 6.
       include-content-type="no"
       doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
       doctype-system="http://www.w3.org/TR/html4/loose.dtd"
-      href="{$resultbase}Overview.html">
+      href="index.html">
     <xsl:apply-templates/>
   </xsl:result-document>
   <xsl:apply-templates select="$u/unicode/entitygroups/group[@name='2007']/set"/>
@@ -118,7 +118,7 @@ originally for MathML chapter 6.
 <body>
 <h1><xsl:value-of select="@name"/></h1>
 <p>
-<a href="Overview.html">Overview</a>
+<a href="../index.html">Overview</a>
 </p>
 <table>
 <tr>
@@ -186,8 +186,8 @@ originally for MathML chapter 6.
 <body>
 <h1><xsl:value-of select="$t"/></h1>
 <p>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#sets">Sets of names</a>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#sets">Sets of names</a>
 <xsl:variable name="p">
  <xsl:apply-templates select="preceding-sibling::set[1]" mode="name"/>
 </xsl:variable>
@@ -265,8 +265,8 @@ originally for MathML chapter 6.
 </xsl:for-each>
 </table>
 <p>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#sets">Sets of names</a>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#sets">Sets of names</a>
 <xsl:variable name="p">
  <xsl:apply-templates select="preceding-sibling::set[1]" mode="name"/>
 </xsl:variable>
@@ -374,8 +374,8 @@ here.appendChild(newinfo);
 </xsl:if>
 <p>
 <xsl:variable name="p" select="position()"/>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#blocks">Unicode Character Ranges</a><br/>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#blocks">Unicode Character Ranges</a><br/>
 <xsl:if test="$p!=1">
 <a href="{$blockstarts[$p - 1]}.html">Previous: <xsl:value-of 
 select="$blockstarts[$p - 1]"/>00 to  <xsl:value-of 
@@ -483,8 +483,8 @@ select="$blockstarts[$p+1]"/>FF</a><br/>
 -->
 <p>
 <xsl:variable name="p" select="position()"/>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#blocks">Unicode Character Ranges</a><br/>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#blocks">Unicode Character Ranges</a><br/>
 <xsl:if test="$p!=1">
 <a href="{$blockstarts[$p - 1]}.html">Previous: <xsl:value-of 
 select="$blockstarts[$p - 1]"/>00 to  <xsl:value-of 
@@ -625,8 +625,8 @@ distinct-values($x/entity[@set=$u/unicode/entitygroups/group[@name='2007']/set/@
 <h1>Characters Ordered by Unicode</h1>
 <xsl:text>&#10;</xsl:text>
 <p>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#sets">Sets of names</a><br/>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#sets">Sets of names</a><br/>
 <a href="byalpha.html">Characters ordered by Entity Name</a><br/>
 </p>
 
@@ -686,8 +686,8 @@ string-length(description))"/>
       <body>
 	<h1>Characters Ordered by Entity Name</h1>
 	<p>
-	  <a href="Overview.html">Overview</a><br/>
-	  <a href="Overview.html#sets">Sets of names</a><br/>
+	  <a href="../index.html">Overview</a><br/>
+	  <a href="../index.html#sets">Sets of names</a><br/>
 	  <a href="bycodes.html">Characters ordered by codes</a><br/>
 	</p>
 	
@@ -760,7 +760,7 @@ string-length(description))"/>
   <ul>
    <xsl:for-each select="$u/unicode/entitygroups/group[@name='2007']/set">
     <li>
-     <a href="{replace(@name,'^[0-9][0-9\-]*','')}.html">
+     <a href="2007doc/{replace(@name,'^[0-9][0-9\-]*','')}.html">
       <xsl:apply-templates select="." mode="name"/>
      </a>
      <xsl:choose>
@@ -825,7 +825,7 @@ string-length(description))"/>
 	      <xsl:value-of select="$p"/>
 	    </span>
 	    <xsl:text> </xsl:text>
-	      <a href="{$p}.html">
+	      <a href="2007doc/{$p}.html">
 		<xsl:value-of select="current-group()/@name" separator=", "/>
 		<xsl:if test="position()!=1"> (continued)</xsl:if>
 	      </a>
@@ -842,7 +842,7 @@ string-length(description))"/>
     <ul>
       <xsl:for-each select="$u/unicode/mathvariants/mathvariant">
 	<li>
-	  <a href="{@name}.html"><xsl:value-of select="@description"/></a>
+	  <a href="2007doc/{@name}.html"><xsl:value-of select="@description"/></a>
 	</li>
       </xsl:for-each>
     </ul>
@@ -883,7 +883,7 @@ string-length(description))"/>
 <xsl:param name="section"/>
 <xsl:param name="char" select="translate(@id,'U','-')"/>
 <xsl:variable name="c" select="."/>
-<li><a href="{@id}.html"><xsl:value-of select="lower-case($c/description)"/></a></li>
+<li><a href="2007doc/{@id}.html"><xsl:value-of select="lower-case($c/description)"/></a></li>
 <xsl:result-document method="html" 
 		     include-content-type="no"
 		     encoding="US-ASCII"
@@ -904,8 +904,8 @@ string-length(description))"/>
 <body>
 <h1><a name="canc.{$c/@id}" id="canc.{$c/@id}"/><xsl:value-of select="lower-case($c/description)"/></h1>
 <p>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a><br/>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a><br/>
 <xsl:variable name="p" select="position()"/>
 <xsl:if test="$p!=1">
 Previous:  <a href="{$negations[$p - 1]}.html">
@@ -1027,8 +1027,8 @@ Next:  <a href="{$negations[$p + 1]}.html">
 </xsl:for-each>
 </table>
 <p>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a><br/>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a><br/>
 <xsl:variable name="p" select="position()"/>
 <xsl:if test="$p!=1">
 Previous:  <a href="{$negations[$p - 1]}.html">
@@ -1126,8 +1126,8 @@ Next:  <a href="{$negations[$p + 1]}.html">
 </h1>
 
 <p>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#alphabets">Mathematical Alphanumeric Characters</a><br/>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#alphabets">Mathematical Alphanumeric Characters</a><br/>
 <xsl:for-each select="preceding-sibling::mathvariant[1]">
 Previous: <a href="{@name}.html"><xsl:value-of select="@description"/></a><br/>
 </xsl:for-each>
@@ -1200,8 +1200,8 @@ Next: <a href="{@name}.html"><xsl:value-of select="@description"/></a><br/>
 
 
 <p>
-<a href="Overview.html">Overview</a><br/>
-<a href="Overview.html#alphabets">Mathematical Alphanumeric Characters</a><br/>
+<a href="../index.html">Overview</a><br/>
+<a href="../index.html#alphabets">Mathematical Alphanumeric Characters</a><br/>
 <xsl:for-each select="preceding-sibling::mathvariant[1]">
 Previous: <a href="{@name}.html"><xsl:value-of select="@description"/></a><br/>
 </xsl:for-each>

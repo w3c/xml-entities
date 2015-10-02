@@ -41,7 +41,7 @@
 <affiliation>Mathematical Reviews, American Mathematical Society</affiliation>
 </author>
 </authlist>
-<errataloc href="http://www.w3.org/2003/entities/2007xml/errata.html"/>
+<errataloc href="errata.html"/>
 <translationloc href="http://www.w3.org/2005/11/Translations/Query?titleMatch=XML+Entity+definitions+for+Characters"/>
 
 <status id="status">
@@ -239,11 +239,11 @@ The system identifier should be changed to suit local requirements.
 </ulist>
 <p>The information is also available in JSON format. The JSON arrays encode the entity names and mappings to Unicode and also a list of those entity references for which the HTML (but not XML) parser allows the trailing semicolon to be omitted. So <code>&amp;amp</code> may be used as well as <code>&amp;amp;</code> when using HTML.</p>
 <ulist>
-<item><p><loc href="http://www.w3.org/2003/entities/2007/htmlmathml.json">htmlmathml.json</loc></p></item>
+<item><p><loc href="2007/htmlmathml.json">htmlmathml.json</loc></p></item>
 </ulist>
 <p>An XSLT2 stylesheet is available which performs the reverse mapping, replacing Unicode characters by entity references.</p>
 <ulist>
-<item><p><loc href="http://www.w3.org/2003/entities/2007/htmlmathml.xsl">htmlmathml.xsl</loc></p></item>
+<item><p><loc href="2007/htmlmathml.xsl">htmlmathml.xsl</loc></p></item>
 </ulist>
 </div2>
 
@@ -612,27 +612,27 @@ MathML2 used U+005C U+02282 and   U+2283 U+002F.</p></def></gitem>
     <head>Source Files</head>
     <p>All data files used to construct the entity declarations, XSLT character maps, and 
     HTML tables referenced from this document are available from 
-    <loc href="http://www.w3.org/2003/entities/2007xml/">http://www.w3.org/2003/entities/2007xml/</loc>.</p>
+    <loc href="https://github.com/w3c/xml-entities/">https://github.com/w3c/xml-entities/</loc>.</p>
 <p>
 
 </p>
    <ulist>
      <item><p><loc
-		  href="http://www.w3.org/2003/entities/2007xml/unicode.xml">unicode.xml</loc> master file detailing all Unicode characters with names in various entity sets and applications, TeX equivalents and other data. This file has been maintained for many years, originally by Sebastian Rahtz as part of the jadetex distribution and since around 1999 as part of the MathML specification sources by David Carlisle. The current version encodes data for all characters in Unicode <phrase role="unicode"/>.
+		  href="https://github.com/w3c/xml-entities/unicode.xml">unicode.xml</loc> master file detailing all Unicode characters with names in various entity sets and applications, TeX equivalents and other data. This file has been maintained for many years, originally by Sebastian Rahtz as part of the jadetex distribution and since around 1999 as part of the MathML specification sources by David Carlisle. The current version encodes data for all characters in Unicode <phrase role="unicode"/>.
 <emph>Note: unicode.xml is over 5MB in size and may not really be suitable for direct viewing in a browser. You may prefer to save the file rather than follow the above link to unicode.xml in a browser.</emph></p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/charlist.rnc">charlist.rnc</loc> relax NG schema for unicode.xml.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/unicode.xsl">unicode.xsl</loc> XSLT stylesheet that renders unicode.xml as an HTML table.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/character-set.xml">character-set.xml</loc> the source file for this document.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/xmlspec.xsl">xmlspec.xsl</loc> a copy of the  standard xmlspec stylesheet.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/run">run</loc> small script file that builds this collection.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/xhtml1.xml">xhtml1.xml</loc> record of XHTML 1.0 entity definitions.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/mml2.xml">mml2.xml</loc> record of MathML 2.0 (second edition) entity definitions.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/unicodedata.xsl">unicodedata.xsl</loc> stylesheet that generates a new copy of unicode.xml, incorporating data from the Unicode data file, used to update unicode.xml as new versions of Unicode are released.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/entities.xsl">entities.xsl</loc> stylesheet to generate the DTD declarations for the entities.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/charmap.xsl">charmap.xsl</loc> stylesheet to generate the XSLT character maps.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/characters.xsl">characters.xsl</loc> stylesheet to generate this document, including the referenced HTML tables.</p></item>
-     <item><p><loc href="http://www.w3.org/2003/entities/2007xml/schemas.xml">schemas.xml</loc> file associating XML documents with appropriate Relax NG schema.</p></item>
-     <item id="catalog"><p><loc href="http://www.w3.org/2003/entities/2007xml/catalog">catalog</loc> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at http://www.w3.org/2003/entities/2007/ to the local file system at
+     <item><p><loc href="https://github.com/w3c/xml-entities/charlist.rnc">charlist.rnc</loc> relax NG schema for unicode.xml.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/unicode.xsl">unicode.xsl</loc> XSLT stylesheet that renders unicode.xml as an HTML table.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/character-set.xml">character-set.xml</loc> the source file for this document.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/xmlspec.xsl">xmlspec.xsl</loc> a copy of the  standard xmlspec stylesheet.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/run">run</loc> small script file that builds this collection.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/xhtml1.xml">xhtml1.xml</loc> record of XHTML 1.0 entity definitions.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/mml2.xml">mml2.xml</loc> record of MathML 2.0 (second edition) entity definitions.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/unicodedata.xsl">unicodedata.xsl</loc> stylesheet that generates a new copy of unicode.xml, incorporating data from the Unicode data file, used to update unicode.xml as new versions of Unicode are released.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/entities.xsl">entities.xsl</loc> stylesheet to generate the DTD declarations for the entities.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/charmap.xsl">charmap.xsl</loc> stylesheet to generate the XSLT character maps.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/characters.xsl">characters.xsl</loc> stylesheet to generate this document, including the referenced HTML tables.</p></item>
+     <item><p><loc href="https://github.com/w3c/xml-entities/schemas.xml">schemas.xml</loc> file associating XML documents with appropriate Relax NG schema.</p></item>
+     <item id="catalog"><p><loc href="https://github.com/w3c/xml-entities/catalog">catalog</loc> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at http://www.w3.org/2003/entities/2007/ to the local file system at
    /etc/xml/w3c-entities. It should be edited to  refer to the location of a local copy of the files. Many XML parsers may be configured to read this catalog format, but the specific options depend on the parser being used.</p></item>
    </ulist>
      
