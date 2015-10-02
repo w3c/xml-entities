@@ -1081,7 +1081,7 @@ Next:  <a href="{$negations[$p + 1]}.html">
 <td rowspan="{last()}">
 <img height="32" 
          width="32"
-         src="{$glyphs}/{substring($id,2,3)}/{translate($id,'x','')}.png"
+         src="2007doc/{$glyphs}/{substring($id,2,3)}/{translate($id,'x','')}.png"
          alt="{$id}"
          >
 <xsl:if test="@image='none'"><xsl:attribute
@@ -1239,7 +1239,7 @@ Next: <a href="{@name}.html"><xsl:value-of select="@description"/></a><br/>
 <td rowspan="{last()}">
 <img height="32" 
          width="32"
-         src="{$glyphs}/{substring(../@id,2,3)}/{translate(../@id,'x','')}.png"
+         src="2007doc/{$glyphs}/{substring(../@id,2,3)}/{translate(../@id,'x','')}.png"
          alt="{../@id}"
          >
 <xsl:if test="../@image='none'"><xsl:attribute
