@@ -20,8 +20,8 @@ originally for MathML chapter 6.
 	    include-content-type="no" 
 	    omit-xml-declaration="yes"/>
 
-<xsl:param name="cssbase" select="'http://www.w3.org/StyleSheets/TR/'"/>
-<xsl:param name="baseuri" select="'http://www.w3.org/2003/entities/'"/>
+<xsl:param name="cssbase" select="'//www.w3.org/StyleSheets/TR/'"/>
+<xsl:param name="baseuri" select="'//www.w3.org/2003/entities/'"/>
 <xsl:param name="resultbase" select="'2007doc/'"/>
 <xsl:param name="editors-copy" select="''"/>
 <xsl:param name="script" select="'no'"/>
