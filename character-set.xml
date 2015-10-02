@@ -443,7 +443,8 @@ the expansion of the entity combines with preceding text.</p>
     <div2 id="changes20140410">
       <head>Changes since 2014-04-10 (Second Edition Recommendation)</head>
       <p>Source files updated to Unicode 8.0, affecting the character tables,
-         but with no changes to generated entity files or stylesheets.</p>
+      but with no changes to generated entity files or stylesheets.</p>
+      <p>The source repository has been moved to github so the log is now public.</p>
     </div2>
     <div2 id="changes20100401">
       <head>Changes between 2010-04-01 and 2014-04-10 (First and Second Edition Recommendations)</head>
