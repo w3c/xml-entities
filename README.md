@@ -1,7 +1,7 @@
 # xml-entities
 
 The XML Entities specification is defines character entity names
-for use in XML generally and is teh source of the names defined
+for use in XML generally and is the source of the names defined
 in MathML and HTML.
 
 
