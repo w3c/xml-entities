@@ -16,11 +16,13 @@ var i =0;
 var flag = false;
 for (i=0;i<iput.length;i++) {
 var ccode=iput.charCodeAt(i)
+alert(ccode);
+alert(flag);
 if(flag) {
 ccode=((ccodea - 0xD800) * 0x400) + (ccode - 0xDC00) + 0x10000;
 flag=false;
 } else{
-if(ccode >= 0xD800){
+if(ccode >= 0xD800 && ccode < 0xDC00 ){
 var ccodea=ccode;
 flag=true;
 }
