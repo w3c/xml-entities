@@ -3,7 +3,14 @@
 SAXON="java -jar saxon9he.jar "
 
 $SAXON character-set.xml characters-restyle.xsl glyphs=glyphs  editors-copy=yes 
-cp -r index.html 2007doc restyle
+sed -e 's@src="2007doc@src="../2007doc@g' \
+    -e 's@href="2007/@href="../2007/@g' index.html > restyle/index.html
+
+for i in 2007doc/*.html
+do
+   sed -e 's@src="glyphs@src="../../2007doc/glyphs@g' $i > restyle/$i
+done
+
 
 $SAXON character-set.xml characters.xsl glyphs=glyphs  editors-copy=yes 
 $SAXON unicode.xml charmap.xsl
