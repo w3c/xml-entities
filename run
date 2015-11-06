@@ -2,7 +2,8 @@
 
 SAXON="java -jar saxon9he.jar "
 
-
+$SAXON character-set.xml characters-restyle.xsl glyphs=glyphs  editors-copy=yes 
+cp -r index.html 2007doc restyle
 
 $SAXON character-set.xml characters.xsl glyphs=glyphs  editors-copy=yes 
 $SAXON unicode.xml charmap.xsl
