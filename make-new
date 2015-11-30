@@ -1,0 +1,10 @@
+
+saxon9 -it main unicodedata.xsl
+# saxon9 -it mathclass unicodedata.xsl
+# saxon9 -it  unicode-math unicodedata.xsl
+
+# put long attributes back on same line
+sed  -i ':a;N;$!ba;s/"\n */" /g' uc-new.xml 
+
+echo diff
+diff -c unicode.xml uc-new.xml
