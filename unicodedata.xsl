@@ -22,7 +22,7 @@
 <xsl:variable name="MC" select="'MathClass-11.txt'"/>
 <xsl:variable name="MC" select="'MathClass-13.txt'"/>
 -->
-<xsl:variable name="MC" select="'MathClass-13.txt'"/>
+<xsl:variable name="MC" select="'MathClass-14.txt'"/>
 
 <xsl:variable name="mathclass">
 <xsl:for-each select="tokenize(unparsed-text($MC),'[&#10;&#13;]+')[matches(.,'^[0-9A-F.]+;[A-Z]')]">
