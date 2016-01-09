@@ -89,7 +89,8 @@ Mathematical Characters</a></li></ol></li>
 <ol class="toc">
 <li><a href="#epsilon"><span class="secno">A.1 </span>Epsilon</a></li>
 <li><a href="#phi"><span class="secno">A.2 </span>Phi</a></li>
-<li><a href="#chars_math-multiple-tables"><span class="secno">A.3 </span>Multiple Character Entities</a></li></ol></li>
+<li><a href="#chars_math-multiple-tables"><span class="secno">A.3 </span>Multiple Character Entities</a></li>
+<li><a href="#chars_math-combining-tables"><span class="secno">A.4 </span>Entities Defined to be a Combining Character</a></li></ol></li>
 <li><a href="#changes"><span class="secno">B </span>Changes</a>
 <ol class="toc">
 <li><a href="#changes20140410"><span class="secno">B.1 </span>Changes since 2014-04-10 (Second Edition Recommendation)</a></li>
@@ -274,19 +275,29 @@ chosen, despite the fact that the difference is unlikely to be visibly
 noticeable at most typeset font sizes.</p><p>The entities <b>race</b> and <b>acE</b> denote underlined
 characters for which Unicode does not have codepoints, thus combining
 underline characters have been used, in a way analogous to the use of
-combining strokes for negated operators.</p><p>For reasons explained further in <a href="#Charmod-norm">[Charmod-norm]</a>, it is
+combining strokes for negated operators.</p></div><div class="div2">
+<h3><a id="chars_math-combining-tables"></a>A.4 Entities Defined to be a Combining Character</h3><p>
+In addition to the combining and variant character combinations
+listed in the previous sections,
+the following table lists the remaining entity replacement texts that
+consist of more than one character.
+</p><p id="combining-start"></p><p>For reasons explained further in <a href="#Charmod-norm">[Charmod-norm]</a>, it is
 not advisable to to start the replacement text of an entity with a
 combining character, as then potentially different results may be
 produced depending on the order in which entity expansion and Unicode
 normalisation are performed. As far as possible this specification
-uses non-combining characters, however, in the cases <b>tdot</b>,
-<b>TripleDot</b> and <b>DotDot</b>
-Unicode only has combining forms of the accents, and so the entity
-replacement text starts with a space, to avoid the possibility that
-the expansion of the entity combines with preceding text.</p></div></div><div class="div1">
+uses non-combining characters, however, in the cases <b>DownBreve</b>,
+<b>tdot</b>, <b>TripleDot</b> and <b>DotDot</b>
+Unicode only has combining forms of the accents.</p><p>Earlier versions of this specification defined these entities
+with the replacement text starting with a space, to avoid the possibility that
+the expansion of the entity combined with preceding text. However for various reasons
+the entities as incorporated in HTML do not have a space here, and so the
+definitions now consist just of the combining character so that HTML and XHTML
+are consistent with any specifications using these definitions.</p></div></div><div class="div1">
 <h2><a id="changes"></a>B Changes</h2><div class="div2">
 <h3><a id="changes20140410"></a>B.1 Changes since 2014-04-10 (Second Edition Recommendation)</h3><p>Source files updated to Unicode 8.0, affecting the character tables,
-      but with no changes to generated entity files or stylesheets.</p><p>The source repository has been moved to github so the log is now public.</p></div><div class="div2">
+      but with no changes to generated entity files or stylesheets.</p><p>The source repository has been moved to github so the log is now public.</p><p>As detailed in <a href="#chars_math-combining-tables"><b>A.4 Entities Defined to be a Combining Character</b></a> <b>DownBreve</b>,
+     <b>tdot</b>, <b>TripleDot</b> and <b>DotDot</b> are no longer prefixed by a space.</p></div><div class="div2">
 <h3><a id="changes20100401"></a>B.2 Changes between 2010-04-01 and 2014-04-10 (First and Second Edition Recommendations)</h3><p>Source files updated to Unicode 6.3, affecting the character tables,
       but with no changes to generated entity files or stylesheets.</p><p>Source files updated Unicode 6.1 data on Arabic math alphabets (U+1EE??). Additional tables shown in Sections 3 and 4.</p><p>Section <a href="#sets"><b>2 Sets of names</b></a> reorganized to highlight the <code>htmlmathml</code> set which is used in MathML and HTML. Also link to XSL and JSON formats for the HTML MathML set.</p><p>References updated: <a href="#MathML3">[MathML3]</a>, <a href="#HTML5">[HTML5]</a> and  <a href="#Unicode">[Unicode]</a>.</p></div><div class="div2">
 <h3><a id="changes20100211"></a>B.3 Changes between 2010-04-01 and 2010-02-11</h3><p>Several example images improved, bringing them more in line with the Unicode reference images.</p></div><div class="div2">

@@ -1,6 +1,6 @@
 
 <!-- 
-     Copyright 1998 - 2011 W3C.
+     Copyright 1998 - 2016 W3C.
 
      Use and distribution of this code are permitted under the terms of
      either of the following two licences:
@@ -18,21 +18,27 @@
      Please report any errors to David Carlisle
      via the public W3C list www-math@w3.org.
 
- 
-       Public identifier: -//W3C//ENTITIES HTML MathML Set//EN//XML
-       System identifier: http://www.w3.org/2003/entities/2007/htmlmathml.ent
 
-     The public identifier should always be used verbatim.
+       Public identifier:  web-entities
+       Public identifier: -//W3C//ENTITIES HTML MathML Set//EN//XML
+       System identifier: http://www.w3.org/2003/entities/2007/htmlmathml-f.ent
+
+     One of the public identifiers should always be used verbatim.
+     (The first one is more suitable for XHTML, the second one uses
+     Formal Public Identifier syntax, that may be required by SGML systems.)
      The system identifier may be changed to suit local requirements.
 
-     Typical invocation:
+     Typical invocations:
 
-       <!ENTITY % htmlmathml PUBLIC
+       <!ENTITY % htmlmathml-f PUBLIC
          "-//W3C//ENTITIES HTML MathML Set//EN//XML"
-         "http://www.w3.org/2003/entities/2007/htmlmathml.ent"
+         "http://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
        >
        %htmlmathml;
 
+       <DOCTYPE html PUBLIC "web-entities"
+                            "http://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
+       >
 
 
 -->

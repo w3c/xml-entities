@@ -3,7 +3,7 @@
      File isotech.ent produced by the XSL script entities.xsl
      from input data in unicode.xml.
 
-     Copyright 1998 - 2013 W3C.
+     Copyright 1998 - 2016 W3C.
 
      Use and distribution of this code are permitted under the terms of
      either of the following two licences:
@@ -89,7 +89,7 @@
 <!ENTITY cylcty           "&#x0232D;" ><!--CYLINDRICITY -->
 <!ENTITY disin            "&#x022F2;" ><!--ELEMENT OF WITH LONG HORIZONTAL STROKE -->
 <!ENTITY Dot              "&#x000A8;" ><!--DIAERESIS -->
-<!ENTITY DotDot           " &#x020DC;" ><!--COMBINING FOUR DOTS ABOVE -->
+<!ENTITY DotDot           "&#x020DC;" ><!--COMBINING FOUR DOTS ABOVE -->
 <!ENTITY dsol             "&#x029F6;" ><!--SOLIDUS WITH OVERBAR -->
 <!ENTITY dtdot            "&#x022F1;" ><!--DOWN RIGHT DIAGONAL ELLIPSIS -->
 <!ENTITY dwangle          "&#x029A6;" ><!--OBLIQUE ANGLE OPENING UP -->
@@ -200,7 +200,7 @@
 <!ENTITY sube             "&#x02286;" ><!--SUBSET OF OR EQUAL TO -->
 <!ENTITY sup              "&#x02283;" ><!--SUPERSET OF -->
 <!ENTITY supe             "&#x02287;" ><!--SUPERSET OF OR EQUAL TO -->
-<!ENTITY tdot             " &#x020DB;" ><!--COMBINING THREE DOTS ABOVE -->
+<!ENTITY tdot             "&#x020DB;" ><!--COMBINING THREE DOTS ABOVE -->
 <!ENTITY there4           "&#x02234;" ><!--THEREFORE -->
 <!ENTITY tint             "&#x0222D;" ><!--TRIPLE INTEGRAL -->
 <!ENTITY top              "&#x022A4;" ><!--DOWN TACK -->

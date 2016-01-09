@@ -3,7 +3,7 @@
      File mmlalias.ent produced by the XSL script entities.xsl
      from input data in unicode.xml.
 
-     Copyright 1998 - 2013 W3C.
+     Copyright 1998 - 2016 W3C.
 
      Use and distribution of this code are permitted under the terms of
      either of the following two licences:
@@ -546,7 +546,7 @@
 <!ENTITY triangleq        "&#x0225C;" ><!--DELTA EQUAL TO -->
 <!ENTITY triangleright    "&#x025B9;" ><!--WHITE RIGHT-POINTING SMALL TRIANGLE -->
 <!ENTITY trianglerighteq  "&#x022B5;" ><!--CONTAINS AS NORMAL SUBGROUP OR EQUAL TO -->
-<!ENTITY TripleDot        " &#x020DB;" ><!--COMBINING THREE DOTS ABOVE -->
+<!ENTITY TripleDot        "&#x020DB;" ><!--COMBINING THREE DOTS ABOVE -->
 <!ENTITY twoheadleftarrow "&#x0219E;" ><!--LEFTWARDS TWO HEADED ARROW -->
 <!ENTITY twoheadrightarrow "&#x021A0;" ><!--RIGHTWARDS TWO HEADED ARROW -->
 <!ENTITY ulcorner         "&#x0231C;" ><!--TOP LEFT CORNER -->

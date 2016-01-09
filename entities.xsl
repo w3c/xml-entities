@@ -11,6 +11,9 @@ David Carlisle
                 version="2.0">
 
 <xsl:param name="plane1hack" select="false()"/>
+
+<!--set to true to guard combining characters with a space-->
+<xsl:param name="guard-combining" select="false()"/>
 <xsl:param name="olddesc" select="false()"/>
 <xsl:param name="mml2" select="doc('mml2.xml')"/>
 <xsl:param name="xhtml1" select="doc('xhtml1.xml')"/>
@@ -40,7 +43,7 @@ David Carlisle
 <xsl:variable name="top"> produced by the XSL script entities.xsl
      from input data in unicode.xml.
 
-     Copyright 1998 - 2013 W3C.
+     Copyright 1998 - 2016 W3C.
 
      Use and distribution of this code are permitted under the terms of
      either of the following two licences:
@@ -214,7 +217,7 @@ David Carlisle
     <xsl:when test="$plane1hack and starts-with(../@id,'U1D')">
       <xsl:text>%plane1D;</xsl:text><xsl:value-of select="substring(../@id,4)"/>
     </xsl:when>
-    <xsl:when test="starts-with(../description,'COMBINING')">
+    <xsl:when test="starts-with(../description,'COMBINING') and $guard-combining">
       <xsl:text> &amp;#x</xsl:text><xsl:value-of select="substring(../@id,2)"/>
     </xsl:when>
     <xsl:otherwise>
@@ -325,7 +328,7 @@ David Carlisle
   <xsl:param name="file"/>
   <xsl:param name="write-file"/>
 &lt;!-- 
-     Copyright 1998 - 2011 W3C.
+     Copyright 1998 - 2016 W3C.
 
      Use and distribution of this code are permitted under the terms of
      either of the following two licences:
@@ -343,7 +346,30 @@ David Carlisle
      Please report any errors to David Carlisle
      via the public W3C list www-math@w3.org.
 
- 
+<xsl:choose>
+ <xsl:when test="$name='HTML MathML Set'">
+       Public identifier:  web-entities
+       Public identifier: -//W3C//ENTITIES HTML MathML Set//EN//XML
+       System identifier: http://www.w3.org/2003/entities/2007/htmlmathml-f.ent
+
+     One of the public identifiers should always be used verbatim.
+     (The first one is more suitable for XHTML, the second one uses
+     Formal Public Identifier syntax, that may be required by SGML systems.)
+     The system identifier may be changed to suit local requirements.
+
+     Typical invocations:
+
+       &lt;!ENTITY % htmlmathml-f PUBLIC
+         "-//W3C//ENTITIES HTML MathML Set//EN//XML"
+         "http://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
+       >
+       %<xsl:value-of select="$file"/>;
+
+       &lt;DOCTYPE html PUBLIC "web-entities"
+                            "http://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
+       >
+</xsl:when>
+ <xsl:otherwise>
        Public identifier: -//W3C//ENTITIES <xsl:value-of select="$name"/>//EN//XML
        System identifier: http://www.w3.org/2003/entities/2007/<xsl:value-of select="$file"/>.ent
 
@@ -357,7 +383,8 @@ David Carlisle
          "http://www.w3.org/2003/entities/2007/<xsl:value-of select="$file"/>.ent"
        >
        %<xsl:value-of select="$file"/>;
-
+ </xsl:otherwise>
+</xsl:choose>
 <xsl:if test="false() and $write-file">
      Some entity names in this file are derived from files carrying the
      following notices:

@@ -425,16 +425,33 @@ noticeable at most typeset font sizes.</p>
 characters for which Unicode does not have codepoints, thus combining
 underline characters have been used, in a way analogous to the use of
 combining strokes for negated operators.</p>
+</div2>
+
+<div2 id="chars_math-combining-tables">
+<head>Entities Defined to be a Combining Character</head>
+<p>
+In addition to the combining and variant character combinations
+listed in the previous sections,
+the following table lists the remaining entity replacement texts that
+consist of more than one character.
+</p>
+
+<p id="combining-start"/>
+
 <p>For reasons explained further in <bibref ref="Charmod-norm"/>, it is
 not advisable to to start the replacement text of an entity with a
 combining character, as then potentially different results may be
 produced depending on the order in which entity expansion and Unicode
 normalisation are performed. As far as possible this specification
-uses non-combining characters, however, in the cases <kw>tdot</kw>,
-<kw>TripleDot</kw> and <kw>DotDot</kw>
-Unicode only has combining forms of the accents, and so the entity
-replacement text starts with a space, to avoid the possibility that
-the expansion of the entity combines with preceding text.</p>
+uses non-combining characters, however, in the cases <kw>DownBreve</kw>,
+<kw>tdot</kw>, <kw>TripleDot</kw> and <kw>DotDot</kw>
+Unicode only has combining forms of the accents.</p>
+<p>Earlier versions of this specification defined these entities
+with the replacement text starting with a space, to avoid the possibility that
+the expansion of the entity combined with preceding text. However for various reasons
+the entities as incorporated in HTML do not have a space here, and so the
+definitions now consist just of the combining character so that HTML and XHTML
+are consistent with any specifications using these definitions.</p>
 </div2>
 
   </div1>
@@ -445,6 +462,8 @@ the expansion of the entity combines with preceding text.</p>
       <p>Source files updated to Unicode 8.0, affecting the character tables,
       but with no changes to generated entity files or stylesheets.</p>
       <p>The source repository has been moved to github so the log is now public.</p>
+      <p>As detailed in <specref ref="chars_math-combining-tables"/> <kw>DownBreve</kw>,
+     <kw>tdot</kw>, <kw>TripleDot</kw> and <kw>DotDot</kw> are no longer prefixed by a space.</p>
     </div2>
     <div2 id="changes20100401">
       <head>Changes between 2010-04-01 and 2014-04-10 (First and Second Edition Recommendations)</head>

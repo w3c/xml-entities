@@ -3,7 +3,7 @@
      File mmlextra.ent produced by the XSL script entities.xsl
      from input data in unicode.xml.
 
-     Copyright 1998 - 2013 W3C.
+     Copyright 1998 - 2016 W3C.
 
      Use and distribution of this code are permitted under the terms of
      either of the following two licences:
@@ -55,7 +55,7 @@
 <!ENTITY DD               "&#x02145;" ><!--DOUBLE-STRUCK ITALIC CAPITAL D -->
 <!ENTITY dopf             "&#x1D555;" ><!--MATHEMATICAL DOUBLE-STRUCK SMALL D -->
 <!ENTITY DownArrowBar     "&#x02913;" ><!--DOWNWARDS ARROW TO BAR -->
-<!ENTITY DownBreve        " &#x00311;" ><!--COMBINING INVERTED BREVE -->
+<!ENTITY DownBreve        "&#x00311;" ><!--COMBINING INVERTED BREVE -->
 <!ENTITY DownLeftRightVector "&#x02950;" ><!--LEFT BARB DOWN RIGHT BARB DOWN HARPOON -->
 <!ENTITY DownLeftTeeVector "&#x0295E;" ><!--LEFTWARDS HARPOON WITH BARB DOWN FROM BAR -->
 <!ENTITY DownLeftVectorBar "&#x02956;" ><!--LEFTWARDS HARPOON WITH BARB DOWN TO BAR -->

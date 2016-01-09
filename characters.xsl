@@ -1062,10 +1062,9 @@ Next:  <a href="{$negations[$p + 1]}.html">
 
 
 <xsl:for-each select="$u/unicode/charlist/character
-[contains(@id,'-') or starts-with(description,'COMBINING')]
+[contains(@id,'-')]
 [entity[@set=/unicode/entitygroups/group[@name='2007']/set/@name]/@id]
 [not(matches(@id,'(020D2|020E5|022D2|00338|0FE00)$'))]">
-<xsl:sort select="starts-with(description,'COMBINING')"/>
 <xsl:sort select="@id"/>
 <xsl:variable name="id" select="@id"/>
 <xsl:for-each select="entity[@set=/unicode/entitygroups/group[@name='2007']/set/@name]">
@@ -1076,6 +1075,58 @@ Next:  <a href="{$negations[$p + 1]}.html">
 <xsl:if test="position()=1">
 <td rowspan="{last()}">
 <xsl:if test="starts-with(../description,'COMBINING')">U+0020 </xsl:if>
+<xsl:value-of select="d:uplus($id)"/>
+</td>
+<td rowspan="{last()}">
+<img height="32" 
+         width="32"
+         src="2007doc/{$glyphs}/{substring($id,2,3)}/{translate($id,'x','')}.png"
+         alt="{$id}"
+         >
+<xsl:if test="@image='none'"><xsl:attribute
+  name="src"><xsl:value-of select="$glyphs"/>/none.png</xsl:attribute></xsl:if>
+</img>
+</td>
+<td rowspan="{last()}">
+  <xsl:value-of select="../description"/>
+</td>
+</xsl:if>
+</tr>
+</xsl:for-each>
+</xsl:for-each>
+</tbody>
+</table>
+</xsl:template>
+
+<xsl:template match="p[@id='combining-start']">
+<table border="1">
+<thead>
+<tr>
+<th>Entity</th>
+<th>Set</th>
+<th>Description</th>
+<th colspan="3">Unicode Character</th>
+</tr>
+</thead>
+<tbody>
+
+
+<xsl:for-each select="$u/unicode/charlist/character
+[starts-with(description,'COMBINING')]
+[entity[@set=/unicode/entitygroups/group[@name='2007']/set/@name]/@id]
+[not(matches(@id,'(020D2|020E5|022D2|00338|0FE00)$'))]">
+<xsl:sort select="@id"/>
+<xsl:variable name="id" select="@id"/>
+<xsl:for-each select="entity[@set=/unicode/entitygroups/group[@name='2007']/set/@name]">
+<tr class="combine">
+<td><xsl:value-of select="@id"/></td>
+<td><xsl:value-of select="replace(@set,'9573-2003-','')"/></td>
+<td><xsl:value-of select="desc"/></td>
+<xsl:if test="position()=1">
+<td rowspan="{last()}">
+ <!--
+     <xsl:if test="starts-with(../description,'COMBINING')">U+0020 </xsl:if>
+ -->
 <xsl:value-of select="d:uplus($id)"/>
 </td>
 <td rowspan="{last()}">
