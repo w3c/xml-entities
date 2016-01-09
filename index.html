@@ -5,7 +5,7 @@
 .kwlabel {font-weight:normal}
   </style><link rel="stylesheet" type="text/css" href="//www.w3.org/StyleSheets/TR/W3C-ED.css"></head><body><div class="head">
 <h1><a name="title" id="title"></a>XML Entity Definitions for Characters (3rd Edition)</h1>
-<h2><a name="w3c-doctype" id="w3c-doctype"></a>W3C Working Draft 02 October 2015</h2><dl><dt>This version:</dt><dd>
+<h2><a name="w3c-doctype" id="w3c-doctype"></a>W3C Working Draft 09 January 2016</h2><dl><dt>This version:</dt><dd>
 
 <a href="http://www.w3.org/2003/entities/2007doc/">http://www.w3.org/2003/entities/2007doc/</a>
 
@@ -14,7 +14,7 @@
 </dd><dt>Previous version:</dt><dd><a href="http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</a></dd><dt>Editors' version:</dt><dd>
   <a href="http://www.w3.org/2003/entities/2007doc/">http://www.w3.org/2003/entities/2007doc/</a>
 </dd><dt>Editors:</dt><dd>David Carlisle, NAG</dd><dd>Patrick Ion, Mathematical Reviews, American Mathematical Society</dd></dl><p>Please refer to the <a href="errata.html"><strong>errata</strong></a>
-for this document, which may include some normative corrections.</p><p>See also <a href="http://www.w3.org/2005/11/Translations/Query?titleMatch=XML+Entity+definitions+for+Characters"><strong>translations</strong></a>.</p><p class="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &#xa9; 1998-2015 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&#xae;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.eu/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>), All Rights Reserved. W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.</p></div><hr><div>
+for this document, which may include some normative corrections.</p><p>See also <a href="http://www.w3.org/2005/11/Translations/Query?titleMatch=XML+Entity+definitions+for+Characters"><strong>translations</strong></a>.</p><p class="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &#xa9; 1998-2016 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&#xae;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.eu/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>), All Rights Reserved. W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.</p></div><hr><div>
 <h2><a name="abstract" id="abstract"></a>Abstract</h2><p>
 This document defines several sets of names, so that to each name is assigned 
 a Unicode character or sequence of characters.
@@ -240,10 +240,8 @@ characters for which Unicode does not have codepoints, thus combining
 underline characters have been used, in a way analogous to the use of
 combining strokes for negated operators.</p></div><div class="div2">
 <h3><a name="chars_math-combining-tables" id="chars_math-combining-tables"></a>A.4 Entities Defined to be a Combining Character</h3><p>
-In addition to the combining and variant character combinations
-listed in the previous sections,
-the following table lists the remaining entity replacement texts that
-consist of more than one character.
+The following table lists the entity replacement texts that
+consist of a combining character.
 </p><table border="1"><thead><tr><th>Entity</th><th>Set</th><th>Description</th><th colspan="3">Unicode Character</th></tr></thead><tbody><tr class="combine"><td>DownBreve</td><td>mmlextra</td><td>breve, inverted (non-spacing)</td><td rowspan="1">U+0311</td><td rowspan="1"><img height="32" width="32" src="2007doc/glyphs/003/U00311.png" alt="U00311"></td><td rowspan="1">COMBINING INVERTED BREVE</td></tr><tr class="combine"><td>tdot</td><td>isotech</td><td>three dots above</td><td rowspan="2">U+20DB</td><td rowspan="2"><img height="32" width="32" src="2007doc/glyphs/020/U020DB.png" alt="U020DB"></td><td rowspan="2">COMBINING THREE DOTS ABOVE</td></tr><tr class="combine"><td>TripleDot</td><td>mmlalias</td><td>alias ISOTECH tdot</td></tr><tr class="combine"><td>DotDot</td><td>isotech</td><td>four dots above</td><td rowspan="1">U+20DC</td><td rowspan="1"><img height="32" width="32" src="2007doc/glyphs/020/U020DC.png" alt="U020DC"></td><td rowspan="1">COMBINING FOUR DOTS ABOVE</td></tr></tbody></table><p>For reasons explained further in <a href="#Charmod-norm">[Charmod-norm]</a>, it is
 not advisable to to start the replacement text of an entity with a
 combining character, as then potentially different results may be

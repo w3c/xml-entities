@@ -6,7 +6,7 @@
 <title>XML Entity Definitions for Characters (3rd Edition)</title>
 <w3c-designation>xml-entity-names-&date;</w3c-designation>
 <w3c-doctype>W3C Working Draft</w3c-doctype>
-<pubdate><day>02</day> <month>October</month> <year>2015</year></pubdate>
+<pubdate><day>09</day> <month>January</month> <year>2016</year></pubdate>
 <publoc>
 <!--<loc href="http://www.w3.org/TR/2014/REC-xml-entity-names-&date;/">http://www.w3.org/TR/2014/REC-xml-entity-names-&date;/</loc>-->
 <loc href="http://www.w3.org/2003/entities/2007doc/">http://www.w3.org/2003/entities/2007doc/</loc>
@@ -430,10 +430,8 @@ combining strokes for negated operators.</p>
 <div2 id="chars_math-combining-tables">
 <head>Entities Defined to be a Combining Character</head>
 <p>
-In addition to the combining and variant character combinations
-listed in the previous sections,
-the following table lists the remaining entity replacement texts that
-consist of more than one character.
+The following table lists the entity replacement texts that
+consist of a combining character.
 </p>
 
 <p id="combining-start"/>
