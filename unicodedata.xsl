@@ -14,8 +14,9 @@
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-6.2.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-6.3.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-7.0.0.txt'),'[&#10;&#13;]+')"/>
--->
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-8.0.0.txt'),'[&#10;&#13;]+')"/>
+-->
+<xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-9.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="uc" select="doc('unicode.xml')"/>
 
 <!--
