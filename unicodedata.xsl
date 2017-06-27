@@ -15,15 +15,16 @@
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-6.3.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-7.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-8.0.0.txt'),'[&#10;&#13;]+')"/>
--->
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-9.0.0.txt'),'[&#10;&#13;]+')"/>
+-->
+<xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-10.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="uc" select="doc('unicode.xml')"/>
 
 <!--
 <xsl:variable name="MC" select="'MathClass-11.txt'"/>
 <xsl:variable name="MC" select="'MathClass-13.txt'"/>
 -->
-<xsl:variable name="MC" select="'MathClass-14.txt'"/>
+<xsl:variable name="MC" select="'MathClass-15.txt'"/>
 
 <xsl:variable name="mathclass">
 <xsl:for-each select="tokenize(unparsed-text($MC),'[&#10;&#13;]+')[matches(.,'^[0-9A-F.]+;[A-Z]')]">
