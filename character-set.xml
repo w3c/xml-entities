@@ -18,7 +18,7 @@
  <!--
      <loc href="https://www.w3.org/TR/xml-entity-names/">https://www.w3.org/TR/xml-entity-names/</loc>
  -->
-   <loc href="http://www.w3.org/TR/2017/WD-xml-entity-names-20170807/">http://www.w3.org/TR/2017/REC-xml-entity-names-20170807/</loc>
+   <loc href="https://www.w3.org/TR/2017/WD-xml-entity-names-20170807/">https://www.w3.org/TR/2017/REC-xml-entity-names-20170807/</loc>
 </latestloc>
 <prevlocs>
   <loc href="https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</loc><!--
@@ -228,7 +228,7 @@ the HTML parser (derived from the same source materials as this document see <sp
 <eg><![CDATA[
        <!ENTITY % htmlmathml-f PUBLIC
          "-//W3C//ENTITIES HTML MathML Set//EN//XML"
-         "http://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
+         "https://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
        >
        %htmlmathml-f;
 ]]>
@@ -544,7 +544,7 @@ are consistent with any specifications using these definitions.</p>
     <div2 id="diff-xhtml1">
       <head>Differences from XHTML 1.0</head>
       <p>Differences between the XHTML entity definitions described here and the entity set 
-      described in the <loc href="http://www.w3.org/TR/xhtml1/dtds.html">XHTML 1.0 DTD</loc>.</p>
+      described in the <loc href="https://www.w3.org/TR/xhtml1/dtds.html">XHTML 1.0 DTD</loc>.</p>
       <glist>
 	<gitem><label><kw>lang</kw> and <kw>rang</kw></label><def><p>U+27E8 and
 	U+27E9; XHTML 1.0 used U+2329 and  U+232A (which have canonical
@@ -654,7 +654,7 @@ MathML2 used U+005C U+02282 and   U+2283 U+002F.</p></def></gitem>
      <item><p><loc href="https://github.com/w3c/xml-entities/blob/gh-pages/charmap.xsl">charmap.xsl</loc> stylesheet to generate the XSLT character maps.</p></item>
      <item><p><loc href="https://github.com/w3c/xml-entities/blob/gh-pages/characters.xsl">characters.xsl</loc> stylesheet to generate this document, including the referenced HTML tables.</p></item>
      <item><p><loc href="https://github.com/w3c/xml-entities/blob/gh-pages/schemas.xml">schemas.xml</loc> file associating XML documents with appropriate Relax NG schema.</p></item>
-     <item id="catalog"><p><loc href="https://github.com/w3c/xml-entities/blob/gh-pages/catalog">catalog</loc> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at http://www.w3.org/2003/entities/2007/ to the local file system at
+     <item id="catalog"><p><loc href="https://github.com/w3c/xml-entities/blob/gh-pages/catalog">catalog</loc> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at https://www.w3.org/2003/entities/2007/ to the local file system at
    /etc/xml/w3c-entities. It should be edited to  refer to the location of a local copy of the files. Many XML parsers may be configured to read this catalog format, but the specific options depend on the parser being used.</p></item>
    </ulist>
      
@@ -689,21 +689,21 @@ href="http://www.unicode.org/reports/tr15/">http://www.unicode.org/reports/tr15/
     href="http://www.unicode.org/reports/tr25/">http://www.unicode.org/reports/tr25/</loc>) 
     </bibl>
     <bibl id="MathML2">David Carlisle, Patrick Ion, Robert Miner, Nico Poppelier,
-    <emph><loc href="http://www.w3.org/TR/MathML2/">Mathematical Markup Language (MathML) 
+    <emph><loc href="https://www.w3.org/TR/MathML2/">Mathematical Markup Language (MathML) 
     Version 2.0 (Second Edition)</loc></emph>
     W3C Recommendation 21 October 2003
-    (<loc href="http://www.w3.org/TR/2003/REC-MathML2-20031021/">http://www.w3.org/TR/2003/REC-MathML2-20031021/</loc>) 
+    (<loc href="https://www.w3.org/TR/2003/REC-MathML2-20031021/">https://www.w3.org/TR/2003/REC-MathML2-20031021/</loc>) 
     </bibl>
     <bibl id="MathML3">David Carlisle, Patrick Ion, Robert Miner,
-    <emph><loc href="http://www.w3.org/TR/MathML3/">Mathematical Markup Language (MathML) Version 3.0 2nd Edition</loc></emph>
+    <emph><loc href="https://www.w3.org/TR/MathML3/">Mathematical Markup Language (MathML) Version 3.0 2nd Edition</loc></emph>
     W3C Recommendation 10 April 2014 
-    (<loc href="http://www.w3.org/TR/2014/REC-MathML3-20140410/">http://www.w3.org/TR/2014/REC-MathML3-20140410/</loc>) 
+    (<loc href="https://www.w3.org/TR/2014/REC-MathML3-20140410/">https://www.w3.org/TR/2014/REC-MathML3-20140410/</loc>) 
     </bibl>
     <bibl id="HTML4">Dave Raggett, Arnaud Le Hors, Ian Jacobs,
- <emph><loc href="http://www.w3.org/TR/html4/"/>HTML 4.01 Specification</emph>
+ <emph><loc href="https://www.w3.org/TR/html4/"/>HTML 4.01 Specification</emph>
 W3C Recommendation 24 December 1999
 (<loc
-href="http://www.w3.org/TR/1999/REC-html401-19991224/">http://www.w3.org/TR/1999/REC-html401-19991224</loc>)</bibl>
+href="https://www.w3.org/TR/1999/REC-html401-19991224/">https://www.w3.org/TR/1999/REC-html401-19991224</loc>)</bibl>
 <bibl id="HTML5">Robin Berjon,
     Steve Faulkner,
     Travis Leithead,
@@ -711,20 +711,20 @@ href="http://www.w3.org/TR/1999/REC-html401-19991224/">http://www.w3.org/TR/1999
     Edward O'Connor,
     Silvia Pfeiffer,
     Ian Hickson
-<emph><loc href="http://www.w3.org/TR/html5/">HTML 5,
+<emph><loc href="https://www.w3.org/TR/html5/">HTML 5,
 A vocabulary and associated APIs for HTML and XHTML</loc></emph>
 W3C Candidate Recommendation 6 August 2013
-(<loc href="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</loc>)</bibl>
+(<loc href="https://www.w3.org/TR/html5/">https://www.w3.org/TR/html5/</loc>)</bibl>
 <bibl id="Charmod-norm"> Fran&#xe7;ois Yergeau,
     Martin J. D&#xfc;rst,
     Richard Ishida,
     Addison Phillips,
     Misha Wolf,
     Tex Texin,
-<emph><loc  href="http://www.w3.org/TR/charmod-norm/">Character Model
+<emph><loc  href="https://www.w3.org/TR/charmod-norm/">Character Model
 for the World Wide Web 1.0: Normalization</loc></emph>
 W3C Working Draft 1 May 2012
-(<loc href="http://www.w3.org/TR/charmod-norm/">http://www.w3.org/TR/charmod-norm/</loc>)
+(<loc href="https://www.w3.org/TR/charmod-norm/">https://www.w3.org/TR/charmod-norm/</loc>)
   </bibl>
 </blist>
   </div1>
