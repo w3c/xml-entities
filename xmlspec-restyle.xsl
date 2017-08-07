@@ -988,8 +988,8 @@
     <div class="head">
       <xsl:if test="not($editors-copy='yes' or /spec/@role='editors-copy')">
         <p>
-          <a href="http://www.w3.org/">
-            <img src="http://www.w3.org/Icons/w3c_home"
+          <a href="https://www.w3.org/">
+            <img src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C"
               alt="W3C" height="48" width="72"/>
           </a>
         </p>
