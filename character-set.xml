@@ -21,7 +21,7 @@
    <loc href="http://www.w3.org/TR/2017/WD-xml-entity-names-20170807/">http://www.w3.org/TR/2017/REC-xml-entity-names-20170807/</loc>
 </latestloc>
 <prevlocs>
-  <loc href="http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</loc><!--
+  <loc href="https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</loc><!--
   <loc href="http://www.w3.org/TR/2014/PER-xml-entity-names-20140211/">http://www.w3.org/TR/2014/PER-xml-entity-names-20140211/</loc>
   <loc href="http://www.w3.org/TR/2010/REC-xml-entity-names-20100401/">http://www.w3.org/TR/2010/REC-xml-entity-names-20100401/</loc>
 -->
@@ -32,7 +32,7 @@
 -->
 </prevlocs>
 <edlocs>
-  <loc href="http://www.w3.org/2003/entities/2007doc/">http://www.w3.org/2003/entities/2007doc/</loc>
+  <loc href="https://www.w3.org/2003/entities/2007doc/">https://www.w3.org/2003/entities/2007doc/</loc>
 </edlocs>
 <authlist>
 <author>

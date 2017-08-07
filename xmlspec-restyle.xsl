@@ -406,7 +406,7 @@
    <xsl:text>&#10;</xsl:text>
     <nav id="toc">
         <xsl:text>&#10;</xsl:text>
-        <h2>
+        <h2 id="tochead">
           <xsl:text>Table of Contents</xsl:text>
         </h2>
    <xsl:text>&#10;</xsl:text>
