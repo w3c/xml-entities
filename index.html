@@ -7,11 +7,11 @@
 <h1><a name="title" id="title"></a>XML Entity Definitions for Characters (3rd Edition)</h1>
 <h2><a name="w3c-doctype" id="w3c-doctype"></a>W3C Working Draft 07 August 2017</h2><dl><dt>This version:</dt><dd>
 
-<a href="http://www.w3.org/2003/entities/2007doc/">http://www.w3.org/2003/entities/2007doc/</a>
 
+<a href="https://www.w3.org/TR/2017/WD-xml-entity-names-20170807/">https://www.w3.org/TR/2017/WD-xml-entity-names-20170807/</a>
 </dd><dt>Latest version:</dt><dd>
  
-   <a href="http://www.w3.org/TR/2017/WD-xml-entity-names-20170807/">http://www.w3.org/TR/2017/REC-xml-entity-names-20170807/</a>
+   <a href="https://www.w3.org/TR/2017/WD-xml-entity-names-20170807/">https://www.w3.org/TR/2017/REC-xml-entity-names-20170807/</a>
 </dd><dt>Previous version:</dt><dd><a href="https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</a></dd><dt>Editors' version:</dt><dd>
   <a href="https://www.w3.org/2003/entities/2007doc/">https://www.w3.org/2003/entities/2007doc/</a>
 </dd><dt>Editors:</dt><dd>David Carlisle, NAG</dd><dd>Patrick Ion, Mathematical Reviews, American Mathematical Society</dd></dl><p>Please refer to the <a href="errata.html"><strong>errata</strong></a>
@@ -121,7 +121,7 @@ however for any new document type that is being defined it is strongly recommend
 the HTML parser (derived from the same source materials as this document see <a href="#source"><b>D Source Files</b></a>).</p><p>To incorporate the <b>htmlmathml</b> set into an XML DTD, a typical construct is:</p><div class="exampleInner"><pre>
        &lt;!ENTITY % htmlmathml-f PUBLIC
          "-//W3C//ENTITIES HTML MathML Set//EN//XML"
-         "http://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
+         "https://www.w3.org/2003/entities/2007/htmlmathml-f.ent"
        &gt;
        %htmlmathml-f;
 
@@ -298,7 +298,7 @@ are consistent with any specifications using these definitions.</p></div></div><
       <b>lbbrk</b>, <b>rbbrk</b>.</p></div></div><div class="div1">
 <h2><a name="diffs" id="diffs"></a>C Differences between these entities and earlier W3C DTDs</h2><div class="div2">
 <h3><a name="diff-xhtml1" id="diff-xhtml1"></a>C.1 Differences from XHTML 1.0</h3><p>Differences between the XHTML entity definitions described here and the entity set 
-      described in the <a href="http://www.w3.org/TR/xhtml1/dtds.html">XHTML 1.0 DTD</a>.</p><dl><dt class="kwlabel"><b>lang</b> and <b>rang</b></dt><dd>U+27E8 and
+      described in the <a href="https://www.w3.org/TR/xhtml1/dtds.html">XHTML 1.0 DTD</a>.</p><dl><dt class="kwlabel"><b>lang</b> and <b>rang</b></dt><dd>U+27E8 and
 	U+27E9; XHTML 1.0 used U+2329 and  U+232A (which have canonical
 	decomposition to U+3008 and U+3009).</dd></dl><div class="note"><p class="prefix"><b>Note:</b></p><p>The current drafts of <a href="#HTML5">[HTML5]</a> use entity definitions derived from 
       this specification.</p></div></div><div class="div2">
@@ -336,7 +336,7 @@ MathML2 used U+005C U+02282 and   U+2283 U+002F.</dd><dt class="kwlabel"><b>NotG
 <h2><a name="source" id="source"></a>D Source Files</h2><p>All data files used to construct the entity declarations, XSLT character maps, and 
     HTML tables referenced from this document are available from 
     <a href="https://github.com/w3c/xml-entities/">https://github.com/w3c/xml-entities/</a>.</p><ul><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicode.xml">unicode.xml</a> master file detailing all Unicode characters with names in various entity sets and applications, TeX equivalents and other data. This file has been maintained for many years, originally by Sebastian Rahtz as part of the jadetex distribution and since around 1999 as part of the MathML specification sources by David Carlisle. The current version encodes data for all characters in Unicode 10.0.
-<em>Note: unicode.xml is over 5MB in size and may not really be suitable for direct viewing in a browser. You may prefer to save the file rather than follow the above link to unicode.xml in a browser.</em></li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/charlist.rnc">charlist.rnc</a> relax NG schema for unicode.xml.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicode.xsl">unicode.xsl</a> XSLT stylesheet that renders unicode.xml as an HTML table.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/character-set.xml">character-set.xml</a> the source file for this document.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/xmlspec.xsl">xmlspec.xsl</a> a copy of the  standard xmlspec stylesheet.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/run">run</a> small script file that builds this collection.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/xhtml1.xml">xhtml1.xml</a> record of XHTML 1.0 entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/mml2.xml">mml2.xml</a> record of MathML 2.0 (second edition) entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicodedata.xsl">unicodedata.xsl</a> stylesheet that generates a new copy of unicode.xml, incorporating data from the Unicode data file, used to update unicode.xml as new versions of Unicode are released.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/entities.xsl">entities.xsl</a> stylesheet to generate the DTD declarations for the entities.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/charmap.xsl">charmap.xsl</a> stylesheet to generate the XSLT character maps.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/characters.xsl">characters.xsl</a> stylesheet to generate this document, including the referenced HTML tables.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/schemas.xml">schemas.xml</a> file associating XML documents with appropriate Relax NG schema.</li><li id="catalog"><a href="https://github.com/w3c/xml-entities/blob/gh-pages/catalog">catalog</a> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at http://www.w3.org/2003/entities/2007/ to the local file system at
+<em>Note: unicode.xml is over 5MB in size and may not really be suitable for direct viewing in a browser. You may prefer to save the file rather than follow the above link to unicode.xml in a browser.</em></li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/charlist.rnc">charlist.rnc</a> relax NG schema for unicode.xml.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicode.xsl">unicode.xsl</a> XSLT stylesheet that renders unicode.xml as an HTML table.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/character-set.xml">character-set.xml</a> the source file for this document.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/xmlspec.xsl">xmlspec.xsl</a> a copy of the  standard xmlspec stylesheet.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/run">run</a> small script file that builds this collection.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/xhtml1.xml">xhtml1.xml</a> record of XHTML 1.0 entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/mml2.xml">mml2.xml</a> record of MathML 2.0 (second edition) entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicodedata.xsl">unicodedata.xsl</a> stylesheet that generates a new copy of unicode.xml, incorporating data from the Unicode data file, used to update unicode.xml as new versions of Unicode are released.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/entities.xsl">entities.xsl</a> stylesheet to generate the DTD declarations for the entities.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/charmap.xsl">charmap.xsl</a> stylesheet to generate the XSLT character maps.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/characters.xsl">characters.xsl</a> stylesheet to generate this document, including the referenced HTML tables.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/schemas.xml">schemas.xml</a> file associating XML documents with appropriate Relax NG schema.</li><li id="catalog"><a href="https://github.com/w3c/xml-entities/blob/gh-pages/catalog">catalog</a> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at https://www.w3.org/2003/entities/2007/ to the local file system at
    /etc/xml/w3c-entities. It should be edited to  refer to the location of a local copy of the files. Many XML parsers may be configured to read this catalog format, but the specific options depend on the parser being used.</li></ul></div><div class="div1">
 <h2><a name="references" id="references"></a>E References</h2><dl><dt class="label"><a name="SGML" id="SGML"></a>SGML</dt><dd>ISO/IEC 8879:1986, Information processing &#x2014;  Text and office 
      systems &#x2014;  Standard Generalized Markup Language (SGML)</dd><dt class="label"><a name="ISO9573-13-1991" id="ISO9573-13-1991"></a>ISO9573-13-1991</dt><dd>ISO/IEC TR :1991, Information
@@ -355,35 +355,35 @@ The Unicode Consortium, 2013-09-20.
     Unicode Technical Report #25 2012-04-02.
     (<a href="http://www.unicode.org/reports/tr25/">http://www.unicode.org/reports/tr25/</a>) 
     </dd><dt class="label"><a name="MathML2" id="MathML2"></a>MathML2</dt><dd>David Carlisle, Patrick Ion, Robert Miner, Nico Poppelier,
-    <em><a href="http://www.w3.org/TR/MathML2/">Mathematical Markup Language (MathML) 
+    <em><a href="https://www.w3.org/TR/MathML2/">Mathematical Markup Language (MathML) 
     Version 2.0 (Second Edition)</a></em>
     W3C Recommendation 21 October 2003
-    (<a href="http://www.w3.org/TR/2003/REC-MathML2-20031021/">http://www.w3.org/TR/2003/REC-MathML2-20031021/</a>) 
+    (<a href="https://www.w3.org/TR/2003/REC-MathML2-20031021/">https://www.w3.org/TR/2003/REC-MathML2-20031021/</a>) 
     </dd><dt class="label"><a name="MathML3" id="MathML3"></a>MathML3</dt><dd>David Carlisle, Patrick Ion, Robert Miner,
-    <em><a href="http://www.w3.org/TR/MathML3/">Mathematical Markup Language (MathML) Version 3.0 2nd Edition</a></em>
+    <em><a href="https://www.w3.org/TR/MathML3/">Mathematical Markup Language (MathML) Version 3.0 2nd Edition</a></em>
     W3C Recommendation 10 April 2014 
-    (<a href="http://www.w3.org/TR/2014/REC-MathML3-20140410/">http://www.w3.org/TR/2014/REC-MathML3-20140410/</a>) 
+    (<a href="https://www.w3.org/TR/2014/REC-MathML3-20140410/">https://www.w3.org/TR/2014/REC-MathML3-20140410/</a>) 
     </dd><dt class="label"><a name="HTML4" id="HTML4"></a>HTML4</dt><dd>Dave Raggett, Arnaud Le Hors, Ian Jacobs,
- <em><a href="http://www.w3.org/TR/html4/"></a>HTML 4.01 Specification</em>
+ <em><a href="https://www.w3.org/TR/html4/"></a>HTML 4.01 Specification</em>
 W3C Recommendation 24 December 1999
-(<a href="http://www.w3.org/TR/1999/REC-html401-19991224/">http://www.w3.org/TR/1999/REC-html401-19991224</a>)</dd><dt class="label"><a name="HTML5" id="HTML5"></a>HTML5</dt><dd>Robin Berjon,
+(<a href="https://www.w3.org/TR/1999/REC-html401-19991224/">https://www.w3.org/TR/1999/REC-html401-19991224</a>)</dd><dt class="label"><a name="HTML5" id="HTML5"></a>HTML5</dt><dd>Robin Berjon,
     Steve Faulkner,
     Travis Leithead,
     Erika Doyle Navara,
     Edward O'Connor,
     Silvia Pfeiffer,
     Ian Hickson
-<em><a href="http://www.w3.org/TR/html5/">HTML 5,
+<em><a href="https://www.w3.org/TR/html5/">HTML 5,
 A vocabulary and associated APIs for HTML and XHTML</a></em>
 W3C Candidate Recommendation 6 August 2013
-(<a href="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</a>)</dd><dt class="label"><a name="Charmod-norm" id="Charmod-norm"></a>Charmod-norm</dt><dd> Fran&#xe7;ois Yergeau,
+(<a href="https://www.w3.org/TR/html5/">https://www.w3.org/TR/html5/</a>)</dd><dt class="label"><a name="Charmod-norm" id="Charmod-norm"></a>Charmod-norm</dt><dd> Fran&#xe7;ois Yergeau,
     Martin J. D&#xfc;rst,
     Richard Ishida,
     Addison Phillips,
     Misha Wolf,
     Tex Texin,
-<em><a href="http://www.w3.org/TR/charmod-norm/">Character Model
+<em><a href="https://www.w3.org/TR/charmod-norm/">Character Model
 for the World Wide Web 1.0: Normalization</a></em>
 W3C Working Draft 1 May 2012
-(<a href="http://www.w3.org/TR/charmod-norm/">http://www.w3.org/TR/charmod-norm/</a>)
+(<a href="https://www.w3.org/TR/charmod-norm/">https://www.w3.org/TR/charmod-norm/</a>)
   </dd></dl></div></div></body></html>
