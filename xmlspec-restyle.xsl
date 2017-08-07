@@ -2502,7 +2502,7 @@ div.exampleHeader { font-weight: bold;
             </xsl:choose>
           </xsl:otherwise>
         </xsl:choose>
-        <xsl:text>.css</xsl:text>
+<!--        <xsl:text>.css</xsl:text> -->
       </xsl:attribute>
     </link>
   </xsl:template>
