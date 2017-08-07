@@ -405,7 +405,6 @@
    <xsl:if test="$toc.level &gt; 0">
    <xsl:text>&#10;</xsl:text>
     <nav id="toc">
-      <div class="toc">
         <xsl:text>&#10;</xsl:text>
         <h2>
           <xsl:text>Table of Contents</xsl:text>
@@ -447,7 +446,6 @@
             </a>
           </ol>
         </xsl:if>
-      </div>
     </nav>
       <hr title="Separator for header"/>
     </xsl:if>
@@ -986,7 +984,7 @@
   <!-- pull out information into standard W3C layout -->
   <xsl:template match="header">
     <div class="head">
-      <xsl:if test="not($editors-copy='yes' or /spec/@role='editors-copy')">
+      <xsl:if test="true() or not($editors-copy='yes' or /spec/@role='editors-copy')">
         <p>
           <a href="https://www.w3.org/">
             <img src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C"
@@ -1638,7 +1636,11 @@ for this document, which may include some normative corrections.</p>
         </xsl:attribute>
       </xsl:if>
       <head>
+            <xsl:text>&#10;</xsl:text>
        <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+            <xsl:text>&#10;</xsl:text>
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+            <xsl:text>&#10;</xsl:text>
 <!--        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>-->
         <title>
           <xsl:apply-templates select="header/title"/>
@@ -1651,14 +1653,17 @@ for this document, which may include some normative corrections.</p>
             <xsl:value-of select="$additional.title"/>
           </xsl:if>
         </title>
+            <xsl:text>&#10;</xsl:text>
         <xsl:call-template name="css"/>
+            <xsl:text>&#10;</xsl:text>
+	<script src="//www.w3.org/scripts/TR/2016/fixup.js"><xsl:text> </xsl:text></script>
+            <xsl:text>&#10;</xsl:text>
       </head>
       <body>
         <xsl:apply-templates/>
         <xsl:if test="//footnote[not(ancestor::table)]">
           <hr/>
           <div class="endnotes">
-            <xsl:text>&#10;</xsl:text>
             <h3>
               <xsl:call-template name="anchor">
                 <xsl:with-param name="conditional" select="0"/>
