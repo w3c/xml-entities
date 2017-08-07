@@ -2,7 +2,7 @@
 
 SAXON="java -jar saxon9he.jar "
 
-$SAXON character-set.xml characters-restyle.xsl glyphs=glyphs  editors-copy=yes 
+$SAXON -strip:none character-set.xml characters-restyle.xsl glyphs=glyphs  editors-copy=yes 
 sed -e 's@src="2007doc@src="../2007doc@g' \
     -e 's@href="2007/@href="../2007/@g' index.html > restyle/index.html
 

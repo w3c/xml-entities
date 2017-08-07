@@ -15,7 +15,7 @@
 -->
 </publoc>
 <latestloc>
-<loc href="http://www.w3.org/TR/xml-entity-names/">http://www.w3.org/TR/xml-entity-names/</loc>
+<loc href="https://www.w3.org/TR/xml-entity-names/">https://www.w3.org/TR/xml-entity-names/</loc>
 </latestloc>
 <prevlocs>
   <loc href="http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</loc><!--
@@ -42,7 +42,7 @@
 </author>
 </authlist>
 <errataloc href="errata.html"/>
-<translationloc href="http://www.w3.org/2005/11/Translations/Query?titleMatch=XML+Entity+definitions+for+Characters"/>
+<translationloc href="https://www.w3.org/2005/11/Translations/Query?titleMatch=XML+Entity+definitions+for+Characters"/>
 
 <status id="status">
 
@@ -51,8 +51,8 @@
 of its publication. Other documents may supersede this document. A
 list of current W3C publications and the latest revision of this
 technical report can be found in the <loc
-href="http://www.w3.org/TR/">W3C technical reports index</loc> at
-http://www.w3.org/TR/.</emph>
+href="https://www.w3.org/TR/">W3C technical reports index</loc> at
+https://www.w3.org/TR/.</emph>
 </p> 
 <!--
 <p>Publication as a Proposed Edited Recommendation does not imply endorsement by the W3C Membership. This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress.</p>
@@ -76,11 +76,11 @@ and to more clearly highlight that the HTML-MathML entity set should be used in 
 that are also defined in this document.</p>
 <p>
 This document was produced by the 
-<loc href="http://www.w3.org/Math/">W3C Math Working Group</loc>
+<loc href="https://www.w3.org/Math/">W3C Math Working Group</loc>
 as a Recommendation and as part of the W3C 
-<loc href="http://www.w3.org/Math/Activity">Math Activity</loc>.
+<loc href="https://www.w3.org/Math/Activity">Math Activity</loc>.
 The goals of the W3C Math Working Group are discussed in the 
-<loc href="http://www.w3.org/Math/Documents/Charter2006.html"> W3C Math WG Charter</loc>.  
+<loc href="https://www.w3.org/Math/Documents/Charter2006.html"> W3C Math WG Charter</loc>.  
 The authors of this document are W3C Math Working Group members.
 </p>
 
@@ -97,25 +97,26 @@ the normative content of this Recommendation, the entity definitions, since the 
 <p>
 Comments should be sent to the 
 <loc href="mailto:www-math@w3.org">Public W3C Math mailing list</loc>
-(<loc href="http://lists.w3.org/Archives/Public/www-math/">list archives</loc>;
-see also <loc href="http://www.w3.org/Mail/Request">instructions</loc>).
+(<loc href="https://lists.w3.org/Archives/Public/www-math/">list archives</loc>;
+see also <loc href="https://www.w3.org/Mail/Request">instructions</loc>).
 When sending an e-mail comment on the XML Entity Definitions for Characters, please 
 put the text &#x201C;XML-Entities&#x201D; in the subject line, preferably like this: 
  &#x201C;[XML-Entities] &#x2026;summary of comment &#x201D;.
 </p>
 
-<p>This document is governed by the <loc id="w3c_process_revision" href="https://www.w3.org/2017/Process-20170301/">1 March 2017 W3C Process Document</loc>.</p>
+<p>This document is governed by the <loc id="w3c_process_revision" href="https://www.w3.org/2017/Process-20170301/">1 March 2017 W3C Process Document</loc>. </p>
+
 <p> This Original edition of the document was produced by a group operating under the 
-<loc href="http://www.w3.org/Consortium/Patent-Policy-20040205/">5 February 2004 W3C Patent Policy</loc>. 
+<loc href="https://www.w3.org/Consortium/Patent-Policy-20040205/">5 February 2004 W3C Patent Policy</loc>. 
 W3C maintains a 
-<loc role="disclosure" href="http://www.w3.org/2004/01/pp-impl/35549/status">
+<loc role="disclosure" href="https://www.w3.org/2004/01/pp-impl/35549/status">
 public list of any patent disclosures</loc> made in connection with 
 the deliverables of the group; that page also includes instructions 
 for disclosing a patent. An individual who has actual knowledge of 
 a patent which the individual believes contains 
-<loc href="http://www.w3.org/Consortium/Patent-Policy-20040205/#def-essential">Essential Claim(s)</loc> 
+<loc href="https://www.w3.org/Consortium/Patent-Policy-20040205/#def-essential">Essential Claim(s)</loc> 
 must disclose the information in accordance with 
-<loc href="http://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Disclosure">section 6 of the W3C Patent Policy</loc>. 
+<loc href="https://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Disclosure">section 6 of the W3C Patent Policy</loc>. 
 </p>
 <p> Appendix <specref ref="changes"/>  details the changes since earlier versions of this document.</p>
 
@@ -235,8 +236,8 @@ The system identifier should be changed to suit local requirements.
 </p>
 <p>The entity set is available in two forms: </p>
 <ulist>
-<item><p><loc href="http://www.w3.org/2003/entities/2007/htmlmathml-f.ent">htmlmathml-f</loc> the expanded set of HTML and MathML entity definitions</p></item>
-<item><p><loc href="http://www.w3.org/2003/entities/2007/htmlmathml.ent">htmlmathml</loc> the HTML and MathML entities defined via reference to the legacy entity set definitions as listed in the following section.</p></item>
+<item><p><loc href="https://www.w3.org/2003/entities/2007/htmlmathml-f.ent">htmlmathml-f</loc> the expanded set of HTML and MathML entity definitions</p></item>
+<item><p><loc href="https://www.w3.org/2003/entities/2007/htmlmathml.ent">htmlmathml</loc> the HTML and MathML entities defined via reference to the legacy entity set definitions as listed in the following section.</p></item>
 </ulist>
 <p>The information is also available in JSON format. The JSON arrays encode the entity names and mappings to Unicode and also a list of those entity references for which the HTML (but not XML) parser allows the trailing semicolon to be omitted. So <code>&amp;amp</code> may be used as well as <code>&amp;amp;</code> when using HTML.</p>
 <ulist>

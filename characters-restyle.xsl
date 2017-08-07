@@ -16,7 +16,9 @@ originally for MathML chapter 6.
 
 <xsl:param name="none" select="false()"/>
 
-<xsl:output encoding="US-ASCII" 
+<xsl:output encoding="US-ASCII"
+	    method="html"
+	    version="5"
 	    include-content-type="no" 
 	    omit-xml-declaration="yes"/>
 
@@ -65,8 +67,7 @@ originally for MathML chapter 6.
       method="html"
       encoding="US-ASCII"
       include-content-type="no"
-      doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
-      doctype-system="http://www.w3.org/TR/html4/loose.dtd"
+      version="5"
       href="index.html">
     <xsl:apply-templates/>
   </xsl:result-document>
