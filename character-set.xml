@@ -467,12 +467,15 @@ are consistent with any specifications using these definitions.</p>
     <head>Changes</head>
     <div2 id="changes20140410">
      <head>Changes since 2014-04-10 (Second Edition Recommendation)</head>
-      <p>Reference added to the 1 March 2017 W3C Process Document.</p>
+     <p>Reference added to the 1 March 2017 W3C Process Document.</p>
+     <p>Some changes to the front matter including link to GitHub as
+     required by the latest W3C publication process.</p>
+     <p>Adjustments to CSS styling to match new W3C document style.</p>
       <p>Source files updated to Unicode 10.0, affecting the character tables,
       but with no changes to generated entity files or stylesheets.</p>
       <p>The source repository has been moved to github so the log is now public.</p>
       <p>As detailed in <specref ref="chars_math-combining-tables"/> <kw>DownBreve</kw>,
-     <kw>tdot</kw>, <kw>TripleDot</kw> and <kw>DotDot</kw> are no longer prefixed by a space.</p>
+      <kw>tdot</kw>, <kw>TripleDot</kw> and <kw>DotDot</kw> are no longer prefixed by a space.</p>
     </div2>
     <div2 id="changes20100401">
       <head>Changes between 2010-04-01 and 2014-04-10 (First and Second Edition Recommendations)</head>
