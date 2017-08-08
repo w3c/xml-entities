@@ -130,14 +130,14 @@ originally for MathML chapter 6.
 <body>
 <h1><xsl:value-of select="@name"/></h1>
 <p>
-<a class="loc" href="../index.html">Overview</a>
+<a href="../index.html">Overview</a>
 </p>
 <table>
 <tr>
 <td>&#160;</td>
 <td>&#160;</td>
 <td>&#160;</td>
-<td>&#160;<a class="loc" href="../{@name}/{@name}map.xsl">XSLT 2 character map</a>&#160;</td>
+<td>&#160;<a href="../{@name}/{@name}map.xsl">XSLT 2 character map</a>&#160;</td>
 </tr>
 <xsl:for-each select="set">
 <xsl:variable name="f">
@@ -146,9 +146,9 @@ originally for MathML chapter 6.
 <xsl:if test="string($f)">
 <tr>
 <th><xsl:value-of select="$f"/></th>
-<td>&#160;<a class="loc" href="{$f}.html">HTML Description</a>&#160;</td>
-<td>&#160;<a class="loc" href="{$baseuri}{../@name}/{$f}.ent">Entity Declarations</a>&#160;</td>
-<td>&#160;<a class="loc" href="{$baseuri}{../@name}/{$f}map.xsl">XSLT 2 character map</a>&#160;</td>
+<td>&#160;<a href="{$f}.html">HTML Description</a>&#160;</td>
+<td>&#160;<a href="{$baseuri}{../@name}/{$f}.ent">Entity Declarations</a>&#160;</td>
+<td>&#160;<a href="{$baseuri}{../@name}/{$f}map.xsl">XSLT 2 character map</a>&#160;</td>
 </tr>
 </xsl:if>
 </xsl:for-each>
@@ -199,8 +199,8 @@ originally for MathML chapter 6.
 <h1><xsl:value-of select="$t"/></h1>
 <nav id="toc">
       <ol class="toc">
-    <li><a  class="loc" href="../index.html">Overview</a></li>
-    <li><a  class="loc" href="../index.html#sets">Sets of names</a>
+    <li><a  href="../index.html">Overview</a></li>
+    <li><a  href="../index.html#sets">Sets of names</a>
     <ol>
 <xsl:variable name="p">
  <xsl:apply-templates select="preceding-sibling::set[1]" mode="name"/>
@@ -210,15 +210,15 @@ originally for MathML chapter 6.
 </xsl:variable>
 
 <xsl:if test="string($p)">
-<li><a  class="loc" href="{$p}.html">Previous: <xsl:value-of select="$p"/></a></li>
+<li><a  href="{$p}.html">Previous: <xsl:value-of select="$p"/></a></li>
 </xsl:if>
 <xsl:if test="string($n)">
-<li><a class="loc" href="{$n}.html">Next: <xsl:value-of select="$n"/></a></li>
+<li><a href="{$n}.html">Next: <xsl:value-of select="$n"/></a></li>
 </xsl:if>
     </ol></li>
 
-<li><a class="loc" href="{$baseuri}{../@name}/{$f}.ent">Entity Declarations</a></li>
-<li><a class="loc" href="{$baseuri}{../@name}/{$f}map.xsl">XSLT 2 character map</a></li>
+<li><a href="{$baseuri}{../@name}/{$f}.ent">Entity Declarations</a></li>
+<li><a href="{$baseuri}{../@name}/{$f}map.xsl">XSLT 2 character map</a></li>
       </ol>
 </nav>
 
@@ -372,15 +372,15 @@ here.appendChild(newinfo);
       <ol class="toc">
     <li>
 <xsl:variable name="p" select="position()"/>
-<li><a class="loc" href="../index.html">Overview</a></li>
-<li><a class="loc" href="../index.html#blocks">Unicode Character Ranges</a></li>
+<li><a href="../index.html">Overview</a></li>
+<li><a href="../index.html#blocks">Unicode Character Ranges</a></li>
 <xsl:if test="$p!=1">
-<li><a class="loc" href="{$blockstarts[$p - 1]}.html">Previous: <xsl:value-of 
+<li><a href="{$blockstarts[$p - 1]}.html">Previous: <xsl:value-of 
 select="$blockstarts[$p - 1]"/>00 to  <xsl:value-of 
 select="$blockstarts[$p - 1]"/>FF</a></li>
 </xsl:if>
 <xsl:if test="$p!=last()">
-<li><a class="loc" href="{$blockstarts[$p+1]}.html">Next: <xsl:value-of 
+<li><a href="{$blockstarts[$p+1]}.html">Next: <xsl:value-of 
 select="$blockstarts[$p+1]"/>00 to  <xsl:value-of 
 select="$blockstarts[$p+1]"/>FF</a></li>
 </xsl:if>
@@ -401,13 +401,13 @@ select="$blockstarts[$p+1]"/>FF</a></li>
   <xsl:variable name="c" select="$b/((1+min(($e,d:hexfromstring(@end))) - d:hexfromstring(@start))idiv 16)"/>
   <xsl:choose>
     <xsl:when test="$c=1">
-      <th width="32"><a class="loc" href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="replace($b/@name,'(([a-zA-Z][A-Za-z])|-)','&#x200b;$1')"/></a></th>
+      <th width="32"><a href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="replace($b/@name,'(([a-zA-Z][A-Za-z])|-)','&#x200b;$1')"/></a></th>
     </xsl:when>
     <xsl:when test="$range='1EE'">
-      <th width="{$c * 32}" colspan="{$c}"><a class="loc" href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n3799.pdf"><xsl:value-of select="$b/@name"/></a></th>
+      <th width="{$c * 32}" colspan="{$c}"><a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n3799.pdf"><xsl:value-of select="$b/@name"/></a></th>
     </xsl:when>
 <xsl:otherwise>
-      <th width="{$c * 32}" colspan="{$c}"><a class="loc" href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="$b/@name"/></a></th>
+      <th width="{$c * 32}" colspan="{$c}"><a href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="$b/@name"/></a></th>
     </xsl:otherwise>
   </xsl:choose>
 </xsl:when>
@@ -416,10 +416,10 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 <xsl:variable name="c" select="$b/((1+min(($e,d:hexfromstring(@end))) - d:hexfromstring(concat($range,$r,'0')))idiv 16)"/>
   <xsl:choose>
     <xsl:when test="$c=1">
-      <th width="32"><a class="loc" href=" http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="replace($b/@name,'(([a-zA-Z][a-zA-Z])|-)','&#x200b;$1')"/></a></th>
+      <th width="32"><a href=" http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="replace($b/@name,'(([a-zA-Z][a-zA-Z])|-)','&#x200b;$1')"/></a></th>
     </xsl:when>
     <xsl:otherwise>
-      <th width="{$c * 32}" colspan="{$c}"><a class="loc" href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="$b/@name"/></a></th>
+      <th width="{$c * 32}" colspan="{$c}"><a href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="$b/@name"/></a></th>
     </xsl:otherwise>
   </xsl:choose>
 </xsl:when>
@@ -458,7 +458,7 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 <tr><th>Cell Style</th><th>Status</th></tr>
 <tr><td>&#160;&#160;&#160;</td><td>Unicode Character (Unicode <xsl:value-of select="$u/unicode/@unicode"/>)</td></tr>
 <xsl:if test="$table//td/@class='proposed'">
-<tr><td class="proposed">&#160;&#160;&#160;</td><td><a class="loc" href="http://unicode.org/alloc/Pipeline.html">Proposed Unicode Character</a></td></tr>
+<tr><td class="proposed">&#160;&#160;&#160;</td><td><a href="http://unicode.org/alloc/Pipeline.html">Proposed Unicode Character</a></td></tr>
 </xsl:if>
 <xsl:if test="$table//td/@class='unassigned'">
 <tr><td class="unassigned">&#160;</td><td>Unicode or XML Non-Character</td></tr>
@@ -474,12 +474,12 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 <tr><td class="undescribed">&#160;</td><td>Codepoint allowed as XML 1.0 character data; no Unicode character defined</td></tr>
 </xsl:if>
 <!--<tr><td><img src="{$glyphs}/none.png" alt="none"/></td><td>Character for which an image is not currently available</td></tr>-->
-<tr><td><span class="stix">&#160;X&#160;</span></td><td>Character styled with the <a class="loc" href="http://www.stixfonts.org">STIX Fonts</a></td></tr>
+<tr><td><span class="stix">&#160;X&#160;</span></td><td>Character styled with the <a href="http://www.stixfonts.org">STIX Fonts</a></td></tr>
 </table>
 
-<p>Table headings link to the (PDF) Code charts at the <a class="loc" href="http://www.unicode.org">Unicode site</a>.</p>
+<p>Table headings link to the (PDF) Code charts at the <a href="http://www.unicode.org">Unicode site</a>.</p>
 <!--
-<p>Images link to the listing <a class="loc" href="bycodes.html">listing of all characters assigned an entity name</a> whenever such an entity is defined.</p>
+<p>Images link to the listing <a href="bycodes.html">listing of all characters assigned an entity name</a> whenever such an entity is defined.</p>
 -->
 </body>
 </html>
@@ -567,7 +567,7 @@ distinct-values($x/entity[@set=$u/unicode/entitygroups/group[@name='2007']/set/@
 	    <xsl:copy-of select="$img"/>	     
 	  </xsl:when>
 	  <xsl:when test="$x/entity[@set=$u/unicode/entitygroups/group[@name='2007']/set/@name]">
-	    <a class="loc" href="bycodes.html#{$x/@id}">
+	    <a href="bycodes.html#{$x/@id}">
 	      <xsl:copy-of select="$img"/>	     
 	    </a>
 	  </xsl:when>
@@ -611,9 +611,9 @@ distinct-values($x/entity[@set=$u/unicode/entitygroups/group[@name='2007']/set/@
 <xsl:text>&#10;</xsl:text>
 <nav id="toc">
  <ol class="toc">
-  <li><a class="loc" href="../index.html">Overview</a></li>
-  <li><a class="loc" href="../index.html#sets">Sets of names</a></li>
-  <li><a class="loc" href="byalpha.html">Characters ordered by Entity Name</a></li>
+  <li><a href="../index.html">Overview</a></li>
+  <li><a href="../index.html#sets">Sets of names</a></li>
+  <li><a href="byalpha.html">Characters ordered by Entity Name</a></li>
  </ol>
 </nav>
 
@@ -634,7 +634,7 @@ distinct-values($x/entity[@set=$u/unicode/entitygroups/group[@name='2007']/set/@
   <xsl:message>missing image: <xsl:value-of select="@id"/></xsl:message>
 </xsl:when>
 <xsl:otherwise>
-<a class="loc" href="{$glyphs}/{substring(@id,2,3)}/{translate(@id,'x','')}.png">
+<a href="{$glyphs}/{substring(@id,2,3)}/{translate(@id,'x','')}.png">
 <xsl:value-of select="d:uplus(@id)"/>
 </a>
 </xsl:otherwise>
@@ -674,9 +674,9 @@ string-length(description))"/>
        <h1>Characters Ordered by Entity Name</h1>
        <nav id="toc">
  <ol class="toc">
-  <li><a class="loc" href="../index.html">Overview</a></li>
-  <li><a class="loc" href="../index.html#sets">Sets of names</a></li>
-  <li><a class="loc" href="bycodes.html">Characters ordered by codes</a></li>
+  <li><a href="../index.html">Overview</a></li>
+  <li><a href="../index.html#sets">Sets of names</a></li>
+  <li><a href="bycodes.html">Characters ordered by codes</a></li>
  </ol>
        </nav>
 	
@@ -708,7 +708,7 @@ string-length(description))"/>
 		<xsl:message>missing image: <xsl:value-of select="../@id"/></xsl:message>
 	      </xsl:when>
 	      <xsl:otherwise>
-		<a class="loc" href="{$glyphs}/{substring(../@id,2,3)}/{translate(../@id,'x','')}.png">
+		<a href="{$glyphs}/{substring(../@id,2,3)}/{translate(../@id,'x','')}.png">
 		  <xsl:value-of select="d:uplus(../@id)"/>
 		</a>
 	      </xsl:otherwise>
@@ -750,7 +750,7 @@ string-length(description))"/>
   <ul>
    <xsl:for-each select="$u/unicode/entitygroups/group[@name='2007']/set">
     <li>
-     <a class="loc" href="2007doc/{replace(@name,'^[0-9][0-9\-]*','')}.html">
+     <a href="2007doc/{replace(@name,'^[0-9][0-9\-]*','')}.html">
       <xsl:apply-templates select="." mode="name"/>
      </a>
      <xsl:choose>
@@ -776,8 +776,8 @@ string-length(description))"/>
     stylesheet</a> is provided, as well as a combined entity set,
     in two formats, as for the HTML MathML set described above.</p>
     <ul>
-      <li><a class="loc"  href="http://www.w3.org/2003/entities/2007/w3centities.ent">w3centities</a> W3C entities collection; referencing all entity sets listed above</li>
-      <li><a class="loc"
+      <li><a  href="http://www.w3.org/2003/entities/2007/w3centities.ent">w3centities</a> W3C entities collection; referencing all entity sets listed above</li>
+      <li><a
     href="http://www.w3.org/2003/entities/2007/w3centities-f.ent">w3centities-f</a> the same set of entity definitions, expanded into a single file, with duplicates removed</li>
     </ul>
   </div>
@@ -792,7 +792,7 @@ string-length(description))"/>
     <xsl:for-each select="current-group()">
       <dt><xsl:value-of select="@name"/></dt>
     </xsl:for-each>
-    <dd><a class="loc" href="{current-grouping-key()}.html"><xsl:value-of select="current-grouping-key()"/></a></dd>
+    <dd><a href="{current-grouping-key()}.html"><xsl:value-of select="current-grouping-key()"/></a></dd>
   </xsl:for-each-group>
   </dl>
 </div>
@@ -815,7 +815,7 @@ string-length(description))"/>
 	      <xsl:value-of select="$p"/>
 	    </span>
 	    <xsl:text> </xsl:text>
-	      <a class="loc" href="2007doc/{$p}.html">
+	      <a href="2007doc/{$p}.html">
 		<xsl:value-of select="current-group()/@name" separator=", "/>
 		<xsl:if test="position()!=1"> (continued)</xsl:if>
 	      </a>
@@ -832,7 +832,7 @@ string-length(description))"/>
     <ul>
       <xsl:for-each select="$u/unicode/mathvariants/mathvariant">
 	<li>
-	  <a class="loc" href="2007doc/{@name}.html"><xsl:value-of select="@description"/></a>
+	  <a href="2007doc/{@name}.html"><xsl:value-of select="@description"/></a>
 	</li>
       </xsl:for-each>
     </ul>
@@ -873,7 +873,7 @@ string-length(description))"/>
 <xsl:param name="section"/>
 <xsl:param name="char" select="translate(@id,'U','-')"/>
 <xsl:variable name="c" select="."/>
-<li><a class="loc" href="2007doc/{@id}.html"><xsl:value-of select="lower-case($c/description)"/></a></li>
+<li><a href="2007doc/{@id}.html"><xsl:value-of select="lower-case($c/description)"/></a></li>
 <xsl:result-document method="html" 
 		     include-content-type="no"
 		     encoding="US-ASCII"
@@ -896,16 +896,16 @@ string-length(description))"/>
 
 <nav id="toc">
  <ol class="toc">
-  <li><a class="loc" href="../index.html">Overview</a></li>
-  <li><a class="loc" href="../index.html#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a></li>
+  <li><a href="../index.html">Overview</a></li>
+  <li><a href="../index.html#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a></li>
 <xsl:variable name="p" select="position()"/>
 <xsl:if test="$p!=1">
-<li><a class="loc" href="{$negations[$p - 1]}.html">Previous:
+<li><a href="{$negations[$p - 1]}.html">Previous:
 <xsl:value-of select="key('id',$negations[$p - 1],$u)/lower-case(description)"/>
 </a></li>
 </xsl:if>
 <xsl:if test="$p!=last()">
-<li><a class="loc" href="{$negations[$p + 1]}.html">Next:
+<li><a href="{$negations[$p + 1]}.html">Next:
 <xsl:value-of select="key('id',$negations[$p + 1],$u)/lower-case(description)"/>
 </a></li>
 </xsl:if>
@@ -1104,14 +1104,14 @@ string-length(description))"/>
 
   <nav id="toc">
       <ol class="toc">
-    <li><a class="loc" href="../index.html">Overview</a></li>
-    <li><a class="loc" href="../index.html#alphabets">Mathematical Alphanumeric Characters</a>
+    <li><a href="../index.html">Overview</a></li>
+    <li><a href="../index.html#alphabets">Mathematical Alphanumeric Characters</a>
     <ol>
 <xsl:for-each select="preceding-sibling::mathvariant[1]">
-<li><a class="loc" href="{@name}.html">Previous: <xsl:value-of select="@description"/></a></li>
+<li><a href="{@name}.html">Previous: <xsl:value-of select="@description"/></a></li>
 </xsl:for-each>
 <xsl:for-each select="following-sibling::mathvariant[1]">
-<li><a class="loc" href="{@name}.html">Next: <xsl:value-of select="@description"/></a></li>
+<li><a href="{@name}.html">Next: <xsl:value-of select="@description"/></a></li>
 </xsl:for-each>
     </ol></li>
 
