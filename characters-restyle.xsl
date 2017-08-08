@@ -31,14 +31,14 @@ originally for MathML chapter 6.
 
 <xsl:variable name="css" as="node()*">
  <xsl:text>&#10;</xsl:text>
+ <link rel="stylesheet" type="text/css"
+       href="{$cssbase}W3C-{
+	     if($editors-copy='yes') then 'ED' else upper-case(/spec/@w3c-doctype)}"/>
+ <xsl:text>&#10;</xsl:text>
  <style  type="text/css">
   .base {background-color: #EEEEEE;}
   .kwlabel {font-weight:normal}
  </style>
- <xsl:text>&#10;</xsl:text>
- <link rel="stylesheet" type="text/css"
-       href="{$cssbase}W3C-{
-	     if($editors-copy='yes') then 'ED' else upper-case(/spec/@w3c-doctype)}"/>
  <xsl:text>&#10;</xsl:text>
  <style>
   a.loc {
