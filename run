@@ -2,17 +2,18 @@
 
 SAXON="java -jar saxon9he.jar "
 
-$SAXON -strip:none character-set.xml characters-restyle.xsl glyphs=glyphs  editors-copy=no 
-sed -e 's@src="2007doc@src="../2007doc@g' \
-    -e 's@href="2007/@href="../2007/@g' index.html > restyle/index.html
+$SAXON -strip:none character-set.xml characters-restyle.xsl glyphs=glyphs  editors-copy=yes
 
-for i in 2007doc/*.html
-do
-   sed -e 's@src="glyphs@src="../../2007doc/glyphs@g' $i > restyle/$i
-done
-
-
-$SAXON character-set.xml characters.xsl glyphs=glyphs  editors-copy=yes 
+# sed -e 's@src="2007doc@src="../2007doc@g' \
+#     -e 's@href="2007/@href="../2007/@g' index.html > restyle/index.html
+# 
+# for i in 2007doc/*.html
+# do
+#    sed -e 's@src="glyphs@src="../../2007doc/glyphs@g' $i > restyle/$i
+# done
+# 
+# 
+# $SAXON character-set.xml characters.xsl glyphs=glyphs  editors-copy=yes 
 $SAXON unicode.xml charmap.xsl
 $SAXON unicode.xml entities.xsl
 $SAXON unicode.xml unicode-names.xsl > unicode-names.js
