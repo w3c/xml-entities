@@ -35,7 +35,7 @@ originally for MathML chapter 6.
 .kwlabel {font-weight:normal}
   </style>
   <link rel="stylesheet" type="text/css" href="{$cssbase}W3C-{
-					       if($editors-copy) then 'ED' else upper-case(/spec/@w3c-doctype)}"/>
+					       if($editors-copy='yes') then 'ED' else upper-case(/spec/@w3c-doctype)}"/>
   	<style>
 	a.loc {
 		padding-bottom: .1em; /* align underline with the rest of the text */

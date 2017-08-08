@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Id: character-set.xml,v 1.129 2015/09/07 08:37:08 dcarlis Exp $ -->
 <!DOCTYPE spec [<!ENTITY date "20170807">]>
-<spec w3c-doctype="rec">
+<spec w3c-doctype="wd">
 <header>
 <title>XML Entity Definitions for Characters (3rd Edition)</title>
 <w3c-designation>xml-entity-names-&date;</w3c-designation>
@@ -61,6 +61,7 @@ https://www.w3.org/TR/.</emph>
 <p>Publication as a Proposed Edited Recommendation does not imply endorsement by the W3C Membership. This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress.</p>
 -->
 
+<!-- rec version
 <p>This document has been reviewed by W3C Members, by software
 developers, and by other W3C groups and interested parties, and is
 endorsed by the Director as a W3C Recommendation. It is a stable
@@ -68,6 +69,10 @@ document and may be used as reference material or cited from another
 document. W3C's role in making the Recommendation is to draw attention
 to the specification and to promote its widespread deployment. This
 enhances the functionality and interoperability of the Web.</p>
+
+-->
+<!-- WD version-->
+<p>Publication as a Working Draft does not imply endorsement by the W3C Membership. This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress.</p>
 
 
 <p>This third edition is based on Unicode <phrase role="unicode"/> and
@@ -109,7 +114,7 @@ put the text &#x201C;XML-Entities&#x201D; in the subject line, preferably like t
 
 <p>This document is governed by the <loc id="w3c_process_revision" href="https://www.w3.org/2017/Process-20170301/">1 March 2017 W3C Process Document</loc>. </p>
 
-<p> This Original edition of the document was produced by a group operating under the 
+<p>This  document was produced by a group operating under the 
 <loc href="https://www.w3.org/Consortium/Patent-Policy-20040205/">5 February 2004 W3C Patent Policy</loc>. 
 W3C maintains a 
 <loc role="disclosure" href="https://www.w3.org/2004/01/pp-impl/35549/status">
