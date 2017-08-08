@@ -109,7 +109,8 @@ Comments should be sent to the
 see also <loc href="https://www.w3.org/Mail/Request">instructions</loc>).
 When sending an e-mail comment on the XML Entity Definitions for Characters, please 
 put the text &#x201C;XML-Entities&#x201D; in the subject line, preferably like this: 
- &#x201C;[XML-Entities] &#x2026;summary of comment &#x201D;.
+&#x201C;[XML-Entities] &#x2026;summary of comment &#x201D;.
+<phrase diff="add">Alternatively, report  an issue at this specification's <loc href="https://github.com/w3c/xml-entities">GitHub repository</loc>.</phrase>
 </p>
 
 <p>This document is governed by the <loc id="w3c_process_revision" href="https://www.w3.org/2017/Process-20170301/">1 March 2017 W3C Process Document</loc>. </p>
