@@ -404,56 +404,62 @@
   <xsl:template match="body">
    <xsl:if test="$toc.level &gt; 0">
    <xsl:text>&#10;</xsl:text>
-    <nav id="toc">
-        <xsl:text>&#10;</xsl:text>
-        <h2 id="tochead">
-          <xsl:text>Table of Contents</xsl:text>
-        </h2>
-   <xsl:text>&#10;</xsl:text>
+   <nav id="toc">
+    <xsl:text>&#10;</xsl:text>
+    <h2 id="tochead">
+     <xsl:text>Table of Contents</xsl:text>
+    </h2>
+    <xsl:text>&#10;</xsl:text>
         <ol class="toc">
-          <xsl:apply-templates select="div1|../back/inform-div1|../back/div1" mode="toc"/>
+         <xsl:apply-templates select="div1|../back/inform-div1|../back/div1" mode="toc"/>
         </ol>
 	<!--
-        <xsl:if test="../back">
+            <xsl:if test="../back">
           <xsl:text>&#10;</xsl:text>
           <h3>
-            <xsl:call-template name="anchor">
-              <xsl:with-param name="conditional" select="0"/>
-              <xsl:with-param name="default.id" select="'appendices'"/>
-            </xsl:call-template>
-
-            <xsl:text>Appendi</xsl:text>
-            <xsl:choose>
-              <xsl:when test="count(../back/div1 | ../back/inform-div1) > 1">
-                <xsl:text>ces</xsl:text>
-              </xsl:when>
-              <xsl:otherwise>
+          <xsl:call-template name="anchor">
+          <xsl:with-param name="conditional" select="0"/>
+          <xsl:with-param name="default.id" select="'appendices'"/>
+          </xsl:call-template>
+	  
+          <xsl:text>Appendi</xsl:text>
+          <xsl:choose>
+          <xsl:when test="count(../back/div1 | ../back/inform-div1) > 1">
+          <xsl:text>ces</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
                 <xsl:text>x</xsl:text>
-              </xsl:otherwise>
+		</xsl:otherwise>
             </xsl:choose>
             </h3>
 
-          <ol class="toc">
-            <xsl:apply-templates mode="toc"
+<ol class="toc">
+<xsl:apply-templates mode="toc"
                                  select="../back/div1 | ../back/inform-div1"/>
-          </ol>
-	  </xsl:if>
-	  -->        
+				 </ol>
+				 </xsl:if>
+	-->        
         <xsl:if test="//footnote[not(ancestor::table)]">
           <ol class="toc">
-            <a href="#endnotes">
+           <a href="#endnotes">
               <xsl:text>End Notes</xsl:text>
-            </a>
+           </a>
           </ol>
         </xsl:if>
-    </nav>
-      <hr title="Separator for header"/>
-    </xsl:if>
-    <div class="body">
-      <xsl:apply-templates/>
-    </div>
+	<xsl:text>&#10;</xsl:text>
+   </nav>
+   <xsl:text>&#10;</xsl:text>
+   <hr title="Separator for header"/>
+   </xsl:if>
+   <xsl:text>&#10;</xsl:text>
+   <div class="body">
+    <xsl:text>&#10;</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>&#10;</xsl:text>
+   </div>
+   <xsl:text>&#10;</xsl:text>
   </xsl:template>
-
+  
   <!-- caption: see table -->
 
   <!-- case: -->
@@ -1163,9 +1169,10 @@ Copyright</a> &#xa9; 1998-2007 <a href="http://www.w3.org/"><acronym title="Worl
   <!-- latestloc: latest location for this spec -->
   <!-- called in a <dl> context from header -->
   <xsl:template match="latestloc">
-    <dt>Latest version:</dt>
+   <xsl:text>&#10;</xsl:text>
+   <dt>Latest version:</dt>
     <dd>
-      <xsl:apply-templates/>
+      <xsl:apply-templates select="loc"/>
     </dd>
   </xsl:template>
 
@@ -1357,7 +1364,8 @@ Copyright</a> &#xa9; 1998-2007 <a href="http://www.w3.org/"><acronym title="Worl
 
   <!-- p: a standard paragraph -->
   <xsl:template match="p">
-    <p>
+   <xsl:text>&#10;</xsl:text>
+   <p>
       <xsl:if test="@id">
         <xsl:attribute name="id">
           <xsl:value-of select="@id"/>
@@ -1370,6 +1378,7 @@ Copyright</a> &#xa9; 1998-2007 <a href="http://www.w3.org/"><acronym title="Worl
       </xsl:if>
       <xsl:apply-templates/>
     </p>
+    <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
   <!-- param: -->
@@ -1388,14 +1397,15 @@ Copyright</a> &#xa9; 1998-2007 <a href="http://www.w3.org/"><acronym title="Worl
   <!-- prevlocs: previous locations for this spec -->
   <!-- called in a <dl> context from header -->
   <xsl:template match="prevlocs">
-    <dt>
+   <xsl:text>&#10;</xsl:text>
+   <dt>
       <xsl:text>Previous version</xsl:text>
       <xsl:if test="count(loc) &gt; 1">s</xsl:if>
       <xsl:text>:</xsl:text>
     </dt>
     <dd>
      <xsl:for-each select="loc">
-      <xsl:if test="position()!=1"><br/></xsl:if>
+      <xsl:if test="position()!=1"><br/><xsl:text>&#10;</xsl:text></xsl:if>
       <xsl:apply-templates select="."/>
      </xsl:for-each>
     </dd>
@@ -1405,12 +1415,13 @@ Copyright</a> &#xa9; 1998-2007 <a href="http://www.w3.org/"><acronym title="Worl
   <!-- called in a <dl> context from header -->
   <xsl:template match="edlocs">
     <dt>
-      <xsl:text>Editors' version</xsl:text>
+     <xsl:text>&#10;</xsl:text>
+     <xsl:text>Editors' version</xsl:text>
       <xsl:if test="count(loc) &gt; 1">s</xsl:if>
       <xsl:text>:</xsl:text>
     </dt>
     <dd>
-      <xsl:apply-templates/>
+      <xsl:apply-templates select="loc"/>
     </dd>
   </xsl:template>
 
@@ -1479,9 +1490,10 @@ Copyright</a> &#xa9; 1998-2007 <a href="http://www.w3.org/"><acronym title="Worl
   <!-- publoc: location of current version of spec -->
   <!-- called from header in <dl> context -->
   <xsl:template match="publoc">
-    <dt>This version:</dt>
+   <xsl:text>&#10;</xsl:text>
+   <dt>This version:</dt>
     <dd>
-      <xsl:apply-templates/>
+      <xsl:apply-templates select="loc"/>
     </dd>
   </xsl:template>
 
@@ -1658,12 +1670,17 @@ for this document, which may include some normative corrections.</p>
             <xsl:text>&#10;</xsl:text>
 	<script src="//www.w3.org/scripts/TR/2016/fixup.js"><xsl:text> </xsl:text></script>
             <xsl:text>&#10;</xsl:text>
+	    <xsl:text>&#10;</xsl:text>
       </head>
+      <xsl:text>&#10;</xsl:text>
       <body>
-        <xsl:apply-templates/>
+       <xsl:text>&#10;</xsl:text>
+       <xsl:apply-templates/>
         <xsl:if test="//footnote[not(ancestor::table)]">
-          <hr/>
-          <div class="endnotes">
+	 <xsl:text>&#10;</xsl:text>
+         <hr/>
+	 <xsl:text>&#10;</xsl:text>
+         <div class="endnotes">
             <h3>
               <xsl:call-template name="anchor">
                 <xsl:with-param name="conditional" select="0"/>
@@ -1808,7 +1825,8 @@ for this document, which may include some normative corrections.</p>
         <xsl:text>Status of this Document</xsl:text>
       </h2>
       <xsl:if test="$editors-copy='yes' or /spec/@role='editors-copy'">
-        <p><strong>This document is an editors' copy that has no official standing.</strong></p>
+       <xsl:text>&#10;</xsl:text>
+       <p><strong>This document is an editors' copy that has no official standing.</strong></p>
       </xsl:if>
       <xsl:apply-templates/>
     </div>
@@ -2485,6 +2503,7 @@ div.exampleHeader { font-weight: bold;
       </xsl:if>
       <xsl:value-of select="$additional.css"/>
     </style>
+    <xsl:text>&#10;</xsl:text>
     <link rel="stylesheet" type="text/css">
       <xsl:attribute name="href">
         <xsl:text>http://www.w3.org/StyleSheets/TR/</xsl:text>
@@ -2505,6 +2524,7 @@ div.exampleHeader { font-weight: bold;
 <!--        <xsl:text>.css</xsl:text> -->
       </xsl:attribute>
     </link>
+    <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
   <xsl:template name="href.target">

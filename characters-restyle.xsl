@@ -29,23 +29,28 @@ originally for MathML chapter 6.
 <xsl:param name="script" select="'no'"/>
 <xsl:param name="longtitle" select="'yes'"/>
 
-<xsl:variable name="css" as="element()*">
-  <style  type="text/css">
-.base {background-color: #EEEEEE;}
-.kwlabel {font-weight:normal}
-  </style>
-  <link rel="stylesheet" type="text/css" href="{$cssbase}W3C-{
-					       if($editors-copy='yes') then 'ED' else upper-case(/spec/@w3c-doctype)}"/>
-  	<style>
-	a.loc {
-		padding-bottom: .1em; /* align underline with the rest of the text */
-		color: hsla(203, 90%, 30%,.8);
+<xsl:variable name="css" as="node()*">
+ <xsl:text>&#10;</xsl:text>
+ <style  type="text/css">
+  .base {background-color: #EEEEEE;}
+  .kwlabel {font-weight:normal}
+ </style>
+ <xsl:text>&#10;</xsl:text>
+ <link rel="stylesheet" type="text/css"
+       href="{$cssbase}W3C-{
+	     if($editors-copy='yes') then 'ED' else upper-case(/spec/@w3c-doctype)}"/>
+ <xsl:text>&#10;</xsl:text>
+ <style>
+  a.loc {
+  padding-bottom: .1em; /* align underline with the rest of the text */
+  color: hsla(203, 90%, 30%,.8);
 	}
-	</style>
+ </style>
+ <xsl:text>&#10;</xsl:text>
 </xsl:variable>
 
 <xsl:template name="css">
-  <xsl:copy-of select="$css"/>
+ <xsl:copy-of select="$css"/>
 </xsl:template>
 
 <xsl:param name="glyphs" select="'http://www.w3.org/2003/entities/glyphs'"/>
@@ -62,16 +67,16 @@ originally for MathML chapter 6.
 
 
 <xsl:template match="/">
-  <xsl:result-document 
+ <xsl:result-document 
       method="html"
       encoding="US-ASCII"
       include-content-type="no"
       version="5"
       href="index.html">
-    <xsl:apply-templates/>
-  </xsl:result-document>
-  <xsl:apply-templates select="$u/unicode/entitygroups/group[@name='2007']/set"/>
-  <xsl:apply-templates select="$u/unicode/charlist"/>
+  <xsl:apply-templates/>
+ </xsl:result-document>
+ <xsl:apply-templates select="$u/unicode/entitygroups/group[@name='2007']/set"/>
+ <xsl:apply-templates select="$u/unicode/charlist"/>
 </xsl:template>
 
 <xsl:variable name="blockstarts" select="('000','001','002','003','004',
