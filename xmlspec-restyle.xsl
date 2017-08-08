@@ -1224,9 +1224,10 @@ Copyright</a> &#xa9; 1998-2007 <a href="http://www.w3.org/"><acronym title="Worl
   <!-- loc: a Web location -->
   <!-- outside the header, it's a normal cross-reference -->
   <xsl:template match="loc">
-   <a class="loc" href="{@href}">
-      <xsl:copy-of select="@id"/>
-      <xsl:apply-templates/>
+   <a href="{@href}">
+    <xsl:copy-of select="@id"/>
+    <xsl:if test="@role='disclosure'"><xsl:attribute name="rel" select="@role"/></xsl:if>
+    <xsl:apply-templates/>
     </a>
   </xsl:template>
 
