@@ -116,12 +116,11 @@ originally for MathML chapter 6.
 <xsl:template match="group[@name='predefined']"/>
 
 <xsl:template match="group">
-<xsl:result-document method="html" 
-		     include-content-type="no"
-		     encoding="US-ASCII"
-     doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
-     doctype-system="http://www.w3.org/TR/html4/loose.dtd"
-     href="{$resultbase}overview-{@name}.html">
+ <xsl:result-document method="html"
+		      version="5"
+		      include-content-type="no"
+		      encoding="US-ASCII"
+		      href="{$resultbase}overview-{@name}.html">
 <html>
 <head>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -181,11 +180,10 @@ originally for MathML chapter 6.
   select="upper-case($f)"/>
 
 <xsl:result-document method="html" 
+		     version="5"
 		     include-content-type="no"
 		     encoding="US-ASCII"
-     doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
-     doctype-system="http://www.w3.org/TR/html4/loose.dtd"
-     href="{$resultbase}{$f}.html">
+		     href="{$resultbase}{$f}.html">
 <html>
 <head>
 <title><xsl:value-of select="$t"/></title>
@@ -294,11 +292,10 @@ originally for MathML chapter 6.
 <xsl:template name="code-chart">
  <xsl:param name="range"/>
 <xsl:result-document method="html" 
+		     version="5"
 		     include-content-type="no"
 		     encoding="US-ASCII"
-     doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
-     doctype-system="http://www.w3.org/TR/html4/loose.dtd"
-     href="{$resultbase}{$range}.html">
+		     href="{$resultbase}{$range}.html">
 <html>
 <head>
 <title>Unicode Characters:
@@ -358,7 +355,7 @@ here.appendChild(newinfo);
 </xsl:if>
 </head>
 <body>
-<h1>Unicode Characters:
+<h1 id="U{$range}00-FF">Unicode Characters:
 <xsl:value-of select="concat($range,'00 to ',$range,'FF')"/>
 </h1>
 <xsl:if test="$script='yes'">
@@ -389,7 +386,7 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 </nav>
 
 <xsl:variable name="table">
-<table border="1">
+<table class="complex data">
 <tr>
 <th>&#160;</th>
 <xsl:for-each select="$hex">
@@ -589,12 +586,11 @@ distinct-values($x/entity[@set=$u/unicode/entitygroups/group[@name='2007']/set/@
 <!-- -->
 <xsl:template name="bycodes">
 <xsl:result-document method="html" 
+		     version="5"
 		     include-content-type="no"
 		     encoding="US-ASCII"
-     indent="no"
-     doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
-     doctype-system="http://www.w3.org/TR/html4/loose.dtd"
-     href="{$resultbase}bycodes.html">
+		     indent="no"
+		     href="{$resultbase}bycodes.html">
 <html>
 <head>
 <title>
@@ -659,10 +655,9 @@ string-length(description))"/>
 
 <xsl:template name="byalpha">
   <xsl:result-document method="html" 
+		       version="5"
 		       encoding="US-ASCII"
 		       include-content-type="no"
-		       doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
-		       doctype-system="http://www.w3.org/TR/html4/loose.dtd"
 		       href="{$resultbase}byalpha.html">
     <html>
       <head>
@@ -875,11 +870,10 @@ string-length(description))"/>
 <xsl:variable name="c" select="."/>
 <li><a href="2007doc/{@id}.html"><xsl:value-of select="lower-case($c/description)"/></a></li>
 <xsl:result-document method="html" 
+		     version="5"
 		     include-content-type="no"
 		     encoding="US-ASCII"
-     doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
-     doctype-system="http://www.w3.org/TR/html4/loose.dtd"
-     href="{$resultbase}{$c/@id}.html">
+		     href="{$resultbase}{$c/@id}.html">
 <html>
 <head>
 <title>
@@ -1082,11 +1076,10 @@ string-length(description))"/>
 <xsl:param name="title"/>
 
 <xsl:result-document method="html" 
+		     version="5"
 		     include-content-type="no"
 		     encoding="US-ASCII"
-     doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
-     doctype-system="http://www.w3.org/TR/html4/loose.dtd"
-     href="{$resultbase}{$mathvariant}.html">
+		     href="{$resultbase}{$mathvariant}.html">
 <html>
 <head>
 <title>
