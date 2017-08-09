@@ -127,7 +127,7 @@ originally for MathML chapter 6.
 <title><xsl:value-of select="@name"/></title>
 </head>
 <body>
-<h1><xsl:value-of select="@name"/></h1>
+<h1 id="{@name}"><xsl:value-of select="@name"/></h1>
 <p>
 <a href="../index.html">Overview</a>
 </p>
@@ -194,7 +194,7 @@ originally for MathML chapter 6.
 <xsl:copy-of select="$css"/>
 </head>
 <body>
-<h1><xsl:value-of select="$t"/></h1>
+<h1 id="{$t}"><xsl:value-of select="$t"/></h1>
 <nav id="toc">
       <ol class="toc">
     <li><a  href="../index.html">Overview</a></li>
@@ -603,7 +603,7 @@ distinct-values($x/entity[@set=$u/unicode/entitygroups/group[@name='2007']/set/@
 </head>
 <xsl:text>&#10;</xsl:text>
 <body>
-<h1>Characters Ordered by Unicode</h1>
+<h1 id="bycodes">Characters Ordered by Unicode</h1>
 <xsl:text>&#10;</xsl:text>
 <nav id="toc">
  <ol class="toc">
@@ -666,7 +666,7 @@ string-length(description))"/>
 	<xsl:copy-of select="$css"/>
       </head>
       <body>
-       <h1>Characters Ordered by Entity Name</h1>
+       <h1 id="byalpha">Characters Ordered by Entity Name</h1>
        <nav id="toc">
  <ol class="toc">
   <li><a href="../index.html">Overview</a></li>
@@ -886,7 +886,7 @@ string-length(description))"/>
 <xsl:copy-of select="$css"/>
 </head>
 <body>
-<h1><a name="canc.{$c/@id}" id="canc.{$c/@id}"/><xsl:value-of select="lower-case($c/description)"/></h1>
+<h1 id="canc.{$c/@id}"><xsl:value-of select="lower-case($c/description)"/></h1>
 
 <nav id="toc">
  <ol class="toc">
@@ -1091,7 +1091,7 @@ string-length(description))"/>
 <xsl:copy-of select="$css"/>
 </head>
 <body>
-<h1>
+<h1 id="{$mathvariant}">
  <xsl:value-of select="$title"/>
 </h1>
 
