@@ -471,7 +471,7 @@ are consistent with any specifications using these definitions.</p>
      <p>Some changes to the front matter including link to GitHub as
      required by the latest W3C publication process.</p>
      <p>Adjustments to CSS styling to match new W3C document style.</p>
-      <p>Source files updated to Unicode 10.0, affecting the character tables,
+      <p>Source files updated to Unicode 11.0, affecting the character tables,
       but with no changes to generated entity files or stylesheets.</p>
       <p>The source repository has been moved to github so the log is now public.</p>
       <p>As detailed in <specref ref="chars_math-combining-tables"/> <kw>DownBreve</kw>,
