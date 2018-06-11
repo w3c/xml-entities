@@ -67,7 +67,8 @@ unicodedata = element unicodedata {
   attribute upper { text }?,
   attribute lower { text }?,
   attribute title { text }?,
-  attribute mathclass { text }?
+  attribute mathclass { text }?,
+  attribute alias { text }?
 }
 latex = element latex { attribute set { text }?, text }
 varlatex = element varlatex { attribute set { text }?, text }
