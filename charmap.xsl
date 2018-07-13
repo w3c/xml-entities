@@ -152,6 +152,7 @@
 	    <xsl:choose>
 	      <xsl:when test="starts-with(@name,'957')"><xsl:value-of select="substring(@name,11)"/></xsl:when>
 	      <xsl:when test="starts-with(@name,'88')"><xsl:value-of select="substring-after(@name,'-')"/></xsl:when>
+	      <xsl:when test="@name='html5-uppercase'"><xsl:value-of select="@name"/></xsl:when>
 	      <xsl:when test="starts-with(@name,'html')"><xsl:value-of select="substring-after(@name,'-')"/></xsl:when>
 	      <xsl:otherwise><xsl:value-of select="@name"/></xsl:otherwise>
 	    </xsl:choose>
@@ -201,6 +202,7 @@
 	    <xsl:choose>
 	      <xsl:when test="starts-with(@name,'957')"><xsl:value-of select="substring(@name,11)"/></xsl:when>
 	      <xsl:when test="starts-with(@name,'88')"><xsl:value-of select="substring-after(@name,'-')"/></xsl:when>
+	      <xsl:when test="@name='html5-uppercase'"><xsl:value-of select="@name"/></xsl:when>
 	      <xsl:when test="starts-with(@name,'html')"><xsl:value-of select="substring-after(@name,'-')"/></xsl:when>
 	      <xsl:otherwise><xsl:value-of select="@name"/></xsl:otherwise>
 	    </xsl:choose>

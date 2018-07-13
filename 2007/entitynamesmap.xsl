@@ -47,6 +47,6 @@
   <xsl:import href="html5-uppercasemap.xsl"/>
   <xsl:import href="predefinedmap.xsl"/>
 
-  <xsl:character-map name="w3c-entity-names" use-character-maps=" isobox isocyr1 isocyr2 isodia isolat1 isolat2 isonum isopub isoamsa isoamsb isoamsc isoamsn isoamso isoamsr isogrk1 isogrk2 isogrk3 isogrk4 isomfrk isomopf isomscr isotech mmlextra mmlalias xhtml1-lat1 xhtml1-special xhtml1-symbol uppercase predefined"/>
+  <xsl:character-map name="w3c-entity-names" use-character-maps=" isobox isocyr1 isocyr2 isodia isolat1 isolat2 isonum isopub isoamsa isoamsb isoamsc isoamsn isoamso isoamsr isogrk1 isogrk2 isogrk3 isogrk4 isomfrk isomopf isomscr isotech mmlextra mmlalias xhtml1-lat1 xhtml1-special xhtml1-symbol html5-uppercase predefined"/>
 
 </xsl:stylesheet>
