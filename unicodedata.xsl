@@ -20,7 +20,7 @@
 -->
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-11.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="uc" select="doc('unicode.xml')"/>
-
+<xsl:variable name="comb" select="doc('combine.xml')"/>
 <!--
 <xsl:variable name="MC" select="'MathClass-11.txt'"/>
 <xsl:variable name="MC" select="'MathClass-13.txt'"/>
@@ -100,7 +100,7 @@ d:hexs(@c)
 
 <xsl:function name="d:hex" as="xs:integer">
 <xsl:param name="x"/>
-  <xsl:value-of
+  <xsl:sequence
     select="if (empty($x)) then 0 else ($x[last()] + 16* d:hex($x[position()!=last()]))"/>
 </xsl:function>
 
