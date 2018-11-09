@@ -16,6 +16,8 @@ character =
   element character {
     attlist.character,
     unicodedata?,
+    combref*,	       
+    noncombref*,	       
     afii?,
     latex*,
     varlatex*,
@@ -86,6 +88,10 @@ surrogate = element surrogate {
 }
 
 bmp = element bmp { attribute ref { xsd:IDREF }}
+combref = element combref { attribute style {"above"|"below"|"over"},
+			    attribute ref { xsd:IDREF }}
+noncombref = element noncombref { attribute style {"above"|"below"|"over"},
+				  attribute ref { xsd:IDREF }}
 
 entity =
   element entity {
