@@ -17,8 +17,9 @@
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-8.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-9.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-10.0.0.txt'),'[&#10;&#13;]+')"/>
--->
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-11.0.0.txt'),'[&#10;&#13;]+')"/>
+-->
+<xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-12.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="uc" select="doc('unicode.xml')"/>
 <xsl:variable name="comb" select="doc('combine.xml')"/>
 <!--
