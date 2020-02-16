@@ -17,4 +17,5 @@ $SAXON -strip:none character-set.xml characters-restyle.xsl glyphs=glyphs  edito
 $SAXON unicode.xml charmap.xsl
 $SAXON unicode.xml entities.xsl
 $SAXON unicode.xml unicode-names.xsl > unicode-names.js
+$SAXON unicode.xml opdict.xsl > opdict.html
 exit
