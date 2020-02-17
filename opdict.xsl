@@ -12,13 +12,27 @@
     <style>
      body {max-width:60em;font-family:"Stix Two Math", "Cambria Math", "STIX Math", "Asana Math"}
      dt {font-weight: bold}
+     th {text-align:left;}
      
     </style>
+    <xsl:text>&#10;</xsl:text>
+    <script type='text/javascript' src='sorttable.js'></script>
+    <xsl:text>&#10;</xsl:text>
    </head>
    <body>
     <h1>MathML Operator Dictionary</h1>
+
+    <hr/>
+    <ul>
+     <li><a href="#compressed">Compressed View</a></li>
+     <li><a href="#stable">Sortable Table View</a></li>
+    </ul>
+    <hr/>
+
+    <h2 id="compressed">Compressed view</h2>
     <xsl:for-each-group select="//operator-dictionary"
 			group-by="concat('form:',@form,' lspace:',@lspace,' rspace:',@rspace)">
+     <xsl:sort select="current-grouping-key()"/>
      <dl>
       <dt>
        <xsl:value-of select="current-grouping-key()"/>
@@ -52,7 +66,87 @@
       </dd>
      </dl>
     </xsl:for-each-group>
+
+
+    <h2 id="stable">Sortable Table View</h2>
+
+
+    
+    <xsl:variable  name="c" select="'priority','lspace','rspace'"/>
+    <xsl:variable  name="p" select="'fence','stretchy','separator','accent','largeop','movablelimits', 'symmetric'"/>
+    <xsl:variable name="v" select="'linebreakstyle','minsize'"/>
+    <xsl:text>&#10;</xsl:text>
+    <table class="sortable">
+     <xsl:text>&#10;</xsl:text>
+     <thead>
+      <xsl:text>&#10;</xsl:text>
+      <tr>
+       <xsl:text>&#10;</xsl:text>
+       <xsl:for-each select="'Character','Glyph','Name','form',$c,'Properties'">
+	<th><xsl:value-of select="."/></th>
+       </xsl:for-each>
+      </tr>
+      <xsl:text>&#10;</xsl:text>
+     </thead>
+     <xsl:text>&#10;</xsl:text>
+     <tbody>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:for-each select="/unicode/charlist/character/operator-dictionary">
+       <xsl:sort select="xs:integer(@priority)"/>
+       <xsl:text>&#10;</xsl:text>
+       <tr>
+	<xsl:variable name="od" select="."/>
+	 <xsl:variable name="d" select="for $i in tokenize(../@dec,'-') return xs:integer($i)"/>
+	 <xsl:text>&#10;</xsl:text>
+	 <th>
+	  <xsl:attribute name="abbr" select="$d[1]"/>
+	   <xsl:choose>
+	     <xsl:when test="empty($d[. &gt;127])">
+	     <xsl:value-of select="replace(replace(codepoints-to-string($d),'&amp;','&amp;amp;'),'&lt;','&amp;lt;')"/>
+	     </xsl:when>
+	     <xsl:otherwise>
+	       <xsl:value-of select="replace(../@id,'[U-]0*([0-9A-F]*)','&amp;#x$1;')"/>
+	     </xsl:otherwise>
+	   </xsl:choose>
+	 </th>
+	 <th>
+	  <xsl:value-of select="
+				if($d=9001)
+				 then '&#x3008;'
+				else if($d=9002) then
+				'&#x3009;'
+				else codepoints-to-string($d)"/>
+	 </th>
+	 <th class="uname">
+	 <xsl:value-of select="lower-case(../description)"/></th>
+	 <th><xsl:value-of select="@form"/></th>
+	 <xsl:for-each select="$c">
+	  <td><xsl:value-of select="$od/@*[name()=current()]"/></td>
+	 </xsl:for-each>
+	 <td>
+	  <xsl:value-of select="
+				$p[$od/@*[.='true']/name()=.],
+				$od/@*[name()=$v]/concat(name(),'=',.)
+				" separator=", "/>
+	 </td>
+	 <xsl:text>&#10;</xsl:text>
+       </tr>
+       <xsl:text>&#10;</xsl:text>
+      </xsl:for-each>
+     </tbody>
+     <xsl:text>&#10;</xsl:text>
+    </table>
+    <xsl:text>&#10;</xsl:text>
    </body>
   </html>
  </xsl:template>
+
+
+
+ 
+
+
+
+<xsl:key name="opdict" match="operator-dictionary" use="concat(../@id,@form)"/>
+
 </xsl:stylesheet>
