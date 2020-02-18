@@ -192,4 +192,51 @@ d:hexs(@c)
 </xsl:template>
 
 
+
+<xsl:template name="opdict">
+  <xsl:result-document href="uc-new.xml">
+    <xsl:processing-instruction name="xml-stylesheet">type="text/xsl" href="unicode.xsl"</xsl:processing-instruction>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:copy-of select="$uc/comment()"/>
+    <xsl:text>&#10;</xsl:text>
+    <unicode>
+      <xsl:copy-of select="$uc/unicode/(@*,node() except charlist)"/>
+      <charlist>
+	<xsl:for-each select="$uc/unicode/charlist/character">
+	 <character>
+	  <xsl:copy-of select="@*,* except description"/>
+	  <xsl:variable name="u" select="substring(@id,2)"/>
+	  <xsl:variable name="b" select="
+	   /unicode/unicodeblocks/block[
+	   @start le $u and @end ge $u]/string(@name)"/>
+	  <xsl:if test="not(operator-dictionary) and number(@dec)
+			and
+			$b=(
+			'Mathematical Operators',
+			'Supplemental Mathematical Operators'
+			)
+			">
+	   <xsl:message select="$b,string(@id)"/>
+	   <operator-dictionary form="prefix" lspace="5" rspace="5" priority="999"/>
+	  </xsl:if>
+	  <xsl:if test="not(operator-dictionary) and number(@dec)
+			and
+			$b=(
+			'Arrows',
+			'Supplemental Arrows-A',
+			'Supplemental Arrows-B'
+			)
+			">
+	   <xsl:message select="$b,string(@id)"/>
+	   <operator-dictionary form="prefix" lspace="5" rspace="5" priority="-270"/>
+	  </xsl:if>
+	  <xsl:copy-of  select="description"/>
+	 </character>
+	</xsl:for-each>
+      </charlist>
+    </unicode>
+  </xsl:result-document>
+</xsl:template>
+
+
 </xsl:stylesheet>
