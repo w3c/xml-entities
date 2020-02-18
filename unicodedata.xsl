@@ -213,7 +213,7 @@ d:hexs(@c)
 			and
 			$b=(
 			'Mathematical Operators',
-			'Supplemental Mathematical Operators'
+			'Supplemental Mathematical Operators',
 			'Miscellaneous Technical',
 			'Miscellaneous Symbols',
 			'Miscellaneous Symbols and Arrows',
@@ -229,7 +229,7 @@ d:hexs(@c)
 			'Arrows',
 			'Supplemental Arrows-A',
 			'Supplemental Arrows-B',
-			'Supplemental Arrows-B'
+			'Supplemental Arrows-C'
 			)
 			">
 	   <xsl:message select="$b,string(@id)"/>
