@@ -209,7 +209,9 @@ d:hexs(@c)
 	  <xsl:variable name="b" select="
 	   /unicode/unicodeblocks/block[
 	   @start le $u and @end ge $u]/string(@name)"/>
-	  <xsl:if test="not(operator-dictionary) and number(@dec)
+	  <xsl:choose>
+	  <xsl:when test="'023F9' le $u and '02767' ge $u"/>
+	  <xsl:when  test="not(operator-dictionary) and number(@dec)
 			and
 			$b=(
 			'Mathematical Operators',
@@ -219,11 +221,29 @@ d:hexs(@c)
 			'Miscellaneous Symbols and Arrows',
 			'Dingbats'
 			)
+			and
+			not(contains(description,'ARROW'))
 			">
-	   <xsl:message select="$b,string(@id)"/>
+	   <xsl:message select="$b,string(@id), 999, description/string(@unicode), string(description)"/>
 	   <operator-dictionary form="prefix" lspace="5" rspace="5" priority="999"/>
-	  </xsl:if>
-	  <xsl:if test="not(operator-dictionary) and number(@dec)
+	  </xsl:when>
+	  <xsl:when  test="not(operator-dictionary) and number(@dec)
+			and
+			$b=(
+			'Mathematical Operators',
+			'Supplemental Mathematical Operators',
+			'Miscellaneous Technical',
+			'Miscellaneous Symbols',
+			'Miscellaneous Symbols and Arrows',
+			'Dingbats'
+			)
+			and
+			(contains(description,'ARROW'))
+			">
+	   <xsl:message select="$b,string(@id), 270, description/string(@unicode), string(description)"/>
+	   <operator-dictionary form="prefix" lspace="5" rspace="5" priority="270"/>
+	  </xsl:when>
+	  <xsl:when test="not(operator-dictionary) and number(@dec)
 			and
 			$b=(
 			'Arrows',
@@ -232,9 +252,10 @@ d:hexs(@c)
 			'Supplemental Arrows-C'
 			)
 			">
-	   <xsl:message select="$b,string(@id)"/>
-	   <operator-dictionary form="prefix" lspace="5" rspace="5" priority="-270"/>
-	  </xsl:if>
+	   <xsl:message select="$b,string(@id), 270, description/string(@unicode), string(description)"/>
+	   <operator-dictionary form="prefix" lspace="5" rspace="5" priority="270"/>
+	  </xsl:when>
+	  </xsl:choose>
 	  <xsl:copy-of  select="description"/>
 	 </character>
 	</xsl:for-each>
