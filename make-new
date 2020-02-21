@@ -1,3 +1,18 @@
+#!/usr/bin/bash
+
+
+
+if [ ! -f UnicodeData-12.1.0.txt ] ; then
+    wget https://www.unicode.org/Public/12.1.0/ucd/UnicodeData.txt
+    mv UnicodeData.txt UnicodeData-12.1.0.txt
+fi
+
+if [ ! -f MathClass-15.txt ] ; then
+    wget http://www.unicode.org/Public/math/revision-15/MathClass-15.txt
+fi
+
+
+   
 
 TEMPLATE=${1-main}
 echo "--- $TEMPLATE ---"
