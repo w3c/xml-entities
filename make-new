@@ -11,6 +11,12 @@ $SAXON -it:$TEMPLATE unicodedata.xsl
 # $SAXON -it:unicode-math unicodedata.xsl
 # $SAXON -it:opdict unicodedata.xsl
 
+if [ $? != 0 ] ; then
+  echo XSLT error
+  exit
+fi
+
+
 # put long attributes back on same line
 sed  -i ':a;N;$!ba;s/"\n */" /g' uc-new.xml 
 
