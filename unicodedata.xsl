@@ -241,7 +241,7 @@ d:hexs(@c)
 			(contains(description,'ARROW'))
 			">
 	   <xsl:message select="$b,string(@id), 270, description/string(@unicode), string(description)"/>
-	   <operator-dictionary form="prefix" lspace="5" rspace="5" priority="270"/>
+	   <operator-dictionary form="infix" lspace="5" rspace="5" priority="270"/>
 	  </xsl:when>
 	  <xsl:when test="not(operator-dictionary) and number(@dec)
 			and
@@ -253,7 +253,7 @@ d:hexs(@c)
 			)
 			">
 	   <xsl:message select="$b,string(@id), 270, description/string(@unicode), string(description)"/>
-	   <operator-dictionary form="prefix" lspace="5" rspace="5" priority="270"/>
+	   <operator-dictionary form="infix" lspace="5" rspace="5" priority="270"/>
 	  </xsl:when>
 	  </xsl:choose>
 	  <xsl:copy-of  select="description"/>
