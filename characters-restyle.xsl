@@ -53,7 +53,7 @@ originally for MathML chapter 6.
  <xsl:copy-of select="$css"/>
 </xsl:template>
 
-<xsl:param name="glyphs" select="'http://www.w3.org/2003/entities/glyphs'"/>
+<xsl:param name="glyphs" select="'https://www.w3.org/2003/entities/glyphs'"/>
 
 <xsl:strip-space elements="group"/>
 
@@ -398,13 +398,13 @@ select="$blockstarts[$p+1]"/>FF</a></li>
   <xsl:variable name="c" select="$b/((1+min(($e,d:hexfromstring(@end))) - d:hexfromstring(@start))idiv 16)"/>
   <xsl:choose>
     <xsl:when test="$c=1">
-      <th width="32"><a href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="replace($b/@name,'(([a-zA-Z][A-Za-z])|-)','&#x200b;$1')"/></a></th>
+      <th width="32"><a href="https://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="replace($b/@name,'(([a-zA-Z][A-Za-z])|-)','&#x200b;$1')"/></a></th>
     </xsl:when>
     <xsl:when test="$range='1EE'">
       <th width="{$c * 32}" colspan="{$c}"><a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n3799.pdf"><xsl:value-of select="$b/@name"/></a></th>
     </xsl:when>
 <xsl:otherwise>
-      <th width="{$c * 32}" colspan="{$c}"><a href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="$b/@name"/></a></th>
+      <th width="{$c * 32}" colspan="{$c}"><a href="https://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="$b/@name"/></a></th>
     </xsl:otherwise>
   </xsl:choose>
 </xsl:when>
@@ -413,10 +413,10 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 <xsl:variable name="c" select="$b/((1+min(($e,d:hexfromstring(@end))) - d:hexfromstring(concat($range,$r,'0')))idiv 16)"/>
   <xsl:choose>
     <xsl:when test="$c=1">
-      <th width="32"><a href=" http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="replace($b/@name,'(([a-zA-Z][a-zA-Z])|-)','&#x200b;$1')"/></a></th>
+      <th width="32"><a href=" https://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="replace($b/@name,'(([a-zA-Z][a-zA-Z])|-)','&#x200b;$1')"/></a></th>
     </xsl:when>
     <xsl:otherwise>
-      <th width="{$c * 32}" colspan="{$c}"><a href="http://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="$b/@name"/></a></th>
+      <th width="{$c * 32}" colspan="{$c}"><a href="https://www.unicode.org/charts/PDF/U{$b/replace(@start,'^0','')}.pdf"><xsl:value-of select="$b/@name"/></a></th>
     </xsl:otherwise>
   </xsl:choose>
 </xsl:when>
@@ -471,10 +471,10 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 <tr><td class="undescribed">&#160;</td><td>Codepoint allowed as XML 1.0 character data; no Unicode character defined</td></tr>
 </xsl:if>
 <!--<tr><td><img src="{$glyphs}/none.png" alt="none"/></td><td>Character for which an image is not currently available</td></tr>-->
-<tr><td><span class="stix">&#160;X&#160;</span></td><td>Character styled with the <a href="http://www.stixfonts.org">STIX Fonts</a></td></tr>
+<tr><td><span class="stix">&#160;X&#160;</span></td><td>Character styled with the <a href="https://www.stixfonts.org">STIX Fonts</a></td></tr>
 </table>
 
-<p>Table headings link to the (PDF) Code charts at the <a href="http://www.unicode.org">Unicode site</a>.</p>
+<p>Table headings link to the (PDF) Code charts at the <a href="https://www.unicode.org">Unicode site</a>.</p>
 <!--
 <p>Images link to the listing <a href="bycodes.html">listing of all characters assigned an entity name</a> whenever such an entity is defined.</p>
 -->
@@ -767,13 +767,13 @@ string-length(description))"/>
   </ul>
     <p>In addition to the stylesheets and entity files corresponding
     to each individual entity set, a <a
-    href="http://www.w3.org/2003/entities/2007/entitynamesmap.xsl">combined
+    href="https://www.w3.org/2003/entities/2007/entitynamesmap.xsl">combined
     stylesheet</a> is provided, as well as a combined entity set,
     in two formats, as for the HTML MathML set described above.</p>
     <ul>
-      <li><a  href="http://www.w3.org/2003/entities/2007/w3centities.ent">w3centities</a> W3C entities collection; referencing all entity sets listed above</li>
+      <li><a  href="https://www.w3.org/2003/entities/2007/w3centities.ent">w3centities</a> W3C entities collection; referencing all entity sets listed above</li>
       <li><a
-    href="http://www.w3.org/2003/entities/2007/w3centities-f.ent">w3centities-f</a> the same set of entity definitions, expanded into a single file, with duplicates removed</li>
+    href="https://www.w3.org/2003/entities/2007/w3centities-f.ent">w3centities-f</a> the same set of entity definitions, expanded into a single file, with duplicates removed</li>
     </ul>
   </div>
 </xsl:template>

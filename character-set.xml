@@ -22,13 +22,13 @@
 </latestloc>
 <prevlocs>
   <loc href="https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</loc><!--
-  <loc href="http://www.w3.org/TR/2014/PER-xml-entity-names-20140211/">http://www.w3.org/TR/2014/PER-xml-entity-names-20140211/</loc>
-  <loc href="http://www.w3.org/TR/2010/REC-xml-entity-names-20100401/">http://www.w3.org/TR/2010/REC-xml-entity-names-20100401/</loc>
+  <loc href="https://www.w3.org/TR/2014/PER-xml-entity-names-20140211/">https://www.w3.org/TR/2014/PER-xml-entity-names-20140211/</loc>
+  <loc href="https://www.w3.org/TR/2010/REC-xml-entity-names-20100401/">https://www.w3.org/TR/2010/REC-xml-entity-names-20100401/</loc>
 -->
 <!--
-  <loc href="http://www.w3.org/TR/2010/PR-xml-entity-names-20100211/">http://www.w3.org/TR/2010/PR-xml-entity-names-20100211/</loc>
-  <loc href="http://www.w3.org/TR/2009/WD-xml-entity-names-20091117/">http://www.w3.org/TR/2009/WD-xml-entity-names-20091117/</loc>
-  <loc href="http://www.w3.org/TR/2007/WD-xml-entity-names-20071214/">http://www.w3.org/TR/2007/WD-xml-entity-names-20071214/</loc>
+  <loc href="https://www.w3.org/TR/2010/PR-xml-entity-names-20100211/">https://www.w3.org/TR/2010/PR-xml-entity-names-20100211/</loc>
+  <loc href="https://www.w3.org/TR/2009/WD-xml-entity-names-20091117/">https://www.w3.org/TR/2009/WD-xml-entity-names-20091117/</loc>
+  <loc href="https://www.w3.org/TR/2007/WD-xml-entity-names-20071214/">https://www.w3.org/TR/2007/WD-xml-entity-names-20071214/</loc>
 -->
 </prevlocs>
 <edlocs>
@@ -505,7 +505,7 @@ are consistent with any specifications using these definitions.</p>
       Unicode assignments (U+22C1 and U+22C0) but the entity descriptions
       have been swapped, <kw>xvee</kw> is logical or and <kw>xwedge</kw> is logical and.
       This error in <bibref ref="ISO9573-13-1991"/> was reported in 1999,
-      <!--<loc href="http://www.jtc1sc34.org/repository/0063.htm">-->in a Proposed Technical Corrigendum,<!--</loc>-->
+      <!--<loc href="https://www.jtc1sc34.org/repository/0063.htm">-->in a Proposed Technical Corrigendum,<!--</loc>-->
       but not previously fixed. The entity files are unaffected by this change.</p>
       <p>The entity <kw>NotGreaterFullEqual</kw> which had been erroneously assigned to 
       a negated less than operator (U+2266 U+0338) has been corrected to be the negated greater than operator (U+2267 U+0338).</p>
@@ -679,22 +679,22 @@ mathematics and science</bibl>
     <bibl id="Unicode">The Unicode Consortium. The Unicode Standard, Version 5.2.0, defined by: 
     The Unicode Standard, Version 5.2 (Mountain View, CA: The Unicode Consortium, 2009. ISBN 978-1-936213-00-9). Unicode 6.3 update
     (<loc
-    href="http://www.unicode.org/versions/Unicode6.3.0/">http://www.unicode.org/versions/Unicode6.3.0/</loc>) 
+    href="https://www.unicode.org/versions/Unicode6.3.0/">https://www.unicode.org/versions/Unicode6.3.0/</loc>) 
     </bibl>
     <bibl id="Unicode15">Unicode Standard Annex 15, Version 6.3.0;
 <emph><loc
-href="http://www.unicode.org/reports/tr15/">Unicode Normalization Forms</loc></emph>, 
+href="https://www.unicode.org/reports/tr15/">Unicode Normalization Forms</loc></emph>, 
 The Unicode Consortium, 2013-09-20. 
 (<loc
-href="http://www.unicode.org/reports/tr15/">http://www.unicode.org/reports/tr15/</loc>) 
+href="https://www.unicode.org/reports/tr15/">https://www.unicode.org/reports/tr15/</loc>) 
 </bibl>
 
     <bibl id="Unicode25">Barbara Beeton, Asmus Freytag, Murray Sargent III,
     <emph><loc
-	      href="http://www.unicode.org/reports/tr25/">Unicode Support for Mathematics</loc></emph>, 
+	      href="https://www.unicode.org/reports/tr25/">Unicode Support for Mathematics</loc></emph>, 
     Unicode Technical Report #25 2012-04-02.
     (<loc
-    href="http://www.unicode.org/reports/tr25/">http://www.unicode.org/reports/tr25/</loc>) 
+    href="https://www.unicode.org/reports/tr25/">https://www.unicode.org/reports/tr25/</loc>) 
     </bibl>
     <bibl id="MathML2">David Carlisle, Patrick Ion, Robert Miner, Nico Poppelier,
     <emph><loc href="https://www.w3.org/TR/MathML2/">Mathematical Markup Language (MathML) 
