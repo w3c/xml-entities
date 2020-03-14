@@ -58,19 +58,40 @@ rslt.innerHTML=resultstr;
 
 
 
+  function clearForm () {
+      document.getElementById("input").value="";
+  }
+
+  function updateURL () {
+      var t =  document.getElementById("input").value;
+      document.location.search = "?" + encodeURI(t);
+}
+
+  function fillForm() {
+  if(document.location.search != "") {
+      document.getElementById("input").value=decodeURI(document.location.search.substring(1));
+      convert();
+  }
+  }
+
+  window.addEventListener('load', fillForm, false);
 
 //]]>
 </script>
 </head>
 <body>
+<p><button onclick="clearForm()">Clear</button>
+  <button onclick="updateURL()">Update URL</button>
+  </p>
 <textarea id="input" cols="80" rows="10">
 test this
 &#x1D531;&#x1D522;&#x1D530;&#x1D531; &#x1D531;&#x1D525;&#x1D526;&#x1D530;
 </textarea>
 <br/>
-<button onclick="convert()"> convert</button>
+<button onclick="convert()">Convert</button>
 <pre id="result">
 </pre>
+
 </body>
 </html>
 
