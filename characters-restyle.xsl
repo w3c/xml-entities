@@ -853,10 +853,11 @@ string-length(description))"/>
 </ul>
 </xsl:template>
 
+<xsl:variable name="vselectors" select="('U0FE00','U0FE01')"/>
 <xsl:template match="p[@id='variants']">
 <xsl:variable name="section" select="."/>
 <ul>
-<xsl:for-each select="key('id','U0FE00',$u)">
+<xsl:for-each select="key('id',$vselectors,$u)">
  <xsl:call-template name="compose-table">
   <xsl:with-param name="section" select="$section"/>
  </xsl:call-template>
