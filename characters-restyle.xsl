@@ -847,7 +847,8 @@ string-length(description))"/>
 <ul>
 <xsl:for-each select="key('id',$negations,$u)">
 <xsl:call-template name="compose-table">
-  <xsl:with-param name="section" select="$section"/>
+ <xsl:with-param name="section" select="$section"/>
+ <xsl:with-param name="set" select="$negations"/>
 </xsl:call-template>
 </xsl:for-each>
 </ul>
@@ -860,6 +861,7 @@ string-length(description))"/>
 <xsl:for-each select="key('id',$vselectors,$u)">
  <xsl:call-template name="compose-table">
   <xsl:with-param name="section" select="$section"/>
+  <xsl:with-param name="set" select="$vselectors"/>
  </xsl:call-template>
 </xsl:for-each>
 </ul>
@@ -868,6 +870,7 @@ string-length(description))"/>
 <xsl:template name="compose-table">
 <xsl:param name="section"/>
 <xsl:param name="char" select="translate(@id,'U','-')"/>
+<xsl:param name="set"/>
 <xsl:variable name="c" select="."/>
 <li><a href="2007doc/{@id}.html"><xsl:value-of select="lower-case($c/description)"/></a></li>
 <xsl:result-document method="html" 
@@ -895,13 +898,13 @@ string-length(description))"/>
   <li><a href="../index.html#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a></li>
 <xsl:variable name="p" select="position()"/>
 <xsl:if test="$p!=1">
-<li><a href="{$negations[$p - 1]}.html">Previous:
-<xsl:value-of select="key('id',$negations[$p - 1],$u)/lower-case(description)"/>
+<li><a href="{$set[$p - 1]}.html">Previous:
+<xsl:value-of select="key('id',$set[$p - 1],$u)/lower-case(description)"/>
 </a></li>
 </xsl:if>
 <xsl:if test="$p!=last()">
-<li><a href="{$negations[$p + 1]}.html">Next:
-<xsl:value-of select="key('id',$negations[$p + 1],$u)/lower-case(description)"/>
+<li><a href="{$set[$p + 1]}.html">Next:
+<xsl:value-of select="key('id',$set[$p + 1],$u)/lower-case(description)"/>
 </a></li>
 </xsl:if>
  </ol>
