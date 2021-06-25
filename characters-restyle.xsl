@@ -539,7 +539,7 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 	  <img height="32" width="32" src="{$glyphs}/{$range}/U{$range}{$h}.png"
 	       alt="{$x/description}">
 	    <xsl:if test="not($none) and ($x/@image='none')">
-<xsl:message select="concat('$$$$: ', 'U', $range, $h, '  ', $x/description)"/>
+<xsl:message select="concat('No image: ', 'U', $range, $h, '  ', $x/description)"/>
       <xsl:attribute name="src"><xsl:value-of select="$glyphs"/>/none.png</xsl:attribute>
 	    </xsl:if>
 	  </img>
