@@ -113,7 +113,7 @@ put the text &#x201C;XML-Entities&#x201D; in the subject line, preferably like t
 <phrase diff="add">Alternatively, report  an issue at this specification's <loc href="https://github.com/w3c/xml-entities">GitHub repository</loc>.</phrase>
 </p>
 
-<p>This document is governed by the <loc id="w3c_process_revision" href="https://www.w3.org/2017/Process-20170301/">1 March 2017 W3C Process Document</loc>. </p>
+<p>This document is governed by the <loc id="w3c_process_revision" href="https://www.w3.org/2020/Process-20200915/">15 September 2020 W3C Process Document</loc>. </p>
 
 <p>This  document was produced by a group operating under the 
 <loc href="https://www.w3.org/Consortium/Patent-Policy-20040205/">5 February 2004 W3C Patent Policy</loc>. 
@@ -467,12 +467,13 @@ are consistent with any specifications using these definitions.</p>
     <head>Changes</head>
     <div2 id="changes20140410">
      <head>Changes since 2014-04-10 (Second Edition Recommendation)</head>
-     <p>Reference added to the 1 March 2017 W3C Process Document.</p>
+      <p>Source files updated to Unicode 14.0, affecting the character tables,
+      but with no changes to generated entity files or stylesheets.
+      New table for the FE01 Variation selector and greately etended set of variations in the U+FE00 table (most of these standardised variants were added at Unicode 14). The script alphabet table has been extended to show both variants.</p>
+     <p>Reference added to the September 2020 W3C Process Document.</p>
      <p>Some changes to the front matter including link to GitHub as
      required by the latest W3C publication process.</p>
      <p>Adjustments to CSS styling to match new W3C document style.</p>
-      <p>Source files updated to Unicode 11.0, affecting the character tables,
-      but with no changes to generated entity files or stylesheets.</p>
       <p>The source repository has been moved to github so the log is now public.</p>
       <p>As detailed in <specref ref="chars_math-combining-tables"/> <kw>DownBreve</kw>,
       <kw>tdot</kw>, <kw>TripleDot</kw> and <kw>DotDot</kw> are no longer prefixed by a space.</p>

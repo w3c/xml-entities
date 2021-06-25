@@ -24,6 +24,7 @@ originally for MathML chapter 6.
 
 <xsl:param name="cssbase" select="'https://www.w3.org/StyleSheets/TR/2016/'"/>
 <xsl:param name="baseuri" select="'https://w3c.github.io/xml-entities/'"/>
+<xsl:param name="branch" select="'gh-pages'"/>
 <xsl:param name="resultbase" select="'docs/'"/>
 <xsl:param name="main" select="'index.html'"/>
 <xsl:param name="pathfrommain" select="''"/>

@@ -81,7 +81,7 @@ put the text &#x201c;XML-Entities&#x201d; in the subject line, preferably like t
 Alternatively, report  an issue at this specification's <a href="https://github.com/w3c/xml-entities">GitHub repository</a>.
 </p>
 
-<p>This document is governed by the <a href="https://www.w3.org/2017/Process-20170301/" id="w3c_process_revision">1 March 2017 W3C Process Document</a>. </p>
+<p>This document is governed by the <a href="https://www.w3.org/2020/Process-20200915/" id="w3c_process_revision">15 September 2020 W3C Process Document</a>. </p>
 
 <p>This  document was produced by a group operating under the 
 <a href="https://www.w3.org/Consortium/Patent-Policy-20040205/">5 February 2004 W3C Patent Policy</a>. 
@@ -393,15 +393,16 @@ are consistent with any specifications using these definitions.</p>
 </div></div><div class="div1">
 <h2><a id="changes"></a>B Changes</h2><div class="div2">
 <h3><a id="changes20140410"></a>B.1 Changes since 2014-04-10 (Second Edition Recommendation)</h3>
-<p>Reference added to the 1 March 2017 W3C Process Document.</p>
+<p>Source files updated to Unicode 14.0, affecting the character tables,
+      but with no changes to generated entity files or stylesheets.
+      New table for the FE01 Variation selector and greately etended set of variations in the U+FE00 table (most of these standardised variants were added at Unicode 14). The script alphabet table has been extended to show both variants.</p>
+
+<p>Reference added to the September 2020 W3C Process Document.</p>
 
 <p>Some changes to the front matter including link to GitHub as
      required by the latest W3C publication process.</p>
 
 <p>Adjustments to CSS styling to match new W3C document style.</p>
-
-<p>Source files updated to Unicode 11.0, affecting the character tables,
-      but with no changes to generated entity files or stylesheets.</p>
 
 <p>The source repository has been moved to github so the log is now public.</p>
 
@@ -541,8 +542,8 @@ MathML2 used U+005C U+02282 and   U+2283 U+002F.</dd><dt class="kwlabel"><b>NotG
 <p>All data files used to construct the entity declarations, XSLT character maps, and 
     HTML tables referenced from this document are available from 
     <a href="https://github.com/w3c/xml-entities/">https://github.com/w3c/xml-entities/</a>.</p>
-<ul><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicode.xml">unicode.xml</a> master file detailing all Unicode characters with names in various entity sets and applications, TeX equivalents and other data. This file has been maintained for many years, originally by Sebastian Rahtz as part of the jadetex distribution and since around 1999 as part of the MathML specification sources by David Carlisle. The current version encodes data for all characters in Unicode 14.
-<em>Note: unicode.xml is over 5MB in size and may not really be suitable for direct viewing in a browser. You may prefer to save the file rather than follow the above link to unicode.xml in a browser.</em></li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/charlist.rnc">charlist.rnc</a> relax NG schema for unicode.xml.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicode.xsl">unicode.xsl</a> XSLT stylesheet that renders unicode.xml as an HTML table.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/character-set.xml">character-set.xml</a> the source file for this document.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/xmlspec.xsl">xmlspec.xsl</a> a copy of the  standard xmlspec stylesheet.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/run">run</a> small script file that builds this collection.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/xhtml1.xml">xhtml1.xml</a> record of XHTML 1.0 entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/mml2.xml">mml2.xml</a> record of MathML 2.0 (second edition) entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicodedata.xsl">unicodedata.xsl</a> stylesheet that generates a new copy of unicode.xml, incorporating data from the Unicode data file, used to update unicode.xml as new versions of Unicode are released.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/entities.xsl">entities.xsl</a> stylesheet to generate the DTD declarations for the entities.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/charmap.xsl">charmap.xsl</a> stylesheet to generate the XSLT character maps.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/characters.xsl">characters.xsl</a> stylesheet to generate this document, including the referenced HTML tables.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/schemas.xml">schemas.xml</a> file associating XML documents with appropriate Relax NG schema.</li><li id="catalog"><a href="https://github.com/w3c/xml-entities/blob/gh-pages/catalog">catalog</a> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at https://www.w3.org/2003/entities/2007/ to the local file system at
+<ul><li><a href="https://github.com/w3c/xml-entities/blob/u14/unicode.xml">unicode.xml</a> master file detailing all Unicode characters with names in various entity sets and applications, TeX equivalents and other data. This file has been maintained for many years, originally by Sebastian Rahtz as part of the jadetex distribution and since around 1999 as part of the MathML specification sources by David Carlisle. The current version encodes data for all characters in Unicode 14.
+<em>Note: unicode.xml is over 5MB in size and may not really be suitable for direct viewing in a browser. You may prefer to save the file rather than follow the above link to unicode.xml in a browser.</em></li><li><a href="https://github.com/w3c/xml-entities/blob/u14/charlist.rnc">charlist.rnc</a> relax NG schema for unicode.xml.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/unicode.xsl">unicode.xsl</a> XSLT stylesheet that renders unicode.xml as an HTML table.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/character-set.xml">character-set.xml</a> the source file for this document.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/xmlspec.xsl">xmlspec.xsl</a> a copy of the  standard xmlspec stylesheet.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/run">run</a> small script file that builds this collection.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/xhtml1.xml">xhtml1.xml</a> record of XHTML 1.0 entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/mml2.xml">mml2.xml</a> record of MathML 2.0 (second edition) entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/unicodedata.xsl">unicodedata.xsl</a> stylesheet that generates a new copy of unicode.xml, incorporating data from the Unicode data file, used to update unicode.xml as new versions of Unicode are released.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/entities.xsl">entities.xsl</a> stylesheet to generate the DTD declarations for the entities.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/charmap.xsl">charmap.xsl</a> stylesheet to generate the XSLT character maps.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/characters.xsl">characters.xsl</a> stylesheet to generate this document, including the referenced HTML tables.</li><li><a href="https://github.com/w3c/xml-entities/blob/u14/schemas.xml">schemas.xml</a> file associating XML documents with appropriate Relax NG schema.</li><li id="catalog"><a href="https://github.com/w3c/xml-entities/blob/u14/catalog">catalog</a> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at https://www.w3.org/2003/entities/2007/ to the local file system at
    /etc/xml/w3c-entities. It should be edited to  refer to the location of a local copy of the files. Many XML parsers may be configured to read this catalog format, but the specific options depend on the parser being used.</li></ul></div><div class="div1">
 <h2><a id="references"></a>E References</h2><dl><dt class="label" id="SGML">SGML</dt><dd>ISO/IEC 8879:1986, Information processing &#x2014;  Text and office 
      systems &#x2014;  Standard Generalized Markup Language (SGML)</dd><dt class="label" id="ISO9573-13-1991">ISO9573-13-1991</dt><dd>ISO/IEC TR :1991, Information
@@ -592,5 +593,4 @@ W3C Candidate Recommendation 6 August 2013
 for the World Wide Web 1.0: Normalization</a></em>
 W3C Working Draft 1 May 2012
 (<a href="https://www.w3.org/TR/charmod-norm/">https://www.w3.org/TR/charmod-norm/</a>)
-</dd></dl></div></div></body>
-</html>
+  </dd></dl></div></div></body></html>
