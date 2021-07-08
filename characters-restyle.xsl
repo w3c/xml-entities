@@ -321,6 +321,14 @@ span.cambria {
  background-color: #FFFFEE; 
 }
 -->
+table.range {
+    border-collapse:collapse;
+}
+table.range td, table.range th {
+    text-align:center;
+    border: solid thin black;
+    padding:0pt 5pt }
+
 <xsl:if test="$script='yes'">
 table#info {
 text-align:left;
@@ -389,7 +397,7 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 </nav>
 
 <xsl:variable name="table">
-<table class="complex data">
+<table class="complex range">
 <tr>
 <th>&#160;</th>
 <xsl:for-each select="$hex">
