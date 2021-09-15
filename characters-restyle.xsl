@@ -991,7 +991,7 @@ string-length(description))"/>
 </td>
 </tr>
 <tr class="combine">
-<xsl:if test="not(description/@unicode='combination' or description/@unicode='3.2')">
+<xsl:if test="not(description/@unicode=('combination','3.2','9','14'))">
 <xsl:attribute name="class">provisional</xsl:attribute>
 <xsl:message><xsl:value-of select="@id"/></xsl:message>
 </xsl:if>
