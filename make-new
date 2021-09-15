@@ -2,9 +2,13 @@
 
 
 
-if [ ! -f UnicodeData-13.0.0.txt ] ; then
+if [ ! -f UnicodeData-14.0.0.txt ] ; then
     wget https://www.unicode.org/Public/13.0.0/ucd/UnicodeData.txt
-    mv UnicodeData.txt UnicodeData-13.0.0.txt
+    mv UnicodeData.txt UnicodeData-14.0.0.txt
+fi
+if [ ! -f Blocks-14.0.0.txt ] ; then
+    wget https://www.unicode.org/Public/14.0.0/ucd/Blocks.txt
+    mv Blocks.txt Blocks-14.0.0.txt
 fi
 
 if [ ! -f MathClass-15.txt ] ; then
