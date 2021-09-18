@@ -1223,7 +1223,7 @@ Copyright</a> &#xa9; 1998-2007 <a href="http://www.w3.org/"><acronym title="Worl
   <!-- loc: a Web location -->
   <!-- outside the header, it's a normal cross-reference -->
   <xsl:template match="loc">
-   <a href="{@href}">
+   <a href="{replace(@href,'gh-pages',$branch)}">
     <xsl:copy-of select="@id"/>
     <xsl:if test="@role='disclosure'"><xsl:attribute name="rel" select="@role"/></xsl:if>
     <xsl:apply-templates/>

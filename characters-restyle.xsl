@@ -23,8 +23,11 @@ originally for MathML chapter 6.
 	    omit-xml-declaration="yes"/>
 
 <xsl:param name="cssbase" select="'https://www.w3.org/StyleSheets/TR/2016/'"/>
-<xsl:param name="baseuri" select="'//www.w3.org/2003/entities/'"/>
-<xsl:param name="resultbase" select="'2007doc/'"/>
+<xsl:param name="baseuri" select="'https://w3c.github.io/xml-entities/'"/>
+<xsl:param name="branch" select="'gh-pages'"/>
+<xsl:param name="resultbase" select="'docs/'"/>
+<xsl:param name="main" select="'index.html'"/>
+<xsl:param name="pathfrommain" select="''"/>
 <xsl:param name="editors-copy" select="''"/>
 <xsl:param name="script" select="'no'"/>
 <xsl:param name="longtitle" select="'yes'"/>
@@ -72,7 +75,7 @@ originally for MathML chapter 6.
       encoding="US-ASCII"
       include-content-type="no"
       version="5"
-      href="index.html">
+      href="{$resultbase}index.html">
   <xsl:apply-templates/>
  </xsl:result-document>
  <xsl:apply-templates select="$u/unicode/entitygroups/group[@name='2007']/set"/>
@@ -129,7 +132,7 @@ originally for MathML chapter 6.
 <body>
 <h1 id="{@name}"><xsl:value-of select="@name"/></h1>
 <p>
-<a href="../index.html">Overview</a>
+<a href="{$main}">Overview</a>
 </p>
 <table>
 <tr>
@@ -197,8 +200,8 @@ originally for MathML chapter 6.
 <h1 id="{$t}"><xsl:value-of select="$t"/></h1>
 <nav id="toc">
       <ol class="toc">
-    <li><a  href="../index.html">Overview</a></li>
-    <li><a  href="../index.html#sets">Sets of names</a>
+    <li><a  href="{$main}">Overview</a></li>
+    <li><a  href="{$main}#sets">Sets of names</a>
     <ol>
 <xsl:variable name="p">
  <xsl:apply-templates select="preceding-sibling::set[1]" mode="name"/>
@@ -318,6 +321,14 @@ span.cambria {
  background-color: #FFFFEE; 
 }
 -->
+table.range {
+    border-collapse:collapse;
+}
+table.range td, table.range th {
+    text-align:center;
+    border: solid thin black;
+    padding:0pt 5pt }
+
 <xsl:if test="$script='yes'">
 table#info {
 text-align:left;
@@ -369,8 +380,8 @@ here.appendChild(newinfo);
       <ol class="toc">
     <li>
 <xsl:variable name="p" select="position()"/>
-<li><a href="../index.html">Overview</a></li>
-<li><a href="../index.html#blocks">Unicode Character Ranges</a></li>
+<li><a href="{$main}">Overview</a></li>
+<li><a href="{$main}#blocks">Unicode Character Ranges</a></li>
 <xsl:if test="$p!=1">
 <li><a href="{$blockstarts[$p - 1]}.html">Previous: <xsl:value-of 
 select="$blockstarts[$p - 1]"/>00 to  <xsl:value-of 
@@ -386,7 +397,7 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 </nav>
 
 <xsl:variable name="table">
-<table class="complex data">
+<table class="complex range">
 <tr>
 <th>&#160;</th>
 <xsl:for-each select="$hex">
@@ -539,7 +550,7 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 	  <img height="32" width="32" src="{$glyphs}/{$range}/U{$range}{$h}.png"
 	       alt="{$x/description}">
 	    <xsl:if test="not($none) and ($x/@image='none')">
-<xsl:message select="concat('$$$$: ', 'U', $range, $h, '  ', $x/description)"/>
+<xsl:message select="concat('No image: ', 'U', $range, $h, '  ', $x/description)"/>
       <xsl:attribute name="src"><xsl:value-of select="$glyphs"/>/none.png</xsl:attribute>
 	    </xsl:if>
 	  </img>
@@ -607,8 +618,8 @@ distinct-values($x/entity[@set=$u/unicode/entitygroups/group[@name='2007']/set/@
 <xsl:text>&#10;</xsl:text>
 <nav id="toc">
  <ol class="toc">
-  <li><a href="../index.html">Overview</a></li>
-  <li><a href="../index.html#sets">Sets of names</a></li>
+  <li><a href="{$main}">Overview</a></li>
+  <li><a href="{$main}#sets">Sets of names</a></li>
   <li><a href="byalpha.html">Characters ordered by Entity Name</a></li>
  </ol>
 </nav>
@@ -669,8 +680,8 @@ string-length(description))"/>
        <h1 id="byalpha">Characters Ordered by Entity Name</h1>
        <nav id="toc">
  <ol class="toc">
-  <li><a href="../index.html">Overview</a></li>
-  <li><a href="../index.html#sets">Sets of names</a></li>
+  <li><a href="{$main}">Overview</a></li>
+  <li><a href="{$main}#sets">Sets of names</a></li>
   <li><a href="bycodes.html">Characters ordered by codes</a></li>
  </ol>
        </nav>
@@ -745,7 +756,7 @@ string-length(description))"/>
   <ul>
    <xsl:for-each select="$u/unicode/entitygroups/group[@name='2007']/set">
     <li>
-     <a href="2007doc/{replace(@name,'^[0-9][0-9\-]*','')}.html">
+     <a href="{$pathfrommain}{replace(@name,'^[0-9][0-9\-]*','')}.html">
       <xsl:apply-templates select="." mode="name"/>
      </a>
      <xsl:choose>
@@ -810,7 +821,7 @@ string-length(description))"/>
 	      <xsl:value-of select="$p"/>
 	    </span>
 	    <xsl:text> </xsl:text>
-	      <a href="2007doc/{$p}.html">
+	      <a href="{$pathfrommain}{$p}.html">
 		<xsl:value-of select="current-group()/@name" separator=", "/>
 		<xsl:if test="position()!=1"> (continued)</xsl:if>
 	      </a>
@@ -827,7 +838,7 @@ string-length(description))"/>
     <ul>
       <xsl:for-each select="$u/unicode/mathvariants/mathvariant">
 	<li>
-	  <a href="2007doc/{@name}.html"><xsl:value-of select="@description"/></a>
+	  <a href="{$pathfrommain}{@name}.html"><xsl:value-of select="@description"/></a>
 	</li>
       </xsl:for-each>
     </ul>
@@ -847,18 +858,21 @@ string-length(description))"/>
 <ul>
 <xsl:for-each select="key('id',$negations,$u)">
 <xsl:call-template name="compose-table">
-  <xsl:with-param name="section" select="$section"/>
+ <xsl:with-param name="section" select="$section"/>
+ <xsl:with-param name="set" select="$negations"/>
 </xsl:call-template>
 </xsl:for-each>
 </ul>
 </xsl:template>
 
+<xsl:variable name="vselectors" select="('U0FE00','U0FE01')"/>
 <xsl:template match="p[@id='variants']">
 <xsl:variable name="section" select="."/>
 <ul>
-<xsl:for-each select="key('id','U0FE00',$u)">
+<xsl:for-each select="key('id',$vselectors,$u)">
  <xsl:call-template name="compose-table">
   <xsl:with-param name="section" select="$section"/>
+  <xsl:with-param name="set" select="$vselectors"/>
  </xsl:call-template>
 </xsl:for-each>
 </ul>
@@ -867,8 +881,9 @@ string-length(description))"/>
 <xsl:template name="compose-table">
 <xsl:param name="section"/>
 <xsl:param name="char" select="translate(@id,'U','-')"/>
+<xsl:param name="set"/>
 <xsl:variable name="c" select="."/>
-<li><a href="2007doc/{@id}.html"><xsl:value-of select="lower-case($c/description)"/></a></li>
+<li><a href="{$pathfrommain}{@id}.html"><xsl:value-of select="lower-case($c/description)"/></a></li>
 <xsl:result-document method="html" 
 		     version="5"
 		     include-content-type="no"
@@ -890,17 +905,17 @@ string-length(description))"/>
 
 <nav id="toc">
  <ol class="toc">
-  <li><a href="../index.html">Overview</a></li>
-  <li><a href="../index.html#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a></li>
+  <li><a href="{$main}">Overview</a></li>
+  <li><a href="{$main}#{$section/../@id}"><xsl:apply-templates select="$section/../head/text()"/></a></li>
 <xsl:variable name="p" select="position()"/>
 <xsl:if test="$p!=1">
-<li><a href="{$negations[$p - 1]}.html">Previous:
-<xsl:value-of select="key('id',$negations[$p - 1],$u)/lower-case(description)"/>
+<li><a href="{$set[$p - 1]}.html">Previous:
+<xsl:value-of select="key('id',$set[$p - 1],$u)/lower-case(description)"/>
 </a></li>
 </xsl:if>
 <xsl:if test="$p!=last()">
-<li><a href="{$negations[$p + 1]}.html">Next:
-<xsl:value-of select="key('id',$negations[$p + 1],$u)/lower-case(description)"/>
+<li><a href="{$set[$p + 1]}.html">Next:
+<xsl:value-of select="key('id',$set[$p + 1],$u)/lower-case(description)"/>
 </a></li>
 </xsl:if>
  </ol>
@@ -936,7 +951,7 @@ string-length(description))"/>
 </tr>
 
 <xsl:variable name="cz" select="concat($char,'z')"/>
-<xsl:for-each select="$u/unicode/charlist/character[contains(concat(@id,'z'),$cz)]">
+<xsl:for-each select="$u/unicode/charlist/character[contains(concat(@id,'z'),$cz)][not(@image='none')]">
 <xsl:sort select="@id"/>
 <xsl:variable name="id" select="@id"/>
 <xsl:variable name="base" select="key('id',concat(substring-before($id,$char),substring-after($id,$char)),$u)"/>
@@ -976,7 +991,7 @@ string-length(description))"/>
 </td>
 </tr>
 <tr class="combine">
-<xsl:if test="not(description/@unicode='combination' or description/@unicode='3.2')">
+<xsl:if test="not(description/@unicode=('combination','3.2','9','14'))">
 <xsl:attribute name="class">provisional</xsl:attribute>
 <xsl:message><xsl:value-of select="@id"/></xsl:message>
 </xsl:if>
@@ -1052,7 +1067,7 @@ string-length(description))"/>
 <td rowspan="{last()}">
 <img height="32" 
          width="32"
-         src="2007doc/{$glyphs}/{substring($id,2,3)}/{translate($id,'x','')}.png"
+         src="{$pathfrommain}{$glyphs}/{substring($id,2,3)}/{translate($id,'x','')}.png"
          alt="{$id}"
          >
 <xsl:if test="@image='none'"><xsl:attribute
@@ -1097,8 +1112,8 @@ string-length(description))"/>
 
   <nav id="toc">
       <ol class="toc">
-    <li><a href="../index.html">Overview</a></li>
-    <li><a href="../index.html#alphabets">Mathematical Alphanumeric Characters</a>
+    <li><a href="{$main}">Overview</a></li>
+    <li><a href="{$main}#alphabets">Mathematical Alphanumeric Characters</a>
     <ol>
 <xsl:for-each select="preceding-sibling::mathvariant[1]">
 <li><a href="{@name}.html">Previous: <xsl:value-of select="@description"/></a></li>
@@ -1118,7 +1133,10 @@ string-length(description))"/>
 <tr>
 <th>Unicode</th>
 <th>BMP</th>
-<th>Glyph</th>
+<th>
+ <xsl:if test="$mathvariant='script'"><xsl:attribute name="colspan" select="2"/></xsl:if>
+ <xsl:text>Glyph</xsl:text>
+</th>
 <th>Unicode Name</th>
 <th>Entity Names</th>
 </tr>
@@ -1146,6 +1164,21 @@ string-length(description))"/>
   name="src"><xsl:value-of select="$glyphs"/>/none.png</xsl:attribute></xsl:if>
 </img>
 </td>
+<xsl:if test="$mathvariant='script'">
+ <td>
+  <xsl:choose>
+   <xsl:when test="contains(description,'CAPITAL')">
+<img height="32" 
+         width="32"
+         src="{$glyphs}/{substring(@id,2,3)}/{translate(@id,'x','')}-0FE00.png"
+         alt="{@id}-0FE00"
+         >
+</img>
+   </xsl:when>
+   <xsl:otherwise>&#160;</xsl:otherwise>
+  </xsl:choose>
+ </td>
+</xsl:if>
 <td>
 <xsl:value-of select="description"/>
 </td>
@@ -1169,6 +1202,9 @@ string-length(description))"/>
 <p>
 <span class="bmp"><b>Note:</b> Characters highlighted are in the Plane 0, not in the Mathematical Alphanumeric Symbols block in Plane 1.</span>
 </p>
+</xsl:if>
+<xsl:if test="$mathvariant='script'">
+ <p><b>Note: </b> The font used should offer at least the upper case letters in two styles. Roundhand (<code>\mathscr</code> in LaTeX) and Chancery (<code>\mathcal</code> in LaTeX). The default may be in either form. Variation selector <a href="U0FE00.html">U+FE00</a> may be used to force Chancery style and variation selector <a href="U0FE01.html">U+FE01</a> may be used to force Roundhand.</p>
 </xsl:if>
 </div>
 
@@ -1201,7 +1237,7 @@ string-length(description))"/>
 <td rowspan="{last()}">
 <img height="32" 
          width="32"
-         src="2007doc/{$glyphs}/{substring(../@id,2,3)}/{translate(../@id,'x','')}.png"
+         src="{$pathfrommain}{$glyphs}/{substring(../@id,2,3)}/{translate(../@id,'x','')}.png"
          alt="{../@id}"
          >
 <xsl:if test="../@image='none'"><xsl:attribute
