@@ -3,7 +3,7 @@
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		exclude-result-prefixes="xs">
 
- <xsl:output method="html" version="5"/>
+ <xsl:output method="xml" indent="yes"/>
 
  <xsl:template match="/">
   <html>
@@ -29,6 +29,7 @@
     </ul>
     <hr/>
 
+    <section class="fold">
     <h2 id="compressed">Compressed view</h2>
     <xsl:for-each-group select="//operator-dictionary"
 			group-by="concat('form:',@form,' lspace:',@lspace,' rspace:',@rspace)">
@@ -74,8 +75,13 @@
       </dd>
      </dl>
     </xsl:for-each-group>
-
-
+    
+    <xsl:text>&#10;</xsl:text>
+    </section>
+    <xsl:text>&#10;</xsl:text>
+    <section class="fold">
+    <xsl:text>&#10;</xsl:text>
+     
     <h2 id="stable">Sortable Table View</h2>
 
 
@@ -144,6 +150,8 @@
      </tbody>
      <xsl:text>&#10;</xsl:text>
     </table>
+    <xsl:text>&#10;</xsl:text>
+    </section>
     <xsl:text>&#10;</xsl:text>
    </body>
   </html>
