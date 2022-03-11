@@ -55,7 +55,7 @@
 		     '&#10;movablelimits'[current()/@movablelimits='true']}{
 		     '&#10;'}{../lower-case(description)}">
 	 <xsl:choose>
-	  <xsl:when test="../@id=('U02061','U02062','U02063','U02064') or starts-with(../@id,'U1E')">
+	  <xsl:when test="../@id=('U02061','U02062','U02063','U02064') or starts-with(../@id,'xU1E')">
 	   <xsl:text>&#x27e8;</xsl:text>
 	   <span style="font-size:80%;font-style:italic">
 	    <xsl:value-of select="replace(lower-case(../description),' ','&#160;')"/>
@@ -84,7 +84,7 @@
     <xsl:variable  name="p" select="'fence','stretchy','separator','accent','largeop','movablelimits', 'symmetric'"/>
     <xsl:variable name="v" select="'linebreakstyle','minsize'"/>
     <xsl:text>&#10;</xsl:text>
-    <table class="sortable">
+    <table id="oper-dict-table" class="sortable">
      <xsl:text>&#10;</xsl:text>
      <thead>
       <xsl:text>&#10;</xsl:text>
