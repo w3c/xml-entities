@@ -3,7 +3,7 @@
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		exclude-result-prefixes="xs">
 
- <xsl:output method="xml" indent="yes"/>
+ <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes"/>
 
  <xsl:template match="/">
   <html>
@@ -46,7 +46,7 @@
 	 <dd>
        <xsl:for-each select="current-group()">
 	<xsl:if test="position()!=1">, </xsl:if>
-	<span title="{
+	<span class="mfont" title="{
 		     replace(replace(../@id,'U0?','U+'),'-0','&#160;U+')}{
 		     '&#10;accent'[current()/@accent='true']}{
 		     '&#10;fence'[current()/@fence='true']}{
@@ -123,7 +123,7 @@
 	     </xsl:otherwise>
 	   </xsl:choose>
 	 </th>
-	 <th>
+	 <th class="mfont">
 	  <xsl:value-of select="
 				if($d=9001)
 				 then '&#x3008;'
