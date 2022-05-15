@@ -1,12 +1,14 @@
 <xsl:stylesheet version="3.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns="http://www.w3.org/1999/xhtml"
 		exclude-result-prefixes="xs">
 
  <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes"/>
 
  <xsl:template match="/">
-  <html>
+  <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html>&#10;</xsl:text>
+  <html lang="en">
    <head>
     <title>Opt Dict</title>
     <style>
@@ -16,7 +18,7 @@
      
     </style>
     <xsl:text>&#10;</xsl:text>
-    <script type='text/javascript' src='sorttable.js'></script>
+    <script src='sorttable.js'><xsl:text> </xsl:text></script>
     <xsl:text>&#10;</xsl:text>
    </head>
    <body>
@@ -56,6 +58,16 @@
 		     '&#10;movablelimits'[current()/@movablelimits='true']}{
 		     '&#10;'}{../lower-case(description)}">
 	 <xsl:choose>
+	  <!-- NFC, grrrr-->
+	  <xsl:when test="../@id='U02ADC'">
+	   <xsl:text>&#x2ADD;&#x0338;</xsl:text>
+	  </xsl:when>
+	  <xsl:when test="../@id='U02329'">
+	   <xsl:text>&#x3008;</xsl:text>
+	  </xsl:when>
+	  <xsl:when test="../@id='U0232A'">
+	   <xsl:text>&#x3009;</xsl:text>
+	  </xsl:when>
 	  <xsl:when test="../@id=('U02061','U02062','U02063','U02064') or starts-with(../@id,'xU1E')">
 	   <xsl:text>&#x27e8;</xsl:text>
 	   <span style="font-size:80%;font-style:italic">
@@ -64,6 +76,9 @@
 	   <xsl:text>&#x27e9;</xsl:text>
 	  </xsl:when>
 	  <xsl:otherwise>
+	   <xsl:if test="starts-with(../description,'COMBINING')">
+	    <xsl:text> </xsl:text>
+	   </xsl:if>
 	   <xsl:value-of select="codepoints-to-string(../tokenize(@dec,'-')!xs:int(.))"/>
 	  </xsl:otherwise>
 	 </xsl:choose>
@@ -124,8 +139,13 @@
 	   </xsl:choose>
 	 </th>
 	 <th class="mfont">
+	  <xsl:if test="starts-with(../description,'COMBINING')">
+	   <xsl:text> </xsl:text>
+	  </xsl:if>
 	  <xsl:value-of select="
-				if($d=9001)
+                                if($d=10972)
+				  then '&#x2ADD;&#x0338;'
+				else if($d=9001)
 				 then '&#x3008;'
 				else if($d=9002) then
 				'&#x3009;'
