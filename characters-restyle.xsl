@@ -129,11 +129,15 @@ originally for MathML chapter 6.
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
 <title><xsl:value-of select="@name"/></title>
 </head>
+<xsl:text>&#10;</xsl:text>
+<xsl:text>&#10;</xsl:text>
 <body>
 <h1 id="{@name}"><xsl:value-of select="@name"/></h1>
+<xsl:text>&#10;</xsl:text>
 <p>
 <a href="{$main}">Overview</a>
 </p>
+<xsl:text>&#10;</xsl:text>
 <table>
 <tr>
 <td>&#160;</td>
@@ -155,8 +159,11 @@ originally for MathML chapter 6.
 </xsl:if>
 </xsl:for-each>
 </table>
+<xsl:text>&#10;</xsl:text>
 </body>
+<xsl:text>&#10;</xsl:text>
 </html>
+<xsl:text>&#10;</xsl:text>
 </xsl:result-document>
 <xsl:apply-templates select="set[not(../@name='mathml') or starts-with(@name,'m')]"/>
 </xsl:template>
@@ -279,10 +286,11 @@ originally for MathML chapter 6.
 </tr>
 </xsl:for-each>
 </table>
-
-
+<xsl:text>&#10;</xsl:text>
 </body>
+<xsl:text>&#10;</xsl:text>
 </html>
+<xsl:text>&#10;</xsl:text>
 </xsl:result-document>
 </xsl:template>
 
@@ -459,38 +467,51 @@ select="$blockstarts[$p+1]"/>FF</a></li>
 </xsl:variable>
 <xsl:copy-of select="$table"/>
 
+<xsl:text>&#10;</xsl:text>
 <h2 id="key">Key</h2>
-
-
+<xsl:text>&#10;</xsl:text>
 <table border="1">
+<xsl:text>&#10;</xsl:text>
 <tr><th>Cell Style</th><th>Status</th></tr>
+<xsl:text>&#10;</xsl:text>
 <tr><td>&#160;&#160;&#160;</td><td>Unicode Character (Unicode <xsl:value-of select="$u/unicode/@unicode"/>)</td></tr>
 <xsl:if test="$table//td/@class='proposed'">
+<xsl:text>&#10;</xsl:text>
 <tr><td class="proposed">&#160;&#160;&#160;</td><td><a href="http://unicode.org/alloc/Pipeline.html">Proposed Unicode Character</a></td></tr>
 </xsl:if>
 <xsl:if test="$table//td/@class='unassigned'">
+<xsl:text>&#10;</xsl:text>
 <tr><td class="unassigned">&#160;</td><td>Unicode or XML Non-Character</td></tr>
 </xsl:if>
 <xsl:if test="$table//td/@class='nonxml'">
+<xsl:text>&#10;</xsl:text>
 <tr><td class="unassigned">&#160;</td><td>Codepoint not allowed as XML 1.0 character data</td></tr>
 </xsl:if>
 
 <xsl:if test="$table//td/@class='reserved'">
+<xsl:text>&#10;</xsl:text>
 <tr><td class="reserved">&#160;</td><td>Reserved (unassigned) codepoint</td></tr>
 </xsl:if>
 <xsl:if test="$table//td/@class='undescribed'">
+<xsl:text>&#10;</xsl:text>
 <tr><td class="undescribed">&#160;</td><td>Codepoint allowed as XML 1.0 character data; no Unicode character defined</td></tr>
 </xsl:if>
 <!--<tr><td><img src="{$glyphs}/none.png" alt="none"/></td><td>Character for which an image is not currently available</td></tr>-->
+<xsl:text>&#10;</xsl:text>
 <tr><td><span class="stix">&#160;X&#160;</span></td><td>Character styled with the <a href="https://www.stixfonts.org">STIX Fonts</a></td></tr>
+<xsl:text>&#10;</xsl:text>
 </table>
+<xsl:text>&#10;</xsl:text>
 
 <p>Table headings link to the (PDF) Code charts at the <a href="https://www.unicode.org">Unicode site</a>.</p>
 <!--
 <p>Images link to the listing <a href="bycodes.html">listing of all characters assigned an entity name</a> whenever such an entity is defined.</p>
 -->
+<xsl:text>&#10;</xsl:text>
 </body>
+<xsl:text>&#10;</xsl:text>
 </html>
+<xsl:text>&#10;</xsl:text>
 </xsl:result-document>
 </xsl:template>
 
@@ -659,8 +680,11 @@ string-length(description))"/>
 <xsl:text>&#10;</xsl:text>
 </xsl:for-each>
 </pre>
+<xsl:text>&#10;</xsl:text>
 </body>
+<xsl:text>&#10;</xsl:text>
 </html>
+<xsl:text>&#10;</xsl:text>
 </xsl:result-document>
 </xsl:template>
 
@@ -726,8 +750,11 @@ string-length(description))"/>
 	    <xsl:text>&#10;</xsl:text>
 	  </xsl:for-each-group>
 	</pre>
+	<xsl:text>&#10;</xsl:text>
       </body>
+      <xsl:text>&#10;</xsl:text>
     </html>
+    <xsl:text>&#10;</xsl:text>
   </xsl:result-document>
 </xsl:template>
 
@@ -1028,8 +1055,11 @@ string-length(description))"/>
 </tr>
 </xsl:for-each>
 </table>
+<xsl:text>&#10;</xsl:text>
 </body>
+<xsl:text>&#10;</xsl:text>
 </html>
+<xsl:text>&#10;</xsl:text>
 </xsl:result-document>
 </xsl:template>
 
@@ -1208,9 +1238,11 @@ string-length(description))"/>
 </xsl:if>
 </div>
 
-
+<xsl:text>&#10;</xsl:text>
 </body>
+<xsl:text>&#10;</xsl:text>
 </html>
+<xsl:text>&#10;</xsl:text>
 </xsl:result-document>
 </xsl:template>
 
