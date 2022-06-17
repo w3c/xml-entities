@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Id: character-set.xml,v 1.129 2015/09/07 08:37:08 dcarlis Exp $ -->
-<!DOCTYPE spec [<!ENTITY date "20210625">]>
+<!DOCTYPE spec [<!ENTITY date "20220618">]>
 <spec w3c-doctype="rec">
 <header>
 <title>XML Entity Definitions for Characters (3rd Edition)</title>
 <w3c-designation>xml-entity-names-&date;</w3c-designation>
 <w3c-doctype>Editors Draft</w3c-doctype>
-<pubdate><day>25</day> <month>June</month> <year>2021</year></pubdate>
+<pubdate><day>18</day> <month>June</month> <year>2022</year></pubdate>
 <publoc>
 <!--<loc href="http://www.w3.org/TR/2014/REC-xml-entity-names-&date;/">http://www.w3.org/TR/2014/REC-xml-entity-names-&date;/</loc>-->
 <!--
@@ -78,8 +78,8 @@ enhances the functionality and interoperability of the Web.</p>
 <p>This third edition is based on Unicode <phrase role="unicode"/> and
 incorporates changes to Unicode since Unicode 5.2 and 6.3,
 on which the first and second editions of this document were based. Note these updates only affect
-the non normative descriptions of the Unicode blocks. There are no changes to the Normative entity definitions.
-It also has been updated and restructured slightly to note that <bibref ref="HTML5"/> now uses these definitions.
+the non normative descriptions of the Unicode blocks. There are no changes to the normative entity definitions.
+It also has been updated and restructured slightly to note that <bibref ref="HTML5"/> now uses these definitions
 and to more clearly highlight that the HTML-MathML entity set should be used in preference to the older ISO sets
 that are also defined in this document.</p>
 <p>
@@ -224,11 +224,11 @@ the listings provided with this specification will need changing for some long t
 <head>Sets of names</head>
 
 <div2 id="htmlmathml">
-<head>The HTML MathML entity set</head>
+<head>The HTML MathML Entity Set</head>
 <p>Historically the entity sets have been split into relatively small groups of related characters
 however for any new document type that is being defined it is strongly recommended that the combined
 <kw>htmlmathml</kw> set is used. This defines an identical set of names to the names built in to
-the HTML parser (derived from the same source materials as this document see <specref ref="source"/>).</p>
+the HTML parser (derived from the same source materials as this document, see <specref ref="source"/>).</p>
 <p>To incorporate the <kw>htmlmathml</kw> set into an XML DTD, a typical construct is:</p>
 <eg><![CDATA[
        <!ENTITY % htmlmathml-f PUBLIC
@@ -240,12 +240,12 @@ the HTML parser (derived from the same source materials as this document see <sp
 </eg>
 <p>
 The public identifier should always be used verbatim,
-The system identifier should be changed to suit local requirements.
+the system identifier should be changed to suit local requirements.
 </p>
 <p>The entity set is available in two forms: </p>
 <ulist>
 <item><p><loc href="https://www.w3.org/2003/entities/2007/htmlmathml-f.ent">htmlmathml-f</loc> the expanded set of HTML and MathML entity definitions</p></item>
-<item><p><loc href="https://www.w3.org/2003/entities/2007/htmlmathml.ent">htmlmathml</loc> the HTML and MathML entities defined via reference to the legacy entity set definitions as listed in the following section.</p></item>
+<item><p><loc href="https://www.w3.org/2003/entities/2007/htmlmathml.ent">htmlmathml</loc> the HTML and MathML entities defined via reference to the legacy entity set definitions as listed in the following section</p></item>
 </ulist>
 <p>The information is also available in JSON format. The JSON arrays encode the entity names and mappings to Unicode and also a list of those entity references for which the HTML (but not XML) parser allows the trailing semicolon to be omitted. So <code>&amp;amp</code> may be used as well as <code>&amp;amp;</code> when using HTML.</p>
 <ulist>
@@ -258,7 +258,7 @@ The system identifier should be changed to suit local requirements.
 </div2>
 
 <div2 id="legacysets">
-<head>Legacy Entity sets</head>
+<head>Legacy Entity Sets</head>
 
 <p>This specification defines mappings to Unicode of many sets of names
 that have been defined by earlier specifications.</p>
@@ -267,7 +267,7 @@ that have been defined by earlier specifications.</p>
 Unicode order and then in alphabetic order:</p>
 <ulist>
 <item><p>All in <loc href="2007doc/bycodes.html">Unicode order</loc></p></item>
-<item><p>All in <loc href="2007doc/byalpha.html">alphabetic order</loc>.</p></item>
+<item><p>All in <loc href="2007doc/byalpha.html">alphabetic order</loc></p></item>
 </ulist>
 <p>Then there come tables
 documenting each of the entity sets. Each set has a link to the DTD
@@ -344,7 +344,7 @@ Note that it is the policy of the W3C and of Unicode that if a single
 character is already defined for what can be achieved with a combining
 character, that character must be used instead of the decomposed form.
 It is also intended that no new single characters representing what
-can be done by with existing compositions will be introduced. 
+can be done with existing compositions will be introduced. 
 <phrase diff="add">For further information on these matters see
 the Unicode Standard Annex 15, Unicode Normalization Forms 
 <bibref ref="Unicode15"/>, especially
@@ -447,7 +447,7 @@ consist of a combining character.
 <p id="combining-start"/>
 
 <p>For reasons explained further in <bibref ref="Charmod-norm"/>, it is
-not advisable to to start the replacement text of an entity with a
+not advisable to start the replacement text of an entity with a
 combining character, as then potentially different results may be
 produced depending on the order in which entity expansion and Unicode
 normalisation are performed. As far as possible this specification
@@ -469,7 +469,7 @@ are consistent with any specifications using these definitions.</p>
      <head>Changes since 2014-04-10 (Second Edition Recommendation)</head>
       <p>Source files updated to Unicode 14.0, affecting the character tables,
       but with no changes to generated entity files or stylesheets.
-      New table for the FE01 Variation selector and greately etended set of variations in the U+FE00 table (most of these standardised variants were added at Unicode 14). The script alphabet table has been extended to show both variants.</p>
+      New table for the FE01 Variation selector and greatly extended set of variations in the U+FE00 table (most of these standardised variants were added at Unicode 14). The script alphabet table has been extended to show both variants.</p>
      <p>Reference added to the September 2020 W3C Process Document.</p>
      <p>Some changes to the front matter including link to GitHub as
      required by the latest W3C publication process.</p>
@@ -672,8 +672,8 @@ MathML2 used U+005C U+02282 and   U+2283 U+002F.</p></def></gitem>
   <blist>
      <bibl id="SGML">ISO/IEC 8879:1986, Information processing &#x2014;  Text and office 
      systems &#x2014;  Standard Generalized Markup Language (SGML)</bibl>
-     <bibl id="ISO9573-13-1991">ISO/IEC TR :1991, Information
-technology &#x2014; SGML support facilities
+     <bibl id="ISO9573-13-1991">ISO/IEC TR 9573-13:1991, Information
+technology &#x2014; SGML support facilities &#x2014;
 Techniques for using
 SGML &#x2014; Part 13: Public entity sets for
 mathematics and science</bibl>
