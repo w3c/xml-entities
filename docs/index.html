@@ -22,7 +22,7 @@
 <body>
 <div class="head"><p><a href="https://www.w3.org/"><img src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" alt="W3C" height="48" width="72"></a></p>
 <h1><a id="title"></a>XML Entity Definitions for Characters (3rd&nbsp;Edition)</h1>
-<h2><a id="w3c-doctype"></a>Editors Draft 25 June 2021</h2><dl>
+<h2><a id="w3c-doctype"></a>Editors Draft 18 June 2022</h2><dl>
 <dt>This version:</dt><dd><a href="https://w3c.github.io/xml-entities/">https://w3c.github.io/xml-entities/</a></dd>
 <dt>Latest version:</dt><dd><a href="https://www.w3.org/TR/2017/WD-xml-entity-names-20170807/">https://www.w3.org/TR/2017/REC-xml-entity-names-20170807/</a></dd>
 <dt>Previous version:</dt><dd><a href="https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/">https://www.w3.org/TR/2014/REC-xml-entity-names-20140410/</a></dd><dt>
@@ -55,8 +55,8 @@ enhances the functionality and interoperability of the Web.</p>
 <p>This third edition is based on Unicode 14 and
 incorporates changes to Unicode since Unicode 5.2 and 6.3,
 on which the first and second editions of this document were based. Note these updates only affect
-the non normative descriptions of the Unicode blocks. There are no changes to the Normative entity definitions.
-It also has been updated and restructured slightly to note that <a href="#HTML5">[HTML5]</a> now uses these definitions.
+the non normative descriptions of the Unicode blocks. There are no changes to the normative entity definitions.
+It also has been updated and restructured slightly to note that <a href="#HTML5">[HTML5]</a> now uses these definitions
 and to more clearly highlight that the HTML-MathML entity set should be used in preference to the older ISO sets
 that are also defined in this document.</p>
 
@@ -103,8 +103,8 @@ must disclose the information in accordance with
 <li><a href="#chars_intro"><span class="secno">1 </span>Introduction</a></li>
 <li><a href="#sets"><span class="secno">2 </span>Sets of names</a>
 <ol class="toc">
-<li><a href="#htmlmathml"><span class="secno">2.1 </span>The HTML MathML entity set</a></li>
-<li><a href="#legacysets"><span class="secno">2.2 </span>Legacy Entity sets</a></li></ol></li>
+<li><a href="#htmlmathml"><span class="secno">2.1 </span>The HTML MathML Entity Set</a></li>
+<li><a href="#legacysets"><span class="secno">2.2 </span>Legacy Entity Sets</a></li></ol></li>
 <li><a href="#blocks"><span class="secno">3 </span>Unicode Character Ranges for Scientific Documents</a></li>
 <li><a href="#alphabets"><span class="secno">4 </span>Mathematical Alphanumeric Characters</a></li>
 <li><a href="#combining"><span class="secno">5 </span>Entities for Negated and Variant Characters</a>
@@ -192,11 +192,11 @@ the listings provided with this specification will need changing for some long t
 </p>
 </div><div id="setsdiv">
 <h2><a id="sets"></a>2 Sets of names</h2><div class="div2">
-<h3><a id="htmlmathml"></a>2.1 The HTML MathML entity set</h3>
+<h3><a id="htmlmathml"></a>2.1 The HTML MathML Entity Set</h3>
 <p>Historically the entity sets have been split into relatively small groups of related characters
 however for any new document type that is being defined it is strongly recommended that the combined
 <b>htmlmathml</b> set is used. This defines an identical set of names to the names built in to
-the HTML parser (derived from the same source materials as this document see <a href="#source"><b>D Source Files</b></a>).</p>
+the HTML parser (derived from the same source materials as this document, see <a href="#source"><b>D Source Files</b></a>).</p>
 
 <p>To incorporate the <b>htmlmathml</b> set into an XML DTD, a typical construct is:</p>
 <div class="exampleInner"><pre class="example">
@@ -209,22 +209,22 @@ the HTML parser (derived from the same source materials as this document see <a 
 </pre></div>
 <p>
 The public identifier should always be used verbatim,
-The system identifier should be changed to suit local requirements.
+the system identifier should be changed to suit local requirements.
 </p>
 
 <p>The entity set is available in two forms: </p>
-<ul><li><a href="https://www.w3.org/2003/entities/2007/htmlmathml-f.ent">htmlmathml-f</a> the expanded set of HTML and MathML entity definitions</li><li><a href="https://www.w3.org/2003/entities/2007/htmlmathml.ent">htmlmathml</a> the HTML and MathML entities defined via reference to the legacy entity set definitions as listed in the following section.</li></ul>
+<ul><li><a href="https://www.w3.org/2003/entities/2007/htmlmathml-f.ent">htmlmathml-f</a> the expanded set of HTML and MathML entity definitions</li><li><a href="https://www.w3.org/2003/entities/2007/htmlmathml.ent">htmlmathml</a> the HTML and MathML entities defined via reference to the legacy entity set definitions as listed in the following section</li></ul>
 <p>The information is also available in JSON format. The JSON arrays encode the entity names and mappings to Unicode and also a list of those entity references for which the HTML (but not XML) parser allows the trailing semicolon to be omitted. So <code>&amp;amp</code> may be used as well as <code>&amp;amp;</code> when using HTML.</p>
 <ul><li><a href="2007/htmlmathml.json">htmlmathml.json</a></li></ul>
 <p>An XSLT2 stylesheet is available which performs the reverse mapping, replacing Unicode characters by entity references.</p>
 <ul><li><a href="2007/htmlmathml.xsl">htmlmathml.xsl</a></li></ul></div><div class="div2">
-<h3><a id="legacysets"></a>2.2 Legacy Entity sets</h3>
+<h3><a id="legacysets"></a>2.2 Legacy Entity Sets</h3>
 <p>This specification defines mappings to Unicode of many sets of names
 that have been defined by earlier specifications.</p>
 
 <p>We present two tables listing all the sets combined, first in 
 Unicode order and then in alphabetic order:</p>
-<ul><li>All in <a href="2007doc/bycodes.html">Unicode order</a></li><li>All in <a href="2007doc/byalpha.html">alphabetic order</a>.</li></ul>
+<ul><li>All in <a href="2007doc/bycodes.html">Unicode order</a></li><li>All in <a href="2007doc/byalpha.html">alphabetic order</a></li></ul>
 <p>Then there come tables
 documenting each of the entity sets. Each set has a link to the DTD
 entity declaration for the corresponding entity set, and also a link
@@ -291,7 +291,7 @@ Note that it is the policy of the W3C and of Unicode that if a single
 character is already defined for what can be achieved with a combining
 character, that character must be used instead of the decomposed form.
 It is also intended that no new single characters representing what
-can be done by with existing compositions will be introduced. 
+can be done with existing compositions will be introduced. 
 For further information on these matters see
 the Unicode Standard Annex 15, Unicode Normalization Forms 
 <a href="#Unicode15">[Unicode15]</a>, especially
@@ -376,7 +376,7 @@ consist of a combining character.
 <p id="combining-start"></p>
 
 <p>For reasons explained further in <a href="#Charmod-norm">[Charmod-norm]</a>, it is
-not advisable to to start the replacement text of an entity with a
+not advisable to start the replacement text of an entity with a
 combining character, as then potentially different results may be
 produced depending on the order in which entity expansion and Unicode
 normalisation are performed. As far as possible this specification
@@ -395,7 +395,7 @@ are consistent with any specifications using these definitions.</p>
 <h3><a id="changes20140410"></a>B.1 Changes since 2014-04-10 (Second Edition Recommendation)</h3>
 <p>Source files updated to Unicode 14.0, affecting the character tables,
       but with no changes to generated entity files or stylesheets.
-      New table for the FE01 Variation selector and greately etended set of variations in the U+FE00 table (most of these standardised variants were added at Unicode 14). The script alphabet table has been extended to show both variants.</p>
+      New table for the FE01 Variation selector and greatly extended set of variations in the U+FE00 table (most of these standardised variants were added at Unicode 14). The script alphabet table has been extended to show both variants.</p>
 
 <p>Reference added to the September 2020 W3C Process Document.</p>
 
@@ -546,8 +546,8 @@ MathML2 used U+005C U+02282 and   U+2283 U+002F.</dd><dt class="kwlabel"><b>NotG
 <em>Note: unicode.xml is over 5MB in size and may not really be suitable for direct viewing in a browser. You may prefer to save the file rather than follow the above link to unicode.xml in a browser.</em></li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/charlist.rnc">charlist.rnc</a> relax NG schema for unicode.xml.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicode.xsl">unicode.xsl</a> XSLT stylesheet that renders unicode.xml as an HTML table.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/character-set.xml">character-set.xml</a> the source file for this document.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/xmlspec.xsl">xmlspec.xsl</a> a copy of the  standard xmlspec stylesheet.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/run">run</a> small script file that builds this collection.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/xhtml1.xml">xhtml1.xml</a> record of XHTML 1.0 entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/mml2.xml">mml2.xml</a> record of MathML 2.0 (second edition) entity definitions.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/unicodedata.xsl">unicodedata.xsl</a> stylesheet that generates a new copy of unicode.xml, incorporating data from the Unicode data file, used to update unicode.xml as new versions of Unicode are released.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/entities.xsl">entities.xsl</a> stylesheet to generate the DTD declarations for the entities.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/charmap.xsl">charmap.xsl</a> stylesheet to generate the XSLT character maps.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/characters.xsl">characters.xsl</a> stylesheet to generate this document, including the referenced HTML tables.</li><li><a href="https://github.com/w3c/xml-entities/blob/gh-pages/schemas.xml">schemas.xml</a> file associating XML documents with appropriate Relax NG schema.</li><li id="catalog"><a href="https://github.com/w3c/xml-entities/blob/gh-pages/catalog">catalog</a> Sample OASIS XML catalog that redirects references to the entity or stylesheet files at https://www.w3.org/2003/entities/2007/ to the local file system at
    /etc/xml/w3c-entities. It should be edited to  refer to the location of a local copy of the files. Many XML parsers may be configured to read this catalog format, but the specific options depend on the parser being used.</li></ul></div><div class="div1">
 <h2><a id="references"></a>E References</h2><dl><dt class="label" id="SGML">SGML</dt><dd>ISO/IEC 8879:1986, Information processing &#x2014;  Text and office 
-     systems &#x2014;  Standard Generalized Markup Language (SGML)</dd><dt class="label" id="ISO9573-13-1991">ISO9573-13-1991</dt><dd>ISO/IEC TR :1991, Information
-technology &#x2014; SGML support facilities
+     systems &#x2014;  Standard Generalized Markup Language (SGML)</dd><dt class="label" id="ISO9573-13-1991">ISO9573-13-1991</dt><dd>ISO/IEC TR 9573-13:1991, Information
+technology &#x2014; SGML support facilities &#x2014;
 Techniques for using
 SGML &#x2014; Part 13: Public entity sets for
 mathematics and science</dd><dt class="label" id="Unicode">Unicode</dt><dd>The Unicode Consortium. The Unicode Standard, Version 5.2.0, defined by: 
