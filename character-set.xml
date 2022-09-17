@@ -112,18 +112,18 @@ put the text &#x201C;XML-Entities&#x201D; in the subject line, preferably like t
 <phrase diff="add">Alternatively, report  an issue at this specification's <loc href="https://github.com/w3c/xml-entities">GitHub repository</loc>.</phrase>
 </p>
 
-<p>This document is governed by the <loc id="w3c_process_revision" href="https://www.w3.org/2020/Process-20200915/">15 September 2020 W3C Process Document</loc>. </p>
+<p>This document is governed by the <loc id="w3c_process_revision" href="https://www.w3.org/2021/Process-20211102/">2 November 2021 <abbr title="World Wide Web Consortium">W3C</abbr> Process Document</loc>.</p>
 
 <p>This  document was produced by a group operating under the 
-<loc href="https://www.w3.org/Consortium/Patent-Policy-20040205/">5 February 2004 W3C Patent Policy</loc>. 
+<loc href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</loc>. 
 W3C maintains a 
-<loc role="disclosure" href="https://www.w3.org/2004/01/pp-impl/35549/status">public list of any patent disclosures</loc> made in connection with 
+<loc role="disclosure" href="https://www.w3.org/groups/wg/math/ipr">public list of any patent disclosures</loc> made in connection with 
 the deliverables of the group; that page also includes instructions 
 for disclosing a patent. An individual who has actual knowledge of 
 a patent which the individual believes contains 
-<loc href="https://www.w3.org/Consortium/Patent-Policy-20040205/#def-essential">Essential Claim(s)</loc> 
+<loc href="https://www.w3.org/Consortium/Patent-Policy/#def-essential">Essential Claim(s)</loc> 
 must disclose the information in accordance with 
-<loc href="https://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Disclosure">section 6 of the W3C Patent Policy</loc>. 
+<loc href="https://www.w3.org/Consortium/Patent-Policy/#sec-Disclosure">section 6 of the W3C Patent Policy</loc>. 
 </p>
 <p> Appendix <specref ref="changes"/>  details the changes since earlier versions of this document.</p>
 
