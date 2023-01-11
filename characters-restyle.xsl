@@ -1283,7 +1283,7 @@ string-length(description))"/>
 </p>
 </xsl:if>
 <xsl:if test="$mathvariant='script'">
- <p><b>Note: </b> The font used should offer at least the upper case letters in two styles. Roundhand (<code>\mathscr</code> in LaTeX) and Chancery (<code>\mathcal</code> in LaTeX). The default may be in either form. Variation selector <a href="U0FE00.html">U+FE00</a> may be used to force Chancery style and variation selector <a href="U0FE01.html">U+FE01</a> may be used to force Roundhand.</p>
+ <p><b>Note: </b> The font used should offer at least the upper case letters in two styles. Roundhand (also known as Script, <code>\mathscr</code> in LaTeX) and Chancery (also known as Calligraphic, <code>\mathcal</code> in LaTeX). The default may be in either form. Variation selector <a href="U0FE00.html">U+FE00</a> may be used to force Chancery/Calligraphic style and variation selector <a href="U0FE01.html">U+FE01</a> may be used to force Roundhand/Script style.</p>
 </xsl:if>
 </div>
 
