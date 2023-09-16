@@ -2,15 +2,15 @@
 
 
 
-if [ ! -f UnicodeData-15.0.0.txt ] ; then
-    wget https://www.unicode.org/Public/15.0.0/ucd/UnicodeData-15.0.0d6.txt
+if [ ! -f UnicodeData-15.1.0.txt ] ; then
+    wget https://www.unicode.org/Public/15.1.0/ucd/UnicodeData-15.1.0.txt
 #    mv UnicodeData.txt UnicodeData-15.0.0.txt
-    mv UnicodeData-15.0.0d6.txt UnicodeData-15.0.0.txt
+#    mv UnicodeData-15.1.0.txt UnicodeData-15.0.0.txt
 fi
-if [ ! -f Blocks-15.0.0.txt ] ; then
-    wget https://www.unicode.org/Public/15.0.0/ucd/Blocks-15.0.0d3.txt
+if [ ! -f Blocks-15.1.0.txt ] ; then
+    wget https://www.unicode.org/Public/15.1.0/ucd/Blocks-15.1.0.txt
 #    mv Blocks.txt Blocks-15.0.0.txt
-    mv Blocks-15.0.0d3.txt Blocks-15.0.0.txt
+#    mv Blocks-15.0.0d3.txt Blocks-15.0.0.txt
 fi
 
 if [ ! -f MathClass-15.txt ] ; then
