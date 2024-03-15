@@ -23,8 +23,9 @@
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-13.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-14.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-15.0.0.txt'),'[&#10;&#13;]+')"/>
--->
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-15.1.0.txt'),'[&#10;&#13;]+')"/>
+-->
+<xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-16.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="uc" select="doc('unicode.xml')"/>
 <xsl:variable name="comb" select="doc('combine.xml')"/>
 <!--
@@ -32,6 +33,8 @@
 <xsl:variable name="MC" select="'MathClass-13.txt'"/>
 -->
 <xsl:variable name="MC" select="'MathClass-15.txt'"/>
+
+<xsl:variable name="BK" select="tokenize(unparsed-text('Blocks-16.0.0.txt'),'[&#10;&#13;]+')"/>
 
 <xsl:variable name="mathclass">
 <xsl:for-each select="tokenize(unparsed-text($MC),'[&#10;&#13;]+')[matches(.,'^[0-9A-F.]+;[A-Z]')]">
@@ -55,7 +58,24 @@ d:hexs(@c)
     <xsl:copy-of select="$uc/comment()"/>
     <xsl:text>&#10;</xsl:text>
     <unicode>
-      <xsl:copy-of select="$uc/unicode/(@*,node() except charlist)"/>
+      <xsl:copy-of select="$uc/unicode/@*"/>
+      <xsl:copy-of select="$uc/unicode/unicodeblocks/preceding-sibling::node()"/>
+      <unicodeblocks>
+       <xsl:text>&#10;</xsl:text>
+       <xsl:for-each select="$BK[matches(.,'^[0-9A-F]+\.\.[0-9A-F]+')]">
+	<xsl:analyze-string select="." regex="([0-9A-F]+)\.\.([0-9A-F]+); (.*)">
+	 <xsl:matching-substring>
+	  <block start="{if(string-length(regex-group(1))=4 )then '0' else ''}{regex-group(1)}"
+		 end="{if(string-length(regex-group(2))=4 )then '0' else ''}{regex-group(2)}"
+		 name="{if(regex-group(1)='0000') then 'C0 Controls and Basic Latin' else
+		       if(regex-group(1)='0080') then 'C1 Controls and Latin-1 Supplement' else
+		       regex-group(3)}"/>
+	 <xsl:text>&#10;</xsl:text>
+	 </xsl:matching-substring>
+	</xsl:analyze-string>
+       </xsl:for-each>
+      </unicodeblocks>
+      <xsl:copy-of select="$uc/unicode/unicodeblocks/following-sibling::node() except $uc/unicode/charlist"/>
       <charlist>
       <xsl:perform-sort>
 	<xsl:sort select="@id"/>
@@ -80,7 +100,6 @@ d:hexs(@c)
 			<xsl:attribute name="{.}" select="$u[$p]"/>
 		      </xsl:if>
 		    </xsl:for-each>
-<xsl:message select="'@@',."/>
 		    <xsl:if test="key('mathclass',d:hexs(.),$mathclass)">
 		     <xsl:attribute name="mathclass" select="key('mathclass',d:hexs(.),$mathclass)"/>
 		    </xsl:if>
