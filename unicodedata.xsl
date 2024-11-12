@@ -179,7 +179,7 @@ d:hexs(@c)
 
 <xsl:variable name="umt">
  <umd>
-  <xsl:for-each select="tokenize(unparsed-text('https://raw.githubusercontent.com/wspr/unicode-math/master/unicode-math-table.tex'),
+  <xsl:for-each select="tokenize(unparsed-text('https://raw.githubusercontent.com/latex3/unicode-math/master/unicode-math-table.tex'),
 			'[&#10;&#13;]+')[contains(.,'UnicodeMathSymbol')]">
    <xsl:variable name="id" select="replace(.,'.UnicodeMathSymbol\{&quot;([0-9A-F]+)\}.*','$1')"/>
    <character id="U{if(string-length($id)=4) then '0' else ''}{$id}">
@@ -200,13 +200,14 @@ d:hexs(@c)
       <charlist>
 	<xsl:for-each select="$uc/unicode/charlist/character">
 	 <character>
-	  <xsl:copy-of select="@*,unicodedata,afii,latex,mathlatex[not(@set='unicode-math')]"/>
+	  <xsl:variable name="initial" select="unicodedata,combref,noncombref,afii,latex,varlatex,mathlatex[not(@set='unicode-math')]"/>
+	  <xsl:copy-of select="@*,$initial"/>
 	  <xsl:if test="key('char',@id,$umt)">
 	   <mathlatex set="unicode-math">
-	    <xsl:value-of select="key('char',@id,$umt)"/>
+	    <xsl:value-of select="key('char',@id,$umt)[1]"/>
 	   </mathlatex>
 	  </xsl:if>
-	  <xsl:copy-of  select="* except (unicodedata,afii,latex,mathlatex)"/>
+	  <xsl:copy-of  select="* except ($initial,mathlatex)"/>
 	 </character>
 	</xsl:for-each>
       </charlist>
