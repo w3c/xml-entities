@@ -2162,6 +2162,7 @@ Barbara Beeton for the STIX project
          <afii>00A7</afii>
          <latex>\textsection </latex>
          <mathlatex>\S </mathlatex>
+         <mathlatex set="unicode-math">\mathsection</mathlatex>
          <Elsevier grid="bfc" ent="sect">
             <desc>section sign</desc>
          </Elsevier>
@@ -2516,6 +2517,7 @@ Barbara Beeton for the STIX project
          <afii>00B6</afii>
          <latex>\textparagraph </latex>
          <mathlatex>\P </mathlatex>
+         <mathlatex set="unicode-math">\mathparagraph</mathlatex>
          <Elsevier grid="bfd" ent="para">
             <desc>paragraph sign; pilcrow</desc>
          </Elsevier>
@@ -7766,6 +7768,7 @@ Barbara Beeton for the STIX project
          <noncombref style="below" ref="U0002D"/>
          <noncombref style="below" ref="U0005F"/>
          <noncombref style="below" ref="U02212"/>
+         <mathlatex set="unicode-math">\mathunderbar</mathlatex>
          <description unicode="1.1">COMBINING LOW LINE</description>
       </character>
       <character id="U00333" dec="819" type="other" mode="unknown">
@@ -7908,6 +7911,7 @@ Barbara Beeton for the STIX project
       </character>
       <character id="U0034D" dec="845" type="other" mode="unknown">
          <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N"/>
+         <mathlatex set="unicode-math">\underleftrightarrow</mathlatex>
          <description unicode="3.0">COMBINING LEFT RIGHT ARROW BELOW</description>
       </character>
       <character id="U0034E" dec="846" type="other" mode="unknown">
@@ -8215,7 +8219,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B1" mathclass="A"/>
          <afii>2641</afii>
          <latex>\Alpha </latex>
-         <mathlatex set="unicode-math">\upAlpha</mathlatex>
+         <mathlatex set="unicode-math">\mupAlpha</mathlatex>
          <Elsevier grid="cea" ent="">
             <desc>capital alpha -- Greek --</desc>
             <elsrender>A</elsrender>
@@ -8235,7 +8239,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B2" mathclass="A"/>
          <afii>2642</afii>
          <latex>\Beta </latex>
-         <mathlatex set="unicode-math">\upBeta</mathlatex>
+         <mathlatex set="unicode-math">\mupBeta</mathlatex>
          <Elsevier grid="ceb" ent="">
             <desc>capital beta -- Greek --</desc>
             <elsrender>B</elsrender>
@@ -8255,7 +8259,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B3" mathclass="A" alias="gamma function"/>
          <afii>2644</afii>
          <latex>\Gamma </latex>
-         <mathlatex set="unicode-math">\upGamma</mathlatex>
+         <mathlatex set="unicode-math">\mupGamma</mathlatex>
          <Elsevier grid="ceg" ent="Gamma">
             <desc>gamma (capital) -- Greek --</desc>
          </Elsevier>
@@ -8289,7 +8293,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B4" mathclass="A"/>
          <afii>2645</afii>
          <latex>\Delta </latex>
-         <mathlatex set="unicode-math">\upDelta</mathlatex>
+         <mathlatex set="unicode-math">\mupDelta</mathlatex>
          <Elsevier grid="ced" ent="Delta">
             <desc>delta (capital); increment  -- Greek --</desc>
          </Elsevier>
@@ -8323,7 +8327,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B5" mathclass="A"/>
          <afii>2646</afii>
          <latex>\Epsilon </latex>
-         <mathlatex set="unicode-math">\upEpsilon</mathlatex>
+         <mathlatex set="unicode-math">\mupEpsilon</mathlatex>
          <Elsevier grid="cee" ent="">
             <desc>capital epsilon -- Greek --</desc>
             <elsrender>E</elsrender>
@@ -8343,7 +8347,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B6" mathclass="A"/>
          <afii>2649</afii>
          <latex>\Zeta </latex>
-         <mathlatex set="unicode-math">\upZeta</mathlatex>
+         <mathlatex set="unicode-math">\mupZeta</mathlatex>
          <Elsevier grid="cez" ent="">
             <desc>capital zeta -- Greek --</desc>
             <elsrender>Z</elsrender>
@@ -8363,7 +8367,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B7" mathclass="A"/>
          <afii>264A</afii>
          <latex>\Eta </latex>
-         <mathlatex set="unicode-math">\upEta</mathlatex>
+         <mathlatex set="unicode-math">\mupEta</mathlatex>
          <Elsevier grid="ceh" ent="">
             <desc>capital eta  -- Greek --</desc>
             <elsrender>H</elsrender>
@@ -8383,7 +8387,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B8" mathclass="A"/>
          <afii>264B</afii>
          <latex>\Theta </latex>
-         <mathlatex set="unicode-math">\upTheta</mathlatex>
+         <mathlatex set="unicode-math">\mupTheta</mathlatex>
          <Elsevier grid="ceq" ent="Theta">
             <desc>theta (capital) -- Greek --</desc>
          </Elsevier>
@@ -8417,7 +8421,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03B9" mathclass="A"/>
          <afii>264C</afii>
          <latex>\Iota </latex>
-         <mathlatex set="unicode-math">\upIota</mathlatex>
+         <mathlatex set="unicode-math">\mupIota</mathlatex>
          <Elsevier grid="cei" ent="">
             <desc>capital iota -- Greek --</desc>
             <elsrender>I</elsrender>
@@ -8437,7 +8441,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03BA" mathclass="A"/>
          <afii>264D</afii>
          <latex>\Kappa </latex>
-         <mathlatex set="unicode-math">\upKappa</mathlatex>
+         <mathlatex set="unicode-math">\mupKappa</mathlatex>
          <Elsevier grid="cek" ent="">
             <desc>capital kappa -- Greek --</desc>
             <elsrender>K</elsrender>
@@ -8457,7 +8461,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="GREEK CAPITAL LETTER LAMBDA" lower="03BB" mathclass="A"/>
          <afii>264E</afii>
          <latex>\Lambda </latex>
-         <mathlatex set="unicode-math">\upLambda</mathlatex>
+         <mathlatex set="unicode-math">\mupLambda</mathlatex>
          <Elsevier grid="cel" ent="Lambda">
             <desc>lambda (capital)  -- Greek --</desc>
          </Elsevier>
@@ -8491,7 +8495,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03BC" mathclass="A"/>
          <afii>264F</afii>
          <latex>M</latex>
-         <mathlatex set="unicode-math">\upMu</mathlatex>
+         <mathlatex set="unicode-math">\mupMu</mathlatex>
          <Elsevier grid="cem" ent="">
             <desc>capital mu  -- Greek --</desc>
             <elsrender>M</elsrender>
@@ -8511,7 +8515,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03BD" mathclass="A"/>
          <afii>2650</afii>
          <latex>N</latex>
-         <mathlatex set="unicode-math">\upNu</mathlatex>
+         <mathlatex set="unicode-math">\mupNu</mathlatex>
          <Elsevier grid="cen" ent="">
             <desc>capital nu  -- Greek --</desc>
             <elsrender>N</elsrender>
@@ -8531,7 +8535,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03BE" mathclass="A"/>
          <afii>2651</afii>
          <latex>\Xi </latex>
-         <mathlatex set="unicode-math">\upXi</mathlatex>
+         <mathlatex set="unicode-math">\mupXi</mathlatex>
          <Elsevier grid="cex" ent="Xi">
             <desc>xi (capital) -- Greek --</desc>
          </Elsevier>
@@ -8565,7 +8569,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03BF" mathclass="A"/>
          <afii>2652</afii>
          <latex>O</latex>
-         <mathlatex set="unicode-math">\upOmicron</mathlatex>
+         <mathlatex set="unicode-math">\mupOmicron</mathlatex>
          <Elsevier grid="ceo" ent="">
             <desc>capital omicron -- Greek --</desc>
             <elsrender>O</elsrender>
@@ -8585,7 +8589,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C0" mathclass="A"/>
          <afii>2653</afii>
          <latex>\Pi </latex>
-         <mathlatex set="unicode-math">\upPi</mathlatex>
+         <mathlatex set="unicode-math">\mupPi</mathlatex>
          <Elsevier grid="cep" ent="Pi">
             <desc>pi (capital) -- Greek --</desc>
          </Elsevier>
@@ -8619,7 +8623,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C1" mathclass="A"/>
          <afii>2655</afii>
          <latex>\Rho </latex>
-         <mathlatex set="unicode-math">\upRho</mathlatex>
+         <mathlatex set="unicode-math">\mupRho</mathlatex>
          <Elsevier grid="cer" ent="">
             <desc>capital rho  -- Greek --</desc>
             <elsrender>P</elsrender>
@@ -8639,7 +8643,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C3" mathclass="A"/>
          <afii>2656</afii>
          <latex>\Sigma </latex>
-         <mathlatex set="unicode-math">\upSigma</mathlatex>
+         <mathlatex set="unicode-math">\mupSigma</mathlatex>
          <Elsevier grid="ces" ent="Sigma">
             <desc>sigma (capital) -- Greek --</desc>
          </Elsevier>
@@ -8673,7 +8677,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C4" mathclass="A"/>
          <afii>2658</afii>
          <latex>\Tau </latex>
-         <mathlatex set="unicode-math">\upTau</mathlatex>
+         <mathlatex set="unicode-math">\mupTau</mathlatex>
          <Elsevier grid="cet" ent="">
             <desc>capital tau  -- Greek --</desc>
             <elsrender>T</elsrender>
@@ -8693,7 +8697,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C5"/>
          <afii>2659</afii>
          <latex>\Upsilon </latex>
-         <mathlatex set="unicode-math">\upUpsilon</mathlatex>
+         <mathlatex set="unicode-math">\mupUpsilon</mathlatex>
          <Wolfram>CapitalUpsilon</Wolfram>
          <entity id="Ugr" set="8879-isogrk1">
             <desc>=capital Upsilon, Greek</desc>
@@ -8713,7 +8717,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C6" mathclass="A"/>
          <afii>265A</afii>
          <latex>\Phi </latex>
-         <mathlatex set="unicode-math">\upPhi</mathlatex>
+         <mathlatex set="unicode-math">\mupPhi</mathlatex>
          <Elsevier grid="cef" ent="Phi">
             <desc>phi (capital) -- Greek --</desc>
          </Elsevier>
@@ -8747,7 +8751,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C7" mathclass="A"/>
          <afii>265B</afii>
          <latex>\Chi </latex>
-         <mathlatex set="unicode-math">\upChi</mathlatex>
+         <mathlatex set="unicode-math">\mupChi</mathlatex>
          <Elsevier grid="cec" ent="">
             <desc>capital chi  -- Greek --</desc>
             <elsrender>X</elsrender>
@@ -8767,7 +8771,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C8" mathclass="A"/>
          <afii>265C</afii>
          <latex>\Psi </latex>
-         <mathlatex set="unicode-math">\upPsi</mathlatex>
+         <mathlatex set="unicode-math">\mupPsi</mathlatex>
          <Elsevier grid="cey" ent="Psi">
             <desc>psi (capital) -- Greek --</desc>
          </Elsevier>
@@ -8801,7 +8805,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="03C9" mathclass="A"/>
          <afii>265D</afii>
          <latex>\Omega </latex>
-         <mathlatex set="unicode-math">\upOmega</mathlatex>
+         <mathlatex set="unicode-math">\mupOmega</mathlatex>
          <Elsevier grid="cew" ent="Omega">
             <desc>omega (capital) -- Greek --</desc>
          </Elsevier>
@@ -8919,7 +8923,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0391" title="0391" mathclass="A"/>
          <afii>2661</afii>
          <latex>\alpha </latex>
-         <mathlatex set="unicode-math">\upalpha</mathlatex>
+         <mathlatex set="unicode-math">\mupalpha</mathlatex>
          <Elsevier grid="cda" ent="alpha">
             <desc>alpha  -- Greek --</desc>
          </Elsevier>
@@ -8953,7 +8957,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0392" title="0392" mathclass="A"/>
          <afii>2662</afii>
          <latex>\beta </latex>
-         <mathlatex set="unicode-math">\upbeta</mathlatex>
+         <mathlatex set="unicode-math">\mupbeta</mathlatex>
          <Elsevier grid="cdb" ent="beta">
             <desc>beta  -- Greek --</desc>
          </Elsevier>
@@ -8987,7 +8991,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0393" title="0393" mathclass="A"/>
          <afii>2664</afii>
          <latex>\gamma </latex>
-         <mathlatex set="unicode-math">\upgamma</mathlatex>
+         <mathlatex set="unicode-math">\mupgamma</mathlatex>
          <Elsevier grid="cdg" ent="gamma">
             <desc>gamma  -- Greek --</desc>
          </Elsevier>
@@ -9021,7 +9025,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0394" title="0394" mathclass="A"/>
          <afii>2665</afii>
          <latex>\delta </latex>
-         <mathlatex set="unicode-math">\updelta</mathlatex>
+         <mathlatex set="unicode-math">\mupdelta</mathlatex>
          <Elsevier grid="cdd" ent="delta">
             <desc>delta  -- Greek --</desc>
          </Elsevier>
@@ -9055,7 +9059,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0395" title="0395" mathclass="A"/>
          <afii>2666</afii>
          <latex>\epsilon </latex>
-         <mathlatex set="unicode-math">\upepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mupvarepsilon</mathlatex>
          <Elsevier grid="cd3" ent="epsiv">
             <desc>epsilon (cursive)  -- Greek --</desc>
          </Elsevier>
@@ -9087,7 +9091,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0396" title="0396" mathclass="A"/>
          <afii>2669</afii>
          <latex>\zeta </latex>
-         <mathlatex set="unicode-math">\upzeta</mathlatex>
+         <mathlatex set="unicode-math">\mupzeta</mathlatex>
          <Elsevier grid="cdz" ent="zeta">
             <desc>zeta  -- Greek --</desc>
          </Elsevier>
@@ -9121,7 +9125,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0397" title="0397" mathclass="A"/>
          <afii>266A</afii>
          <latex>\eta </latex>
-         <mathlatex set="unicode-math">\upeta</mathlatex>
+         <mathlatex set="unicode-math">\mupeta</mathlatex>
          <Elsevier grid="cdh" ent="eta">
             <desc>eta -- Greek --</desc>
          </Elsevier>
@@ -9156,7 +9160,7 @@ Barbara Beeton for the STIX project
          <afii>266B</afii>
          <latex>\texttheta </latex>
          <mathlatex>\theta </mathlatex>
-         <mathlatex set="unicode-math">\uptheta</mathlatex>
+         <mathlatex set="unicode-math">\muptheta</mathlatex>
          <Elsevier grid="cdq" ent="theta">
             <desc>theta  -- Greek --</desc>
          </Elsevier>
@@ -9190,7 +9194,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0399" title="0399" mathclass="A"/>
          <afii>266C</afii>
          <latex>\iota </latex>
-         <mathlatex set="unicode-math">\upiota</mathlatex>
+         <mathlatex set="unicode-math">\mupiota</mathlatex>
          <Elsevier grid="cdi" ent="iota">
             <desc>iota  -- Greek --</desc>
          </Elsevier>
@@ -9224,7 +9228,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="039A" title="039A" mathclass="A"/>
          <afii>266D</afii>
          <latex>\kappa </latex>
-         <mathlatex set="unicode-math">\upkappa</mathlatex>
+         <mathlatex set="unicode-math">\mupkappa</mathlatex>
          <Elsevier grid="cdk" ent="kappa">
             <desc>kappa  -- Greek --</desc>
          </Elsevier>
@@ -9258,7 +9262,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" unicode1="GREEK SMALL LETTER LAMBDA" upper="039B" title="039B" mathclass="A"/>
          <afii>266E</afii>
          <latex>\lambda </latex>
-         <mathlatex set="unicode-math">\uplambda</mathlatex>
+         <mathlatex set="unicode-math">\muplambda</mathlatex>
          <Elsevier grid="cdl" ent="lambda">
             <desc>lambda -- Greek --</desc>
          </Elsevier>
@@ -9292,7 +9296,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="039C" title="039C" mathclass="A"/>
          <afii>266F</afii>
          <latex>\mu </latex>
-         <mathlatex set="unicode-math">\upmu</mathlatex>
+         <mathlatex set="unicode-math">\mupmu</mathlatex>
          <Elsevier grid="cdm" ent="mu">
             <desc>mu  -- Greek --</desc>
          </Elsevier>
@@ -9326,7 +9330,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="039D" title="039D" mathclass="A"/>
          <afii>2670</afii>
          <latex>\nu </latex>
-         <mathlatex set="unicode-math">\upnu</mathlatex>
+         <mathlatex set="unicode-math">\mupnu</mathlatex>
          <Elsevier grid="cdn" ent="nu">
             <desc>nu  -- Greek --</desc>
          </Elsevier>
@@ -9360,7 +9364,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="039E" title="039E" mathclass="A"/>
          <afii>2671</afii>
          <latex>\xi </latex>
-         <mathlatex set="unicode-math">\upxi</mathlatex>
+         <mathlatex set="unicode-math">\mupxi</mathlatex>
          <Elsevier grid="cdx" ent="xi">
             <desc>xi  -- Greek --</desc>
          </Elsevier>
@@ -9394,7 +9398,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="039F" title="039F" mathclass="A"/>
          <afii>2672</afii>
          <latex>o</latex>
-         <mathlatex set="unicode-math">\upomicron</mathlatex>
+         <mathlatex set="unicode-math">\mupomicron</mathlatex>
          <Elsevier grid="cdo" ent="omicr">
             <desc>omicron -- Greek --</desc>
          </Elsevier>
@@ -9416,7 +9420,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A0" title="03A0" mathclass="A"/>
          <afii>2673</afii>
          <latex>\pi </latex>
-         <mathlatex set="unicode-math">\uppi</mathlatex>
+         <mathlatex set="unicode-math">\muppi</mathlatex>
          <Elsevier grid="cdp" ent="pi">
             <desc>pi  -- Greek --</desc>
          </Elsevier>
@@ -9450,7 +9454,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A1" title="03A1" mathclass="A"/>
          <afii>2675</afii>
          <latex>\rho </latex>
-         <mathlatex set="unicode-math">\uprho</mathlatex>
+         <mathlatex set="unicode-math">\muprho</mathlatex>
          <Elsevier grid="cdr" ent="rho">
             <desc>rho -- Greek --</desc>
          </Elsevier>
@@ -9484,7 +9488,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A3" title="03A3"/>
          <afii>2677</afii>
          <latex>\varsigma </latex>
-         <mathlatex set="unicode-math">\upvarsigma</mathlatex>
+         <mathlatex set="unicode-math">\mupvarsigma</mathlatex>
          <Elsevier grid="cdv" ent="sigmav">
             <desc>sigma (final) -- Greek --</desc>
          </Elsevier>
@@ -9519,7 +9523,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A3" title="03A3" mathclass="A"/>
          <afii>2676</afii>
          <latex>\sigma </latex>
-         <mathlatex set="unicode-math">\upsigma</mathlatex>
+         <mathlatex set="unicode-math">\mupsigma</mathlatex>
          <Elsevier grid="cds" ent="sigma">
             <desc>sigma  -- Greek --</desc>
          </Elsevier>
@@ -9553,7 +9557,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A4" title="03A4" mathclass="A"/>
          <afii>2678</afii>
          <latex>\tau </latex>
-         <mathlatex set="unicode-math">\uptau</mathlatex>
+         <mathlatex set="unicode-math">\muptau</mathlatex>
          <Elsevier grid="cdt" ent="tau">
             <desc>tau -- Greek --</desc>
          </Elsevier>
@@ -9587,7 +9591,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A5" title="03A5" mathclass="A"/>
          <afii>2679</afii>
          <latex>\upsilon </latex>
-         <mathlatex set="unicode-math">\upupsilon</mathlatex>
+         <mathlatex set="unicode-math">\mupupsilon</mathlatex>
          <Elsevier grid="cdu" ent="upsi">
             <desc>upsilon -- Greek --</desc>
          </Elsevier>
@@ -9622,7 +9626,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A6" title="03A6" mathclass="A"/>
          <afii>FD5F</afii>
          <latex>\varphi </latex>
-         <mathlatex set="unicode-math">\upvarphi</mathlatex>
+         <mathlatex set="unicode-math">\mupvarphi</mathlatex>
          <Elsevier grid="cd4" ent="phiv">
             <desc>phi (cursive,open) -- Greek --</desc>
          </Elsevier>
@@ -9653,7 +9657,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A7" title="03A7" mathclass="A"/>
          <afii>267B</afii>
          <latex>\chi </latex>
-         <mathlatex set="unicode-math">\upchi</mathlatex>
+         <mathlatex set="unicode-math">\mupchi</mathlatex>
          <Elsevier grid="cdc" ent="chi">
             <desc>chi -- Greek --</desc>
          </Elsevier>
@@ -9687,7 +9691,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A8" title="03A8" mathclass="A"/>
          <afii>267C</afii>
          <latex>\psi </latex>
-         <mathlatex set="unicode-math">\uppsi</mathlatex>
+         <mathlatex set="unicode-math">\muppsi</mathlatex>
          <Elsevier grid="cdy" ent="psi">
             <desc>psi -- Greek --</desc>
          </Elsevier>
@@ -9721,7 +9725,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A9" title="03A9" mathclass="A"/>
          <afii>267D</afii>
          <latex>\omega </latex>
-         <mathlatex set="unicode-math">\upomega</mathlatex>
+         <mathlatex set="unicode-math">\mupomega</mathlatex>
          <Elsevier grid="cdw" ent="omega">
             <desc>omega  -- Greek --</desc>
          </Elsevier>
@@ -9824,7 +9828,7 @@ Barbara Beeton for the STIX project
          <afii>FD5D</afii>
          <latex>\textvartheta </latex>
          <mathlatex>\vartheta </mathlatex>
-         <mathlatex set="unicode-math">\upvartheta</mathlatex>
+         <mathlatex set="unicode-math">\mupvartheta</mathlatex>
          <Elsevier grid="cdj" ent="thetav">
             <desc>theta (cursive, rounded) -- Greek --</desc>
          </Elsevier>
@@ -9889,7 +9893,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03C6" mirror="N" unicode1="GREEK SMALL LETTER SCRIPT PHI" upper="03A6" title="03A6" mathclass="A"/>
          <afii>267A</afii>
          <latex>\phi </latex>
-         <mathlatex set="unicode-math">\upphi</mathlatex>
+         <mathlatex set="unicode-math">\mupphi</mathlatex>
          <Elsevier grid="cdf" ent="phi">
             <desc>phi -- Greek --</desc>
          </Elsevier>
@@ -9923,7 +9927,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03C0" mirror="N" unicode1="GREEK SMALL LETTER OMEGA PI" upper="03A0" title="03A0" mathclass="A" alias="omega pi"/>
          <afii>FD5C</afii>
          <latex>\varpi </latex>
-         <mathlatex set="unicode-math">\upvarpi</mathlatex>
+         <mathlatex set="unicode-math">\mupvarpi</mathlatex>
          <Elsevier grid="cd2" ent="piv">
             <desc>"physicians' pi"  -- Greek --</desc>
          </Elsevier>
@@ -10117,7 +10121,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03BA" mirror="N" unicode1="GREEK SMALL LETTER SCRIPT KAPPA" upper="039A" title="039A" mathclass="A"/>
          <afii>FD60</afii>
          <latex>\varkappa </latex>
-         <mathlatex set="unicode-math">\upvarkappa</mathlatex>
+         <mathlatex set="unicode-math">\mupvarkappa</mathlatex>
          <Elsevier grid="cd8" ent="kappav">
             <desc>kappa (cursive,rounded)  -- Greek --</desc>
          </Elsevier>
@@ -10144,7 +10148,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03C1" mirror="N" unicode1="GREEK SMALL LETTER TAILED RHO" upper="03A1" title="03A1" mathclass="A"/>
          <afii>FD5E</afii>
          <latex>\varrho </latex>
-         <mathlatex set="unicode-math">\upvarrho</mathlatex>
+         <mathlatex set="unicode-math">\mupvarrho</mathlatex>
          <Elsevier grid="cd9" ent="rhov">
             <desc>rho (cursive, round)  -- Greek --</desc>
          </Elsevier>
@@ -10179,7 +10183,7 @@ Barbara Beeton for the STIX project
       <character id="U003F4" dec="1012" mode="unknown" type="alphabetic">
          <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;compat&gt; 0398" mirror="N" lower="03B8" mathclass="A"/>
          <latex>\textTheta </latex>
-         <mathlatex set="unicode-math">\upvarTheta</mathlatex>
+         <mathlatex set="unicode-math">\mupvarTheta</mathlatex>
          <Elsevier grid="cej" ent="z.Theta">
             <desc>Theta (capital, round)</desc>
          </Elsevier>
@@ -10193,7 +10197,7 @@ Barbara Beeton for the STIX project
       <character id="U003F5" dec="1013" mode="unknown" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03B5" mirror="N" upper="0395" title="0395" mathclass="A" alias="straight epsilon"/>
          <afii>FD5B</afii>
-         <mathlatex set="unicode-math">\upvarepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mupepsilon</mathlatex>
          <Elsevier grid="cde" ent="epsi">
             <desc>epsilon (Porson)  -- Greek --</desc>
          </Elsevier>
@@ -36907,6 +36911,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Pd" combclass="0" bidi="ON" mirror="N" mathclass="P"/>
          <afii>213E</afii>
          <latex>-</latex>
+         <mathlatex set="unicode-math">\mathhyphen</mathlatex>
          <APS>dash</APS>
          <entity id="hyphen" set="8879-isonum">
             <desc>=hyphen</desc>
@@ -38211,7 +38216,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING RIGHT ARROW ABOVE" mathclass="D" alias="vector"/>
          <noncombref style="above" ref="U02192"/>
          <noncombref style="above" ref="U027F6"/>
-         <mathlatex set="unicode-math">\vec</mathlatex>
+         <mathlatex set="unicode-math">\overrightarrow</mathlatex>
          <description unicode="1.1">COMBINING RIGHT ARROW ABOVE</description>
       </character>
       <character id="U020D8" dec="8408" type="other" mode="unknown">
@@ -69788,13 +69793,11 @@ Barbara Beeton for the STIX project
       <character id="U03014" dec="12308" mode="unknown" type="opening">
          <unicodedata category="Ps" combclass="0" bidi="ON" mirror="Y" unicode1="OPENING TORTOISE SHELL BRACKET"/>
          <afii>214C</afii>
-         <mathlatex set="unicode-math">\lbrbrak</mathlatex>
          <description unicode="1.1">LEFT TORTOISE SHELL BRACKET</description>
       </character>
       <character id="U03015" dec="12309" mode="unknown" type="closing">
          <unicodedata category="Pe" combclass="0" bidi="ON" mirror="Y" unicode1="CLOSING TORTOISE SHELL BRACKET"/>
          <afii>214D</afii>
-         <mathlatex set="unicode-math">\rbrbrak</mathlatex>
          <description unicode="1.1">RIGHT TORTOISE SHELL BRACKET</description>
       </character>
       <character id="U03016" dec="12310" mode="unknown" type="other">
@@ -69809,7 +69812,6 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ps" combclass="0" bidi="ON" mirror="Y" unicode1="OPENING WHITE TORTOISE SHELL BRACKET"/>
          <afii>EB38</afii>
          <latex>\ElsevierGlyph{3018}</latex>
-         <mathlatex set="unicode-math">\Lbrbrak</mathlatex>
          <Elsevier grid="bdd" ent="loang">
             <desc>left open angular bracket</desc>
          </Elsevier>
@@ -69819,7 +69821,6 @@ Barbara Beeton for the STIX project
          <unicodedata category="Pe" combclass="0" bidi="ON" mirror="Y" unicode1="CLOSING WHITE TORTOISE SHELL BRACKET"/>
          <afii>EB39</afii>
          <latex>\ElsevierGlyph{3019}</latex>
-         <mathlatex set="unicode-math">\Rbrbrak</mathlatex>
          <Elsevier grid="bed" ent="roang">
             <desc>right open angular bracket</desc>
          </Elsevier>
@@ -166959,7 +166960,7 @@ Barbara Beeton for the STIX project
       <character id="U1D6C6" dec="120518" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03B5" mirror="N" mathclass="A"/>
          <latex>\mathbf{\epsilon}</latex>
-         <mathlatex set="unicode-math">\mbfepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mbfvarepsilon</mathlatex>
          <entity id="b.epsi" set="9573-1991-isogrk4">
             <desc>small epsilon, Greek</desc>
          </entity>
@@ -167293,7 +167294,7 @@ Barbara Beeton for the STIX project
       <character id="U1D6DC" dec="120540" mode="math" type="relation">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03F5" mirror="N" mathclass="A"/>
          <latex>\mathbf{\varepsilon}</latex>
-         <mathlatex set="unicode-math">\mbfvarepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mbfepsilon</mathlatex>
          <entity id="b.epsiv" set="9573-1991-isogrk4">
             <desc>variant epsilon</desc>
          </entity>
@@ -167599,7 +167600,7 @@ Barbara Beeton for the STIX project
       <character id="U1D700" dec="120576" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03B5" mirror="N" mathclass="A"/>
          <latex>\mathmit{\epsilon}</latex>
-         <mathlatex set="unicode-math">\mitepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mitvarepsilon</mathlatex>
          <surrogate mathvariant="italic" ref="U003B5"/>
          <description unicode="3.1">MATHEMATICAL ITALIC SMALL EPSILON</description>
       </character>
@@ -167718,7 +167719,7 @@ Barbara Beeton for the STIX project
       <character id="U1D711" dec="120593" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03C6" mirror="N" mathclass="A"/>
          <latex>\mathmit{\phi}</latex>
-         <mathlatex set="unicode-math">\mitphi</mathlatex>
+         <mathlatex set="unicode-math">\mitvarphi</mathlatex>
          <surrogate mathvariant="italic" ref="U003C6"/>
          <description unicode="3.1">MATHEMATICAL ITALIC SMALL PHI</description>
       </character>
@@ -167753,7 +167754,7 @@ Barbara Beeton for the STIX project
       <character id="U1D716" dec="120598" mode="math" type="relation">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03F5" mirror="N" mathclass="A"/>
          <latex>\in</latex>
-         <mathlatex set="unicode-math">\mitvarepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mitepsilon</mathlatex>
          <surrogate mathvariant="italic" ref="U003F5"/>
          <description unicode="3.1">MATHEMATICAL ITALIC EPSILON SYMBOL</description>
       </character>
@@ -167774,7 +167775,7 @@ Barbara Beeton for the STIX project
       <character id="U1D719" dec="120601" mode="mixed" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03D5" mirror="N" mathclass="A"/>
          <latex>\mathmit{\phi}</latex>
-         <mathlatex set="unicode-math">\mitvarphi</mathlatex>
+         <mathlatex set="unicode-math">\mitphi</mathlatex>
          <surrogate mathvariant="italic" ref="U003D5"/>
          <description unicode="3.1">MATHEMATICAL ITALIC PHI SYMBOL</description>
       </character>
@@ -168005,7 +168006,7 @@ Barbara Beeton for the STIX project
       <character id="U1D73A" dec="120634" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03B5" mirror="N" mathclass="A"/>
          <latex>\mathbit{\epsilon}</latex>
-         <mathlatex set="unicode-math">\mbfitepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mbfitvarepsilon</mathlatex>
          <surrogate mathvariant="bold-italic" ref="U003B5"/>
          <description unicode="3.1">MATHEMATICAL BOLD ITALIC SMALL EPSILON</description>
       </character>
@@ -168124,7 +168125,7 @@ Barbara Beeton for the STIX project
       <character id="U1D74B" dec="120651" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03C6" mirror="N" mathclass="A"/>
          <latex>\mathbit{\phi}</latex>
-         <mathlatex set="unicode-math">\mbfitphi</mathlatex>
+         <mathlatex set="unicode-math">\mbfitvarphi</mathlatex>
          <surrogate mathvariant="bold-italic" ref="U003C6"/>
          <description unicode="3.1">MATHEMATICAL BOLD ITALIC SMALL PHI</description>
       </character>
@@ -168159,7 +168160,7 @@ Barbara Beeton for the STIX project
       <character id="U1D750" dec="120656" mode="math" type="relation">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03F5" mirror="N" mathclass="A"/>
          <latex>\in</latex>
-         <mathlatex set="unicode-math">\mbfitvarepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mbfitepsilon</mathlatex>
          <surrogate mathvariant="bold-italic" ref="U003F5"/>
          <description unicode="3.1">MATHEMATICAL BOLD ITALIC EPSILON SYMBOL</description>
       </character>
@@ -168180,7 +168181,7 @@ Barbara Beeton for the STIX project
       <character id="U1D753" dec="120659" mode="mixed" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03D5" mirror="N" mathclass="A"/>
          <latex>\mathbit{\phi}</latex>
-         <mathlatex set="unicode-math">\mbfitvarphi</mathlatex>
+         <mathlatex set="unicode-math">\mbfitphi</mathlatex>
          <surrogate mathvariant="bold-italic" ref="U003D5"/>
          <description unicode="3.1">MATHEMATICAL BOLD ITALIC PHI SYMBOL</description>
       </character>
@@ -168411,7 +168412,7 @@ Barbara Beeton for the STIX project
       <character id="U1D774" dec="120692" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03B5" mirror="N" mathclass="A"/>
          <latex>\mathsfbf{\epsilon}</latex>
-         <mathlatex set="unicode-math">\mbfsansepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mbfsansvarepsilon</mathlatex>
          <surrogate mathvariant="bold-sans-serif" ref="U003B5"/>
          <description unicode="3.1">MATHEMATICAL SANS-SERIF BOLD SMALL EPSILON</description>
       </character>
@@ -168530,7 +168531,7 @@ Barbara Beeton for the STIX project
       <character id="U1D785" dec="120709" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03C6" mirror="N" mathclass="A"/>
          <latex>\mathsfbf{\phi}</latex>
-         <mathlatex set="unicode-math">\mbfsansphi</mathlatex>
+         <mathlatex set="unicode-math">\mbfsansvarphi</mathlatex>
          <surrogate mathvariant="bold-sans-serif" ref="U003C6"/>
          <description unicode="3.1">MATHEMATICAL SANS-SERIF BOLD SMALL PHI</description>
       </character>
@@ -168565,7 +168566,7 @@ Barbara Beeton for the STIX project
       <character id="U1D78A" dec="120714" mode="math" type="relation">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03F5" mirror="N" mathclass="A"/>
          <latex>\mathsfbf{\varepsilon}</latex>
-         <mathlatex set="unicode-math">\mbfsansvarepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mbfsansepsilon</mathlatex>
          <surrogate mathvariant="bold-sans-serif" ref="U003F5"/>
          <description unicode="3.1">MATHEMATICAL SANS-SERIF BOLD EPSILON SYMBOL</description>
       </character>
@@ -168586,7 +168587,7 @@ Barbara Beeton for the STIX project
       <character id="U1D78D" dec="120717" mode="mixed" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03D5" mirror="N" mathclass="A"/>
          <latex>\mathsfbf{\phi}</latex>
-         <mathlatex set="unicode-math">\mbfsansvarphi</mathlatex>
+         <mathlatex set="unicode-math">\mbfsansphi</mathlatex>
          <surrogate mathvariant="bold-sans-serif" ref="U003D5"/>
          <description unicode="3.1">MATHEMATICAL SANS-SERIF BOLD PHI SYMBOL</description>
       </character>
@@ -168817,7 +168818,7 @@ Barbara Beeton for the STIX project
       <character id="U1D7AE" dec="120750" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03B5" mirror="N" mathclass="A"/>
          <latex>\mathsfbfsl{\epsilon}</latex>
-         <mathlatex set="unicode-math">\mbfitsansepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mbfitsansvarepsilon</mathlatex>
          <surrogate mathvariant="sans-serif-bold-italic" ref="U003B5"/>
          <description unicode="3.1">MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL EPSILON</description>
       </character>
@@ -168936,7 +168937,7 @@ Barbara Beeton for the STIX project
       <character id="U1D7BF" dec="120767" mode="math" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03C6" mirror="N" mathclass="A"/>
          <latex>\mathsfbfsl{\phi}</latex>
-         <mathlatex set="unicode-math">\mbfitsansphi</mathlatex>
+         <mathlatex set="unicode-math">\mbfitsansvarphi</mathlatex>
          <surrogate mathvariant="sans-serif-bold-italic" ref="U003C6"/>
          <description unicode="3.1">MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PHI</description>
       </character>
@@ -168971,7 +168972,7 @@ Barbara Beeton for the STIX project
       <character id="U1D7C4" dec="120772" mode="math" type="relation">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03F5" mirror="N" mathclass="A"/>
          <latex>\in</latex>
-         <mathlatex set="unicode-math">\mbfitsansvarepsilon</mathlatex>
+         <mathlatex set="unicode-math">\mbfitsansepsilon</mathlatex>
          <surrogate mathvariant="sans-serif-bold-italic" ref="U003F5"/>
          <description unicode="3.1">MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL</description>
       </character>
@@ -168992,7 +168993,7 @@ Barbara Beeton for the STIX project
       <character id="U1D7C7" dec="120775" mode="mixed" type="alphabetic">
          <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 03D5" mirror="N" mathclass="A"/>
          <latex>\mathsfbfsl{\phi}</latex>
-         <mathlatex set="unicode-math">\mbfitsansvarphi</mathlatex>
+         <mathlatex set="unicode-math">\mbfitsansphi</mathlatex>
          <surrogate mathvariant="sans-serif-bold-italic" ref="U003D5"/>
          <description unicode="3.1">MATHEMATICAL SANS-SERIF BOLD ITALIC PHI SYMBOL</description>
       </character>
