@@ -3,7 +3,7 @@
 unicode.xml
 
 
-Copyright David Carlisle 1999-2024
+Copyright David Carlisle 1999-2025
 
 Use and distribution of this code are permitted under the terms of the
 W3C Software Notice and License.
@@ -20,7 +20,7 @@ Originally designed by Sebastian Rahtz in conjunction with
 Barbara Beeton for the STIX project
 
 -->
-<unicode unicode="16">
+<unicode unicode="17">
    <entitygroups>
       <group name="predefined">
          <set name="predefined" fpi="-//W3C//ENTITIES Predefined XML//EN"/>
@@ -366,6 +366,7 @@ Barbara Beeton for the STIX project
       <block start="108E0" end="108FF" name="Hatran"/>
       <block start="10900" end="1091F" name="Phoenician"/>
       <block start="10920" end="1093F" name="Lydian"/>
+      <block start="10940" end="1095F" name="Sidetic"/>
       <block start="10980" end="1099F" name="Meroitic Hieroglyphs"/>
       <block start="109A0" end="109FF" name="Meroitic Cursive"/>
       <block start="10A00" end="10A5F" name="Kharoshthi"/>
@@ -417,11 +418,13 @@ Barbara Beeton for the STIX project
       <block start="11AB0" end="11ABF" name="Unified Canadian Aboriginal Syllabics Extended-A"/>
       <block start="11AC0" end="11AFF" name="Pau Cin Hau"/>
       <block start="11B00" end="11B5F" name="Devanagari Extended-A"/>
+      <block start="11B60" end="11B7F" name="Sharada Supplement"/>
       <block start="11BC0" end="11BFF" name="Sunuwar"/>
       <block start="11C00" end="11C6F" name="Bhaiksuki"/>
       <block start="11C70" end="11CBF" name="Marchen"/>
       <block start="11D00" end="11D5F" name="Masaram Gondi"/>
       <block start="11D60" end="11DAF" name="Gunjala Gondi"/>
+      <block start="11DB0" end="11DEF" name="Tolong Siki"/>
       <block start="11EE0" end="11EFF" name="Makasar"/>
       <block start="11F00" end="11F5F" name="Kawi"/>
       <block start="11FB0" end="11FBF" name="Lisu Supplement"/>
@@ -441,13 +444,16 @@ Barbara Beeton for the STIX project
       <block start="16AD0" end="16AFF" name="Bassa Vah"/>
       <block start="16B00" end="16B8F" name="Pahawh Hmong"/>
       <block start="16D40" end="16D7F" name="Kirat Rai"/>
+      <block start="16D80" end="16DAF" name="Chisoi"/>
       <block start="16E40" end="16E9F" name="Medefaidrin"/>
+      <block start="16EA0" end="16EDF" name="Beria Erfe"/>
       <block start="16F00" end="16F9F" name="Miao"/>
       <block start="16FE0" end="16FFF" name="Ideographic Symbols and Punctuation"/>
       <block start="17000" end="187FF" name="Tangut"/>
       <block start="18800" end="18AFF" name="Tangut Components"/>
       <block start="18B00" end="18CFF" name="Khitan Small Script"/>
       <block start="18D00" end="18D7F" name="Tangut Supplement"/>
+      <block start="18D80" end="18DFF" name="Tangut Components Supplement"/>
       <block start="1AFF0" end="1AFFF" name="Kana Extended-B"/>
       <block start="1B000" end="1B0FF" name="Kana Supplement"/>
       <block start="1B100" end="1B12F" name="Kana Extended-A"/>
@@ -456,6 +462,7 @@ Barbara Beeton for the STIX project
       <block start="1BC00" end="1BC9F" name="Duployan"/>
       <block start="1BCA0" end="1BCAF" name="Shorthand Format Controls"/>
       <block start="1CC00" end="1CEBF" name="Symbols for Legacy Computing Supplement"/>
+      <block start="1CEC0" end="1CEFF" name="Miscellaneous Symbols Supplement"/>
       <block start="1CF00" end="1CFCF" name="Znamenny Musical Notation"/>
       <block start="1D000" end="1D0FF" name="Byzantine Musical Symbols"/>
       <block start="1D100" end="1D1FF" name="Musical Symbols"/>
@@ -474,6 +481,7 @@ Barbara Beeton for the STIX project
       <block start="1E2C0" end="1E2FF" name="Wancho"/>
       <block start="1E4D0" end="1E4FF" name="Nag Mundari"/>
       <block start="1E5D0" end="1E5FF" name="Ol Onal"/>
+      <block start="1E6C0" end="1E6FF" name="Tai Yo"/>
       <block start="1E7E0" end="1E7FF" name="Ethiopic Extended-B"/>
       <block start="1E800" end="1E8DF" name="Mende Kikakui"/>
       <block start="1E900" end="1E95F" name="Adlam"/>
@@ -505,6 +513,7 @@ Barbara Beeton for the STIX project
       <block start="2F800" end="2FA1F" name="CJK Compatibility Ideographs Supplement"/>
       <block start="30000" end="3134F" name="CJK Unified Ideographs Extension G"/>
       <block start="31350" end="323AF" name="CJK Unified Ideographs Extension H"/>
+      <block start="323B0" end="3347F" name="CJK Unified Ideographs Extension J"/>
       <block start="E0000" end="E007F" name="Tags"/>
       <block start="E0100" end="E01EF" name="Variation Selectors Supplement"/>
       <block start="F0000" end="FFFFF" name="Supplementary Private Use Area-A"/>
@@ -15764,6 +15773,10 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
          <description unicode="14">ARABIC VERTICAL TAIL</description>
       </character>
+      <character id="U0088F" dec="2191" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <description unicode="17">ARABIC LETTER NOON WITH RING ABOVE</description>
+      </character>
       <character id="U00890" dec="2192" image="none">
          <unicodedata category="Cf" combclass="0" bidi="AN" mirror="N"/>
          <description unicode="14">ARABIC POUND MARK ABOVE</description>
@@ -17088,6 +17101,10 @@ Barbara Beeton for the STIX project
          <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
          <description unicode="11">BENGALI SANDHI MARK</description>
       </character>
+      <character id="U009FF" dec="2559" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">BENGALI LETTER SANSKRIT BA</description>
+      </character>
       <character id="U00A01" dec="2561" image="none">
          <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">GURMUKHI SIGN ADAK BINDI</description>
@@ -18023,6 +18040,14 @@ Barbara Beeton for the STIX project
       <character id="U00B4D" dec="2893" image="none">
          <unicodedata category="Mn" combclass="9" bidi="NSM" mirror="N"/>
          <description unicode="1.1">ORIYA SIGN VIRAMA</description>
+      </character>
+      <character id="U00B53" dec="2899" image="none">
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
+         <description unicode="17">ORIYA SIGN DOT ABOVE</description>
+      </character>
+      <character id="U00B54" dec="2900" image="none">
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
+         <description unicode="17">ORIYA SIGN DOUBLE DOT ABOVE</description>
       </character>
       <character id="U00B55" dec="2901" image="none">
          <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
@@ -31836,6 +31861,114 @@ Barbara Beeton for the STIX project
          <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
          <description unicode="14">COMBINING LATIN SMALL LETTER INSULAR T</description>
       </character>
+      <character id="U01ACF" dec="6863" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING DOUBLE CARON</description>
+      </character>
+      <character id="U01AD0" dec="6864" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING VERTICAL-LINE-ACUTE</description>
+      </character>
+      <character id="U01AD1" dec="6865" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING GRAVE-VERTICAL-LINE</description>
+      </character>
+      <character id="U01AD2" dec="6866" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING VERTICAL-LINE-GRAVE</description>
+      </character>
+      <character id="U01AD3" dec="6867" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING ACUTE-VERTICAL-LINE</description>
+      </character>
+      <character id="U01AD4" dec="6868" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING VERTICAL-LINE-MACRON</description>
+      </character>
+      <character id="U01AD5" dec="6869" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING MACRON-VERTICAL-LINE</description>
+      </character>
+      <character id="U01AD6" dec="6870" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING VERTICAL-LINE-ACUTE-GRAVE</description>
+      </character>
+      <character id="U01AD7" dec="6871" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING VERTICAL-LINE-GRAVE-ACUTE</description>
+      </character>
+      <character id="U01AD8" dec="6872" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING MACRON-ACUTE-GRAVE</description>
+      </character>
+      <character id="U01AD9" dec="6873" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING SHARP SIGN</description>
+      </character>
+      <character id="U01ADA" dec="6874" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING FLAT SIGN</description>
+      </character>
+      <character id="U01ADB" dec="6875" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING DOWN TACK ABOVE</description>
+      </character>
+      <character id="U01ADC" dec="6876" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING DIAERESIS WITH RAISED LEFT DOT</description>
+      </character>
+      <character id="U01ADD" dec="6877" image="none">
+         <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING DOT-AND-RING BELOW</description>
+      </character>
+      <character id="U01AE0" dec="6880" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING LEFT TACK ABOVE</description>
+      </character>
+      <character id="U01AE1" dec="6881" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING RIGHT TACK ABOVE</description>
+      </character>
+      <character id="U01AE2" dec="6882" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING MINUS SIGN ABOVE</description>
+      </character>
+      <character id="U01AE3" dec="6883" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING INVERTED BRIDGE ABOVE</description>
+      </character>
+      <character id="U01AE4" dec="6884" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING SQUARE ABOVE</description>
+      </character>
+      <character id="U01AE5" dec="6885" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING SEAGULL ABOVE</description>
+      </character>
+      <character id="U01AE6" dec="6886" image="none">
+         <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING DOUBLE ARCH BELOW</description>
+      </character>
+      <character id="U01AE7" dec="6887" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING DOUBLE ARCH ABOVE</description>
+      </character>
+      <character id="U01AE8" dec="6888" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING EQUALS SIGN ABOVE</description>
+      </character>
+      <character id="U01AE9" dec="6889" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING LEFT ANGLE CENTRED ABOVE</description>
+      </character>
+      <character id="U01AEA" dec="6890" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING UPWARDS ARROW ABOVE</description>
+      </character>
+      <character id="U01AEB" dec="6891" image="none">
+         <unicodedata category="Mn" combclass="234" bidi="NSM" mirror="N"/>
+         <description unicode="17">COMBINING DOUBLE RIGHTWARDS ARROW ABOVE</description>
+      </character>
       <character id="U01B00" dec="6912" image="none">
          <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" comment="ardhacandra"/>
          <description unicode="5.0">BALINESE SIGN ULU RICEM</description>
@@ -38179,6 +38312,10 @@ Barbara Beeton for the STIX project
       <character id="U020C0" dec="8384">
          <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
          <description unicode="14">SOM SIGN</description>
+      </character>
+      <character id="U020C1" dec="8385" image="none">
+         <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
+         <description unicode="17">SAUDI RIYAL SIGN</description>
       </character>
       <character id="U020D0" dec="8400" type="other" mode="unknown">
          <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING LEFT HARPOON ABOVE" mathclass="D"/>
@@ -65650,6 +65787,10 @@ Barbara Beeton for the STIX project
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="340" stretchy="true"/>
          <description unicode="7.0">RIGHTWARDS BLACK ARROW</description>
       </character>
+      <character id="U02B96" dec="11158" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">EQUALS SIGN WITH INFINITY ABOVE</description>
+      </character>
       <character id="U02B97" dec="11159">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="13">SYMBOL FOR TYPE A ELECTRONICS</description>
@@ -81837,6 +81978,14 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="A7CC" title="A7CC"/>
          <description unicode="16">LATIN SMALL LETTER S WITH DIAGONAL STROKE</description>
       </character>
+      <character id="U0A7CE" dec="42958" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="A7CF"/>
+         <description unicode="17">LATIN CAPITAL LETTER PHARYNGEAL VOICED FRICATIVE</description>
+      </character>
+      <character id="U0A7CF" dec="42959" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="A7CE" title="A7CE"/>
+         <description unicode="17">LATIN SMALL LETTER PHARYNGEAL VOICED FRICATIVE</description>
+      </character>
       <character id="U0A7D0" dec="42960" image="none">
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="A7D1"/>
          <description unicode="14">LATIN CAPITAL LETTER CLOSED INSULAR G</description>
@@ -81845,9 +81994,17 @@ Barbara Beeton for the STIX project
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="A7D0" title="A7D0"/>
          <description unicode="14">LATIN SMALL LETTER CLOSED INSULAR G</description>
       </character>
+      <character id="U0A7D2" dec="42962" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="A7D3"/>
+         <description unicode="17">LATIN CAPITAL LETTER DOUBLE THORN</description>
+      </character>
       <character id="U0A7D3" dec="42963" image="none">
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N"/>
          <description unicode="14">LATIN SMALL LETTER DOUBLE THORN</description>
+      </character>
+      <character id="U0A7D4" dec="42964" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="A7D5"/>
+         <description unicode="17">LATIN CAPITAL LETTER DOUBLE WYNN</description>
       </character>
       <character id="U0A7D5" dec="42965" image="none">
          <unicodedata category="Ll" combclass="0" bidi="L" mirror="N"/>
@@ -81880,6 +82037,10 @@ Barbara Beeton for the STIX project
       <character id="U0A7DC" dec="42972" image="none">
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="019B"/>
          <description unicode="16">LATIN CAPITAL LETTER LAMBDA WITH STROKE</description>
+      </character>
+      <character id="U0A7F1" dec="42993" image="none">
+         <unicodedata category="Lm" combclass="0" bidi="L" decomp="&lt;super&gt; 0053" mirror="N"/>
+         <description unicode="17">MODIFIER LETTER CAPITAL S</description>
       </character>
       <character id="U0A7F2" dec="42994" image="none">
          <unicodedata category="Lm" combclass="0" bidi="L" decomp="&lt;super&gt; 0043" mirror="N"/>
@@ -88448,6 +88609,70 @@ Barbara Beeton for the STIX project
          <unicodedata category="Sk" combclass="0" bidi="AL" mirror="N"/>
          <description unicode="14">ARABIC SYMBOL WASLA ABOVE</description>
       </character>
+      <character id="U0FBC3" dec="64451" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE JALLA WA-ALAA</description>
+      </character>
+      <character id="U0FBC4" dec="64452" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE DAAMAT BARAKAATUHUM</description>
+      </character>
+      <character id="U0FBC5" dec="64453" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHMATU ALLAAHI TAAALAA ALAYH</description>
+      </character>
+      <character id="U0FBC6" dec="64454" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIM</description>
+      </character>
+      <character id="U0FBC7" dec="64455" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIMAA</description>
+      </character>
+      <character id="U0FBC8" dec="64456" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHIMAHUM ALLAAHU TAAALAA</description>
+      </character>
+      <character id="U0FBC9" dec="64457" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHIMAHUMAA ALLAAH</description>
+      </character>
+      <character id="U0FBCA" dec="64458" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHIMAHUMAA ALLAAHU TAAALAA</description>
+      </character>
+      <character id="U0FBCB" dec="64459" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHUM</description>
+      </character>
+      <character id="U0FBCC" dec="64460" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE HAFIZAHU ALLAAH</description>
+      </character>
+      <character id="U0FBCD" dec="64461" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE HAFIZAHU ALLAAHU TAAALAA</description>
+      </character>
+      <character id="U0FBCE" dec="64462" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE HAFIZAHUM ALLAAHU TAAALAA</description>
+      </character>
+      <character id="U0FBCF" dec="64463" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE HAFIZAHUMAA ALLAAHU TAAALAA</description>
+      </character>
+      <character id="U0FBD0" dec="64464" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE SALLALLAAHU TAAALAA ALAYHI WA-SALLAM</description>
+      </character>
+      <character id="U0FBD1" dec="64465" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE AJJAL ALLAAHU FARAJAHU ASH-SHAREEF</description>
+      </character>
+      <character id="U0FBD2" dec="64466" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE ALAYHI AR-RAHMAH</description>
+      </character>
       <character id="U0FBD3" dec="64467" mode="unknown" type="other">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;isolated&gt; 06AD" mirror="N"/>
          <description unicode="1.1">ARABIC LETTER NG ISOLATED FORM</description>
@@ -90228,6 +90453,14 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;initial&gt; 0645 062E 0645" mirror="N"/>
          <description unicode="1.1">ARABIC LIGATURE MEEM WITH KHAH WITH MEEM INITIAL FORM</description>
       </character>
+      <character id="U0FD90" dec="64912" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHMATU ALLAAHI ALAYH</description>
+      </character>
+      <character id="U0FD91" dec="64913" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHMATU ALLAAHI ALAYHAA</description>
+      </character>
       <character id="U0FD92" dec="64914" image="none">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;initial&gt; 0645 062C 062E" mirror="N"/>
          <description unicode="1.1">ARABIC LIGATURE MEEM WITH JEEM WITH KHAH INITIAL FORM</description>
@@ -90443,6 +90676,34 @@ Barbara Beeton for the STIX project
       <character id="U0FDC7" dec="64967" image="none">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;final&gt; 0646 062C 064A" mirror="N"/>
          <description unicode="1.1">ARABIC LIGATURE NOON WITH JEEM WITH YEH FINAL FORM</description>
+      </character>
+      <character id="U0FDC8" dec="64968" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RAHIMAHU ALLAAH TAAALAA</description>
+      </character>
+      <character id="U0FDC9" dec="64969" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RADI ALLAAHU TAAALAA ANH</description>
+      </character>
+      <character id="U0FDCA" dec="64970" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHAA</description>
+      </character>
+      <character id="U0FDCB" dec="64971" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHUMAA</description>
+      </character>
+      <character id="U0FDCC" dec="64972" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE SALLALLAHU ALAYHI WA-ALAA AALIHEE WA-SALLAM</description>
+      </character>
+      <character id="U0FDCD" dec="64973" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE AJJAL ALLAAHU TAAALAA FARAJAHU ASH-SHAREEF</description>
+      </character>
+      <character id="U0FDCE" dec="64974" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE KARRAMA ALLAAHU WAJHAH</description>
       </character>
       <character id="U0FDCF" dec="64975" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
@@ -99588,6 +99849,110 @@ Barbara Beeton for the STIX project
          <unicodedata category="Po" combclass="0" bidi="R" mirror="N"/>
          <description unicode="5.1">LYDIAN TRIANGULAR MARK</description>
       </character>
+      <character id="U10940" dec="67904" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N01</description>
+      </character>
+      <character id="U10941" dec="67905" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N02</description>
+      </character>
+      <character id="U10942" dec="67906" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N03</description>
+      </character>
+      <character id="U10943" dec="67907" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N04</description>
+      </character>
+      <character id="U10944" dec="67908" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N05</description>
+      </character>
+      <character id="U10945" dec="67909" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N06</description>
+      </character>
+      <character id="U10946" dec="67910" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N07</description>
+      </character>
+      <character id="U10947" dec="67911" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N08</description>
+      </character>
+      <character id="U10948" dec="67912" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N09</description>
+      </character>
+      <character id="U10949" dec="67913" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N10</description>
+      </character>
+      <character id="U1094A" dec="67914" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N11</description>
+      </character>
+      <character id="U1094B" dec="67915" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N12</description>
+      </character>
+      <character id="U1094C" dec="67916" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N13</description>
+      </character>
+      <character id="U1094D" dec="67917" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N14</description>
+      </character>
+      <character id="U1094E" dec="67918" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N15</description>
+      </character>
+      <character id="U1094F" dec="67919" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N16</description>
+      </character>
+      <character id="U10950" dec="67920" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N17</description>
+      </character>
+      <character id="U10951" dec="67921" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N18</description>
+      </character>
+      <character id="U10952" dec="67922" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N19</description>
+      </character>
+      <character id="U10953" dec="67923" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N20</description>
+      </character>
+      <character id="U10954" dec="67924" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N21</description>
+      </character>
+      <character id="U10955" dec="67925" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N22</description>
+      </character>
+      <character id="U10956" dec="67926" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N23</description>
+      </character>
+      <character id="U10957" dec="67927" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N24</description>
+      </character>
+      <character id="U10958" dec="67928" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N25</description>
+      </character>
+      <character id="U10959" dec="67929" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
+         <description unicode="17">SIDETIC LETTER N26</description>
+      </character>
       <character id="U10980" dec="67968" image="none">
          <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
          <description unicode="6.1">MEROITIC HIEROGLYPHIC LETTER A</description>
@@ -102919,6 +103284,62 @@ Barbara Beeton for the STIX project
       <character id="U10EC4" dec="69316" image="none">
          <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
          <description unicode="16">ARABIC LETTER KAF WITH TWO DOTS VERTICALLY BELOW</description>
+      </character>
+      <character id="U10EC5" dec="69317" image="none">
+         <unicodedata category="Lm" combclass="0" bidi="AL" mirror="N"/>
+         <description unicode="17">ARABIC SMALL YEH BARREE WITH TWO DOTS BELOW</description>
+      </character>
+      <character id="U10EC6" dec="69318" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <description unicode="17">ARABIC LETTER THIN NOON</description>
+      </character>
+      <character id="U10EC7" dec="69319" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <description unicode="17">ARABIC LETTER YEH WITH FOUR DOTS BELOW</description>
+      </character>
+      <character id="U10ED0" dec="69328" image="none">
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC BIBLICAL END OF VERSE</description>
+      </character>
+      <character id="U10ED1" dec="69329" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE ALAYHAA AS-SALAATU WAS-SALAAM</description>
+      </character>
+      <character id="U10ED2" dec="69330" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE ALAYHIM AS-SALAATU WAS-SALAAM</description>
+      </character>
+      <character id="U10ED3" dec="69331" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE ALAYHIMAA AS-SALAATU WAS-SALAAM</description>
+      </character>
+      <character id="U10ED4" dec="69332" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE QADDASA ALLAAHU SIRRAH</description>
+      </character>
+      <character id="U10ED5" dec="69333" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE QUDDISA SIRRUHUM</description>
+      </character>
+      <character id="U10ED6" dec="69334" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE QUDDISA SIRRUHUMAA</description>
+      </character>
+      <character id="U10ED7" dec="69335" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE QUDDISAT ASRAARUHUM</description>
+      </character>
+      <character id="U10ED8" dec="69336" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ARABIC LIGATURE NAWWARA ALLAAHU MARQADAH</description>
+      </character>
+      <character id="U10EFA" dec="69370" image="none">
+         <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N"/>
+         <description unicode="17">ARABIC DOUBLE VERTICAL BAR BELOW</description>
+      </character>
+      <character id="U10EFB" dec="69371" image="none">
+         <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N"/>
+         <description unicode="17">ARABIC SMALL LOW NOON</description>
       </character>
       <character id="U10EFC" dec="69372" image="none">
          <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
@@ -110840,6 +111261,38 @@ Barbara Beeton for the STIX project
          <unicodedata category="Po" combclass="0" bidi="L" mirror="N"/>
          <description unicode="15">DEVANAGARI SIGN MINDU</description>
       </character>
+      <character id="U11B60" dec="72544" image="none">
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
+         <description unicode="17">SHARADA VOWEL SIGN OE</description>
+      </character>
+      <character id="U11B61" dec="72545" image="none">
+         <unicodedata category="Mc" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">SHARADA VOWEL SIGN OOE</description>
+      </character>
+      <character id="U11B62" dec="72546" image="none">
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
+         <description unicode="17">SHARADA VOWEL SIGN UE</description>
+      </character>
+      <character id="U11B63" dec="72547" image="none">
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
+         <description unicode="17">SHARADA VOWEL SIGN UUE</description>
+      </character>
+      <character id="U11B64" dec="72548" image="none">
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
+         <description unicode="17">SHARADA VOWEL SIGN SHORT E</description>
+      </character>
+      <character id="U11B65" dec="72549" image="none">
+         <unicodedata category="Mc" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">SHARADA VOWEL SIGN SHORT O</description>
+      </character>
+      <character id="U11B66" dec="72550" image="none">
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
+         <description unicode="17">SHARADA VOWEL SIGN CANDRA E</description>
+      </character>
+      <character id="U11B67" dec="72551" image="none">
+         <unicodedata category="Mc" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">SHARADA VOWEL SIGN CANDRA O</description>
+      </character>
       <character id="U11BC0" dec="72640" image="none">
          <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="16">SUNUWAR LETTER DEVI</description>
@@ -112227,6 +112680,222 @@ Barbara Beeton for the STIX project
       <character id="U11DA9" dec="73129" image="none">
          <unicodedata category="Nd" combclass="0" bidi="L" decimal="9" digit="9" numeric="9" mirror="N"/>
          <description unicode="11">GUNJALA GONDI DIGIT NINE</description>
+      </character>
+      <character id="U11DB0" dec="73136" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER I</description>
+      </character>
+      <character id="U11DB1" dec="73137" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER E</description>
+      </character>
+      <character id="U11DB2" dec="73138" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER U</description>
+      </character>
+      <character id="U11DB3" dec="73139" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER O</description>
+      </character>
+      <character id="U11DB4" dec="73140" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER A</description>
+      </character>
+      <character id="U11DB5" dec="73141" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER AA</description>
+      </character>
+      <character id="U11DB6" dec="73142" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER P</description>
+      </character>
+      <character id="U11DB7" dec="73143" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER PH</description>
+      </character>
+      <character id="U11DB8" dec="73144" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER B</description>
+      </character>
+      <character id="U11DB9" dec="73145" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER BH</description>
+      </character>
+      <character id="U11DBA" dec="73146" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER M</description>
+      </character>
+      <character id="U11DBB" dec="73147" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER T</description>
+      </character>
+      <character id="U11DBC" dec="73148" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER TH</description>
+      </character>
+      <character id="U11DBD" dec="73149" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER D</description>
+      </character>
+      <character id="U11DBE" dec="73150" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER DH</description>
+      </character>
+      <character id="U11DBF" dec="73151" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER N</description>
+      </character>
+      <character id="U11DC0" dec="73152" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER TT</description>
+      </character>
+      <character id="U11DC1" dec="73153" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER TTH</description>
+      </character>
+      <character id="U11DC2" dec="73154" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER DD</description>
+      </character>
+      <character id="U11DC3" dec="73155" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER DDH</description>
+      </character>
+      <character id="U11DC4" dec="73156" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER NN</description>
+      </character>
+      <character id="U11DC5" dec="73157" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER C</description>
+      </character>
+      <character id="U11DC6" dec="73158" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER CH</description>
+      </character>
+      <character id="U11DC7" dec="73159" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER J</description>
+      </character>
+      <character id="U11DC8" dec="73160" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER JH</description>
+      </character>
+      <character id="U11DC9" dec="73161" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER NY</description>
+      </character>
+      <character id="U11DCA" dec="73162" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER K</description>
+      </character>
+      <character id="U11DCB" dec="73163" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER KH</description>
+      </character>
+      <character id="U11DCC" dec="73164" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER G</description>
+      </character>
+      <character id="U11DCD" dec="73165" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER GH</description>
+      </character>
+      <character id="U11DCE" dec="73166" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER NG</description>
+      </character>
+      <character id="U11DCF" dec="73167" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER Y</description>
+      </character>
+      <character id="U11DD0" dec="73168" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER R</description>
+      </character>
+      <character id="U11DD1" dec="73169" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER L</description>
+      </character>
+      <character id="U11DD2" dec="73170" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER V</description>
+      </character>
+      <character id="U11DD3" dec="73171" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER NNY</description>
+      </character>
+      <character id="U11DD4" dec="73172" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER S</description>
+      </character>
+      <character id="U11DD5" dec="73173" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER H</description>
+      </character>
+      <character id="U11DD6" dec="73174" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER X</description>
+      </character>
+      <character id="U11DD7" dec="73175" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER RR</description>
+      </character>
+      <character id="U11DD8" dec="73176" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI LETTER RRH</description>
+      </character>
+      <character id="U11DD9" dec="73177" image="none">
+         <unicodedata category="Lm" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI SIGN SELA</description>
+      </character>
+      <character id="U11DDA" dec="73178" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI SIGN HECAKA</description>
+      </character>
+      <character id="U11DDB" dec="73179" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TOLONG SIKI UNGGA</description>
+      </character>
+      <character id="U11DE0" dec="73184" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="0" digit="0" numeric="0" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT ZERO</description>
+      </character>
+      <character id="U11DE1" dec="73185" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="1" digit="1" numeric="1" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT ONE</description>
+      </character>
+      <character id="U11DE2" dec="73186" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="2" digit="2" numeric="2" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT TWO</description>
+      </character>
+      <character id="U11DE3" dec="73187" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="3" digit="3" numeric="3" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT THREE</description>
+      </character>
+      <character id="U11DE4" dec="73188" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="4" digit="4" numeric="4" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT FOUR</description>
+      </character>
+      <character id="U11DE5" dec="73189" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="5" digit="5" numeric="5" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT FIVE</description>
+      </character>
+      <character id="U11DE6" dec="73190" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="6" digit="6" numeric="6" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT SIX</description>
+      </character>
+      <character id="U11DE7" dec="73191" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="7" digit="7" numeric="7" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT SEVEN</description>
+      </character>
+      <character id="U11DE8" dec="73192" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="8" digit="8" numeric="8" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT EIGHT</description>
+      </character>
+      <character id="U11DE9" dec="73193" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="9" digit="9" numeric="9" mirror="N"/>
+         <description unicode="17">TOLONG SIKI DIGIT NINE</description>
       </character>
       <character id="U11EE0" dec="73440" image="none">
          <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
@@ -144888,6 +145557,166 @@ Barbara Beeton for the STIX project
          <unicodedata category="Nd" combclass="0" bidi="L" decimal="9" digit="9" numeric="9" mirror="N"/>
          <description unicode="16">KIRAT RAI DIGIT NINE</description>
       </character>
+      <character id="U16D80" dec="93568" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER A</description>
+      </character>
+      <character id="U16D81" dec="93569" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER BA</description>
+      </character>
+      <character id="U16D82" dec="93570" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER AI</description>
+      </character>
+      <character id="U16D83" dec="93571" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER AA</description>
+      </character>
+      <character id="U16D84" dec="93572" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER GA</description>
+      </character>
+      <character id="U16D85" dec="93573" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER TA</description>
+      </character>
+      <character id="U16D86" dec="93574" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER E</description>
+      </character>
+      <character id="U16D87" dec="93575" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER SA</description>
+      </character>
+      <character id="U16D88" dec="93576" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER NA</description>
+      </character>
+      <character id="U16D89" dec="93577" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER I</description>
+      </character>
+      <character id="U16D8A" dec="93578" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER KA</description>
+      </character>
+      <character id="U16D8B" dec="93579" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER RA</description>
+      </character>
+      <character id="U16D8C" dec="93580" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER MA</description>
+      </character>
+      <character id="U16D8D" dec="93581" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER HA</description>
+      </character>
+      <character id="U16D8E" dec="93582" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER RRA</description>
+      </character>
+      <character id="U16D8F" dec="93583" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER U</description>
+      </character>
+      <character id="U16D90" dec="93584" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER DA</description>
+      </character>
+      <character id="U16D91" dec="93585" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER LA</description>
+      </character>
+      <character id="U16D92" dec="93586" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER O</description>
+      </character>
+      <character id="U16D93" dec="93587" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER NYA</description>
+      </character>
+      <character id="U16D94" dec="93588" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER NGA</description>
+      </character>
+      <character id="U16D95" dec="93589" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER CA</description>
+      </character>
+      <character id="U16D96" dec="93590" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER JA</description>
+      </character>
+      <character id="U16D97" dec="93591" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER PA</description>
+      </character>
+      <character id="U16D98" dec="93592" image="none">
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
+         <description unicode="17">CHISOI SIGN ANUSVARA</description>
+      </character>
+      <character id="U16D99" dec="93593" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER YA</description>
+      </character>
+      <character id="U16D9A" dec="93594" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER DDA</description>
+      </character>
+      <character id="U16D9B" dec="93595" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER TTA</description>
+      </character>
+      <character id="U16D9C" dec="93596" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHISOI LETTER JARAHA</description>
+      </character>
+      <character id="U16D9D" dec="93597" image="none">
+         <unicodedata category="Mn" combclass="9" bidi="NSM" mirror="N"/>
+         <description unicode="17">CHISOI SIGN SISO</description>
+      </character>
+      <character id="U16DA0" dec="93600" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="0" digit="0" numeric="0" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT ZERO</description>
+      </character>
+      <character id="U16DA1" dec="93601" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="1" digit="1" numeric="1" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT ONE</description>
+      </character>
+      <character id="U16DA2" dec="93602" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="2" digit="2" numeric="2" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT TWO</description>
+      </character>
+      <character id="U16DA3" dec="93603" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="3" digit="3" numeric="3" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT THREE</description>
+      </character>
+      <character id="U16DA4" dec="93604" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="4" digit="4" numeric="4" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT FOUR</description>
+      </character>
+      <character id="U16DA5" dec="93605" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="5" digit="5" numeric="5" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT FIVE</description>
+      </character>
+      <character id="U16DA6" dec="93606" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="6" digit="6" numeric="6" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT SIX</description>
+      </character>
+      <character id="U16DA7" dec="93607" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="7" digit="7" numeric="7" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT SEVEN</description>
+      </character>
+      <character id="U16DA8" dec="93608" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="8" digit="8" numeric="8" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT EIGHT</description>
+      </character>
+      <character id="U16DA9" dec="93609" image="none">
+         <unicodedata category="Nd" combclass="0" bidi="L" decimal="9" digit="9" numeric="9" mirror="N"/>
+         <description unicode="17">CHISOI DIGIT NINE</description>
+      </character>
       <character id="U16E40" dec="93760" image="none">
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16E60"/>
          <description unicode="11">MEDEFAIDRIN CAPITAL LETTER M</description>
@@ -145251,6 +146080,206 @@ Barbara Beeton for the STIX project
       <character id="U16E9A" dec="93850" image="none">
          <unicodedata category="Po" combclass="0" bidi="L" mirror="N"/>
          <description unicode="11">MEDEFAIDRIN EXCLAMATION OH</description>
+      </character>
+      <character id="U16EA0" dec="93856" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EBB"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER ARKAB</description>
+      </character>
+      <character id="U16EA1" dec="93857" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EBC"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER BASIGNA</description>
+      </character>
+      <character id="U16EA2" dec="93858" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EBD"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER DARBAI</description>
+      </character>
+      <character id="U16EA3" dec="93859" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EBE"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER EH</description>
+      </character>
+      <character id="U16EA4" dec="93860" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EBF"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER FITKO</description>
+      </character>
+      <character id="U16EA5" dec="93861" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC0"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER GOWAY</description>
+      </character>
+      <character id="U16EA6" dec="93862" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC1"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER HIRDEABO</description>
+      </character>
+      <character id="U16EA7" dec="93863" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC2"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER I</description>
+      </character>
+      <character id="U16EA8" dec="93864" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC3"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER DJAI</description>
+      </character>
+      <character id="U16EA9" dec="93865" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC4"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER KOBO</description>
+      </character>
+      <character id="U16EAA" dec="93866" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC5"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER LAKKO</description>
+      </character>
+      <character id="U16EAB" dec="93867" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC6"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER MERI</description>
+      </character>
+      <character id="U16EAC" dec="93868" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC7"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER NINI</description>
+      </character>
+      <character id="U16EAD" dec="93869" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC8"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER GNA</description>
+      </character>
+      <character id="U16EAE" dec="93870" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16EC9"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER NGAY</description>
+      </character>
+      <character id="U16EAF" dec="93871" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ECA"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER OI</description>
+      </character>
+      <character id="U16EB0" dec="93872" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ECB"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER PI</description>
+      </character>
+      <character id="U16EB1" dec="93873" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ECC"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER ERIGO</description>
+      </character>
+      <character id="U16EB2" dec="93874" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ECD"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER ERIGO TAMURA</description>
+      </character>
+      <character id="U16EB3" dec="93875" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ECE"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER SERI</description>
+      </character>
+      <character id="U16EB4" dec="93876" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ECF"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER SHEP</description>
+      </character>
+      <character id="U16EB5" dec="93877" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ED0"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER TATASOUE</description>
+      </character>
+      <character id="U16EB6" dec="93878" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ED1"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER UI</description>
+      </character>
+      <character id="U16EB7" dec="93879" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ED2"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER WASSE</description>
+      </character>
+      <character id="U16EB8" dec="93880" image="none">
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16ED3"/>
+         <description unicode="17">BERIA ERFE CAPITAL LETTER AY</description>
+      </character>
+      <character id="U16EBB" dec="93883" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA0" title="16EA0"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER ARKAB</description>
+      </character>
+      <character id="U16EBC" dec="93884" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA1" title="16EA1"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER BASIGNA</description>
+      </character>
+      <character id="U16EBD" dec="93885" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA2" title="16EA2"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER DARBAI</description>
+      </character>
+      <character id="U16EBE" dec="93886" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA3" title="16EA3"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER EH</description>
+      </character>
+      <character id="U16EBF" dec="93887" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA4" title="16EA4"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER FITKO</description>
+      </character>
+      <character id="U16EC0" dec="93888" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA5" title="16EA5"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER GOWAY</description>
+      </character>
+      <character id="U16EC1" dec="93889" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA6" title="16EA6"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER HIRDEABO</description>
+      </character>
+      <character id="U16EC2" dec="93890" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA7" title="16EA7"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER I</description>
+      </character>
+      <character id="U16EC3" dec="93891" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA8" title="16EA8"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER DJAI</description>
+      </character>
+      <character id="U16EC4" dec="93892" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EA9" title="16EA9"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER KOBO</description>
+      </character>
+      <character id="U16EC5" dec="93893" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EAA" title="16EAA"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER LAKKO</description>
+      </character>
+      <character id="U16EC6" dec="93894" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EAB" title="16EAB"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER MERI</description>
+      </character>
+      <character id="U16EC7" dec="93895" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EAC" title="16EAC"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER NINI</description>
+      </character>
+      <character id="U16EC8" dec="93896" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EAD" title="16EAD"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER GNA</description>
+      </character>
+      <character id="U16EC9" dec="93897" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EAE" title="16EAE"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER NGAY</description>
+      </character>
+      <character id="U16ECA" dec="93898" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EAF" title="16EAF"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER OI</description>
+      </character>
+      <character id="U16ECB" dec="93899" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB0" title="16EB0"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER PI</description>
+      </character>
+      <character id="U16ECC" dec="93900" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB1" title="16EB1"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER ERIGO</description>
+      </character>
+      <character id="U16ECD" dec="93901" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB2" title="16EB2"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER ERIGO TAMURA</description>
+      </character>
+      <character id="U16ECE" dec="93902" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB3" title="16EB3"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER SERI</description>
+      </character>
+      <character id="U16ECF" dec="93903" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB4" title="16EB4"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER SHEP</description>
+      </character>
+      <character id="U16ED0" dec="93904" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB5" title="16EB5"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER TATASOUE</description>
+      </character>
+      <character id="U16ED1" dec="93905" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB6" title="16EB6"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER UI</description>
+      </character>
+      <character id="U16ED2" dec="93906" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB7" title="16EB7"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER WASSE</description>
+      </character>
+      <character id="U16ED3" dec="93907" image="none">
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16EB8" title="16EB8"/>
+         <description unicode="17">BERIA ERFE SMALL LETTER AY</description>
       </character>
       <character id="U16F00" dec="93952" image="none">
          <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
@@ -145875,6 +146904,26 @@ Barbara Beeton for the STIX project
       <character id="U16FF1" dec="94193" image="none">
          <unicodedata category="Mc" combclass="6" bidi="L" mirror="N"/>
          <description unicode="13">VIETNAMESE ALTERNATE READING MARK NHAY</description>
+      </character>
+      <character id="U16FF2" dec="94194" image="none">
+         <unicodedata category="Lm" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHINESE SMALL SIMPLIFIED ER</description>
+      </character>
+      <character id="U16FF3" dec="94195" image="none">
+         <unicodedata category="Lm" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">CHINESE SMALL TRADITIONAL ER</description>
+      </character>
+      <character id="U16FF4" dec="94196" image="none">
+         <unicodedata category="Nl" combclass="0" bidi="L" numeric="1" mirror="N"/>
+         <description unicode="17">YANGQIN SIGN SLOW ONE BEAT</description>
+      </character>
+      <character id="U16FF5" dec="94197" image="none">
+         <unicodedata category="Nl" combclass="0" bidi="L" numeric="3/2" mirror="N"/>
+         <description unicode="17">YANGQIN SIGN SLOW THREE HALF BEATS</description>
+      </character>
+      <character id="U16FF6" dec="94198" image="none">
+         <unicodedata category="Nl" combclass="0" bidi="L" numeric="2" mirror="N"/>
+         <description unicode="17">YANGQIN SIGN SLOW TWO BEATS</description>
       </character>
       <character id="U18800" dec="100352" image="none">
          <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
@@ -150832,6 +151881,466 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="16">KHITAN SMALL SCRIPT CHARACTER-18CFF</description>
       </character>
+      <character id="U18D80" dec="101760" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-769</description>
+      </character>
+      <character id="U18D81" dec="101761" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-770</description>
+      </character>
+      <character id="U18D82" dec="101762" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-771</description>
+      </character>
+      <character id="U18D83" dec="101763" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-772</description>
+      </character>
+      <character id="U18D84" dec="101764" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-773</description>
+      </character>
+      <character id="U18D85" dec="101765" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-774</description>
+      </character>
+      <character id="U18D86" dec="101766" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-775</description>
+      </character>
+      <character id="U18D87" dec="101767" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-776</description>
+      </character>
+      <character id="U18D88" dec="101768" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-777</description>
+      </character>
+      <character id="U18D89" dec="101769" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-778</description>
+      </character>
+      <character id="U18D8A" dec="101770" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-779</description>
+      </character>
+      <character id="U18D8B" dec="101771" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-780</description>
+      </character>
+      <character id="U18D8C" dec="101772" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-781</description>
+      </character>
+      <character id="U18D8D" dec="101773" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-782</description>
+      </character>
+      <character id="U18D8E" dec="101774" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-783</description>
+      </character>
+      <character id="U18D8F" dec="101775" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-784</description>
+      </character>
+      <character id="U18D90" dec="101776" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-785</description>
+      </character>
+      <character id="U18D91" dec="101777" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-786</description>
+      </character>
+      <character id="U18D92" dec="101778" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-787</description>
+      </character>
+      <character id="U18D93" dec="101779" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-788</description>
+      </character>
+      <character id="U18D94" dec="101780" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-789</description>
+      </character>
+      <character id="U18D95" dec="101781" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-790</description>
+      </character>
+      <character id="U18D96" dec="101782" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-791</description>
+      </character>
+      <character id="U18D97" dec="101783" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-792</description>
+      </character>
+      <character id="U18D98" dec="101784" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-793</description>
+      </character>
+      <character id="U18D99" dec="101785" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-794</description>
+      </character>
+      <character id="U18D9A" dec="101786" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-795</description>
+      </character>
+      <character id="U18D9B" dec="101787" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-796</description>
+      </character>
+      <character id="U18D9C" dec="101788" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-797</description>
+      </character>
+      <character id="U18D9D" dec="101789" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-798</description>
+      </character>
+      <character id="U18D9E" dec="101790" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-799</description>
+      </character>
+      <character id="U18D9F" dec="101791" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-800</description>
+      </character>
+      <character id="U18DA0" dec="101792" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-801</description>
+      </character>
+      <character id="U18DA1" dec="101793" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-802</description>
+      </character>
+      <character id="U18DA2" dec="101794" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-803</description>
+      </character>
+      <character id="U18DA3" dec="101795" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-804</description>
+      </character>
+      <character id="U18DA4" dec="101796" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-805</description>
+      </character>
+      <character id="U18DA5" dec="101797" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-806</description>
+      </character>
+      <character id="U18DA6" dec="101798" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-807</description>
+      </character>
+      <character id="U18DA7" dec="101799" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-808</description>
+      </character>
+      <character id="U18DA8" dec="101800" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-809</description>
+      </character>
+      <character id="U18DA9" dec="101801" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-810</description>
+      </character>
+      <character id="U18DAA" dec="101802" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-811</description>
+      </character>
+      <character id="U18DAB" dec="101803" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-812</description>
+      </character>
+      <character id="U18DAC" dec="101804" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-813</description>
+      </character>
+      <character id="U18DAD" dec="101805" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-814</description>
+      </character>
+      <character id="U18DAE" dec="101806" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-815</description>
+      </character>
+      <character id="U18DAF" dec="101807" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-816</description>
+      </character>
+      <character id="U18DB0" dec="101808" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-817</description>
+      </character>
+      <character id="U18DB1" dec="101809" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-818</description>
+      </character>
+      <character id="U18DB2" dec="101810" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-819</description>
+      </character>
+      <character id="U18DB3" dec="101811" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-820</description>
+      </character>
+      <character id="U18DB4" dec="101812" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-821</description>
+      </character>
+      <character id="U18DB5" dec="101813" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-822</description>
+      </character>
+      <character id="U18DB6" dec="101814" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-823</description>
+      </character>
+      <character id="U18DB7" dec="101815" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-824</description>
+      </character>
+      <character id="U18DB8" dec="101816" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-825</description>
+      </character>
+      <character id="U18DB9" dec="101817" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-826</description>
+      </character>
+      <character id="U18DBA" dec="101818" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-827</description>
+      </character>
+      <character id="U18DBB" dec="101819" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-828</description>
+      </character>
+      <character id="U18DBC" dec="101820" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-829</description>
+      </character>
+      <character id="U18DBD" dec="101821" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-830</description>
+      </character>
+      <character id="U18DBE" dec="101822" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-831</description>
+      </character>
+      <character id="U18DBF" dec="101823" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-832</description>
+      </character>
+      <character id="U18DC0" dec="101824" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-833</description>
+      </character>
+      <character id="U18DC1" dec="101825" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-834</description>
+      </character>
+      <character id="U18DC2" dec="101826" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-835</description>
+      </character>
+      <character id="U18DC3" dec="101827" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-836</description>
+      </character>
+      <character id="U18DC4" dec="101828" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-837</description>
+      </character>
+      <character id="U18DC5" dec="101829" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-838</description>
+      </character>
+      <character id="U18DC6" dec="101830" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-839</description>
+      </character>
+      <character id="U18DC7" dec="101831" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-840</description>
+      </character>
+      <character id="U18DC8" dec="101832" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-841</description>
+      </character>
+      <character id="U18DC9" dec="101833" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-842</description>
+      </character>
+      <character id="U18DCA" dec="101834" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-843</description>
+      </character>
+      <character id="U18DCB" dec="101835" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-844</description>
+      </character>
+      <character id="U18DCC" dec="101836" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-845</description>
+      </character>
+      <character id="U18DCD" dec="101837" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-846</description>
+      </character>
+      <character id="U18DCE" dec="101838" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-847</description>
+      </character>
+      <character id="U18DCF" dec="101839" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-848</description>
+      </character>
+      <character id="U18DD0" dec="101840" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-849</description>
+      </character>
+      <character id="U18DD1" dec="101841" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-850</description>
+      </character>
+      <character id="U18DD2" dec="101842" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-851</description>
+      </character>
+      <character id="U18DD3" dec="101843" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-852</description>
+      </character>
+      <character id="U18DD4" dec="101844" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-853</description>
+      </character>
+      <character id="U18DD5" dec="101845" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-854</description>
+      </character>
+      <character id="U18DD6" dec="101846" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-855</description>
+      </character>
+      <character id="U18DD7" dec="101847" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-856</description>
+      </character>
+      <character id="U18DD8" dec="101848" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-857</description>
+      </character>
+      <character id="U18DD9" dec="101849" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-858</description>
+      </character>
+      <character id="U18DDA" dec="101850" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-859</description>
+      </character>
+      <character id="U18DDB" dec="101851" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-860</description>
+      </character>
+      <character id="U18DDC" dec="101852" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-861</description>
+      </character>
+      <character id="U18DDD" dec="101853" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-862</description>
+      </character>
+      <character id="U18DDE" dec="101854" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-863</description>
+      </character>
+      <character id="U18DDF" dec="101855" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-864</description>
+      </character>
+      <character id="U18DE0" dec="101856" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-865</description>
+      </character>
+      <character id="U18DE1" dec="101857" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-866</description>
+      </character>
+      <character id="U18DE2" dec="101858" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-867</description>
+      </character>
+      <character id="U18DE3" dec="101859" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-868</description>
+      </character>
+      <character id="U18DE4" dec="101860" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-869</description>
+      </character>
+      <character id="U18DE5" dec="101861" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-870</description>
+      </character>
+      <character id="U18DE6" dec="101862" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-871</description>
+      </character>
+      <character id="U18DE7" dec="101863" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-872</description>
+      </character>
+      <character id="U18DE8" dec="101864" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-873</description>
+      </character>
+      <character id="U18DE9" dec="101865" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-874</description>
+      </character>
+      <character id="U18DEA" dec="101866" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-875</description>
+      </character>
+      <character id="U18DEB" dec="101867" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-876</description>
+      </character>
+      <character id="U18DEC" dec="101868" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-877</description>
+      </character>
+      <character id="U18DED" dec="101869" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-878</description>
+      </character>
+      <character id="U18DEE" dec="101870" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-879</description>
+      </character>
+      <character id="U18DEF" dec="101871" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-880</description>
+      </character>
+      <character id="U18DF0" dec="101872" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-881</description>
+      </character>
+      <character id="U18DF1" dec="101873" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-882</description>
+      </character>
+      <character id="U18DF2" dec="101874" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TANGUT COMPONENT-883</description>
+      </character>
       <character id="U1AFF0" dec="110576" image="none">
          <unicodedata category="Lm" combclass="0" bidi="L" mirror="N"/>
          <description unicode="14">KATAKANA LETTER MINNAN TONE-2</description>
@@ -155256,6 +156765,18 @@ Barbara Beeton for the STIX project
          <unicodedata category="Nd" combclass="0" bidi="EN" decomp="&lt;font&gt; 0039" decimal="9" digit="9" numeric="9" mirror="N"/>
          <description unicode="16">OUTLINED DIGIT NINE</description>
       </character>
+      <character id="U1CCFA" dec="118010" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">SNAKE SYMBOL</description>
+      </character>
+      <character id="U1CCFB" dec="118011" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">FLYING SAUCER SYMBOL</description>
+      </character>
+      <character id="U1CCFC" dec="118012" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">NOSE SYMBOL</description>
+      </character>
       <character id="U1CD00" dec="118016" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">BLOCK OCTANT-3</description>
@@ -156999,6 +158520,166 @@ Barbara Beeton for the STIX project
       <character id="U1CEB3" dec="118451" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">BLACK RIGHT TRIANGLE CARET</description>
+      </character>
+      <character id="U1CEBA" dec="118458" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">FRAGILE SYMBOL</description>
+      </character>
+      <character id="U1CEBB" dec="118459" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">OFFICE BUILDING SYMBOL</description>
+      </character>
+      <character id="U1CEBC" dec="118460" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">TREE SYMBOL</description>
+      </character>
+      <character id="U1CEBD" dec="118461" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">APPLE SYMBOL</description>
+      </character>
+      <character id="U1CEBE" dec="118462" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">CHERRY SYMBOL</description>
+      </character>
+      <character id="U1CEBF" dec="118463" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">STRAWBERRY SYMBOL</description>
+      </character>
+      <character id="U1CEC0" dec="118464" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">HEBE</description>
+      </character>
+      <character id="U1CEC1" dec="118465" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">IRIS</description>
+      </character>
+      <character id="U1CEC2" dec="118466" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">FLORA</description>
+      </character>
+      <character id="U1CEC3" dec="118467" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">METIS</description>
+      </character>
+      <character id="U1CEC4" dec="118468" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">PARTHENOPE</description>
+      </character>
+      <character id="U1CEC5" dec="118469" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">VICTORIA</description>
+      </character>
+      <character id="U1CEC6" dec="118470" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">EGERIA</description>
+      </character>
+      <character id="U1CEC7" dec="118471" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">IRENE</description>
+      </character>
+      <character id="U1CEC8" dec="118472" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">EUNOMIA</description>
+      </character>
+      <character id="U1CEC9" dec="118473" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">PSYCHE</description>
+      </character>
+      <character id="U1CECA" dec="118474" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">THETIS</description>
+      </character>
+      <character id="U1CECB" dec="118475" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">MELPOMENE</description>
+      </character>
+      <character id="U1CECC" dec="118476" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">FORTUNA</description>
+      </character>
+      <character id="U1CECD" dec="118477" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ASTRONOMICAL SYMBOL FOR ASTEROID PROSERPINA</description>
+      </character>
+      <character id="U1CECE" dec="118478" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">BELLONA</description>
+      </character>
+      <character id="U1CECF" dec="118479" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">AMPHITRITE</description>
+      </character>
+      <character id="U1CED0" dec="118480" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LEUKOTHEA</description>
+      </character>
+      <character id="U1CEE0" dec="118496" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE POPULUS</description>
+      </character>
+      <character id="U1CEE1" dec="118497" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE TRISTITIA</description>
+      </character>
+      <character id="U1CEE2" dec="118498" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE ALBUS</description>
+      </character>
+      <character id="U1CEE3" dec="118499" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE FORTUNA MAJOR</description>
+      </character>
+      <character id="U1CEE4" dec="118500" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE RUBEUS</description>
+      </character>
+      <character id="U1CEE5" dec="118501" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE ACQUISITIO</description>
+      </character>
+      <character id="U1CEE6" dec="118502" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE CONJUNCTIO</description>
+      </character>
+      <character id="U1CEE7" dec="118503" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE CAPUT DRACONIS</description>
+      </character>
+      <character id="U1CEE8" dec="118504" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE LAETITIA</description>
+      </character>
+      <character id="U1CEE9" dec="118505" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE CARCER</description>
+      </character>
+      <character id="U1CEEA" dec="118506" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE AMISSIO</description>
+      </character>
+      <character id="U1CEEB" dec="118507" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE PUELLA</description>
+      </character>
+      <character id="U1CEEC" dec="118508" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE FORTUNA MINOR</description>
+      </character>
+      <character id="U1CEED" dec="118509" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE PUER</description>
+      </character>
+      <character id="U1CEEE" dec="118510" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE CAUDA DRACONIS</description>
+      </character>
+      <character id="U1CEEF" dec="118511" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">GEOMANTIC FIGURE VIA</description>
+      </character>
+      <character id="U1CEF0" dec="118512" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">MEDIUM SMALL WHITE CIRCLE WITH HORIZONTAL BAR</description>
       </character>
       <character id="U1CF00" dec="118528" image="none">
          <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
@@ -173630,6 +175311,226 @@ Barbara Beeton for the STIX project
          <unicodedata category="Po" combclass="0" bidi="L" mirror="N"/>
          <description unicode="16">OL ONAL ABBREVIATION SIGN</description>
       </character>
+      <character id="U1E6C0" dec="124608" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW KO</description>
+      </character>
+      <character id="U1E6C1" dec="124609" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH KO</description>
+      </character>
+      <character id="U1E6C2" dec="124610" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW KHO</description>
+      </character>
+      <character id="U1E6C3" dec="124611" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH KHO</description>
+      </character>
+      <character id="U1E6C4" dec="124612" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER GO</description>
+      </character>
+      <character id="U1E6C5" dec="124613" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER NGO</description>
+      </character>
+      <character id="U1E6C6" dec="124614" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER CO</description>
+      </character>
+      <character id="U1E6C7" dec="124615" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW XO</description>
+      </character>
+      <character id="U1E6C8" dec="124616" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH XO</description>
+      </character>
+      <character id="U1E6C9" dec="124617" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW NYO</description>
+      </character>
+      <character id="U1E6CA" dec="124618" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH NYO</description>
+      </character>
+      <character id="U1E6CB" dec="124619" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER DO</description>
+      </character>
+      <character id="U1E6CC" dec="124620" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW TO</description>
+      </character>
+      <character id="U1E6CD" dec="124621" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH TO</description>
+      </character>
+      <character id="U1E6CE" dec="124622" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER THO</description>
+      </character>
+      <character id="U1E6CF" dec="124623" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER NO</description>
+      </character>
+      <character id="U1E6D0" dec="124624" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER BO</description>
+      </character>
+      <character id="U1E6D1" dec="124625" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW PO</description>
+      </character>
+      <character id="U1E6D2" dec="124626" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH PO</description>
+      </character>
+      <character id="U1E6D3" dec="124627" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER PHO</description>
+      </character>
+      <character id="U1E6D4" dec="124628" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW FO</description>
+      </character>
+      <character id="U1E6D5" dec="124629" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH FO</description>
+      </character>
+      <character id="U1E6D6" dec="124630" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER MO</description>
+      </character>
+      <character id="U1E6D7" dec="124631" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER YO</description>
+      </character>
+      <character id="U1E6D8" dec="124632" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LO</description>
+      </character>
+      <character id="U1E6D9" dec="124633" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER VO</description>
+      </character>
+      <character id="U1E6DA" dec="124634" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW HO</description>
+      </character>
+      <character id="U1E6DB" dec="124635" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH HO</description>
+      </character>
+      <character id="U1E6DC" dec="124636" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER QO</description>
+      </character>
+      <character id="U1E6DD" dec="124637" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER LOW KVO</description>
+      </character>
+      <character id="U1E6DE" dec="124638" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER HIGH KVO</description>
+      </character>
+      <character id="U1E6E0" dec="124640" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER AA</description>
+      </character>
+      <character id="U1E6E1" dec="124641" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER I</description>
+      </character>
+      <character id="U1E6E2" dec="124642" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER UE</description>
+      </character>
+      <character id="U1E6E3" dec="124643" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">TAI YO SIGN UE</description>
+      </character>
+      <character id="U1E6E4" dec="124644" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER U</description>
+      </character>
+      <character id="U1E6E5" dec="124645" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER AE</description>
+      </character>
+      <character id="U1E6E6" dec="124646" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">TAI YO SIGN AU</description>
+      </character>
+      <character id="U1E6E7" dec="124647" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER O</description>
+      </character>
+      <character id="U1E6E8" dec="124648" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER E</description>
+      </character>
+      <character id="U1E6E9" dec="124649" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER IA</description>
+      </character>
+      <character id="U1E6EA" dec="124650" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER UEA</description>
+      </character>
+      <character id="U1E6EB" dec="124651" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER UA</description>
+      </character>
+      <character id="U1E6EC" dec="124652" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER OO</description>
+      </character>
+      <character id="U1E6ED" dec="124653" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER AUE</description>
+      </character>
+      <character id="U1E6EE" dec="124654" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">TAI YO SIGN AY</description>
+      </character>
+      <character id="U1E6EF" dec="124655" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">TAI YO SIGN ANG</description>
+      </character>
+      <character id="U1E6F0" dec="124656" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER AN</description>
+      </character>
+      <character id="U1E6F1" dec="124657" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER AM</description>
+      </character>
+      <character id="U1E6F2" dec="124658" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER AK</description>
+      </character>
+      <character id="U1E6F3" dec="124659" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER AT</description>
+      </character>
+      <character id="U1E6F4" dec="124660" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO LETTER AP</description>
+      </character>
+      <character id="U1E6F5" dec="124661" image="none">
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <description unicode="17">TAI YO SIGN OM</description>
+      </character>
+      <character id="U1E6FE" dec="124670" image="none">
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO SYMBOL MUEANG</description>
+      </character>
+      <character id="U1E6FF" dec="124671" image="none">
+         <unicodedata category="Lm" combclass="0" bidi="L" mirror="N"/>
+         <description unicode="17">TAI YO XAM LAI</description>
+      </character>
       <character id="U1E7E0" dec="124896" image="none">
          <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="14">ETHIOPIC SYLLABLE HHYA</description>
@@ -182075,6 +183976,10 @@ Barbara Beeton for the STIX project
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="13">ELEVATOR</description>
       </character>
+      <character id="U1F6D8" dec="128728" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LANDSLIDE</description>
+      </character>
       <character id="U1F6DC" dec="128732" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="15">WIRELESS</description>
@@ -182670,6 +184575,22 @@ Barbara Beeton for the STIX project
       <character id="U1F776" dec="128886" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="15">LUNAR ECLIPSE</description>
+      </character>
+      <character id="U1F777" dec="128887" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">VESTA FORM TWO</description>
+      </character>
+      <character id="U1F778" dec="128888" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ASTRAEA FORM TWO</description>
+      </character>
+      <character id="U1F779" dec="128889" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">HYGIEA FORM TWO</description>
+      </character>
+      <character id="U1F77A" dec="128890" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">PARTHENOPE FORM TWO</description>
       </character>
       <character id="U1F77B" dec="128891" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
@@ -183750,6 +185671,42 @@ Barbara Beeton for the STIX project
       <character id="U1F8C1" dec="129217" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">RIGHTWARDS ARROW FROM DOWNWARDS ARROW</description>
+      </character>
+      <character id="U1F8D0" dec="129232" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LONG RIGHTWARDS ARROW OVER LONG LEFTWARDS ARROW</description>
+      </character>
+      <character id="U1F8D1" dec="129233" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LONG RIGHTWARDS HARPOON OVER LONG LEFTWARDS HARPOON</description>
+      </character>
+      <character id="U1F8D2" dec="129234" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LONG RIGHTWARDS HARPOON ABOVE SHORT LEFTWARDS HARPOON</description>
+      </character>
+      <character id="U1F8D3" dec="129235" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">SHORT RIGHTWARDS HARPOON ABOVE LONG LEFTWARDS HARPOON</description>
+      </character>
+      <character id="U1F8D4" dec="129236" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LONG LEFTWARDS HARPOON ABOVE SHORT RIGHTWARDS HARPOON</description>
+      </character>
+      <character id="U1F8D5" dec="129237" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">SHORT LEFTWARDS HARPOON ABOVE LONG RIGHTWARDS HARPOON</description>
+      </character>
+      <character id="U1F8D6" dec="129238" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LONG RIGHTWARDS ARROW THROUGH X</description>
+      </character>
+      <character id="U1F8D7" dec="129239" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LONG RIGHTWARDS ARROW WITH DOUBLE SLASH</description>
+      </character>
+      <character id="U1F8D8" dec="129240" image="none">
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">LONG LEFT RIGHT ARROW WITH DEPENDENT LOBE</description>
       </character>
       <character id="U1F900" dec="129280" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
@@ -185111,6 +187068,22 @@ Barbara Beeton for the STIX project
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="12">BLACK CHESS KNIGHT-BISHOP</description>
       </character>
+      <character id="U1FA54" dec="129620" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">WHITE CHESS FERZ</description>
+      </character>
+      <character id="U1FA55" dec="129621" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">WHITE CHESS ALFIL</description>
+      </character>
+      <character id="U1FA56" dec="129622" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">BLACK CHESS FERZ</description>
+      </character>
+      <character id="U1FA57" dec="129623" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">BLACK CHESS ALFIL</description>
+      </character>
       <character id="U1FA60" dec="129632" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="11">XIANGQI RED GENERAL</description>
@@ -185258,6 +187231,14 @@ Barbara Beeton for the STIX project
       <character id="U1FA89" dec="129673" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">HARP</description>
+      </character>
+      <character id="U1FA8A" dec="129674" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">TROMBONE</description>
+      </character>
+      <character id="U1FA8E" dec="129678" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">TREASURE CHEST</description>
       </character>
       <character id="U1FA8F" dec="129679" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
@@ -185483,6 +187464,14 @@ Barbara Beeton for the STIX project
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">FINGERPRINT</description>
       </character>
+      <character id="U1FAC8" dec="129736" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">HAIRY CREATURE</description>
+      </character>
+      <character id="U1FACD" dec="129741" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ORCA</description>
+      </character>
       <character id="U1FACE" dec="129742" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="15">MOOSE</description>
@@ -185543,6 +187532,10 @@ Barbara Beeton for the STIX project
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">ROOT VEGETABLE</description>
       </character>
+      <character id="U1FADD" dec="129757" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">APPLE CORE</description>
+      </character>
       <character id="U1FADF" dec="129759" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">SPLATTER</description>
@@ -185586,6 +187579,14 @@ Barbara Beeton for the STIX project
       <character id="U1FAE9" dec="129769" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">FACE WITH BAGS UNDER EYES</description>
+      </character>
+      <character id="U1FAEA" dec="129770" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">DISTORTED FACE</description>
+      </character>
+      <character id="U1FAEF" dec="129775" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">FIGHT CLOUD</description>
       </character>
       <character id="U1FAF0" dec="129776" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
@@ -186618,6 +188619,10 @@ Barbara Beeton for the STIX project
       <character id="U1FBF9" dec="130041" image="none">
          <unicodedata category="Nd" combclass="0" bidi="EN" decomp="&lt;font&gt; 0039" decimal="9" digit="9" numeric="9" mirror="N"/>
          <description unicode="13">SEGMENTED DIGIT NINE</description>
+      </character>
+      <character id="U1FBFA" dec="130042" image="none">
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <description unicode="17">ALARM BELL SYMBOL</description>
       </character>
       <character id="U2F800" dec="194560" image="none">
          <unicodedata category="Lo" combclass="0" bidi="L" decomp="4E3D" mirror="N"/>
