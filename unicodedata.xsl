@@ -54,6 +54,14 @@ else
 d:hexs(@c)
 "/>
 
+<xsl:key name="dec" match="character" use="if(contains(@dec,'..'))
+then
+(xs:integer(substring-before(@dec,'..')) to xs:integer(substring-after(@dec,'..')))! xs:string(.)
+else
+@dec
+"/>
+
+
 
 <xsl:key name="char" match="character" use="@id"/>
 
@@ -366,7 +374,11 @@ d:hexs(@c)
 	  <xsl:analyze-string select="." regex="^([^#;]*);([A-Z][^;]*)">
 	    <xsl:matching-substring>
 		<character id="{concat('U',if(string-length(regex-group(1))=4) then '0' else '',regex-group(1))}"
-			   dec="{d:hexs(regex-group(1))}"
+			   dec="{if(contains(regex-group(1),'..')) then
+				concat(d:hexs(substring-before(regex-group(1),'..')),'..',d:hexs(substring-after(regex-group(1),'..')))
+				else
+				d:hexs(regex-group(1))
+				}"
 			   image="none">
 		  <unicodedata>
 		    <xsl:variable name="u" select="tokenize(.,';')"/>
@@ -386,7 +398,7 @@ d:hexs(@c)
  <xsl:template mode="unicodedata" match="unicodedata">
   <unicodedata>
   <xsl:copy-of select="key('char',../@id,$ud1)/unicodedata/@*"/>
-  <xsl:copy-of select="key('char',../@id,$mc1)/unicodedata/@mathclass"/>
+  <xsl:copy-of select="key('dec',../@dec,$mc1)/unicodedata/@mathclass"/>
   <xsl:copy-of select="key('char',../@id,$ad1)/unicodedata/@alias"/>
  </unicodedata>
 </xsl:template>
