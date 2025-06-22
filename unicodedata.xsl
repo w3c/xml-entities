@@ -40,6 +40,8 @@
 -->
 <xsl:variable name="BK" select="tokenize(unparsed-text('Blocks-17.0.0.txt'),'[&#10;&#13;]+')"/>
 
+<xsl:variable name="NA" select="tokenize(unparsed-text('NameAliases-17.0.0.txt'),'[&#10;&#13;]+')"/>
+
 <xsl:variable name="mathclass">
 <xsl:for-each select="tokenize(unparsed-text($MC),'[&#10;&#13;]+')[matches(.,'^[0-9A-F.]+;[A-Z]')]">
 <mc c="{substring-before(.,';')}"><xsl:value-of select="substring-after(.,';')"/></mc>
@@ -51,6 +53,14 @@ then
 else
 d:hexs(@c)
 "/>
+
+<xsl:key name="dec" match="character" use="if(contains(@dec,'..'))
+then
+(xs:integer(substring-before(@dec,'..')) to xs:integer(substring-after(@dec,'..')))! xs:string(.)
+else
+@dec
+"/>
+
 
 
 <xsl:key name="char" match="character" use="@id"/>
@@ -125,7 +135,9 @@ d:hexs(@c)
 				       'name','category','combclass','bidi','decomp','decimal','digit','numeric','mirror','unicode1','comment','upper','lower','title')"/>
 
 
+<xsl:variable name="nafields" select="('code','alias','type')"/>
 
+<xsl:variable name="mcfields" select="('code','mathclass')"/>
 
 <xsl:function name="d:hex" as="xs:integer">
 <xsl:param name="x"/>
@@ -292,5 +304,103 @@ d:hexs(@c)
   </xsl:result-document>
 </xsl:template>
 
+<xsl:template name="unicodedata">
+  <xsl:result-document href="uc-new.xml">
+    <xsl:processing-instruction name="xml-stylesheet">type="text/xsl" href="unicode.xsl"</xsl:processing-instruction>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:copy-of select="$uc/comment()"/>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:apply-templates mode="unicodedata" select="$uc/unicode"/>
+  </xsl:result-document>
+</xsl:template>
+
+<xsl:template mode="unicodedata" match="node()">
+ <xsl:copy>
+  <xsl:copy-of select="@*"/>
+  <xsl:apply-templates mode="unicodedata"/>
+ </xsl:copy>
+</xsl:template>
+
+<xsl:variable name="ud1">
+  	<xsl:for-each select="$UD">
+	  <xsl:analyze-string select="." regex="^([^;]*);([A-Z][^;]*|.control.);([^;]*);.*">
+	    <xsl:matching-substring>
+		<character id="{concat('U',if(string-length(regex-group(1))=4) then '0' else '',regex-group(1))}"
+			   dec="{d:hexs(regex-group(1))}"
+			   image="none">
+		  <unicodedata>
+		    <xsl:variable name="u" select="tokenize(.,';')"/>
+		    <xsl:for-each select="$udfields">
+		      <xsl:variable name="p" select="position()"/>
+		      <xsl:if test="$p gt 2 and $u[$p]">
+			<xsl:attribute name="{.}" select="$u[$p]"/>
+		      </xsl:if>
+		    </xsl:for-each>
+		    <xsl:if test="key('mathclass',d:hexs(.),$mathclass)">
+		     <xsl:attribute name="mathclass" select="key('mathclass',d:hexs(.),$mathclass)"/>
+		    </xsl:if>
+		  </unicodedata>
+		</character>
+	    </xsl:matching-substring>
+	  </xsl:analyze-string>
+	</xsl:for-each>
+ </xsl:variable>
+
+ <xsl:variable name="ad1">
+  	<xsl:for-each select="$NA">
+	  <xsl:analyze-string select="." regex="^([^;]*);([A-Z][^;]*);.*">
+	    <xsl:matching-substring>
+		<character id="{concat('U',if(string-length(regex-group(1))=4) then '0' else '',regex-group(1))}"
+			   dec="{d:hexs(regex-group(1))}"
+			   image="none">
+		  <unicodedata>
+		    <xsl:variable name="u" select="tokenize(.,';')"/>
+		    <xsl:for-each select="$nafields">
+		      <xsl:variable name="p" select="position()"/>
+		      <xsl:if test="$p gt 1 and $u[$p]">
+			<xsl:attribute name="{.}" select="$u[$p]"/>
+		      </xsl:if>
+		    </xsl:for-each>
+		  </unicodedata>
+		</character>
+	    </xsl:matching-substring>
+	  </xsl:analyze-string>
+	</xsl:for-each>
+ </xsl:variable>
+
+ 
+ <xsl:variable name="mc1">
+  	<xsl:for-each select="tokenize(unparsed-text($MC),'[&#10;&#13;]+')">
+	  <xsl:analyze-string select="." regex="^([^#;]*);([A-Z][^;]*)">
+	    <xsl:matching-substring>
+		<character id="{concat('U',if(string-length(regex-group(1))=4) then '0' else '',regex-group(1))}"
+			   dec="{if(contains(regex-group(1),'..')) then
+				concat(d:hexs(substring-before(regex-group(1),'..')),'..',d:hexs(substring-after(regex-group(1),'..')))
+				else
+				d:hexs(regex-group(1))
+				}"
+			   image="none">
+		  <unicodedata>
+		    <xsl:variable name="u" select="tokenize(.,';')"/>
+		    <xsl:for-each select="$mcfields">
+		      <xsl:variable name="p" select="position()"/>
+		      <xsl:if test="$p gt 1 and $u[$p]">
+			<xsl:attribute name="{.}" select="$u[$p]"/>
+		      </xsl:if>
+		    </xsl:for-each>
+		  </unicodedata>
+		</character>
+	    </xsl:matching-substring>
+	  </xsl:analyze-string>
+	</xsl:for-each>
+ </xsl:variable>
+
+ <xsl:template mode="unicodedata" match="unicodedata">
+  <unicodedata>
+  <xsl:copy-of select="key('char',../@id,$ud1)/unicodedata/@*"/>
+  <xsl:copy-of select="key('dec',../@dec,$mc1)/unicodedata/@mathclass"/>
+  <xsl:copy-of select="key('char',../@id,$ad1)/unicodedata/@alias"/>
+ </unicodedata>
+</xsl:template>
 
 </xsl:stylesheet>

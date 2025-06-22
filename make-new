@@ -13,6 +13,12 @@ if [ ! -f Blocks-17.0.0.txt ] ; then
 #    mv Blocks-15.0.0d3.txt Blocks-15.0.0.txt
 fi
 
+if [ ! -f NameAliases-17.0.0.txt ] ; then
+    wget https://www.unicode.org/Public/17.0.0/ucd/NameAliases.txt
+    mv NameAliases.txt NameAliases-17.0.0.txt
+#    mv NameAliases.txt NameAliases-16.0.0.txt
+fi
+
 if [ ! -f MathClass-15.txt ] ; then
     wget http://www.unicode.org/Public/math/revision-15/MathClass-15.txt
 fi
@@ -31,6 +37,7 @@ $SAXON -it:$TEMPLATE unicodedata.xsl
 # $SAXON -it:mathclass unicodedata.xsl
 # $SAXON -it:unicode-math unicodedata.xsl
 # $SAXON -it:opdict unicodedata.xsl
+# $SAXON -it:unicodedata unicodedata.xsl
 
 if [ $? != 0 ] ; then
   echo XSLT error
