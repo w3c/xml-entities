@@ -444,7 +444,6 @@ Barbara Beeton for the STIX project
       <block start="16AD0" end="16AFF" name="Bassa Vah"/>
       <block start="16B00" end="16B8F" name="Pahawh Hmong"/>
       <block start="16D40" end="16D7F" name="Kirat Rai"/>
-      <block start="16D80" end="16DAF" name="Chisoi"/>
       <block start="16E40" end="16E9F" name="Medefaidrin"/>
       <block start="16EA0" end="16EDF" name="Beria Erfe"/>
       <block start="16F00" end="16F9F" name="Miao"/>
@@ -145557,166 +145556,6 @@ Barbara Beeton for the STIX project
          <unicodedata category="Nd" combclass="0" bidi="L" decimal="9" digit="9" numeric="9" mirror="N"/>
          <description unicode="16">KIRAT RAI DIGIT NINE</description>
       </character>
-      <character id="U16D80" dec="93568" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER A</description>
-      </character>
-      <character id="U16D81" dec="93569" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER BA</description>
-      </character>
-      <character id="U16D82" dec="93570" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER AI</description>
-      </character>
-      <character id="U16D83" dec="93571" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER AA</description>
-      </character>
-      <character id="U16D84" dec="93572" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER GA</description>
-      </character>
-      <character id="U16D85" dec="93573" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER TA</description>
-      </character>
-      <character id="U16D86" dec="93574" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER E</description>
-      </character>
-      <character id="U16D87" dec="93575" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER SA</description>
-      </character>
-      <character id="U16D88" dec="93576" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER NA</description>
-      </character>
-      <character id="U16D89" dec="93577" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER I</description>
-      </character>
-      <character id="U16D8A" dec="93578" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER KA</description>
-      </character>
-      <character id="U16D8B" dec="93579" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER RA</description>
-      </character>
-      <character id="U16D8C" dec="93580" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER MA</description>
-      </character>
-      <character id="U16D8D" dec="93581" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER HA</description>
-      </character>
-      <character id="U16D8E" dec="93582" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER RRA</description>
-      </character>
-      <character id="U16D8F" dec="93583" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER U</description>
-      </character>
-      <character id="U16D90" dec="93584" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER DA</description>
-      </character>
-      <character id="U16D91" dec="93585" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER LA</description>
-      </character>
-      <character id="U16D92" dec="93586" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER O</description>
-      </character>
-      <character id="U16D93" dec="93587" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER NYA</description>
-      </character>
-      <character id="U16D94" dec="93588" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER NGA</description>
-      </character>
-      <character id="U16D95" dec="93589" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER CA</description>
-      </character>
-      <character id="U16D96" dec="93590" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER JA</description>
-      </character>
-      <character id="U16D97" dec="93591" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER PA</description>
-      </character>
-      <character id="U16D98" dec="93592" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
-         <description unicode="17">CHISOI SIGN ANUSVARA</description>
-      </character>
-      <character id="U16D99" dec="93593" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER YA</description>
-      </character>
-      <character id="U16D9A" dec="93594" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER DDA</description>
-      </character>
-      <character id="U16D9B" dec="93595" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER TTA</description>
-      </character>
-      <character id="U16D9C" dec="93596" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
-         <description unicode="17">CHISOI LETTER JARAHA</description>
-      </character>
-      <character id="U16D9D" dec="93597" image="none">
-         <unicodedata category="Mn" combclass="9" bidi="NSM" mirror="N"/>
-         <description unicode="17">CHISOI SIGN SISO</description>
-      </character>
-      <character id="U16DA0" dec="93600" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="0" digit="0" numeric="0" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT ZERO</description>
-      </character>
-      <character id="U16DA1" dec="93601" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="1" digit="1" numeric="1" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT ONE</description>
-      </character>
-      <character id="U16DA2" dec="93602" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="2" digit="2" numeric="2" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT TWO</description>
-      </character>
-      <character id="U16DA3" dec="93603" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="3" digit="3" numeric="3" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT THREE</description>
-      </character>
-      <character id="U16DA4" dec="93604" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="4" digit="4" numeric="4" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT FOUR</description>
-      </character>
-      <character id="U16DA5" dec="93605" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="5" digit="5" numeric="5" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT FIVE</description>
-      </character>
-      <character id="U16DA6" dec="93606" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="6" digit="6" numeric="6" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT SIX</description>
-      </character>
-      <character id="U16DA7" dec="93607" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="7" digit="7" numeric="7" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT SEVEN</description>
-      </character>
-      <character id="U16DA8" dec="93608" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="8" digit="8" numeric="8" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT EIGHT</description>
-      </character>
-      <character id="U16DA9" dec="93609" image="none">
-         <unicodedata category="Nd" combclass="0" bidi="L" decimal="9" digit="9" numeric="9" mirror="N"/>
-         <description unicode="17">CHISOI DIGIT NINE</description>
-      </character>
       <character id="U16E40" dec="93760" image="none">
          <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16E60"/>
          <description unicode="11">MEDEFAIDRIN CAPITAL LETTER M</description>
@@ -187531,10 +187370,6 @@ Barbara Beeton for the STIX project
       <character id="U1FADC" dec="129756" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="16">ROOT VEGETABLE</description>
-      </character>
-      <character id="U1FADD" dec="129757" image="none">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
-         <description unicode="17">APPLE CORE</description>
       </character>
       <character id="U1FADF" dec="129759" image="none">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
