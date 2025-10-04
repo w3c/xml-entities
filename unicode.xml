@@ -38312,7 +38312,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
          <description unicode="14">SOM SIGN</description>
       </character>
-      <character id="U020C1" dec="8385" image="none">
+      <character id="U020C1" dec="8385">
          <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
          <description unicode="17">SAUDI RIYAL SIGN</description>
       </character>
@@ -65786,7 +65786,7 @@ Barbara Beeton for the STIX project
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="340" stretchy="true"/>
          <description unicode="7.0">RIGHTWARDS BLACK ARROW</description>
       </character>
-      <character id="U02B96" dec="11158" image="none">
+      <character id="U02B96" dec="11158">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">EQUALS SIGN WITH INFINITY ABOVE</description>
       </character>
