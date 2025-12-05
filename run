@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-SAXON="java -jar saxon9he.jar "
+SAXON="java -jar Saxon-HE-10.9.jar "
 
 $SAXON -strip:none character-set.xml characters-restyle.xsl glyphs=glyphs  editors-copy=yes branch=`git branch --show-current`
        
@@ -19,4 +19,8 @@ $SAXON unicode.xml charmap.xsl
 $SAXON unicode.xml entities.xsl
 $SAXON unicode.xml unicode-names.xsl > docs/unicode-names.js
 $SAXON unicode.xml opdict.xsl > docs/opdict.html
+
+# linebreak after doctype to match older saxon
+for i in docs/*html; do sed -i -e 's/<!DOCTYPE HTML></<!DOCTYPE HTML>\n</' $i; done
+
 exit
