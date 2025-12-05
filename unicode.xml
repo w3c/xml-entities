@@ -7470,7 +7470,6 @@ Barbara Beeton for the STIX project
       </character>
       <character id="U00307" dec="775" mode="mixed" type="diacritic">
          <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING DOT ABOVE" mathclass="D"/>
-         <noncombref style="above" ref="U002E"/>
          <noncombref style="above" ref="U0002E"/>
          <noncombref style="above" ref="U002D9"/>
          <afii>E224</afii>
@@ -7585,7 +7584,7 @@ Barbara Beeton for the STIX project
       </character>
       <character id="U00312" dec="786" type="other" mode="unknown">
          <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING TURNED COMMA ABOVE"/>
-         <noncombref style="above" ref="U00B8"/>
+         <noncombref style="above" ref="U000B8"/>
          <mathlatex set="unicode-math">\oturnedcomma</mathlatex>
          <description unicode="1.1">COMBINING TURNED COMMA ABOVE</description>
       </character>
@@ -7813,7 +7812,7 @@ Barbara Beeton for the STIX project
       </character>
       <character id="U00338" dec="824" mode="unknown" type="other">
          <unicodedata category="Mn" combclass="1" bidi="NSM" mirror="N" unicode1="NON-SPACING LONG SLASH OVERLAY" mathclass="D"/>
-         <noncombref style="over" ref="U002F"/>
+         <noncombref style="over" ref="U0002F"/>
          <latex>{\fontencoding{LECO}\selectfont\char216}</latex>
          <mathlatex set="unicode-math">\notaccent</mathlatex>
          <Elsevier grid="caz" ent="z.cansls">
