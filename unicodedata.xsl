@@ -25,8 +25,9 @@
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-15.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-15.1.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-16.0.0.txt'),'[&#10;&#13;]+')"/>
--->
 <xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-17.0.0.txt'),'[&#10;&#13;]+')"/>
+-->
+<xsl:variable name="UD" select="tokenize(unparsed-text('UnicodeData-18.0.0.txt'),'[&#10;&#13;]+')"/>
 <xsl:variable name="uc" select="doc('unicode.xml')"/>
 <xsl:variable name="comb" select="doc('combine.xml')"/>
 <!--
@@ -37,10 +38,11 @@
 
 <!--
 <xsl:variable name="BK" select="tokenize(unparsed-text('Blocks-16.0.0.txt'),'[&#10;&#13;]+')"/>
--->
 <xsl:variable name="BK" select="tokenize(unparsed-text('Blocks-17.0.0.txt'),'[&#10;&#13;]+')"/>
+-->
+<xsl:variable name="BK" select="tokenize(unparsed-text('Blocks-18.0.0.txt'),'[&#10;&#13;]+')"/>
 
-<xsl:variable name="NA" select="tokenize(unparsed-text('NameAliases-17.0.0.txt'),'[&#10;&#13;]+')"/>
+<xsl:variable name="NA" select="tokenize(unparsed-text('NameAliases-18.0.0.txt'),'[&#10;&#13;]+')"/>
 
 <xsl:variable name="mathclass">
 <xsl:for-each select="tokenize(unparsed-text($MC),'[&#10;&#13;]+')[matches(.,'^[0-9A-F.]+;[A-Z]')]">

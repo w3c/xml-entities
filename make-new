@@ -2,20 +2,20 @@
 
 
 
-if [ ! -f UnicodeData-17.0.0.txt ] ; then
-    wget https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt
-    mv UnicodeData.txt UnicodeData-17.0.0.txt
+if [ ! -f UnicodeData-18.0.0.txt ] ; then
+    wget https://www.unicode.org/Public/18.0.0/ucd/UnicodeData.txt
+    mv UnicodeData.txt UnicodeData-18.0.0.txt
 #    mv UnicodeData-16.0.0.txt UnicodeData-15.0.0.txt
 fi
-if [ ! -f Blocks-17.0.0.txt ] ; then
-    wget https://www.unicode.org/Public/17.0.0/ucd/Blocks.txt
-    mv Blocks.txt Blocks-17.0.0.txt
+if [ ! -f Blocks-18.0.0.txt ] ; then
+    wget https://www.unicode.org/Public/18.0.0/ucd/Blocks.txt
+    mv Blocks.txt Blocks-18.0.0.txt
 #    mv Blocks-15.0.0d3.txt Blocks-15.0.0.txt
 fi
 
-if [ ! -f NameAliases-17.0.0.txt ] ; then
-    wget https://www.unicode.org/Public/17.0.0/ucd/NameAliases.txt
-    mv NameAliases.txt NameAliases-17.0.0.txt
+if [ ! -f NameAliases-18.0.0.txt ] ; then
+    wget https://www.unicode.org/Public/18.0.0/ucd/NameAliases.txt
+    mv NameAliases.txt NameAliases-18.0.0.txt
 #    mv NameAliases.txt NameAliases-16.0.0.txt
 fi
 
@@ -29,7 +29,8 @@ fi
 TEMPLATE=${1-main}
 echo "--- $TEMPLATE ---"
 
-SAXON="java -jar saxon9he.jar "
+# SAXON="java -jar saxon9he.jar "
+SAXON=saxon
 
 $SAXON -it:$TEMPLATE unicodedata.xsl
 
