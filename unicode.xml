@@ -38228,15 +38228,15 @@ Barbara Beeton for the STIX project
          <unicodedata category="Lm" combclass="0" bidi="L" decomp="&lt;sub&gt; 0074" mirror="N"/>
          <description unicode="6.0">LATIN SUBSCRIPT SMALL LETTER T</description>
       </character>
-      <character id="U0209D" dec="8349" image="none">
+      <character id="U0209D" dec="8349">
          <unicodedata category="Lm" combclass="0" bidi="L" decomp="&lt;sub&gt; 0077" mirror="N"/>
          <description unicode="18">LATIN SUBSCRIPT SMALL LETTER W</description>
       </character>
-      <character id="U0209E" dec="8350" image="none">
+      <character id="U0209E" dec="8350">
          <unicodedata category="Lm" combclass="0" bidi="L" decomp="&lt;sub&gt; 0079" mirror="N"/>
          <description unicode="18">LATIN SUBSCRIPT SMALL LETTER Y</description>
       </character>
-      <character id="U0209F" dec="8351" image="none">
+      <character id="U0209F" dec="8351">
          <unicodedata category="Lm" combclass="0" bidi="L" decomp="&lt;sub&gt; 007A" mirror="N"/>
          <description unicode="18">LATIN SUBSCRIPT SMALL LETTER Z</description>
       </character>
@@ -38387,11 +38387,11 @@ Barbara Beeton for the STIX project
          <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
          <description unicode="17">SAUDI RIYAL SIGN</description>
       </character>
-      <character id="U020C2" dec="8386" image="none">
+      <character id="U020C2" dec="8386">
          <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
          <description unicode="18">RUFIYAA SIGN</description>
       </character>
-      <character id="U020C3" dec="8387" image="none">
+      <character id="U020C3" dec="8387">
          <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
          <description unicode="18">UAE DIRHAM SIGN</description>
       </character>
