@@ -38395,7 +38395,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
          <description unicode="18">UAE DIRHAM SIGN</description>
       </character>
-      <character id="U020C4" dec="8388" image="none">
+      <character id="U020C4" dec="8388">
          <unicodedata category="Sc" combclass="0" bidi="ET" mirror="N"/>
          <description unicode="18">OMANI RIAL SIGN</description>
       </character>
