@@ -88723,55 +88723,55 @@ Barbara Beeton for the STIX project
          <unicodedata category="Sk" combclass="0" bidi="AL" mirror="N"/>
          <description unicode="14">ARABIC SYMBOL WASLA ABOVE</description>
       </character>
-      <character id="U0FBC3" dec="64451" image="none">
+      <character id="U0FBC3" dec="64451">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE JALLA WA-ALAA</description>
       </character>
-      <character id="U0FBC4" dec="64452" image="none">
+      <character id="U0FBC4" dec="64452">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE DAAMAT BARAKAATUHUM</description>
       </character>
-      <character id="U0FBC5" dec="64453" image="none">
+      <character id="U0FBC5" dec="64453">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE RAHMATU ALLAAHI TAAALAA ALAYH</description>
       </character>
-      <character id="U0FBC6" dec="64454" image="none">
+      <character id="U0FBC6" dec="64454">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIM</description>
       </character>
-      <character id="U0FBC7" dec="64455" image="none">
+      <character id="U0FBC7" dec="64455">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIMAA</description>
       </character>
-      <character id="U0FBC8" dec="64456" image="none">
+      <character id="U0FBC8" dec="64456">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE RAHIMAHUM ALLAAHU TAAALAA</description>
       </character>
-      <character id="U0FBC9" dec="64457" image="none">
+      <character id="U0FBC9" dec="64457">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE RAHIMAHUMAA ALLAAH</description>
       </character>
-      <character id="U0FBCA" dec="64458" image="none">
+      <character id="U0FBCA" dec="64458">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE RAHIMAHUMAA ALLAAHU TAAALAA</description>
       </character>
-      <character id="U0FBCB" dec="64459" image="none">
+      <character id="U0FBCB" dec="64459">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHUM</description>
       </character>
-      <character id="U0FBCC" dec="64460" image="none">
+      <character id="U0FBCC" dec="64460">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE HAFIZAHU ALLAAH</description>
       </character>
-      <character id="U0FBCD" dec="64461" image="none">
+      <character id="U0FBCD" dec="64461">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE HAFIZAHU ALLAAHU TAAALAA</description>
       </character>
-      <character id="U0FBCE" dec="64462" image="none">
+      <character id="U0FBCE" dec="64462">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE HAFIZAHUM ALLAAHU TAAALAA</description>
       </character>
-      <character id="U0FBCF" dec="64463" image="none">
+      <character id="U0FBCF" dec="64463">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE HAFIZAHUMAA ALLAAHU TAAALAA</description>
       </character>
