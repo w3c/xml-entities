@@ -545,50 +545,50 @@ Barbara Beeton for the STIX project
    </mathclasses>
    <charlist>
       <character id="U00000" dec="0" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="NULL" alias="NUL"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="NULL"/>
          <description unicode="1.1">NULL</description>
       </character>
       <character id="U00001" dec="1" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF HEADING" alias="SOH"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF HEADING"/>
          <description unicode="1.1">START OF HEADING</description>
       </character>
       <character id="U00002" dec="2" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF TEXT" alias="STX"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF TEXT"/>
          <description unicode="1.1">START OF TEXT</description>
       </character>
       <character id="U00003" dec="3" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF TEXT" alias="ETX"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF TEXT"/>
          <description unicode="1.1">END OF TEXT</description>
       </character>
       <character id="U00004" dec="4" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF TRANSMISSION" alias="EOT"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF TRANSMISSION"/>
          <description unicode="1.1">END OF TRANSMISSION</description>
       </character>
       <character id="U00005" dec="5" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="ENQUIRY" alias="ENQ"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="ENQUIRY"/>
          <description unicode="1.1">ENQUIRY</description>
       </character>
       <character id="U00006" dec="6" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="ACKNOWLEDGE" alias="ACK"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="ACKNOWLEDGE"/>
          <description unicode="1.1">ACKNOWLEDGE</description>
       </character>
       <character id="U00007" dec="7" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="BELL" alias="BEL"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="BELL"/>
          <description unicode="1.1">BELL</description>
       </character>
       <character id="U00008" dec="8" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="BACKSPACE" alias="BS"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="BACKSPACE"/>
          <description unicode="1.1">BACKSPACE</description>
       </character>
       <character id="U00009" dec="9" mode="text" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="S" mirror="N" unicode1="CHARACTER TABULATION" alias="TAB"/>
+         <unicodedata category="Cc" combclass="0" bidi="S" mirror="N" unicode1="CHARACTER TABULATION"/>
          <entity id="Tab" set="mmlextra">
             <desc>tabulator stop; horizontal tabulation</desc>
          </entity>
          <description unicode="1.1">CHARACTER TABULATION</description>
       </character>
       <character id="U0000A" dec="10" mode="text" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="LINE FEED (LF)" alias="EOL"/>
+         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="LINE FEED (LF)"/>
          <Wolfram>NewLine</Wolfram>
          <entity id="NewLine" set="mmlextra">
             <desc>force a line break; line feed</desc>
@@ -596,91 +596,91 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LINE FEED (LF)</description>
       </character>
       <character id="U0000B" dec="11" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="S" mirror="N" unicode1="LINE TABULATION" alias="VT"/>
+         <unicodedata category="Cc" combclass="0" bidi="S" mirror="N" unicode1="LINE TABULATION"/>
          <description unicode="1.1">LINE TABULATION</description>
       </character>
       <character id="U0000C" dec="12" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="WS" mirror="N" unicode1="FORM FEED (FF)" alias="FF"/>
+         <unicodedata category="Cc" combclass="0" bidi="WS" mirror="N" unicode1="FORM FEED (FF)"/>
          <description unicode="1.1">FORM FEED (FF)</description>
       </character>
       <character id="U0000D" dec="13" mode="text" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="CARRIAGE RETURN (CR)" alias="CR"/>
+         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="CARRIAGE RETURN (CR)"/>
          <description unicode="1.1">CARRIAGE RETURN (CR)</description>
       </character>
       <character id="U0000E" dec="14" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SHIFT OUT" alias="SO"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SHIFT OUT"/>
          <description unicode="1.1">SHIFT OUT</description>
       </character>
       <character id="U0000F" dec="15" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SHIFT IN" alias="SI"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SHIFT IN"/>
          <description unicode="1.1">SHIFT IN</description>
       </character>
       <character id="U00010" dec="16" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DATA LINK ESCAPE" alias="DLE"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DATA LINK ESCAPE"/>
          <description unicode="1.1">DATA LINK ESCAPE</description>
       </character>
       <character id="U00011" dec="17" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL ONE" alias="DC1"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL ONE"/>
          <description unicode="1.1">DEVICE CONTROL ONE</description>
       </character>
       <character id="U00012" dec="18" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL TWO" alias="DC2"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL TWO"/>
          <description unicode="1.1">DEVICE CONTROL TWO</description>
       </character>
       <character id="U00013" dec="19" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL THREE" alias="DC3"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL THREE"/>
          <description unicode="1.1">DEVICE CONTROL THREE</description>
       </character>
       <character id="U00014" dec="20" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL FOUR" alias="DC4"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL FOUR"/>
          <description unicode="1.1">DEVICE CONTROL FOUR</description>
       </character>
       <character id="U00015" dec="21" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="NEGATIVE ACKNOWLEDGE" alias="NAK"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="NEGATIVE ACKNOWLEDGE"/>
          <description unicode="1.1">NEGATIVE ACKNOWLEDGE</description>
       </character>
       <character id="U00016" dec="22" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SYNCHRONOUS IDLE" alias="SYN"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SYNCHRONOUS IDLE"/>
          <description unicode="1.1">SYNCHRONOUS IDLE</description>
       </character>
       <character id="U00017" dec="23" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF TRANSMISSION BLOCK" alias="ETB"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF TRANSMISSION BLOCK"/>
          <description unicode="1.1">END OF TRANSMISSION BLOCK</description>
       </character>
       <character id="U00018" dec="24" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CANCEL" alias="CAN"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CANCEL"/>
          <description unicode="1.1">CANCEL</description>
       </character>
       <character id="U00019" dec="25" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF MEDIUM" alias="EM"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF MEDIUM"/>
          <description unicode="1.1">END OF MEDIUM</description>
       </character>
       <character id="U0001A" dec="26" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SUBSTITUTE" alias="SUB"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SUBSTITUTE"/>
          <description unicode="1.1">SUBSTITUTE</description>
       </character>
       <character id="U0001B" dec="27" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="ESCAPE" alias="ESC"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="ESCAPE"/>
          <description unicode="1.1">ESCAPE</description>
       </character>
       <character id="U0001C" dec="28" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="INFORMATION SEPARATOR FOUR" alias="FS"/>
+         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="INFORMATION SEPARATOR FOUR"/>
          <description unicode="1.1">INFORMATION SEPARATOR FOUR</description>
       </character>
       <character id="U0001D" dec="29" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="INFORMATION SEPARATOR THREE" alias="GS"/>
+         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="INFORMATION SEPARATOR THREE"/>
          <description unicode="1.1">INFORMATION SEPARATOR THREE</description>
       </character>
       <character id="U0001E" dec="30" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="INFORMATION SEPARATOR TWO" alias="RS"/>
+         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="INFORMATION SEPARATOR TWO"/>
          <description unicode="1.1">INFORMATION SEPARATOR TWO</description>
       </character>
       <character id="U0001F" dec="31" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="S" mirror="N" unicode1="INFORMATION SEPARATOR ONE" alias="US"/>
+         <unicodedata category="Cc" combclass="0" bidi="S" mirror="N" unicode1="INFORMATION SEPARATOR ONE"/>
          <description unicode="1.1">INFORMATION SEPARATOR ONE</description>
       </character>
       <character id="U00020" dec="32" mode="text" type="other">
-         <unicodedata category="Zs" combclass="0" bidi="WS" mirror="N" mathclass="S" alias="SP"/>
+         <unicodedata category="Zs" combclass="0" bidi="WS" mirror="N" mathclass="S"/>
          <latex>\space </latex>
          <description unicode="1.1">SPACE</description>
       </character>
@@ -1892,139 +1892,139 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">TILDE</description>
       </character>
       <character id="U0007F" dec="127" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DELETE" alias="DEL"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DELETE"/>
          <description unicode="1.1">DELETE</description>
       </character>
       <character id="U00080" dec="128" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" alias="PAD"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N"/>
          <description unicode="1.1"/>
       </character>
       <character id="U00081" dec="129" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" alias="HOP"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N"/>
          <description unicode="1.1"/>
       </character>
       <character id="U00082" dec="130" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="BREAK PERMITTED HERE" alias="BPH"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="BREAK PERMITTED HERE"/>
          <description unicode="1.1">BREAK PERMITTED HERE</description>
       </character>
       <character id="U00083" dec="131" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="NO BREAK HERE" alias="NBH"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="NO BREAK HERE"/>
          <description unicode="1.1">NO BREAK HERE</description>
       </character>
       <character id="U00084" dec="132" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" alias="IND"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N"/>
          <description unicode="1.1"/>
       </character>
       <character id="U00085" dec="133" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="NEXT LINE (NEL)" alias="NEL"/>
+         <unicodedata category="Cc" combclass="0" bidi="B" mirror="N" unicode1="NEXT LINE (NEL)"/>
          <description unicode="1.1">NEXT LINE (NEL)</description>
       </character>
       <character id="U00086" dec="134" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF SELECTED AREA" alias="SSA"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF SELECTED AREA"/>
          <description unicode="1.1">START OF SELECTED AREA</description>
       </character>
       <character id="U00087" dec="135" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF SELECTED AREA" alias="ESA"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF SELECTED AREA"/>
          <description unicode="1.1">END OF SELECTED AREA</description>
       </character>
       <character id="U00088" dec="136" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CHARACTER TABULATION SET" alias="HTS"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CHARACTER TABULATION SET"/>
          <description unicode="1.1">CHARACTER TABULATION SET</description>
       </character>
       <character id="U00089" dec="137" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CHARACTER TABULATION WITH JUSTIFICATION" alias="HTJ"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CHARACTER TABULATION WITH JUSTIFICATION"/>
          <description unicode="1.1">CHARACTER TABULATION WITH JUSTIFICATION</description>
       </character>
       <character id="U0008A" dec="138" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="LINE TABULATION SET" alias="VTS"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="LINE TABULATION SET"/>
          <description unicode="1.1">LINE TABULATION SET</description>
       </character>
       <character id="U0008B" dec="139" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PARTIAL LINE FORWARD" alias="PLD"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PARTIAL LINE FORWARD"/>
          <description unicode="1.1">PARTIAL LINE FORWARD</description>
       </character>
       <character id="U0008C" dec="140" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PARTIAL LINE BACKWARD" alias="PLU"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PARTIAL LINE BACKWARD"/>
          <description unicode="1.1">PARTIAL LINE BACKWARD</description>
       </character>
       <character id="U0008D" dec="141" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="REVERSE LINE FEED" alias="RI"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="REVERSE LINE FEED"/>
          <description unicode="1.1">REVERSE LINE FEED</description>
       </character>
       <character id="U0008E" dec="142" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SINGLE SHIFT TWO" alias="SS2"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SINGLE SHIFT TWO"/>
          <description unicode="1.1">SINGLE SHIFT TWO</description>
       </character>
       <character id="U0008F" dec="143" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SINGLE SHIFT THREE" alias="SS3"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SINGLE SHIFT THREE"/>
          <description unicode="1.1">SINGLE SHIFT THREE</description>
       </character>
       <character id="U00090" dec="144" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL STRING" alias="DCS"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="DEVICE CONTROL STRING"/>
          <description unicode="1.1">DEVICE CONTROL STRING</description>
       </character>
       <character id="U00091" dec="145" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PRIVATE USE ONE" alias="PU1"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PRIVATE USE ONE"/>
          <description unicode="1.1">PRIVATE USE ONE</description>
       </character>
       <character id="U00092" dec="146" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PRIVATE USE TWO" alias="PU2"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PRIVATE USE TWO"/>
          <description unicode="1.1">PRIVATE USE TWO</description>
       </character>
       <character id="U00093" dec="147" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SET TRANSMIT STATE" alias="STS"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SET TRANSMIT STATE"/>
          <description unicode="1.1">SET TRANSMIT STATE</description>
       </character>
       <character id="U00094" dec="148" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CANCEL CHARACTER" alias="CCH"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CANCEL CHARACTER"/>
          <description unicode="1.1">CANCEL CHARACTER</description>
       </character>
       <character id="U00095" dec="149" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="MESSAGE WAITING" alias="MW"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="MESSAGE WAITING"/>
          <description unicode="1.1">MESSAGE WAITING</description>
       </character>
       <character id="U00096" dec="150" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF GUARDED AREA" alias="SPA"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF GUARDED AREA"/>
          <description unicode="1.1">START OF GUARDED AREA</description>
       </character>
       <character id="U00097" dec="151" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF GUARDED AREA" alias="EPA"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="END OF GUARDED AREA"/>
          <description unicode="1.1">END OF GUARDED AREA</description>
       </character>
       <character id="U00098" dec="152" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF STRING" alias="SOS"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="START OF STRING"/>
          <description unicode="1.1">START OF STRING</description>
       </character>
       <character id="U00099" dec="153" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" alias="SGC"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N"/>
          <description unicode="1.1"/>
       </character>
       <character id="U0009A" dec="154" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SINGLE CHARACTER INTRODUCER" alias="SCI"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="SINGLE CHARACTER INTRODUCER"/>
          <description unicode="1.1">SINGLE CHARACTER INTRODUCER</description>
       </character>
       <character id="U0009B" dec="155" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CONTROL SEQUENCE INTRODUCER" alias="CSI"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="CONTROL SEQUENCE INTRODUCER"/>
          <description unicode="1.1">CONTROL SEQUENCE INTRODUCER</description>
       </character>
       <character id="U0009C" dec="156" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="STRING TERMINATOR" alias="ST"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="STRING TERMINATOR"/>
          <description unicode="1.1">STRING TERMINATOR</description>
       </character>
       <character id="U0009D" dec="157" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="OPERATING SYSTEM COMMAND" alias="OSC"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="OPERATING SYSTEM COMMAND"/>
          <description unicode="1.1">OPERATING SYSTEM COMMAND</description>
       </character>
       <character id="U0009E" dec="158" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PRIVACY MESSAGE" alias="PM"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="PRIVACY MESSAGE"/>
          <description unicode="1.1">PRIVACY MESSAGE</description>
       </character>
       <character id="U0009F" dec="159" mode="unknown" type="other">
-         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="APPLICATION PROGRAM COMMAND" alias="APC"/>
+         <unicodedata category="Cc" combclass="0" bidi="BN" mirror="N" unicode1="APPLICATION PROGRAM COMMAND"/>
          <description unicode="1.1">APPLICATION PROGRAM COMMAND</description>
       </character>
       <character id="U000A0" dec="160" mode="math" type="other">
-         <unicodedata category="Zs" combclass="0" bidi="CS" decomp="&lt;noBreak&gt; 0020" mirror="N" unicode1="NON-BREAKING SPACE" mathclass="S" alias="NBSP"/>
+         <unicodedata category="Zs" combclass="0" bidi="CS" decomp="&lt;noBreak&gt; 0020" mirror="N" unicode1="NON-BREAKING SPACE" mathclass="S"/>
          <afii>EF21</afii>
          <latex>~</latex>
          <Elsevier grid="ba0" ent="nbsp">
@@ -2326,7 +2326,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT SIGN</description>
       </character>
       <character id="U000AD" dec="173" mode="math" type="other">
-         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" alias="SHY"/>
+         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N"/>
          <afii>EF23</afii>
          <latex>\-</latex>
          <Wolfram>Hyphen</Wolfram>
@@ -5582,11 +5582,11 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LATIN SMALL LETTER O WITH HORN</description>
       </character>
       <character id="U001A2" dec="418" type="other" mode="unknown">
-         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="LATIN CAPITAL LETTER O I" lower="01A3" alias="LATIN CAPITAL LETTER GHA"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="LATIN CAPITAL LETTER O I" lower="01A3"/>
          <description unicode="1.1">LATIN CAPITAL LETTER OI</description>
       </character>
       <character id="U001A3" dec="419" type="other" mode="unknown">
-         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" unicode1="LATIN SMALL LETTER O I" upper="01A2" title="01A2" alias="LATIN SMALL LETTER GHA"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" unicode1="LATIN SMALL LETTER O I" upper="01A2" title="01A2"/>
          <description unicode="1.1">LATIN SMALL LETTER OI</description>
       </character>
       <character id="U001A4" dec="420" type="other" mode="unknown">
@@ -7934,7 +7934,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">COMBINING UPWARDS ARROW BELOW</description>
       </character>
       <character id="U0034F" dec="847" type="other" mode="unknown">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="CGJ"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">COMBINING GRAPHEME JOINER</description>
       </character>
       <character id="U00350" dec="848">
@@ -13388,7 +13388,7 @@ Barbara Beeton for the STIX project
          <description unicode="4.0">ARABIC SMALL HIGH TAH</description>
       </character>
       <character id="U00616" dec="1558">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" alias="ARABIC SMALL HIGH LIGATURE ALEF WITH YEH BARREE"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
          <description unicode="5.1">ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH</description>
       </character>
       <character id="U00617" dec="1559">
@@ -13412,7 +13412,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ARABIC SEMICOLON</description>
       </character>
       <character id="U0061C" dec="1564">
-         <unicodedata category="Cf" combclass="0" bidi="AL" mirror="N" alias="ALM"/>
+         <unicodedata category="Cf" combclass="0" bidi="AL" mirror="N"/>
          <description unicode="6.3">ARABIC LETTER MARK</description>
       </character>
       <character id="U0061D" dec="1565">
@@ -14360,7 +14360,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">SYRIAC SUPRALINEAR COLON SKEWED LEFT</description>
       </character>
       <character id="U00709" dec="1801" image="none">
-         <unicodedata category="Po" combclass="0" bidi="AL" mirror="N" alias="SYRIAC SUBLINEAR COLON SKEWED LEFT"/>
+         <unicodedata category="Po" combclass="0" bidi="AL" mirror="N"/>
          <description unicode="3.0">SYRIAC SUBLINEAR COLON SKEWED RIGHT</description>
       </character>
       <character id="U0070A" dec="1802" image="none">
@@ -19176,7 +19176,7 @@ Barbara Beeton for the STIX project
          <description unicode="14">KANNADA LETTER NAKAARA POLLU</description>
       </character>
       <character id="U00CDE" dec="3294" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="KANNADA LETTER LLLA"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">KANNADA LETTER FA</description>
       </character>
       <character id="U00CE0" dec="3296" image="none">
@@ -20532,7 +20532,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LAO LETTER PHO SUNG</description>
       </character>
       <character id="U00E9D" dec="3741" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="LAO LETTER FO FON"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">LAO LETTER FO TAM</description>
       </character>
       <character id="U00E9E" dec="3742" image="none">
@@ -20540,7 +20540,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LAO LETTER PHO TAM</description>
       </character>
       <character id="U00E9F" dec="3743" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="LAO LETTER FO FAY"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">LAO LETTER FO SUNG</description>
       </character>
       <character id="U00EA0" dec="3744" image="none">
@@ -20556,11 +20556,11 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LAO LETTER YO</description>
       </character>
       <character id="U00EA3" dec="3747" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="LAO LETTER RO"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">LAO LETTER LO LING</description>
       </character>
       <character id="U00EA5" dec="3749" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="LAO LETTER LO"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">LAO LETTER LO LOOT</description>
       </character>
       <character id="U00EA7" dec="3751" image="none">
@@ -21564,7 +21564,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">TIBETAN SIGN RDEL NAG GSUM</description>
       </character>
       <character id="U00FD0" dec="4048" image="none">
-         <unicodedata category="Po" combclass="0" bidi="L" mirror="N" alias="TIBETAN MARK BKA- SHOG GI MGO RGYAN"/>
+         <unicodedata category="Po" combclass="0" bidi="L" mirror="N"/>
          <description unicode="4.1">TIBETAN MARK BSKA- SHOG GI MGO RGYAN</description>
       </character>
       <character id="U00FD1" dec="4049" image="none">
@@ -23544,19 +23544,19 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">HANGUL JONGSEONG PANSIOS</description>
       </character>
       <character id="U011EC" dec="4588" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="HANGUL JONGSEONG YESIEUNG-KIYEOK"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">HANGUL JONGSEONG IEUNG-KIYEOK</description>
       </character>
       <character id="U011ED" dec="4589" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="HANGUL JONGSEONG YESIEUNG-SSANGKIYEOK"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">HANGUL JONGSEONG IEUNG-SSANGKIYEOK</description>
       </character>
       <character id="U011EE" dec="4590" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="HANGUL JONGSEONG SSANGYESIEUNG"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">HANGUL JONGSEONG SSANGIEUNG</description>
       </character>
       <character id="U011EF" dec="4591" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="HANGUL JONGSEONG YESIEUNG-KHIEUKH"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="1.1">HANGUL JONGSEONG IEUNG-KHIEUKH</description>
       </character>
       <character id="U011F0" dec="4592" image="none">
@@ -29396,23 +29396,23 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">MONGOLIAN NIRUGU</description>
       </character>
       <character id="U0180B" dec="6155" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="FVS1"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.0">MONGOLIAN FREE VARIATION SELECTOR ONE</description>
       </character>
       <character id="U0180C" dec="6156" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="FVS2"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.0">MONGOLIAN FREE VARIATION SELECTOR TWO</description>
       </character>
       <character id="U0180D" dec="6157" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="FVS3"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.0">MONGOLIAN FREE VARIATION SELECTOR THREE</description>
       </character>
       <character id="U0180E" dec="6158" image="none">
-         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" alias="MVS"/>
+         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N"/>
          <description unicode="3.0">MONGOLIAN VOWEL SEPARATOR</description>
       </character>
       <character id="U0180F" dec="6159" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="FVS4"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="14">MONGOLIAN FREE VARIATION SELECTOR FOUR</description>
       </character>
       <character id="U01810" dec="6160" image="none">
@@ -32776,7 +32776,7 @@ Barbara Beeton for the STIX project
          <description unicode="6.1">SUNDANESE LETTER LEU</description>
       </character>
       <character id="U01BBD" dec="7101" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="SUNDANESE LETTER ARCHAIC I"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="6.1">SUNDANESE LETTER BHA</description>
       </character>
       <character id="U01BBE" dec="7102" image="none">
@@ -37055,7 +37055,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">HAIR SPACE</description>
       </character>
       <character id="U0200B" dec="8203" mode="unknown" type="other">
-         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" mathclass="S" alias="ZWSP"/>
+         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" mathclass="S"/>
          <Wolfram id="F360">InvisibleSpace</Wolfram>
          <entity id="ZeroWidthSpace" set="mmlextra">
             <desc>zero width space</desc>
@@ -37075,22 +37075,22 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ZERO WIDTH SPACE</description>
       </character>
       <character id="U0200C" dec="8204" mode="unknown" type="other">
-         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" alias="ZWNJ"/>
+         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N"/>
          <entity id="zwnj" set="xhtml1-special"/>
          <description unicode="1.1">ZERO WIDTH NON-JOINER</description>
       </character>
       <character id="U0200D" dec="8205" mode="unknown" type="other">
-         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" alias="ZWJ"/>
+         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N"/>
          <entity id="zwj" set="xhtml1-special"/>
          <description unicode="1.1">ZERO WIDTH JOINER</description>
       </character>
       <character id="U0200E" dec="8206" mode="text" type="other">
-         <unicodedata category="Cf" combclass="0" bidi="L" mirror="N" alias="LRM"/>
+         <unicodedata category="Cf" combclass="0" bidi="L" mirror="N"/>
          <entity id="lrm" set="xhtml1-special"/>
          <description unicode="1.1">LEFT-TO-RIGHT MARK</description>
       </character>
       <character id="U0200F" dec="8207" mode="unknown" type="other">
-         <unicodedata category="Cf" combclass="0" bidi="R" mirror="N" alias="RLM"/>
+         <unicodedata category="Cf" combclass="0" bidi="R" mirror="N"/>
          <entity id="rlm" set="xhtml1-special"/>
          <description unicode="1.1">RIGHT-TO-LEFT MARK</description>
       </character>
@@ -37538,27 +37538,27 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PARAGRAPH SEPARATOR</description>
       </character>
       <character id="U0202A" dec="8234" type="other" mode="unknown">
-         <unicodedata category="Cf" combclass="0" bidi="LRE" mirror="N" alias="LRE"/>
+         <unicodedata category="Cf" combclass="0" bidi="LRE" mirror="N"/>
          <description unicode="1.1">LEFT-TO-RIGHT EMBEDDING</description>
       </character>
       <character id="U0202B" dec="8235" type="other" mode="unknown">
-         <unicodedata category="Cf" combclass="0" bidi="RLE" mirror="N" alias="RLE"/>
+         <unicodedata category="Cf" combclass="0" bidi="RLE" mirror="N"/>
          <description unicode="1.1">RIGHT-TO-LEFT EMBEDDING</description>
       </character>
       <character id="U0202C" dec="8236" type="other" mode="unknown">
-         <unicodedata category="Cf" combclass="0" bidi="PDF" mirror="N" alias="PDF"/>
+         <unicodedata category="Cf" combclass="0" bidi="PDF" mirror="N"/>
          <description unicode="1.1">POP DIRECTIONAL FORMATTING</description>
       </character>
       <character id="U0202D" dec="8237" type="other" mode="unknown">
-         <unicodedata category="Cf" combclass="0" bidi="LRO" mirror="N" alias="LRO"/>
+         <unicodedata category="Cf" combclass="0" bidi="LRO" mirror="N"/>
          <description unicode="1.1">LEFT-TO-RIGHT OVERRIDE</description>
       </character>
       <character id="U0202E" dec="8238" type="other" mode="unknown">
-         <unicodedata category="Cf" combclass="0" bidi="RLO" mirror="N" alias="RLO"/>
+         <unicodedata category="Cf" combclass="0" bidi="RLO" mirror="N"/>
          <description unicode="1.1">RIGHT-TO-LEFT OVERRIDE</description>
       </character>
       <character id="U0202F" dec="8239" type="other" mode="unknown">
-         <unicodedata category="Zs" combclass="0" bidi="CS" decomp="&lt;noBreak&gt; 0020" mirror="N" alias="NNBSP"/>
+         <unicodedata category="Zs" combclass="0" bidi="CS" decomp="&lt;noBreak&gt; 0020" mirror="N"/>
          <description unicode="3.0">NARROW NO-BREAK SPACE</description>
       </character>
       <character id="U02030" dec="8240" mode="text" type="normal">
@@ -37950,7 +37950,7 @@ Barbara Beeton for the STIX project
          <description unicode="4.1">VERTICAL FOUR DOTS</description>
       </character>
       <character id="U0205F" dec="8287" type="other" mode="unknown">
-         <unicodedata category="Zs" combclass="0" bidi="WS" decomp="&lt;compat&gt; 0020" mirror="N" mathclass="S" alias="MMSP"/>
+         <unicodedata category="Zs" combclass="0" bidi="WS" decomp="&lt;compat&gt; 0020" mirror="N" mathclass="S"/>
          <latex>\mkern4mu </latex>
          <Wolfram>MediumSpace</Wolfram>
          <entity id="MediumSpace" set="mmlextra">
@@ -37966,7 +37966,7 @@ Barbara Beeton for the STIX project
          <description>space of width 5/18 em</description>
       </character>
       <character id="U02060" dec="8288" mode="unknown" type="normal">
-         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" alias="WJ"/>
+         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N"/>
          <latex>\nolinebreak </latex>
          <Wolfram id="F3A2">NoBreak</Wolfram>
          <entity id="NoBreak" set="mmlextra">
@@ -38017,19 +38017,19 @@ Barbara Beeton for the STIX project
          <description unicode="5.1">INVISIBLE PLUS</description>
       </character>
       <character id="U02066" dec="8294">
-         <unicodedata category="Cf" combclass="0" bidi="LRI" mirror="N" alias="LRI"/>
+         <unicodedata category="Cf" combclass="0" bidi="LRI" mirror="N"/>
          <description unicode="6.3">LEFT-TO-RIGHT ISOLATE</description>
       </character>
       <character id="U02067" dec="8295">
-         <unicodedata category="Cf" combclass="0" bidi="RLI" mirror="N" alias="RLI"/>
+         <unicodedata category="Cf" combclass="0" bidi="RLI" mirror="N"/>
          <description unicode="6.3">RIGHT-TO-LEFT ISOLATE</description>
       </character>
       <character id="U02068" dec="8296">
-         <unicodedata category="Cf" combclass="0" bidi="FSI" mirror="N" alias="FSI"/>
+         <unicodedata category="Cf" combclass="0" bidi="FSI" mirror="N"/>
          <description unicode="6.3">FIRST STRONG ISOLATE</description>
       </character>
       <character id="U02069" dec="8297">
-         <unicodedata category="Cf" combclass="0" bidi="PDI" mirror="N" alias="PDI"/>
+         <unicodedata category="Cf" combclass="0" bidi="PDI" mirror="N"/>
          <description unicode="6.3">POP DIRECTIONAL ISOLATE</description>
       </character>
       <character id="U0206A" dec="8298" type="other" mode="unknown">
@@ -38982,7 +38982,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SOUND RECORDING COPYRIGHT</description>
       </character>
       <character id="U02118" dec="8472" mode="math" type="alphabetic">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="SCRIPT P" mathclass="A" alias="WEIERSTRASS ELLIPTIC FUNCTION"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="SCRIPT P" mathclass="A"/>
          <afii>22A6</afii>
          <latex>\wp </latex>
          <mathlatex set="unicode-math">\wp</mathlatex>
@@ -51327,11 +51327,11 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">OCR AMOUNT OF CHECK</description>
       </character>
       <character id="U02448" dec="9288" mode="unknown" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" alias="MICR ON US SYMBOL"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="1.1">OCR DASH</description>
       </character>
       <character id="U02449" dec="9289" mode="unknown" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" alias="MICR DASH SYMBOL"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="1.1">OCR CUSTOMER ACCOUNT NUMBER</description>
       </character>
       <character id="U0244A" dec="9290" mode="unknown" type="other">
@@ -65736,7 +65736,7 @@ Barbara Beeton for the STIX project
          <description unicode="7.0">SOUTH WEST TRIANGLE-HEADED ARROW TO BAR</description>
       </character>
       <character id="U02B7A" dec="11130">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" alias="LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="340" stretchy="true"/>
          <description unicode="7.0">LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE</description>
       </character>
@@ -65746,7 +65746,7 @@ Barbara Beeton for the STIX project
          <description unicode="7.0">UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE</description>
       </character>
       <character id="U02B7C" dec="11132">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" alias="RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="340" stretchy="true"/>
          <description unicode="7.0">RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE</description>
       </character>
@@ -74329,7 +74329,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">YI SYLLABLE E</description>
       </character>
       <character id="U0A015" dec="40981" image="none">
-         <unicodedata category="Lm" combclass="0" bidi="L" mirror="N" alias="YI SYLLABLE ITERATION MARK"/>
+         <unicodedata category="Lm" combclass="0" bidi="L" mirror="N"/>
          <description unicode="3.0">YI SYLLABLE WU</description>
       </character>
       <character id="U0A016" dec="40982" image="none">
@@ -84437,7 +84437,7 @@ Barbara Beeton for the STIX project
          <description unicode="5.2">MYANMAR LETTER KHAMTI HA</description>
       </character>
       <character id="U0AA6E" dec="43630" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="MYANMAR LETTER KHAMTI LLA"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="5.2">MYANMAR LETTER KHAMTI HHA</description>
       </character>
       <character id="U0AA6F" dec="43631" image="none">
@@ -90888,67 +90888,67 @@ Barbara Beeton for the STIX project
          <description unicode="14">ARABIC LIGATURE AZZA WA JALL</description>
       </character>
       <character id="U0FE00" dec="65024" mode="unknown" type="normal">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" mathclass="D" alias="VS1"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="3.2">VARIATION SELECTOR-1</description>
       </character>
       <character id="U0FE01" dec="65025" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS2"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-2</description>
       </character>
       <character id="U0FE02" dec="65026" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS3"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-3</description>
       </character>
       <character id="U0FE03" dec="65027" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS4"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-4</description>
       </character>
       <character id="U0FE04" dec="65028" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS5"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-5</description>
       </character>
       <character id="U0FE05" dec="65029" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS6"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-6</description>
       </character>
       <character id="U0FE06" dec="65030" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS7"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-7</description>
       </character>
       <character id="U0FE07" dec="65031" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS8"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-8</description>
       </character>
       <character id="U0FE08" dec="65032" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS9"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-9</description>
       </character>
       <character id="U0FE09" dec="65033" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS10"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-10</description>
       </character>
       <character id="U0FE0A" dec="65034" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS11"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-11</description>
       </character>
       <character id="U0FE0B" dec="65035" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS12"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-12</description>
       </character>
       <character id="U0FE0C" dec="65036" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS13"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-13</description>
       </character>
       <character id="U0FE0D" dec="65037" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS14"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-14</description>
       </character>
       <character id="U0FE0E" dec="65038" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS15"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-15</description>
       </character>
       <character id="U0FE0F" dec="65039" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS16"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="3.2">VARIATION SELECTOR-16</description>
       </character>
       <character id="U0FE10" dec="65040">
@@ -90984,7 +90984,7 @@ Barbara Beeton for the STIX project
          <description unicode="4.1">PRESENTATION FORM FOR VERTICAL LEFT WHITE LENTICULAR BRACKET</description>
       </character>
       <character id="U0FE18" dec="65048">
-         <unicodedata category="Pe" combclass="0" bidi="ON" decomp="&lt;vertical&gt; 3017" mirror="N" alias="PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRACKET"/>
+         <unicodedata category="Pe" combclass="0" bidi="ON" decomp="&lt;vertical&gt; 3017" mirror="N"/>
          <description unicode="4.1">PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRAKCET</description>
       </character>
       <character id="U0FE19" dec="65049">
@@ -91851,7 +91851,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ARABIC LIGATURE LAM WITH ALEF FINAL FORM</description>
       </character>
       <character id="U0FEFF" dec="65279" mode="unknown" type="other">
-         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" unicode1="BYTE ORDER MARK" alias="ZWNBSP"/>
+         <unicodedata category="Cf" combclass="0" bidi="BN" mirror="N" unicode1="BYTE ORDER MARK"/>
          <description unicode="1.1">ZERO WIDTH NO-BREAK SPACE</description>
       </character>
       <character id="U0FF01" dec="65281" image="none">
@@ -116752,11 +116752,11 @@ Barbara Beeton for the STIX project
          <description unicode="5.0">CUNEIFORM SIGN SHIR</description>
       </character>
       <character id="U122D4" dec="74452" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="CUNEIFORM SIGN NU11 TENU"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="5.0">CUNEIFORM SIGN SHIR TENU</description>
       </character>
       <character id="U122D5" dec="74453" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="CUNEIFORM SIGN NU11 OVER NU11 BUR OVER BUR"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="5.0">CUNEIFORM SIGN SHIR OVER SHIR BUR OVER BUR</description>
       </character>
       <character id="U122D6" dec="74454" image="none">
@@ -117084,7 +117084,7 @@ Barbara Beeton for the STIX project
          <description unicode="5.0">CUNEIFORM SIGN UN</description>
       </character>
       <character id="U12327" dec="74535" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="CUNEIFORM SIGN KALAM"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="5.0">CUNEIFORM SIGN UN GUNU</description>
       </character>
       <character id="U12328" dec="74536" image="none">
@@ -143508,7 +143508,7 @@ Barbara Beeton for the STIX project
          <description unicode="6.0">BAMUM LETTER PHASE-A PON PA NJI PIPAEMBA</description>
       </character>
       <character id="U1680B" dec="92171" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="BAMUM LETTER PHASE-A MAEMGBIEE"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="6.0">BAMUM LETTER PHASE-A MAEMBGBIEE</description>
       </character>
       <character id="U1680C" dec="92172" image="none">
@@ -147400,11 +147400,11 @@ Barbara Beeton for the STIX project
          <description unicode="11">MEDEFAIDRIN CAPITAL LETTER Q</description>
       </character>
       <character id="U16E56" dec="93782" image="none">
-         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16E76" alias="MEDEFAIDRIN CAPITAL LETTER H"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16E76"/>
          <description unicode="11">MEDEFAIDRIN CAPITAL LETTER HP</description>
       </character>
       <character id="U16E57" dec="93783" image="none">
-         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16E77" alias="MEDEFAIDRIN CAPITAL LETTER NG"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="16E77"/>
          <description unicode="11">MEDEFAIDRIN CAPITAL LETTER NY</description>
       </character>
       <character id="U16E58" dec="93784" image="none">
@@ -147528,11 +147528,11 @@ Barbara Beeton for the STIX project
          <description unicode="11">MEDEFAIDRIN SMALL LETTER Q</description>
       </character>
       <character id="U16E76" dec="93814" image="none">
-         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16E56" title="16E56" alias="MEDEFAIDRIN SMALL LETTER H"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16E56" title="16E56"/>
          <description unicode="11">MEDEFAIDRIN SMALL LETTER HP</description>
       </character>
       <character id="U16E77" dec="93815" image="none">
-         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16E57" title="16E57" alias="MEDEFAIDRIN SMALL LETTER NG"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="16E57" title="16E57"/>
          <description unicode="11">MEDEFAIDRIN SMALL LETTER NY</description>
       </character>
       <character id="U16E78" dec="93816" image="none">
@@ -154216,7 +154216,7 @@ Barbara Beeton for the STIX project
          <description unicode="6.0">KATAKANA LETTER ARCHAIC E</description>
       </character>
       <character id="U1B001" dec="110593" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N" alias="HENTAIGANA LETTER E-1"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" mirror="N"/>
          <description unicode="6.0">HIRAGANA LETTER ARCHAIC YE</description>
       </character>
       <character id="U1B002" dec="110594" image="none">
@@ -162132,7 +162132,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.1">BYZANTINE MUSICAL SYMBOL FTHORA MALAKON CHROMA MONOFONIAS</description>
       </character>
       <character id="U1D0C5" dec="118981" image="none">
-         <unicodedata category="So" combclass="0" bidi="L" mirror="N" alias="BYZANTINE MUSICAL SYMBOL FTHORA SKLIRON CHROMA VASIS"/>
+         <unicodedata category="So" combclass="0" bidi="L" mirror="N"/>
          <description unicode="3.1">BYZANTINE MUSICAL SYMBOL FHTORA SKLIRON CHROMA VASIS</description>
       </character>
       <character id="U1D0C6" dec="118982" image="none">
@@ -179194,11 +179194,11 @@ Barbara Beeton for the STIX project
          <description unicode="7.0">MENDE KIKAKUI SYLLABLE M072 MBE</description>
       </character>
       <character id="U1E899" dec="125081" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N" alias="MENDE KIKAKUI SYLLABLE M172 MBO"/>
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
          <description unicode="7.0">MENDE KIKAKUI SYLLABLE M172 MBOO</description>
       </character>
       <character id="U1E89A" dec="125082" image="none">
-         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N" alias="MENDE KIKAKUI SYLLABLE M174 MBOO"/>
+         <unicodedata category="Lo" combclass="0" bidi="R" mirror="N"/>
          <description unicode="7.0">MENDE KIKAKUI SYLLABLE M174 MBO</description>
       </character>
       <character id="U1E89B" dec="125083" image="none">
@@ -194223,963 +194223,963 @@ Barbara Beeton for the STIX project
          <description unicode="3.1">CANCEL TAG</description>
       </character>
       <character id="UE0100" dec="917760" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS17"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-17</description>
       </character>
       <character id="UE0101" dec="917761" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS18"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-18</description>
       </character>
       <character id="UE0102" dec="917762" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS19"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-19</description>
       </character>
       <character id="UE0103" dec="917763" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS20"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-20</description>
       </character>
       <character id="UE0104" dec="917764" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS21"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-21</description>
       </character>
       <character id="UE0105" dec="917765" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS22"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-22</description>
       </character>
       <character id="UE0106" dec="917766" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS23"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-23</description>
       </character>
       <character id="UE0107" dec="917767" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS24"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-24</description>
       </character>
       <character id="UE0108" dec="917768" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS25"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-25</description>
       </character>
       <character id="UE0109" dec="917769" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS26"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-26</description>
       </character>
       <character id="UE010A" dec="917770" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS27"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-27</description>
       </character>
       <character id="UE010B" dec="917771" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS28"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-28</description>
       </character>
       <character id="UE010C" dec="917772" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS29"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-29</description>
       </character>
       <character id="UE010D" dec="917773" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS30"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-30</description>
       </character>
       <character id="UE010E" dec="917774" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS31"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-31</description>
       </character>
       <character id="UE010F" dec="917775" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS32"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-32</description>
       </character>
       <character id="UE0110" dec="917776" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS33"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-33</description>
       </character>
       <character id="UE0111" dec="917777" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS34"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-34</description>
       </character>
       <character id="UE0112" dec="917778" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS35"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-35</description>
       </character>
       <character id="UE0113" dec="917779" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS36"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-36</description>
       </character>
       <character id="UE0114" dec="917780" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS37"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-37</description>
       </character>
       <character id="UE0115" dec="917781" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS38"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-38</description>
       </character>
       <character id="UE0116" dec="917782" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS39"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-39</description>
       </character>
       <character id="UE0117" dec="917783" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS40"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-40</description>
       </character>
       <character id="UE0118" dec="917784" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS41"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-41</description>
       </character>
       <character id="UE0119" dec="917785" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS42"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-42</description>
       </character>
       <character id="UE011A" dec="917786" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS43"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-43</description>
       </character>
       <character id="UE011B" dec="917787" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS44"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-44</description>
       </character>
       <character id="UE011C" dec="917788" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS45"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-45</description>
       </character>
       <character id="UE011D" dec="917789" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS46"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-46</description>
       </character>
       <character id="UE011E" dec="917790" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS47"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-47</description>
       </character>
       <character id="UE011F" dec="917791" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS48"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-48</description>
       </character>
       <character id="UE0120" dec="917792" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS49"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-49</description>
       </character>
       <character id="UE0121" dec="917793" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS50"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-50</description>
       </character>
       <character id="UE0122" dec="917794" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS51"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-51</description>
       </character>
       <character id="UE0123" dec="917795" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS52"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-52</description>
       </character>
       <character id="UE0124" dec="917796" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS53"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-53</description>
       </character>
       <character id="UE0125" dec="917797" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS54"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-54</description>
       </character>
       <character id="UE0126" dec="917798" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS55"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-55</description>
       </character>
       <character id="UE0127" dec="917799" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS56"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-56</description>
       </character>
       <character id="UE0128" dec="917800" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS57"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-57</description>
       </character>
       <character id="UE0129" dec="917801" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS58"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-58</description>
       </character>
       <character id="UE012A" dec="917802" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS59"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-59</description>
       </character>
       <character id="UE012B" dec="917803" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS60"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-60</description>
       </character>
       <character id="UE012C" dec="917804" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS61"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-61</description>
       </character>
       <character id="UE012D" dec="917805" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS62"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-62</description>
       </character>
       <character id="UE012E" dec="917806" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS63"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-63</description>
       </character>
       <character id="UE012F" dec="917807" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS64"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-64</description>
       </character>
       <character id="UE0130" dec="917808" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS65"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-65</description>
       </character>
       <character id="UE0131" dec="917809" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS66"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-66</description>
       </character>
       <character id="UE0132" dec="917810" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS67"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-67</description>
       </character>
       <character id="UE0133" dec="917811" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS68"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-68</description>
       </character>
       <character id="UE0134" dec="917812" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS69"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-69</description>
       </character>
       <character id="UE0135" dec="917813" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS70"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-70</description>
       </character>
       <character id="UE0136" dec="917814" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS71"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-71</description>
       </character>
       <character id="UE0137" dec="917815" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS72"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-72</description>
       </character>
       <character id="UE0138" dec="917816" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS73"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-73</description>
       </character>
       <character id="UE0139" dec="917817" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS74"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-74</description>
       </character>
       <character id="UE013A" dec="917818" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS75"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-75</description>
       </character>
       <character id="UE013B" dec="917819" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS76"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-76</description>
       </character>
       <character id="UE013C" dec="917820" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS77"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-77</description>
       </character>
       <character id="UE013D" dec="917821" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS78"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-78</description>
       </character>
       <character id="UE013E" dec="917822" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS79"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-79</description>
       </character>
       <character id="UE013F" dec="917823" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS80"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-80</description>
       </character>
       <character id="UE0140" dec="917824" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS81"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-81</description>
       </character>
       <character id="UE0141" dec="917825" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS82"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-82</description>
       </character>
       <character id="UE0142" dec="917826" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS83"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-83</description>
       </character>
       <character id="UE0143" dec="917827" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS84"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-84</description>
       </character>
       <character id="UE0144" dec="917828" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS85"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-85</description>
       </character>
       <character id="UE0145" dec="917829" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS86"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-86</description>
       </character>
       <character id="UE0146" dec="917830" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS87"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-87</description>
       </character>
       <character id="UE0147" dec="917831" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS88"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-88</description>
       </character>
       <character id="UE0148" dec="917832" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS89"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-89</description>
       </character>
       <character id="UE0149" dec="917833" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS90"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-90</description>
       </character>
       <character id="UE014A" dec="917834" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS91"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-91</description>
       </character>
       <character id="UE014B" dec="917835" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS92"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-92</description>
       </character>
       <character id="UE014C" dec="917836" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS93"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-93</description>
       </character>
       <character id="UE014D" dec="917837" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS94"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-94</description>
       </character>
       <character id="UE014E" dec="917838" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS95"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-95</description>
       </character>
       <character id="UE014F" dec="917839" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS96"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-96</description>
       </character>
       <character id="UE0150" dec="917840" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS97"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-97</description>
       </character>
       <character id="UE0151" dec="917841" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS98"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-98</description>
       </character>
       <character id="UE0152" dec="917842" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS99"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-99</description>
       </character>
       <character id="UE0153" dec="917843" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS100"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-100</description>
       </character>
       <character id="UE0154" dec="917844" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS101"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-101</description>
       </character>
       <character id="UE0155" dec="917845" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS102"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-102</description>
       </character>
       <character id="UE0156" dec="917846" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS103"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-103</description>
       </character>
       <character id="UE0157" dec="917847" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS104"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-104</description>
       </character>
       <character id="UE0158" dec="917848" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS105"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-105</description>
       </character>
       <character id="UE0159" dec="917849" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS106"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-106</description>
       </character>
       <character id="UE015A" dec="917850" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS107"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-107</description>
       </character>
       <character id="UE015B" dec="917851" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS108"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-108</description>
       </character>
       <character id="UE015C" dec="917852" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS109"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-109</description>
       </character>
       <character id="UE015D" dec="917853" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS110"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-110</description>
       </character>
       <character id="UE015E" dec="917854" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS111"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-111</description>
       </character>
       <character id="UE015F" dec="917855" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS112"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-112</description>
       </character>
       <character id="UE0160" dec="917856" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS113"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-113</description>
       </character>
       <character id="UE0161" dec="917857" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS114"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-114</description>
       </character>
       <character id="UE0162" dec="917858" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS115"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-115</description>
       </character>
       <character id="UE0163" dec="917859" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS116"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-116</description>
       </character>
       <character id="UE0164" dec="917860" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS117"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-117</description>
       </character>
       <character id="UE0165" dec="917861" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS118"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-118</description>
       </character>
       <character id="UE0166" dec="917862" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS119"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-119</description>
       </character>
       <character id="UE0167" dec="917863" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS120"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-120</description>
       </character>
       <character id="UE0168" dec="917864" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS121"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-121</description>
       </character>
       <character id="UE0169" dec="917865" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS122"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-122</description>
       </character>
       <character id="UE016A" dec="917866" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS123"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-123</description>
       </character>
       <character id="UE016B" dec="917867" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS124"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-124</description>
       </character>
       <character id="UE016C" dec="917868" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS125"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-125</description>
       </character>
       <character id="UE016D" dec="917869" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS126"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-126</description>
       </character>
       <character id="UE016E" dec="917870" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS127"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-127</description>
       </character>
       <character id="UE016F" dec="917871" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS128"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-128</description>
       </character>
       <character id="UE0170" dec="917872" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS129"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-129</description>
       </character>
       <character id="UE0171" dec="917873" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS130"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-130</description>
       </character>
       <character id="UE0172" dec="917874" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS131"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-131</description>
       </character>
       <character id="UE0173" dec="917875" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS132"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-132</description>
       </character>
       <character id="UE0174" dec="917876" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS133"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-133</description>
       </character>
       <character id="UE0175" dec="917877" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS134"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-134</description>
       </character>
       <character id="UE0176" dec="917878" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS135"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-135</description>
       </character>
       <character id="UE0177" dec="917879" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS136"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-136</description>
       </character>
       <character id="UE0178" dec="917880" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS137"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-137</description>
       </character>
       <character id="UE0179" dec="917881" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS138"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-138</description>
       </character>
       <character id="UE017A" dec="917882" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS139"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-139</description>
       </character>
       <character id="UE017B" dec="917883" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS140"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-140</description>
       </character>
       <character id="UE017C" dec="917884" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS141"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-141</description>
       </character>
       <character id="UE017D" dec="917885" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS142"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-142</description>
       </character>
       <character id="UE017E" dec="917886" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS143"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-143</description>
       </character>
       <character id="UE017F" dec="917887" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS144"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-144</description>
       </character>
       <character id="UE0180" dec="917888" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS145"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-145</description>
       </character>
       <character id="UE0181" dec="917889" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS146"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-146</description>
       </character>
       <character id="UE0182" dec="917890" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS147"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-147</description>
       </character>
       <character id="UE0183" dec="917891" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS148"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-148</description>
       </character>
       <character id="UE0184" dec="917892" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS149"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-149</description>
       </character>
       <character id="UE0185" dec="917893" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS150"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-150</description>
       </character>
       <character id="UE0186" dec="917894" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS151"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-151</description>
       </character>
       <character id="UE0187" dec="917895" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS152"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-152</description>
       </character>
       <character id="UE0188" dec="917896" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS153"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-153</description>
       </character>
       <character id="UE0189" dec="917897" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS154"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-154</description>
       </character>
       <character id="UE018A" dec="917898" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS155"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-155</description>
       </character>
       <character id="UE018B" dec="917899" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS156"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-156</description>
       </character>
       <character id="UE018C" dec="917900" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS157"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-157</description>
       </character>
       <character id="UE018D" dec="917901" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS158"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-158</description>
       </character>
       <character id="UE018E" dec="917902" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS159"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-159</description>
       </character>
       <character id="UE018F" dec="917903" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS160"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-160</description>
       </character>
       <character id="UE0190" dec="917904" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS161"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-161</description>
       </character>
       <character id="UE0191" dec="917905" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS162"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-162</description>
       </character>
       <character id="UE0192" dec="917906" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS163"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-163</description>
       </character>
       <character id="UE0193" dec="917907" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS164"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-164</description>
       </character>
       <character id="UE0194" dec="917908" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS165"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-165</description>
       </character>
       <character id="UE0195" dec="917909" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS166"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-166</description>
       </character>
       <character id="UE0196" dec="917910" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS167"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-167</description>
       </character>
       <character id="UE0197" dec="917911" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS168"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-168</description>
       </character>
       <character id="UE0198" dec="917912" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS169"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-169</description>
       </character>
       <character id="UE0199" dec="917913" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS170"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-170</description>
       </character>
       <character id="UE019A" dec="917914" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS171"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-171</description>
       </character>
       <character id="UE019B" dec="917915" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS172"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-172</description>
       </character>
       <character id="UE019C" dec="917916" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS173"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-173</description>
       </character>
       <character id="UE019D" dec="917917" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS174"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-174</description>
       </character>
       <character id="UE019E" dec="917918" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS175"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-175</description>
       </character>
       <character id="UE019F" dec="917919" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS176"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-176</description>
       </character>
       <character id="UE01A0" dec="917920" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS177"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-177</description>
       </character>
       <character id="UE01A1" dec="917921" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS178"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-178</description>
       </character>
       <character id="UE01A2" dec="917922" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS179"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-179</description>
       </character>
       <character id="UE01A3" dec="917923" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS180"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-180</description>
       </character>
       <character id="UE01A4" dec="917924" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS181"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-181</description>
       </character>
       <character id="UE01A5" dec="917925" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS182"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-182</description>
       </character>
       <character id="UE01A6" dec="917926" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS183"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-183</description>
       </character>
       <character id="UE01A7" dec="917927" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS184"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-184</description>
       </character>
       <character id="UE01A8" dec="917928" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS185"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-185</description>
       </character>
       <character id="UE01A9" dec="917929" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS186"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-186</description>
       </character>
       <character id="UE01AA" dec="917930" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS187"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-187</description>
       </character>
       <character id="UE01AB" dec="917931" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS188"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-188</description>
       </character>
       <character id="UE01AC" dec="917932" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS189"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-189</description>
       </character>
       <character id="UE01AD" dec="917933" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS190"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-190</description>
       </character>
       <character id="UE01AE" dec="917934" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS191"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-191</description>
       </character>
       <character id="UE01AF" dec="917935" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS192"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-192</description>
       </character>
       <character id="UE01B0" dec="917936" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS193"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-193</description>
       </character>
       <character id="UE01B1" dec="917937" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS194"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-194</description>
       </character>
       <character id="UE01B2" dec="917938" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS195"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-195</description>
       </character>
       <character id="UE01B3" dec="917939" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS196"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-196</description>
       </character>
       <character id="UE01B4" dec="917940" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS197"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-197</description>
       </character>
       <character id="UE01B5" dec="917941" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS198"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-198</description>
       </character>
       <character id="UE01B6" dec="917942" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS199"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-199</description>
       </character>
       <character id="UE01B7" dec="917943" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS200"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-200</description>
       </character>
       <character id="UE01B8" dec="917944" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS201"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-201</description>
       </character>
       <character id="UE01B9" dec="917945" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS202"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-202</description>
       </character>
       <character id="UE01BA" dec="917946" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS203"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-203</description>
       </character>
       <character id="UE01BB" dec="917947" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS204"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-204</description>
       </character>
       <character id="UE01BC" dec="917948" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS205"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-205</description>
       </character>
       <character id="UE01BD" dec="917949" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS206"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-206</description>
       </character>
       <character id="UE01BE" dec="917950" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS207"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-207</description>
       </character>
       <character id="UE01BF" dec="917951" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS208"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-208</description>
       </character>
       <character id="UE01C0" dec="917952" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS209"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-209</description>
       </character>
       <character id="UE01C1" dec="917953" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS210"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-210</description>
       </character>
       <character id="UE01C2" dec="917954" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS211"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-211</description>
       </character>
       <character id="UE01C3" dec="917955" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS212"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-212</description>
       </character>
       <character id="UE01C4" dec="917956" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS213"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-213</description>
       </character>
       <character id="UE01C5" dec="917957" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS214"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-214</description>
       </character>
       <character id="UE01C6" dec="917958" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS215"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-215</description>
       </character>
       <character id="UE01C7" dec="917959" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS216"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-216</description>
       </character>
       <character id="UE01C8" dec="917960" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS217"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-217</description>
       </character>
       <character id="UE01C9" dec="917961" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS218"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-218</description>
       </character>
       <character id="UE01CA" dec="917962" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS219"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-219</description>
       </character>
       <character id="UE01CB" dec="917963" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS220"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-220</description>
       </character>
       <character id="UE01CC" dec="917964" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS221"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-221</description>
       </character>
       <character id="UE01CD" dec="917965" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS222"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-222</description>
       </character>
       <character id="UE01CE" dec="917966" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS223"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-223</description>
       </character>
       <character id="UE01CF" dec="917967" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS224"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-224</description>
       </character>
       <character id="UE01D0" dec="917968" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS225"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-225</description>
       </character>
       <character id="UE01D1" dec="917969" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS226"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-226</description>
       </character>
       <character id="UE01D2" dec="917970" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS227"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-227</description>
       </character>
       <character id="UE01D3" dec="917971" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS228"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-228</description>
       </character>
       <character id="UE01D4" dec="917972" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS229"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-229</description>
       </character>
       <character id="UE01D5" dec="917973" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS230"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-230</description>
       </character>
       <character id="UE01D6" dec="917974" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS231"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-231</description>
       </character>
       <character id="UE01D7" dec="917975" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS232"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-232</description>
       </character>
       <character id="UE01D8" dec="917976" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS233"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-233</description>
       </character>
       <character id="UE01D9" dec="917977" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS234"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-234</description>
       </character>
       <character id="UE01DA" dec="917978" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS235"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-235</description>
       </character>
       <character id="UE01DB" dec="917979" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS236"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-236</description>
       </character>
       <character id="UE01DC" dec="917980" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS237"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-237</description>
       </character>
       <character id="UE01DD" dec="917981" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS238"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-238</description>
       </character>
       <character id="UE01DE" dec="917982" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS239"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-239</description>
       </character>
       <character id="UE01DF" dec="917983" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS240"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-240</description>
       </character>
       <character id="UE01E0" dec="917984" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS241"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-241</description>
       </character>
       <character id="UE01E1" dec="917985" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS242"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-242</description>
       </character>
       <character id="UE01E2" dec="917986" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS243"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-243</description>
       </character>
       <character id="UE01E3" dec="917987" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS244"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-244</description>
       </character>
       <character id="UE01E4" dec="917988" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS245"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-245</description>
       </character>
       <character id="UE01E5" dec="917989" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS246"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-246</description>
       </character>
       <character id="UE01E6" dec="917990" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS247"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-247</description>
       </character>
       <character id="UE01E7" dec="917991" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS248"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-248</description>
       </character>
       <character id="UE01E8" dec="917992" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS249"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-249</description>
       </character>
       <character id="UE01E9" dec="917993" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS250"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-250</description>
       </character>
       <character id="UE01EA" dec="917994" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS251"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-251</description>
       </character>
       <character id="UE01EB" dec="917995" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS252"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-252</description>
       </character>
       <character id="UE01EC" dec="917996" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS253"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-253</description>
       </character>
       <character id="UE01ED" dec="917997" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS254"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-254</description>
       </character>
       <character id="UE01EE" dec="917998" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS255"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-255</description>
       </character>
       <character id="UE01EF" dec="917999" image="none">
-         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N" alias="VS256"/>
+         <unicodedata category="Mn" combclass="0" bidi="NSM" mirror="N"/>
          <description unicode="4.0">VARIATION SELECTOR-256</description>
       </character>
    </charlist>

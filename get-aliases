@@ -8,5 +8,5 @@ echo '<table>' > aliases.xml
 grep 'td>[a-z0-9 \-]\+<' charindex.html  >> aliases.xml
 echo '</table>' >> aliases.xml
 
-saxon9 unicode.xml add-alias.xsl >u2.xml
+saxon unicode.xml add-alias.xsl >u2.xml
 diff unicode.xml u2.xml
