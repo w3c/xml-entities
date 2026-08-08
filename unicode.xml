@@ -38172,7 +38172,7 @@ Barbara Beeton for the STIX project
          <unicodedata category="Pe" combclass="0" bidi="ON" decomp="&lt;sub&gt; 0029" mirror="Y" unicode1="SUBSCRIPT CLOSING PARENTHESIS" mathclass="N"/>
          <description unicode="1.1">SUBSCRIPT RIGHT PARENTHESIS</description>
       </character>
-      <character id="U0208F" dec="8335" image="none">
+      <character id="U0208F" dec="8335">
          <unicodedata category="Lm" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="18">MODIFIER LETTER HIGH AND LOW VERTICAL LINE</description>
       </character>
