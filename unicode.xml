@@ -88775,15 +88775,15 @@ Barbara Beeton for the STIX project
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE HAFIZAHUMAA ALLAAHU TAAALAA</description>
       </character>
-      <character id="U0FBD0" dec="64464" image="none">
+      <character id="U0FBD0" dec="64464">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE SALLALLAAHU TAAALAA ALAYHI WA-SALLAM</description>
       </character>
-      <character id="U0FBD1" dec="64465" image="none">
+      <character id="U0FBD1" dec="64465">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE AJJAL ALLAAHU FARAJAHU ASH-SHAREEF</description>
       </character>
-      <character id="U0FBD2" dec="64466" image="none">
+      <character id="U0FBD2" dec="64466">
          <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
          <description unicode="17">ARABIC LIGATURE ALAYHI AR-RAHMAH</description>
       </character>
