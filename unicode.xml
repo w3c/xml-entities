@@ -685,7 +685,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SPACE</description>
       </character>
       <character id="U00021" dec="33" mode="text" type="punctuation">
-         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="C"/>
          <afii>EE35</afii>
          <latex>!</latex>
          <mathlatex set="unicode-math">\mathexclam</mathlatex>
@@ -13456,83 +13456,83 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ARABIC LETTER YEH WITH HAMZA ABOVE</description>
       </character>
       <character id="U00627" dec="1575">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER ALEF</description>
       </character>
       <character id="U00628" dec="1576">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER BAA"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER BAA" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER BEH</description>
       </character>
       <character id="U00629" dec="1577">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER TAA MARBUTAH"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER TAA MARBUTAH" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER TEH MARBUTA</description>
       </character>
       <character id="U0062A" dec="1578">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER TAA"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER TAA" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER TEH</description>
       </character>
       <character id="U0062B" dec="1579">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER THAA"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER THAA" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER THEH</description>
       </character>
       <character id="U0062C" dec="1580">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER JEEM</description>
       </character>
       <character id="U0062D" dec="1581">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER HAA"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER HAA" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER HAH</description>
       </character>
       <character id="U0062E" dec="1582">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER KHAA"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER KHAA" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER KHAH</description>
       </character>
       <character id="U0062F" dec="1583">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER DAL</description>
       </character>
       <character id="U00630" dec="1584">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER THAL</description>
       </character>
       <character id="U00631" dec="1585">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER RA"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER RA" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER REH</description>
       </character>
       <character id="U00632" dec="1586">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER ZAIN</description>
       </character>
       <character id="U00633" dec="1587">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER SEEN</description>
       </character>
       <character id="U00634" dec="1588">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER SHEEN</description>
       </character>
       <character id="U00635" dec="1589">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER SAD</description>
       </character>
       <character id="U00636" dec="1590">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER DAD</description>
       </character>
       <character id="U00637" dec="1591">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER TAH</description>
       </character>
       <character id="U00638" dec="1592">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER DHAH"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" unicode1="ARABIC LETTER DHAH" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER ZAH</description>
       </character>
       <character id="U00639" dec="1593">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER AIN</description>
       </character>
       <character id="U0063A" dec="1594">
-         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N"/>
+         <unicodedata category="Lo" combclass="0" bidi="AL" mirror="N" mathclass="A"/>
          <description unicode="1.1">ARABIC LETTER GHAIN</description>
       </character>
       <character id="U0063B" dec="1595">
@@ -31888,63 +31888,63 @@ Barbara Beeton for the STIX project
          <description unicode="14">COMBINING LATIN SMALL LETTER INSULAR T</description>
       </character>
       <character id="U01ACF" dec="6863" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING DOUBLE CARON</description>
       </character>
       <character id="U01AD0" dec="6864" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING VERTICAL-LINE-ACUTE</description>
       </character>
       <character id="U01AD1" dec="6865" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING GRAVE-VERTICAL-LINE</description>
       </character>
       <character id="U01AD2" dec="6866" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING VERTICAL-LINE-GRAVE</description>
       </character>
       <character id="U01AD3" dec="6867" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING ACUTE-VERTICAL-LINE</description>
       </character>
       <character id="U01AD4" dec="6868" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING VERTICAL-LINE-MACRON</description>
       </character>
       <character id="U01AD5" dec="6869" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING MACRON-VERTICAL-LINE</description>
       </character>
       <character id="U01AD6" dec="6870" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING VERTICAL-LINE-ACUTE-GRAVE</description>
       </character>
       <character id="U01AD7" dec="6871" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING VERTICAL-LINE-GRAVE-ACUTE</description>
       </character>
       <character id="U01AD8" dec="6872" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING MACRON-ACUTE-GRAVE</description>
       </character>
       <character id="U01AD9" dec="6873" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING SHARP SIGN</description>
       </character>
       <character id="U01ADA" dec="6874" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING FLAT SIGN</description>
       </character>
       <character id="U01ADB" dec="6875" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING DOWN TACK ABOVE</description>
       </character>
       <character id="U01ADC" dec="6876" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING DIAERESIS WITH RAISED LEFT DOT</description>
       </character>
       <character id="U01ADD" dec="6877" image="none">
-         <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING DOT-AND-RING BELOW</description>
       </character>
       <character id="U01ADE" dec="6878" image="none">
@@ -31956,51 +31956,51 @@ Barbara Beeton for the STIX project
          <description unicode="18">COMBINING DOT-ACUTE</description>
       </character>
       <character id="U01AE0" dec="6880" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING LEFT TACK ABOVE</description>
       </character>
       <character id="U01AE1" dec="6881" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING RIGHT TACK ABOVE</description>
       </character>
       <character id="U01AE2" dec="6882" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING MINUS SIGN ABOVE</description>
       </character>
       <character id="U01AE3" dec="6883" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING INVERTED BRIDGE ABOVE</description>
       </character>
       <character id="U01AE4" dec="6884" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING SQUARE ABOVE</description>
       </character>
       <character id="U01AE5" dec="6885" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING SEAGULL ABOVE</description>
       </character>
       <character id="U01AE6" dec="6886" image="none">
-         <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="220" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING DOUBLE ARCH BELOW</description>
       </character>
       <character id="U01AE7" dec="6887" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING DOUBLE ARCH ABOVE</description>
       </character>
       <character id="U01AE8" dec="6888" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING EQUALS SIGN ABOVE</description>
       </character>
       <character id="U01AE9" dec="6889" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING LEFT ANGLE CENTRED ABOVE</description>
       </character>
       <character id="U01AEA" dec="6890" image="none">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING UPWARDS ARROW ABOVE</description>
       </character>
       <character id="U01AEB" dec="6891" image="none">
-         <unicodedata category="Mn" combclass="234" bidi="NSM" mirror="N"/>
+         <unicodedata category="Mn" combclass="234" bidi="NSM" mirror="N" mathclass="D"/>
          <description unicode="17">COMBINING DOUBLE RIGHTWARDS ARROW ABOVE</description>
       </character>
       <character id="U01AEC" dec="6892" image="none">
@@ -54034,12 +54034,12 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BALLOT BOX</description>
       </character>
       <character id="U02611" dec="9745" mode="text" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
          <Wolfram>CheckmarkedBox</Wolfram>
          <description unicode="1.1">BALLOT BOX WITH CHECK</description>
       </character>
       <character id="U02612" dec="9746" mode="unknown" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
          <description unicode="1.1">BALLOT BOX WITH X</description>
       </character>
       <character id="U02613" dec="9747" mode="unknown" type="other">
@@ -65870,7 +65870,7 @@ Barbara Beeton for the STIX project
          <description unicode="7.0">RIGHTWARDS BLACK ARROW</description>
       </character>
       <character id="U02B96" dec="11158">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
          <description unicode="17">EQUALS SIGN WITH INFINITY ABOVE</description>
       </character>
       <character id="U02B97" dec="11159">
@@ -66292,7 +66292,7 @@ Barbara Beeton for the STIX project
          <description unicode="11">RUSSIAN ASTROLOGICAL SYMBOL TREDECILE</description>
       </character>
       <character id="U02BF9" dec="11257">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
          <description unicode="11">EQUALS SIGN WITH INFINITY BELOW</description>
       </character>
       <character id="U02BFA" dec="11258">
