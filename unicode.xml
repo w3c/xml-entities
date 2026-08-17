@@ -180884,127 +180884,127 @@ Barbara Beeton for the STIX project
       <character id="U1EEA1" dec="126625">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0628" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00628"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK BEH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK BEH</description>
       </character>
       <character id="U1EEA2" dec="126626">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 062C" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U0062C"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK JEEM</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK JEEM</description>
       </character>
       <character id="U1EEA3" dec="126627">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 062F" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U0062F"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK DAL</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK DAL</description>
       </character>
       <character id="U1EEA5" dec="126629">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0648" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00648"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK WAW</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK WAW</description>
       </character>
       <character id="U1EEA6" dec="126630">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0632" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00632"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK ZAIN</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK ZAIN</description>
       </character>
       <character id="U1EEA7" dec="126631">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 062D" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U0062D"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK HAH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK HAH</description>
       </character>
       <character id="U1EEA8" dec="126632">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0637" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00637"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK TAH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK TAH</description>
       </character>
       <character id="U1EEA9" dec="126633">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 064A" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U0064A"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK YEH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK YEH</description>
       </character>
       <character id="U1EEAB" dec="126635">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0644" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00644"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK LAM</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK LAM</description>
       </character>
       <character id="U1EEAC" dec="126636">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0645" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00645"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK MEEM</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK MEEM</description>
       </character>
       <character id="U1EEAD" dec="126637">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0646" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00646"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK NOON</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK NOON</description>
       </character>
       <character id="U1EEAE" dec="126638">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0633" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00633"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK SEEN</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK SEEN</description>
       </character>
       <character id="U1EEAF" dec="126639">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0639" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00639"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK AIN</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK AIN</description>
       </character>
       <character id="U1EEB0" dec="126640">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0641" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00641"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK FEH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK FEH</description>
       </character>
       <character id="U1EEB1" dec="126641">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0635" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00635"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK SAD</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK SAD</description>
       </character>
       <character id="U1EEB2" dec="126642">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0642" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00642"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK QAF</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK QAF</description>
       </character>
       <character id="U1EEB3" dec="126643">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0631" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00631"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK REH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK REH</description>
       </character>
       <character id="U1EEB4" dec="126644">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0634" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00634"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK SHEEN</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK SHEEN</description>
       </character>
       <character id="U1EEB5" dec="126645">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 062A" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U0062A"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK TEH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK TEH</description>
       </character>
       <character id="U1EEB6" dec="126646">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 062B" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U0062B"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK THEH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK THEH</description>
       </character>
       <character id="U1EEB7" dec="126647">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 062E" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U0062E"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK KHAH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK KHAH</description>
       </character>
       <character id="U1EEB8" dec="126648">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0630" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00630"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK THAL</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK THAL</description>
       </character>
       <character id="U1EEB9" dec="126649">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0636" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00636"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK DAD</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK DAD</description>
       </character>
       <character id="U1EEBA" dec="126650">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 0638" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U00638"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK ZAH</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK ZAH</description>
       </character>
       <character id="U1EEBB" dec="126651">
          <unicodedata category="Lo" combclass="0" bidi="AL" decomp="&lt;font&gt; 063A" mirror="N" mathclass="A"/>
          <surrogate mathvariant="double-struck" ref="U0063A"/>
-         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE STRUCK GHAIN</description>
+         <description unicode="6.1">ARABIC MATHEMATICAL DOUBLE-STRUCK GHAIN</description>
       </character>
       <character id="U1EEF0" dec="126704">
          <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="L"/>
