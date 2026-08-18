@@ -42043,7 +42043,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS TRIPLE ARROW</description>
       </character>
       <character id="U021DC" dec="8668" type="other" mode="unknown">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT SQUIGGLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT SQUIGGLE ARROW" mathclass="R" comment="left zig-zag arrow"/>
          <mathlatex set="unicode-math">\leftsquigarrow</mathlatex>
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="340" stretchy="true"/>
          <description unicode="1.1">LEFTWARDS SQUIGGLE ARROW</description>
@@ -42662,7 +42662,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT AN ELEMENT OF</description>
       </character>
       <character id="U0220A" dec="8714" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="set membership"/>
          <afii>EF4A</afii>
          <mathlatex set="unicode-math">\smallin</mathlatex>
          <AMS>\in</AMS>
@@ -43578,7 +43578,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">INTERSECTION with serifs</description>
       </character>
       <character id="U0222A" dec="8746" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="logical sum"/>
          <afii>EF57</afii>
          <latex>\cup </latex>
          <mathlatex set="unicode-math">\cup</mathlatex>
@@ -43905,7 +43905,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RATIO</description>
       </character>
       <character id="U02237" dec="8759" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment=" colons"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="two colons"/>
          <afii>EF6E</afii>
          <latex>\Colon </latex>
          <mathlatex set="unicode-math">\Colon</mathlatex>
@@ -44050,7 +44050,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">TILDE OPERATOR with vertical line</description>
       </character>
       <character id="U0223D" dec="8765" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="reverse similar"/>
          <afii>22BE</afii>
          <latex>\backsim </latex>
          <mathlatex set="unicode-math">\backsim</mathlatex>
@@ -44091,7 +44091,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">REVERSED TILDE with vertical line</description>
       </character>
       <character id="U0223E" dec="8766" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="B" comment="most positive"/>
          <afii>D947</afii>
          <latex>\lazysinv </latex>
          <mathlatex set="unicode-math">\invlazys</mathlatex>
@@ -44170,7 +44170,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">WREATH PRODUCT</description>
       </character>
       <character id="U02241" dec="8769" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="223C 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="223C 0338" mirror="Y" mathclass="R" comment="not similar"/>
          <afii>21B0</afii>
          <latex>\not\sim </latex>
          <mathlatex set="unicode-math">\nsim</mathlatex>
@@ -44198,7 +44198,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT TILDE</description>
       </character>
       <character id="U02242" dec="8770" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="equals, similar"/>
          <afii>EE68</afii>
          <latex>\ElsevierGlyph{2242}</latex>
          <mathlatex set="unicode-math">\eqsim</mathlatex>
@@ -44247,7 +44247,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">NOT EQUAL OR SIMILAR with vertical line</description>
       </character>
       <character id="U02243" dec="8771" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="similar, equals"/>
          <afii>EF77</afii>
          <latex>\simeq </latex>
          <mathlatex set="unicode-math">\simeq</mathlatex>
@@ -44280,7 +44280,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ASYMPTOTICALLY EQUAL TO</description>
       </character>
       <character id="U02244" dec="8772" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2243 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2243 0338" mirror="Y" mathclass="R" comment="not similar, equals"/>
          <afii>21BF</afii>
          <latex>\not\simeq </latex>
          <mathlatex set="unicode-math">\nsime</mathlatex>
@@ -44310,7 +44310,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT ASYMPTOTICALLY EQUAL TO</description>
       </character>
       <character id="U02245" dec="8773" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="congruent with"/>
          <afii>EF78</afii>
          <latex>\cong </latex>
          <mathlatex set="unicode-math">\cong</mathlatex>
@@ -44346,7 +44346,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">APPROXIMATELY EQUAL TO with vertical line</description>
       </character>
       <character id="U02246" dec="8774" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="similar, not equals [vert only for 9573 entity]"/>
          <afii>EBB7</afii>
          <latex>\approxnotequal </latex>
          <mathlatex set="unicode-math">\simneqq</mathlatex>
@@ -44363,7 +44363,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">APPROXIMATELY BUT NOT ACTUALLY EQUAL TO</description>
       </character>
       <character id="U02247" dec="8775" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2245 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2245 0338" mirror="Y" mathclass="R" comment="not congruent with"/>
          <afii>21CC</afii>
          <latex>\not\cong </latex>
          <mathlatex set="unicode-math">\ncong</mathlatex>
@@ -44391,7 +44391,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO</description>
       </character>
       <character id="U02248" dec="8776" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="approximate"/>
          <afii>EF79</afii>
          <latex>\approx </latex>
          <mathlatex set="unicode-math">\approx</mathlatex>
@@ -44452,7 +44452,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">ALMOST EQUAL TO with vertical line</description>
       </character>
       <character id="U02249" dec="8777" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2248 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2248 0338" mirror="Y" mathclass="R" comment="not approximate"/>
          <afii>21C0</afii>
          <latex>\not\approx </latex>
          <mathlatex set="unicode-math">\napprox</mathlatex>
@@ -44482,7 +44482,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT ALMOST EQUAL TO</description>
       </character>
       <character id="U0224A" dec="8778" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="approximate, equals"/>
          <afii>EE78</afii>
          <latex>\approxeq </latex>
          <mathlatex set="unicode-math">\approxeq</mathlatex>
@@ -44512,7 +44512,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">ALMOST EQUAL OR EQUAL TO with vertical line</description>
       </character>
       <character id="U0224B" dec="8779" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="approximately identical to"/>
          <afii>EB24</afii>
          <latex>\tildetrpl </latex>
          <mathlatex set="unicode-math">\approxident</mathlatex>
@@ -44992,7 +44992,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">STAR EQUALS</description>
       </character>
       <character id="U0225C" dec="8796" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="triangle, equals"/>
          <afii>21AB</afii>
          <latex>\triangleq </latex>
          <mathlatex set="unicode-math">\triangleq</mathlatex>
@@ -45611,7 +45611,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BETWEEN</description>
       </character>
       <character id="U0226D" dec="8813" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="224D 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="224D 0338" mirror="Y" mathclass="R" comment="not asymptotically equal to"/>
          <latex>\not\kern-0.3em\times </latex>
          <mathlatex set="unicode-math">\nasymp</mathlatex>
          <Elsevier grid="brw" ent="z.nasymp">
@@ -47891,7 +47891,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">IMAGE OF</description>
       </character>
       <character id="U022B8" dec="8888" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="/multimap"/>
          <afii>2253</afii>
          <latex>\multimap </latex>
          <mathlatex set="unicode-math">\multimap</mathlatex>
@@ -48378,7 +48378,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHT SEMIDIRECT PRODUCT</description>
       </character>
       <character id="U022CD" dec="8909" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="reverse similar, equals"/>
          <afii>EEFD</afii>
          <latex>\backsimeq </latex>
          <mathlatex set="unicode-math">\backsimeq</mathlatex>
@@ -48584,7 +48584,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PITCHFORK</description>
       </character>
       <character id="U022D5" dec="8917" mode="unknown" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="parallel, equal"/>
          <afii>DB4F</afii>
          <mathlatex set="unicode-math">\equalparallel</mathlatex>
          <entity id="epar" set="9573-1991-isotech">
@@ -49486,7 +49486,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">Z NOTATION BAG MEMBERSHIP</description>
       </character>
       <character id="U02300" dec="8960" type="other" mode="unknown">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="2205 diameter sign"/>
          <mathlatex set="unicode-math">\diameter</mathlatex>
          <Wolfram>Diameter</Wolfram>
          <description unicode="1.1">DIAMETER SIGN</description>
@@ -50527,7 +50527,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">DIRECT CURRENT SYMBOL FORM TWO</description>
       </character>
       <character id="U02394" dec="9108" type="other" mode="unknown">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="horizontal benzene ring [hexagon flat open]"/>
          <mathlatex set="unicode-math">\hexagon</mathlatex>
          <description unicode="3.0">SOFTWARE-FUNCTION SYMBOL</description>
       </character>
@@ -50556,47 +50556,47 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">CLEAR SCREEN SYMBOL</description>
       </character>
       <character id="U0239B" dec="9115" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\lparenuend</mathlatex>
          <description unicode="3.2">LEFT PARENTHESIS UPPER HOOK</description>
       </character>
       <character id="U0239C" dec="9116" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\lparenextender</mathlatex>
          <description unicode="3.2">LEFT PARENTHESIS EXTENSION</description>
       </character>
       <character id="U0239D" dec="9117" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\lparenlend</mathlatex>
          <description unicode="3.2">LEFT PARENTHESIS LOWER HOOK</description>
       </character>
       <character id="U0239E" dec="9118" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rparenuend</mathlatex>
          <description unicode="3.2">RIGHT PARENTHESIS UPPER HOOK</description>
       </character>
       <character id="U0239F" dec="9119" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rparenextender</mathlatex>
          <description unicode="3.2">RIGHT PARENTHESIS EXTENSION</description>
       </character>
       <character id="U023A0" dec="9120" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rparenlend</mathlatex>
          <description unicode="3.2">RIGHT PARENTHESIS LOWER HOOK</description>
       </character>
       <character id="U023A1" dec="9121" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\lbrackuend</mathlatex>
          <description unicode="3.2">LEFT SQUARE BRACKET UPPER CORNER</description>
       </character>
       <character id="U023A2" dec="9122" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\lbrackextender</mathlatex>
          <description unicode="3.2">LEFT SQUARE BRACKET EXTENSION</description>
       </character>
       <character id="U023A3" dec="9123" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <latex>\Elzdlcorn </latex>
          <mathlatex set="unicode-math">\lbracklend</mathlatex>
          <Elsevier grid="bd5" ent="z.dlcorn">
@@ -50606,62 +50606,62 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">LEFT SQUARE BRACKET LOWER CORNER</description>
       </character>
       <character id="U023A4" dec="9124" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rbrackuend</mathlatex>
          <description unicode="3.2">RIGHT SQUARE BRACKET UPPER CORNER</description>
       </character>
       <character id="U023A5" dec="9125" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rbrackextender</mathlatex>
          <description unicode="3.2">RIGHT SQUARE BRACKET EXTENSION</description>
       </character>
       <character id="U023A6" dec="9126" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rbracklend</mathlatex>
          <description unicode="3.2">RIGHT SQUARE BRACKET LOWER CORNER</description>
       </character>
       <character id="U023A7" dec="9127" mode="math" type="opening">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\lbraceuend</mathlatex>
          <description unicode="3.2">LEFT CURLY BRACKET UPPER HOOK</description>
       </character>
       <character id="U023A8" dec="9128" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\lbracemid</mathlatex>
          <description unicode="3.2">LEFT CURLY BRACKET MIDDLE PIECE</description>
       </character>
       <character id="U023A9" dec="9129" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\lbracelend</mathlatex>
          <description unicode="3.2">LEFT CURLY BRACKET LOWER HOOK</description>
       </character>
       <character id="U023AA" dec="9130" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\vbraceextender</mathlatex>
          <description unicode="3.2">CURLY BRACKET EXTENSION</description>
       </character>
       <character id="U023AB" dec="9131" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rbraceuend</mathlatex>
          <description unicode="3.2">RIGHT CURLY BRACKET UPPER HOOK</description>
       </character>
       <character id="U023AC" dec="9132" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rbracemid</mathlatex>
          <description unicode="3.2">RIGHT CURLY BRACKET MIDDLE PIECE</description>
       </character>
       <character id="U023AD" dec="9133" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\rbracelend</mathlatex>
          <description unicode="3.2">RIGHT CURLY BRACKET LOWER HOOK</description>
       </character>
       <character id="U023AE" dec="9134" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\intextender</mathlatex>
          <description unicode="3.2">INTEGRAL EXTENSION</description>
       </character>
       <character id="U023AF" dec="9135" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(bracket parts)"/>
          <mathlatex set="unicode-math">\harrowextender</mathlatex>
          <description unicode="3.2">HORIZONTAL LINE EXTENSION</description>
       </character>
@@ -50705,12 +50705,12 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">UPPER RIGHT OR LOWER LEFT CURLY BRACKET SECTION</description>
       </character>
       <character id="U023B2" dec="9138" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(summation parts)"/>
          <mathlatex set="unicode-math">\sumtop</mathlatex>
          <description unicode="3.2">SUMMATION TOP</description>
       </character>
       <character id="U023B3" dec="9139" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="G" comment="(summation parts)"/>
          <mathlatex set="unicode-math">\sumbottom</mathlatex>
          <description unicode="3.2">SUMMATION BOTTOM</description>
       </character>
@@ -53166,7 +53166,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK PARALLELOGRAM</description>
       </character>
       <character id="U025B1" dec="9649" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="parallelogram, open"/>
          <latex>\ElsevierGlyph{E381}</latex>
          <mathlatex set="unicode-math">\parallelogram</mathlatex>
          <Elsevier grid="bgz" ent="z.parl">
@@ -53508,7 +53508,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FISHEYE</description>
       </character>
       <character id="U025CA" dec="9674" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="lozenge or total mark"/>
          <afii>217E</afii>
          <latex>\lozenge </latex>
          <mathlatex set="unicode-math">\mdlgwhtlozenge</mathlatex>
@@ -53534,7 +53534,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LOZENGE</description>
       </character>
       <character id="U025CB" dec="9675" mode="math" type="binaryop">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="large circle"/>
          <afii>217B</afii>
          <latex>\bigcirc </latex>
          <mathlatex set="unicode-math">\mdlgwhtcircle</mathlatex>
@@ -53571,7 +53571,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BULLSEYE</description>
       </character>
       <character id="U025CF" dec="9679" mode="text" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="circle, filled"/>
          <afii>217C</afii>
          <latex>\ding{108}</latex>
          <mathlatex set="unicode-math">\mdlgblkcircle</mathlatex>
@@ -54238,7 +54238,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MERCURY</description>
       </character>
       <character id="U02640" dec="9792" mode="text" type="normal">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="Venus"/>
          <afii>216A</afii>
          <latex>\venus </latex>
          <mathlatex set="unicode-math">\female</mathlatex>
@@ -54262,7 +54262,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">EARTH</description>
       </character>
       <character id="U02642" dec="9794" mode="text" type="normal">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="Mars"/>
          <afii>2169</afii>
          <latex>\male </latex>
          <mathlatex set="unicode-math">\male</mathlatex>
@@ -56366,7 +56366,7 @@ Barbara Beeton for the STIX project
          <description unicode="4.1">WHITE TRIANGLE CONTAINING SMALL WHITE TRIANGLE</description>
       </character>
       <character id="U027C2" dec="10178">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="perpendicular"/>
          <mathlatex set="unicode-math">\perp</mathlatex>
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="320"/>
          <description unicode="4.1">PERPENDICULAR</description>
@@ -66776,7 +66776,7 @@ Barbara Beeton for the STIX project
          <description unicode="5.1">LATIN SMALL LETTER V WITH RIGHT HOOK</description>
       </character>
       <character id="U02C72" dec="11378" image="none">
-         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="2C73"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" lower="2C73" comment="perpendicular"/>
          <description unicode="5.1">LATIN CAPITAL LETTER W WITH HOOK</description>
       </character>
       <character id="U02C73" dec="11379" image="none">
@@ -69968,11 +69968,11 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">IDEOGRAPHIC NUMBER ZERO</description>
       </character>
       <character id="U03008" dec="12296" mode="math" type="other">
-         <unicodedata category="Ps" combclass="0" bidi="ON" mirror="Y" unicode1="OPENING ANGLE BRACKET" mathclass="X"/>
+         <unicodedata category="Ps" combclass="0" bidi="ON" mirror="Y" unicode1="OPENING ANGLE BRACKET" mathclass="X" comment="(deprecated for math use)"/>
          <description unicode="1.1">LEFT ANGLE BRACKET</description>
       </character>
       <character id="U03009" dec="12297" mode="math" type="other">
-         <unicodedata category="Pe" combclass="0" bidi="ON" mirror="Y" unicode1="CLOSING ANGLE BRACKET" mathclass="X"/>
+         <unicodedata category="Pe" combclass="0" bidi="ON" mirror="Y" unicode1="CLOSING ANGLE BRACKET" mathclass="X" comment="(deprecated for math use)"/>
          <description unicode="1.1">RIGHT ANGLE BRACKET</description>
       </character>
       <character id="U0300A" dec="12298" mode="math" type="opening">
@@ -70067,7 +70067,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHT WHITE TORTOISE SHELL BRACKET</description>
       </character>
       <character id="U0301A" dec="12314" mode="math" type="opening">
-         <unicodedata category="Ps" combclass="0" bidi="ON" mirror="Y" unicode1="OPENING WHITE SQUARE BRACKET" mathclass="X"/>
+         <unicodedata category="Ps" combclass="0" bidi="ON" mirror="Y" unicode1="OPENING WHITE SQUARE BRACKET" mathclass="X" comment="(deprecated for math use)"/>
          <afii>214A</afii>
          <latex>\openbracketleft </latex>
          <AIP>lopenb</AIP>
@@ -70075,7 +70075,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFT WHITE SQUARE BRACKET</description>
       </character>
       <character id="U0301B" dec="12315" mode="math" type="closing">
-         <unicodedata category="Pe" combclass="0" bidi="ON" mirror="Y" unicode1="CLOSING WHITE SQUARE BRACKET" mathclass="X"/>
+         <unicodedata category="Pe" combclass="0" bidi="ON" mirror="Y" unicode1="CLOSING WHITE SQUARE BRACKET" mathclass="X" comment="(deprecated for math use)"/>
          <afii>214B</afii>
          <latex>\openbracketright </latex>
          <AIP>ropenb</AIP>
@@ -88128,7 +88128,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">HEBREW LETTER WIDE TAV</description>
       </character>
       <character id="U0FB29" dec="64297" mode="unknown" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;font&gt; 002B" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;font&gt; 002B" mirror="N" mathclass="X" comment="(doesn't have cross shape)"/>
          <description unicode="1.1">HEBREW LETTER ALTERNATIVE PLUS SIGN</description>
       </character>
       <character id="U0FB2A" dec="64298" mode="unknown" type="other">
@@ -91248,31 +91248,31 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SMALL AMPERSAND</description>
       </character>
       <character id="U0FE61" dec="65121" mode="unknown" type="other">
-         <unicodedata category="Po" combclass="0" bidi="ON" decomp="&lt;small&gt; 002A" mirror="N" mathclass="X"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" decomp="&lt;small&gt; 002A" mirror="N" mathclass="X" comment="(&quot;small&quot; compatibility variants of ASCII math operators)"/>
          <description unicode="1.1">SMALL ASTERISK</description>
       </character>
       <character id="U0FE62" dec="65122" mode="unknown" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;small&gt; 002B" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;small&gt; 002B" mirror="N" mathclass="X" comment="(&quot;small&quot; compatibility variants of ASCII math operators)"/>
          <description unicode="1.1">SMALL PLUS SIGN</description>
       </character>
       <character id="U0FE63" dec="65123" mode="unknown" type="other">
-         <unicodedata category="Pd" combclass="0" bidi="ES" decomp="&lt;small&gt; 002D" mirror="N" mathclass="X"/>
+         <unicodedata category="Pd" combclass="0" bidi="ES" decomp="&lt;small&gt; 002D" mirror="N" mathclass="X" comment="(&quot;small&quot; compatibility variants of ASCII math operators)"/>
          <description unicode="1.1">SMALL HYPHEN-MINUS</description>
       </character>
       <character id="U0FE64" dec="65124" mode="unknown" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;small&gt; 003C" mirror="Y" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;small&gt; 003C" mirror="Y" mathclass="X" comment="(&quot;small&quot; compatibility variants of ASCII math operators)"/>
          <description unicode="1.1">SMALL LESS-THAN SIGN</description>
       </character>
       <character id="U0FE65" dec="65125" mode="unknown" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;small&gt; 003E" mirror="Y" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;small&gt; 003E" mirror="Y" mathclass="X" comment="(&quot;small&quot; compatibility variants of ASCII math operators)"/>
          <description unicode="1.1">SMALL GREATER-THAN SIGN</description>
       </character>
       <character id="U0FE66" dec="65126" mode="unknown" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;small&gt; 003D" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;small&gt; 003D" mirror="N" mathclass="X" comment="(&quot;small&quot; compatibility variants of ASCII math operators)"/>
          <description unicode="1.1">SMALL EQUALS SIGN</description>
       </character>
       <character id="U0FE68" dec="65128" mode="unknown" type="other">
-         <unicodedata category="Po" combclass="0" bidi="ON" decomp="&lt;small&gt; 005C" mirror="N" unicode1="SMALL BACKSLASH" mathclass="X"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" decomp="&lt;small&gt; 005C" mirror="N" unicode1="SMALL BACKSLASH" mathclass="X" comment="(&quot;small&quot; compatibility variants of ASCII math operators)"/>
          <entity id="sbsol" set="8879-isoamso">
             <desc>/sbs - short reverse solidus</desc>
          </entity>
@@ -91895,7 +91895,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FULLWIDTH ASTERISK</description>
       </character>
       <character id="U0FF0B" dec="65291" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;wide&gt; 002B" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;wide&gt; 002B" mirror="N" mathclass="X" comment="(&quot;wide&quot; compatibility variant of ASCII math operators)"/>
          <description unicode="1.1">FULLWIDTH PLUS SIGN</description>
       </character>
       <character id="U0FF0C" dec="65292" image="none">
@@ -91967,15 +91967,15 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FULLWIDTH SEMICOLON</description>
       </character>
       <character id="U0FF1C" dec="65308" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 003C" mirror="Y" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 003C" mirror="Y" mathclass="X" comment="(&quot;wide&quot; compatibility variant of ASCII math operators)"/>
          <description unicode="1.1">FULLWIDTH LESS-THAN SIGN</description>
       </character>
       <character id="U0FF1D" dec="65309" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 003D" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 003D" mirror="N" mathclass="X" comment="(&quot;wide&quot; compatibility variant of ASCII math operators)"/>
          <description unicode="1.1">FULLWIDTH EQUALS SIGN</description>
       </character>
       <character id="U0FF1E" dec="65310" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 003E" mirror="Y" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 003E" mirror="Y" mathclass="X" comment="(&quot;wide&quot; compatibility variant of ASCII math operators)"/>
          <description unicode="1.1">FULLWIDTH GREATER-THAN SIGN</description>
       </character>
       <character id="U0FF1F" dec="65311" image="none">
@@ -92095,7 +92095,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FULLWIDTH LEFT SQUARE BRACKET</description>
       </character>
       <character id="U0FF3C" dec="65340" image="none">
-         <unicodedata category="Po" combclass="0" bidi="ON" decomp="&lt;wide&gt; 005C" mirror="N" unicode1="FULLWIDTH BACKSLASH" mathclass="X"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" decomp="&lt;wide&gt; 005C" mirror="N" unicode1="FULLWIDTH BACKSLASH" mathclass="X" comment="(&quot;wide&quot; compatibility variant of ASCII math operators)"/>
          <description unicode="1.1">FULLWIDTH REVERSE SOLIDUS</description>
       </character>
       <character id="U0FF3D" dec="65341" image="none">
@@ -92103,7 +92103,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FULLWIDTH RIGHT SQUARE BRACKET</description>
       </character>
       <character id="U0FF3E" dec="65342" image="none">
-         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;wide&gt; 005E" mirror="N" unicode1="FULLWIDTH SPACING CIRCUMFLEX" mathclass="X"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;wide&gt; 005E" mirror="N" unicode1="FULLWIDTH SPACING CIRCUMFLEX" mathclass="X" comment="(&quot;wide&quot; compatibility variant of ASCII math operators)"/>
          <description unicode="1.1">FULLWIDTH CIRCUMFLEX ACCENT</description>
       </character>
       <character id="U0FF3F" dec="65343" image="none">
@@ -92223,7 +92223,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FULLWIDTH LEFT CURLY BRACKET</description>
       </character>
       <character id="U0FF5C" dec="65372" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 007C" mirror="N" unicode1="FULLWIDTH VERTICAL BAR" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 007C" mirror="N" unicode1="FULLWIDTH VERTICAL BAR" mathclass="X" comment="(&quot;wide&quot; compatibility variant of ASCII math operators)"/>
          <description unicode="1.1">FULLWIDTH VERTICAL LINE</description>
       </character>
       <character id="U0FF5D" dec="65373" image="none">
@@ -92231,7 +92231,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FULLWIDTH RIGHT CURLY BRACKET</description>
       </character>
       <character id="U0FF5E" dec="65374" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 007E" mirror="N" unicode1="FULLWIDTH SPACING TILDE" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 007E" mirror="N" unicode1="FULLWIDTH SPACING TILDE" mathclass="X" comment="(&quot;wide&quot; compatibility variant of math operators)"/>
          <description unicode="1.1">FULLWIDTH TILDE</description>
       </character>
       <character id="U0FF5F" dec="65375" image="none">
@@ -92711,7 +92711,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FULLWIDTH POUND SIGN</description>
       </character>
       <character id="U0FFE2" dec="65506" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 00AC" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;wide&gt; 00AC" mirror="N" mathclass="X" comment="(&quot;wide&quot; compatibility variant of ASCII math operators)"/>
          <description unicode="1.1">FULLWIDTH NOT SIGN</description>
       </character>
       <character id="U0FFE3" dec="65507" image="none">
@@ -92735,19 +92735,19 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">HALFWIDTH FORMS LIGHT VERTICAL</description>
       </character>
       <character id="U0FFE9" dec="65513" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;narrow&gt; 2190" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;narrow&gt; 2190" mirror="N" mathclass="X" comment="(&quot;wide&quot; compatibility variants of arrows)"/>
          <description unicode="1.1">HALFWIDTH LEFTWARDS ARROW</description>
       </character>
       <character id="U0FFEA" dec="65514" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;narrow&gt; 2191" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;narrow&gt; 2191" mirror="N" mathclass="X" comment="(&quot;wide&quot; compatibility variants of arrows)"/>
          <description unicode="1.1">HALFWIDTH UPWARDS ARROW</description>
       </character>
       <character id="U0FFEB" dec="65515" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;narrow&gt; 2192" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;narrow&gt; 2192" mirror="N" mathclass="X" comment="(&quot;wide&quot; compatibility variants of arrows)"/>
          <description unicode="1.1">HALFWIDTH RIGHTWARDS ARROW</description>
       </character>
       <character id="U0FFEC" dec="65516" image="none">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;narrow&gt; 2193" mirror="N" mathclass="X"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;narrow&gt; 2193" mirror="N" mathclass="X" comment="(&quot;wide&quot; compatibility variants of arrows)"/>
          <description unicode="1.1">HALFWIDTH DOWNWARDS ARROW</description>
       </character>
       <character id="U0FFED" dec="65517" image="none">
