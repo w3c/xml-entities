@@ -685,7 +685,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SPACE</description>
       </character>
       <character id="U00021" dec="33" mode="text" type="punctuation">
-         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="C"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="C" comment="Factorial spacing"/>
          <afii>EE35</afii>
          <latex>!</latex>
          <mathlatex set="unicode-math">\mathexclam</mathlatex>
@@ -862,7 +862,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHT PARENTHESIS</description>
       </character>
       <character id="U0002A" dec="42" mode="math" type="other">
-         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="[high, not /ast]"/>
          <afii>002A</afii>
          <latex>\ast </latex>
          <Elsevier grid="bl8" ent="">
@@ -941,7 +941,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMMA</description>
       </character>
       <character id="U0002D" dec="45" mode="math" type="other">
-         <unicodedata category="Pd" combclass="0" bidi="ES" mirror="N" mathclass="N"/>
+         <unicodedata category="Pd" combclass="0" bidi="ES" mirror="N" mathclass="N" comment="(deprecated for math)"/>
          <combref style="above" ref="U00305"/>
          <combref style="below" ref="U00320"/>
          <combref style="below" ref="U00332"/>
@@ -968,7 +968,7 @@ Barbara Beeton for the STIX project
          <description>MULTIPLE CHARACTER OPERATOR: -&gt;</description>
       </character>
       <character id="U0002E" dec="46" mode="text" type="punctuation">
-         <unicodedata category="Po" combclass="0" bidi="CS" mirror="N" unicode1="PERIOD" mathclass="P"/>
+         <unicodedata category="Po" combclass="0" bidi="CS" mirror="N" unicode1="PERIOD" mathclass="P" comment="period"/>
          <combref style="above" ref="U00307"/>
          <combref style="below" ref="U00323"/>
          <afii>002E</afii>
@@ -986,7 +986,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">FULL STOP</description>
       </character>
       <character id="U0002F" dec="47" mode="text" type="other">
-         <unicodedata category="Po" combclass="0" bidi="CS" mirror="N" unicode1="SLASH" mathclass="B"/>
+         <unicodedata category="Po" combclass="0" bidi="CS" mirror="N" unicode1="SLASH" mathclass="B" comment="No extra spacing, stretchy"/>
          <afii>002F</afii>
          <latex>/</latex>
          <mathlatex set="unicode-math">\mathslash</mathlatex>
@@ -1421,7 +1421,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFT SQUARE BRACKET</description>
       </character>
       <character id="U0005C" dec="92" mode="mixed" type="normal">
-         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" unicode1="BACKSLASH" mathclass="B"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" unicode1="BACKSLASH" mathclass="B" comment="No extra spacing, stretchy"/>
          <afii>EE3C</afii>
          <latex>\textbackslash </latex>
          <mathlatex>\backslash </mathlatex>
@@ -1466,7 +1466,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHT SQUARE BRACKET</description>
       </character>
       <character id="U0005E" dec="94" mode="text" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" mirror="N" unicode1="SPACING CIRCUMFLEX" mathclass="N"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" mirror="N" unicode1="SPACING CIRCUMFLEX" mathclass="N" comment="TeX superscript operator"/>
          <combref style="above" ref="U00302"/>
          <combref style="below" ref="U0032D"/>
          <afii>2323</afii>
@@ -1480,7 +1480,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CIRCUMFLEX ACCENT</description>
       </character>
       <character id="U0005F" dec="95" mode="math" type="other">
-         <unicodedata category="Pc" combclass="0" bidi="ON" mirror="N" unicode1="SPACING UNDERSCORE" mathclass="N"/>
+         <unicodedata category="Pc" combclass="0" bidi="ON" mirror="N" unicode1="SPACING UNDERSCORE" mathclass="N" comment="TeX subscript operator"/>
          <combref style="below" ref="U00332"/>
          <afii>005F</afii>
          <latex>\_</latex>
@@ -1499,7 +1499,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LOW LINE</description>
       </character>
       <character id="U00060" dec="96" mode="text" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" mirror="N" unicode1="SPACING GRAVE" mathclass="D"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" mirror="N" unicode1="SPACING GRAVE" mathclass="D" comment="Alias for 0300"/>
          <combref style="above" ref="U00300"/>
          <combref style="below" ref="U00316"/>
          <afii>0060</afii>
@@ -2155,7 +2155,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">YEN SIGN</description>
       </character>
       <character id="U000A6" dec="166" mode="text" type="normal">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BROKEN VERTICAL BAR" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BROKEN VERTICAL BAR" mathclass="N" comment="(vertical)"/>
          <afii>EF6B</afii>
          <latex>\textbrokenbar </latex>
          <Elsevier grid="ben" ent="brvbar">
@@ -2198,7 +2198,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SECTION SIGN</description>
       </character>
       <character id="U000A8" dec="168" mode="text" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0308" mirror="N" unicode1="SPACING DIAERESIS" mathclass="D"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0308" mirror="N" unicode1="SPACING DIAERESIS" mathclass="D" comment="/die, Alias for 0308"/>
          <combref style="above" ref="U00308"/>
          <combref style="below" ref="U00324"/>
          <afii>2322</afii>
@@ -2300,7 +2300,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFT-POINTING DOUBLE ANGLE QUOTATION MARK</description>
       </character>
       <character id="U000AC" dec="172" mode="math" type="normal">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="U"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="U" comment="/neg /lnot"/>
          <afii>EF6A</afii>
          <latex>\lnot </latex>
          <mathlatex set="unicode-math">\neg</mathlatex>
@@ -2372,7 +2372,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">REGISTERED SIGN</description>
       </character>
       <character id="U000AF" dec="175" mode="text" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0304" mirror="N" unicode1="SPACING MACRON" mathclass="D"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0304" mirror="N" unicode1="SPACING MACRON" mathclass="D" comment="Alias for 0304"/>
          <combref style="above" ref="U00304"/>
          <combref style="above" ref="U00305"/>
          <afii>00C5</afii>
@@ -2490,7 +2490,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SUPERSCRIPT THREE</description>
       </character>
       <character id="U000B4" dec="180" mode="text" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0301" mirror="N" unicode1="SPACING ACUTE" mathclass="N"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0301" mirror="N" unicode1="SPACING ACUTE" mathclass="N" comment="Alias for 0301"/>
          <combref style="above" ref="U00301"/>
          <combref style="below" ref="U00317"/>
          <afii>2323</afii>
@@ -2529,7 +2529,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MICRO SIGN</description>
       </character>
       <character id="U000B6" dec="182" mode="mixed" type="normal">
-         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" unicode1="PARAGRAPH SIGN" mathclass="N"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" unicode1="PARAGRAPH SIGN" mathclass="N" comment="(paragraph sign)"/>
          <afii>00B6</afii>
          <latex>\textparagraph </latex>
          <mathlatex>\P </mathlatex>
@@ -2553,7 +2553,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PILCROW SIGN</description>
       </character>
       <character id="U000B7" dec="183" mode="math" type="binaryop">
-         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="/centerdot"/>
          <afii>00B7</afii>
          <latex>\cdot </latex>
          <mathlatex set="unicode-math">\cdotp</mathlatex>
@@ -6968,7 +6968,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MODIFIER LETTER DOWN ARROWHEAD</description>
       </character>
       <character id="U002C6" dec="710" mode="text" type="other">
-         <unicodedata category="Lm" combclass="0" bidi="ON" mirror="N" unicode1="MODIFIER LETTER CIRCUMFLEX" mathclass="D"/>
+         <unicodedata category="Lm" combclass="0" bidi="ON" mirror="N" unicode1="MODIFIER LETTER CIRCUMFLEX" mathclass="D" comment="Alias for 0302"/>
          <combref style="above" ref="U00302"/>
          <entity id="circ" set="xhtml1-special">
             <desc>circumflex accent = spacing circumflex</desc>
@@ -6983,7 +6983,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MODIFIER LETTER CIRCUMFLEX ACCENT</description>
       </character>
       <character id="U002C7" dec="711" mode="text" type="other">
-         <unicodedata category="Lm" combclass="0" bidi="ON" mirror="N" unicode1="MODIFIER LETTER HACEK" mathclass="D"/>
+         <unicodedata category="Lm" combclass="0" bidi="ON" mirror="N" unicode1="MODIFIER LETTER HACEK" mathclass="D" comment="Alias for 030C"/>
          <combref style="above" ref="U0030C"/>
          <combref style="below" ref="U0032C"/>
          <afii>E247</afii>
@@ -7101,7 +7101,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MODIFIER LETTER MINUS SIGN</description>
       </character>
       <character id="U002D8" dec="728" mode="mixed" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0306" mirror="N" unicode1="SPACING BREVE" mathclass="D"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0306" mirror="N" unicode1="SPACING BREVE" mathclass="D" comment="Alias for 0306"/>
          <combref style="above" ref="U00306"/>
          <combref style="below" ref="U0032E"/>
          <afii>00C6</afii>
@@ -7120,7 +7120,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BREVE</description>
       </character>
       <character id="U002D9" dec="729" mode="mixed" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0307" mirror="N" unicode1="SPACING DOT ABOVE" mathclass="D"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0307" mirror="N" unicode1="SPACING DOT ABOVE" mathclass="D" comment="Alias for 0307"/>
          <combref style="above" ref="U00307"/>
          <combref style="below" ref="U00323"/>
          <afii>00C7</afii>
@@ -7139,7 +7139,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOT ABOVE</description>
       </character>
       <character id="U002DA" dec="730" mode="mixed" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 030A" mirror="N" unicode1="SPACING RING ABOVE" mathclass="D"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 030A" mirror="N" unicode1="SPACING RING ABOVE" mathclass="D" comment="Alias for 030A"/>
          <afii>00CA</afii>
          <latex>\r{}</latex>
          <mathlatex>\mathring{}</mathlatex>
@@ -7167,7 +7167,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">OGONEK</description>
       </character>
       <character id="U002DC" dec="732" mode="text" type="other">
-         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0303" mirror="N" unicode1="SPACING TILDE" mathclass="D"/>
+         <unicodedata category="Sk" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0020 0303" mirror="N" unicode1="SPACING TILDE" mathclass="D" comment="Alias for 0303"/>
          <combref style="above" ref="U00303"/>
          <combref style="below" ref="U00330"/>
          <afii>00C4</afii>
@@ -7363,7 +7363,7 @@ Barbara Beeton for the STIX project
          <description unicode="4.0">MODIFIER LETTER LOW LEFT ARROW</description>
       </character>
       <character id="U00300" dec="768" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING GRAVE" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING GRAVE" mathclass="D" comment="MathML prefers 0060"/>
          <noncombref style="above" ref="U00060"/>
          <afii>00C1</afii>
          <latex>\`</latex>
@@ -7380,7 +7380,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING GRAVE ACCENT</description>
       </character>
       <character id="U00301" dec="769" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING ACUTE" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING ACUTE" mathclass="D" comment="MathML prefers 00B4"/>
          <noncombref style="above" ref="U000B4"/>
          <afii>00C2</afii>
          <latex>\'</latex>
@@ -7397,7 +7397,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING ACUTE ACCENT</description>
       </character>
       <character id="U00302" dec="770" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING CIRCUMFLEX" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING CIRCUMFLEX" mathclass="D" comment="MathML prefers 02C6"/>
          <noncombref style="above" ref="U0005E"/>
          <noncombref style="above" ref="U002C6"/>
          <afii>00C3</afii>
@@ -7416,7 +7416,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING CIRCUMFLEX ACCENT</description>
       </character>
       <character id="U00303" dec="771" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING TILDE" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING TILDE" mathclass="D" comment="MathML prefers 02DC"/>
          <noncombref style="above" ref="U0007E"/>
          <noncombref style="above" ref="U002DC"/>
          <afii>E222</afii>
@@ -7434,7 +7434,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING TILDE</description>
       </character>
       <character id="U00304" dec="772" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING MACRON" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING MACRON" mathclass="D" comment="MathML prefers 00AF"/>
          <noncombref style="above" ref="U000AF"/>
          <afii>00C5</afii>
          <latex>\=</latex>
@@ -7459,7 +7459,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING OVERLINE</description>
       </character>
       <character id="U00306" dec="774" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING BREVE" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING BREVE" mathclass="D" comment="MathML prefers 02D8"/>
          <noncombref style="above" ref="U002D8"/>
          <afii>00C6</afii>
          <latex>\u</latex>
@@ -7477,7 +7477,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING BREVE</description>
       </character>
       <character id="U00307" dec="775" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING DOT ABOVE" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING DOT ABOVE" mathclass="D" comment="MathML prefers 02D9"/>
          <noncombref style="above" ref="U0002E"/>
          <noncombref style="above" ref="U002D9"/>
          <afii>E224</afii>
@@ -7495,7 +7495,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING DOT ABOVE</description>
       </character>
       <character id="U00308" dec="776" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING DIAERESIS" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING DIAERESIS" mathclass="D" comment="MathML prefers 00A8"/>
          <noncombref style="above" ref="U000A8"/>
          <afii>E221</afii>
          <latex>\"</latex>
@@ -7518,7 +7518,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING HOOK ABOVE</description>
       </character>
       <character id="U0030A" dec="778" mode="text" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING RING ABOVE" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING RING ABOVE" mathclass="D" comment="MathML prefers 02DA"/>
          <afii>00CA</afii>
          <latex>\r</latex>
          <mathlatex set="unicode-math">\ocirc</mathlatex>
@@ -7542,7 +7542,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING DOUBLE ACUTE ACCENT</description>
       </character>
       <character id="U0030C" dec="780" mode="mixed" type="diacritic">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING HACEK" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" unicode1="NON-SPACING HACEK" mathclass="D" comment="MathML prefers 02C7"/>
          <noncombref style="above" ref="U002C7"/>
          <afii>00CF</afii>
          <latex>\v</latex>
@@ -7819,7 +7819,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COMBINING SHORT SOLIDUS OVERLAY</description>
       </character>
       <character id="U00338" dec="824" mode="unknown" type="other">
-         <unicodedata category="Mn" combclass="1" bidi="NSM" mirror="N" unicode1="NON-SPACING LONG SLASH OVERLAY" mathclass="D"/>
+         <unicodedata category="Mn" combclass="1" bidi="NSM" mirror="N" unicode1="NON-SPACING LONG SLASH OVERLAY" mathclass="D" comment="negation slash"/>
          <noncombref style="over" ref="U0002F"/>
          <latex>{\fontencoding{LECO}\selectfont\char216}</latex>
          <mathlatex set="unicode-math">\notaccent</mathlatex>
@@ -9071,7 +9071,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GREEK SMALL LETTER DELTA</description>
       </character>
       <character id="U003B5" dec="949" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0395" title="0395" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0395" title="0395" mathclass="A" comment="rounded"/>
          <afii>2666</afii>
          <latex>\epsilon </latex>
          <mathlatex set="unicode-math">\mupvarepsilon</mathlatex>
@@ -9171,7 +9171,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GREEK SMALL LETTER ETA</description>
       </character>
       <character id="U003B8" dec="952" mode="mixed" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0398" title="0398" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="0398" title="0398" mathclass="A" comment="straight theta"/>
          <afii>266B</afii>
          <latex>\texttheta </latex>
          <mathlatex>\theta </mathlatex>
@@ -9638,7 +9638,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GREEK SMALL LETTER UPSILON</description>
       </character>
       <character id="U003C6" dec="966" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A6" title="03A6" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03A6" title="03A6" mathclass="A" comment="\varphi"/>
          <afii>FD5F</afii>
          <latex>\varphi </latex>
          <mathlatex set="unicode-math">\mupvarphi</mathlatex>
@@ -9839,7 +9839,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GREEK BETA SYMBOL</description>
       </character>
       <character id="U003D1" dec="977" mode="mixed" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03B8" mirror="N" unicode1="GREEK SMALL LETTER SCRIPT THETA" upper="0398" title="0398" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03B8" mirror="N" unicode1="GREEK SMALL LETTER SCRIPT THETA" upper="0398" title="0398" mathclass="A" comment="\vartheta - curly or open small theta"/>
          <afii>FD5D</afii>
          <latex>\textvartheta </latex>
          <mathlatex>\vartheta </mathlatex>
@@ -9939,7 +9939,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GREEK PHI SYMBOL</description>
       </character>
       <character id="U003D6" dec="982" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03C0" mirror="N" unicode1="GREEK SMALL LETTER OMEGA PI" upper="03A0" title="03A0" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03C0" mirror="N" unicode1="GREEK SMALL LETTER OMEGA PI" upper="03A0" title="03A0" mathclass="A" comment="rounded (pomega)"/>
          <afii>FD5C</afii>
          <latex>\varpi </latex>
          <mathlatex set="unicode-math">\mupvarpi</mathlatex>
@@ -9982,7 +9982,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">GREEK SMALL LETTER ARCHAIC KOPPA</description>
       </character>
       <character id="U003DA" dec="986" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="GREEK CAPITAL LETTER STIGMA" lower="03DB" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="GREEK CAPITAL LETTER STIGMA" lower="03DB" mathclass="A" comment="capital"/>
          <afii>2667</afii>
          <latex>\Stigma </latex>
          <Wolfram>CapitalStigma</Wolfram>
@@ -9998,7 +9998,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">GREEK SMALL LETTER STIGMA</description>
       </character>
       <character id="U003DC" dec="988" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="GREEK CAPITAL LETTER DIGAMMA" lower="03DD" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="GREEK CAPITAL LETTER DIGAMMA" lower="03DD" mathclass="A" comment="capital"/>
          <afii>2648</afii>
          <latex>\Digamma </latex>
          <mathlatex set="unicode-math">\upDigamma</mathlatex>
@@ -10015,7 +10015,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GREEK LETTER DIGAMMA</description>
       </character>
       <character id="U003DD" dec="989" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03DC" title="03DC" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" mirror="N" upper="03DC" title="03DC" mathclass="A" comment="old"/>
          <afii>2668</afii>
          <latex>\digamma </latex>
          <mathlatex set="unicode-math">\updigamma</mathlatex>
@@ -10061,7 +10061,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.0">GREEK SMALL LETTER KOPPA</description>
       </character>
       <character id="U003E0" dec="992" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="GREEK CAPITAL LETTER SAMPI" lower="03E1" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" mirror="N" unicode1="GREEK CAPITAL LETTER SAMPI" lower="03E1" mathclass="A" comment="capital"/>
          <afii>267E</afii>
          <latex>\Sampi </latex>
          <Wolfram>CapitalSampi</Wolfram>
@@ -10133,7 +10133,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">COPTIC SMALL LETTER DEI</description>
       </character>
       <character id="U003F0" dec="1008" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03BA" mirror="N" unicode1="GREEK SMALL LETTER SCRIPT KAPPA" upper="039A" title="039A" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03BA" mirror="N" unicode1="GREEK SMALL LETTER SCRIPT KAPPA" upper="039A" title="039A" mathclass="A" comment="rounded"/>
          <afii>FD60</afii>
          <latex>\varkappa </latex>
          <mathlatex set="unicode-math">\mupvarkappa</mathlatex>
@@ -10160,7 +10160,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GREEK KAPPA SYMBOL</description>
       </character>
       <character id="U003F1" dec="1009" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03C1" mirror="N" unicode1="GREEK SMALL LETTER TAILED RHO" upper="03A1" title="03A1" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03C1" mirror="N" unicode1="GREEK SMALL LETTER TAILED RHO" upper="03A1" title="03A1" mathclass="A" comment="rounded"/>
          <afii>FD5E</afii>
          <latex>\varrho </latex>
          <mathlatex set="unicode-math">\mupvarrho</mathlatex>
@@ -10210,7 +10210,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.1">GREEK CAPITAL THETA SYMBOL</description>
       </character>
       <character id="U003F5" dec="1013" mode="unknown" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03B5" mirror="N" upper="0395" title="0395" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;compat&gt; 03B5" mirror="N" upper="0395" title="0395" mathclass="A" comment="straight"/>
          <afii>FD5B</afii>
          <mathlatex set="unicode-math">\mupepsilon</mathlatex>
          <Elsevier grid="cde" ent="epsi">
@@ -36920,7 +36920,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">EM QUAD</description>
       </character>
       <character id="U02002" dec="8194" mode="text" type="other">
-         <unicodedata category="Zs" combclass="0" bidi="WS" decomp="&lt;compat&gt; 0020" mirror="N" mathclass="S"/>
+         <unicodedata category="Zs" combclass="0" bidi="WS" decomp="&lt;compat&gt; 0020" mirror="N" mathclass="S" comment="(half an em)"/>
          <afii>EF1C</afii>
          <latex>\hspace{0.6em}</latex>
          <AMS>\enspace</AMS>
@@ -36967,7 +36967,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">THREE-PER-EM SPACE</description>
       </character>
       <character id="U02005" dec="8197" mode="text" type="other">
-         <unicodedata category="Zs" combclass="0" bidi="WS" decomp="&lt;compat&gt; 0020" mirror="N" mathclass="S"/>
+         <unicodedata category="Zs" combclass="0" bidi="WS" decomp="&lt;compat&gt; 0020" mirror="N" mathclass="S" comment="mid space"/>
          <afii>EE22</afii>
          <latex>\hspace{0.25em}</latex>
          <AMS>\thickspace</AMS>
@@ -37095,7 +37095,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHT-TO-LEFT MARK</description>
       </character>
       <character id="U02010" dec="8208" mode="text" type="normal">
-         <unicodedata category="Pd" combclass="0" bidi="ON" mirror="N" mathclass="P"/>
+         <unicodedata category="Pd" combclass="0" bidi="ON" mirror="N" mathclass="P" comment="(true graphic)"/>
          <afii>213E</afii>
          <latex>-</latex>
          <mathlatex set="unicode-math">\mathhyphen</mathlatex>
@@ -37446,7 +37446,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOUBLE DAGGER</description>
       </character>
       <character id="U02022" dec="8226" mode="mixed" type="binaryop">
-         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="/bullet round bullet, filled"/>
          <afii>EB6E</afii>
          <latex>\textbullet </latex>
          <mathlatex>\bullet</mathlatex>
@@ -37602,7 +37602,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PER TEN THOUSAND SIGN</description>
       </character>
       <character id="U02032" dec="8242" mode="math" type="other">
-         <unicodedata category="Po" combclass="0" bidi="ET" mirror="N" mathclass="N"/>
+         <unicodedata category="Po" combclass="0" bidi="ET" mirror="N" mathclass="N" comment="minute"/>
          <afii>216C</afii>
          <latex>{'}</latex>
          <mathlatex set="unicode-math">\prime</mathlatex>
@@ -37633,7 +37633,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PRIME</description>
       </character>
       <character id="U02033" dec="8243" mode="math" type="other">
-         <unicodedata category="Po" combclass="0" bidi="ET" decomp="&lt;compat&gt; 2032 2032" mirror="N" mathclass="N"/>
+         <unicodedata category="Po" combclass="0" bidi="ET" decomp="&lt;compat&gt; 2032 2032" mirror="N" mathclass="N" comment="second"/>
          <afii>216D</afii>
          <latex>{''}</latex>
          <mathlatex set="unicode-math">\dprime</mathlatex>
@@ -37744,11 +37744,11 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SINGLE RIGHT-POINTING ANGLE QUOTATION MARK</description>
       </character>
       <character id="U0203B" dec="8251" type="other" mode="unknown">
-         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="Japanese kome"/>
          <description unicode="1.1">REFERENCE MARK</description>
       </character>
       <character id="U0203C" dec="8252" type="other" mode="unknown">
-         <unicodedata category="Po" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0021 0021" mirror="N" mathclass="N"/>
+         <unicodedata category="Po" combclass="0" bidi="ON" decomp="&lt;compat&gt; 0021 0021" mirror="N" mathclass="N" comment="Factorial spacing"/>
          <mathlatex set="unicode-math">\Exclam</mathlatex>
          <description unicode="1.1">DOUBLE EXCLAMATION MARK</description>
       </character>
@@ -37771,7 +37771,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UNDERTIE</description>
       </character>
       <character id="U02040" dec="8256" type="other" mode="unknown">
-         <unicodedata category="Pc" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Pc" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="z notation sequence concatenation"/>
          <mathlatex set="unicode-math">\tieconcat</mathlatex>
          <description unicode="1.1">CHARACTER TIE</description>
       </character>
@@ -37806,7 +37806,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">HYPHEN BULLET</description>
       </character>
       <character id="U02044" dec="8260" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="CS" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="CS" mirror="N" mathclass="B" comment="stretchy"/>
          <mathlatex set="unicode-math">\fracslash</mathlatex>
          <entity id="frasl" set="xhtml1-symbol"/>
          <operator-dictionary form="infix" lspace="4" rspace="4" priority="680"/>
@@ -38089,23 +38089,23 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SUPERSCRIPT NINE</description>
       </character>
       <character id="U0207A" dec="8314" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;super&gt; 002B" mirror="N" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;super&gt; 002B" mirror="N" mathclass="N" comment="superscript operators"/>
          <description unicode="1.1">SUPERSCRIPT PLUS SIGN</description>
       </character>
       <character id="U0207B" dec="8315" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;super&gt; 2212" mirror="N" unicode1="SUPERSCRIPT HYPHEN-MINUS" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;super&gt; 2212" mirror="N" unicode1="SUPERSCRIPT HYPHEN-MINUS" mathclass="N" comment="superscript operators"/>
          <description unicode="1.1">SUPERSCRIPT MINUS</description>
       </character>
       <character id="U0207C" dec="8316" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;super&gt; 003D" mirror="N" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;super&gt; 003D" mirror="N" mathclass="N" comment="superscript operators"/>
          <description unicode="1.1">SUPERSCRIPT EQUALS SIGN</description>
       </character>
       <character id="U0207D" dec="8317" type="other" mode="unknown">
-         <unicodedata category="Ps" combclass="0" bidi="ON" decomp="&lt;super&gt; 0028" mirror="Y" unicode1="SUPERSCRIPT OPENING PARENTHESIS" mathclass="N"/>
+         <unicodedata category="Ps" combclass="0" bidi="ON" decomp="&lt;super&gt; 0028" mirror="Y" unicode1="SUPERSCRIPT OPENING PARENTHESIS" mathclass="N" comment="superscript operators"/>
          <description unicode="1.1">SUPERSCRIPT LEFT PARENTHESIS</description>
       </character>
       <character id="U0207E" dec="8318" type="other" mode="unknown">
-         <unicodedata category="Pe" combclass="0" bidi="ON" decomp="&lt;super&gt; 0029" mirror="Y" unicode1="SUPERSCRIPT CLOSING PARENTHESIS" mathclass="N"/>
+         <unicodedata category="Pe" combclass="0" bidi="ON" decomp="&lt;super&gt; 0029" mirror="Y" unicode1="SUPERSCRIPT CLOSING PARENTHESIS" mathclass="N" comment="superscript operators"/>
          <description unicode="1.1">SUPERSCRIPT RIGHT PARENTHESIS</description>
       </character>
       <character id="U0207F" dec="8319" type="other" mode="unknown">
@@ -38153,23 +38153,23 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SUBSCRIPT NINE</description>
       </character>
       <character id="U0208A" dec="8330" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;sub&gt; 002B" mirror="N" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;sub&gt; 002B" mirror="N" mathclass="N" comment="subscript operators"/>
          <description unicode="1.1">SUBSCRIPT PLUS SIGN</description>
       </character>
       <character id="U0208B" dec="8331" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;sub&gt; 2212" mirror="N" unicode1="SUBSCRIPT HYPHEN-MINUS" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ES" decomp="&lt;sub&gt; 2212" mirror="N" unicode1="SUBSCRIPT HYPHEN-MINUS" mathclass="N" comment="subscript operators"/>
          <description unicode="1.1">SUBSCRIPT MINUS</description>
       </character>
       <character id="U0208C" dec="8332" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;sub&gt; 003D" mirror="N" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;sub&gt; 003D" mirror="N" mathclass="N" comment="subscript operators"/>
          <description unicode="1.1">SUBSCRIPT EQUALS SIGN</description>
       </character>
       <character id="U0208D" dec="8333" type="other" mode="unknown">
-         <unicodedata category="Ps" combclass="0" bidi="ON" decomp="&lt;sub&gt; 0028" mirror="Y" unicode1="SUBSCRIPT OPENING PARENTHESIS" mathclass="N"/>
+         <unicodedata category="Ps" combclass="0" bidi="ON" decomp="&lt;sub&gt; 0028" mirror="Y" unicode1="SUBSCRIPT OPENING PARENTHESIS" mathclass="N" comment="subscript operators"/>
          <description unicode="1.1">SUBSCRIPT LEFT PARENTHESIS</description>
       </character>
       <character id="U0208E" dec="8334" type="other" mode="unknown">
-         <unicodedata category="Pe" combclass="0" bidi="ON" decomp="&lt;sub&gt; 0029" mirror="Y" unicode1="SUBSCRIPT CLOSING PARENTHESIS" mathclass="N"/>
+         <unicodedata category="Pe" combclass="0" bidi="ON" decomp="&lt;sub&gt; 0029" mirror="Y" unicode1="SUBSCRIPT CLOSING PARENTHESIS" mathclass="N" comment="subscript operators"/>
          <description unicode="1.1">SUBSCRIPT RIGHT PARENTHESIS</description>
       </character>
       <character id="U0208F" dec="8335">
@@ -38545,7 +38545,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">COMBINING DOUBLE VERTICAL STROKE OVERLAY</description>
       </character>
       <character id="U020E7" dec="8423" mode="math" type="other">
-         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D"/>
+         <unicodedata category="Mn" combclass="230" bidi="NSM" mirror="N" mathclass="D" comment="actuary"/>
          <mathlatex set="unicode-math">\annuity</mathlatex>
          <entity id="actuary" set="STIX"/>
          <description unicode="3.2">COMBINING ANNUITY SYMBOL</description>
@@ -38606,7 +38606,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ADDRESSED TO THE SUBJECT</description>
       </character>
       <character id="U02102" dec="8450" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0043" mirror="N" unicode1="DOUBLE-STRUCK C" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0043" mirror="N" unicode1="DOUBLE-STRUCK C" mathclass="A" comment="/Bbb C, open face C"/>
          <afii>EFAC</afii>
          <latex>\mathbb{C}</latex>
          <mathlatex set="unicode-math">\BbbC</mathlatex>
@@ -38662,7 +38662,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DEGREE FAHRENHEIT</description>
       </character>
       <character id="U0210A" dec="8458" type="other" mode="unknown">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 0067" mirror="N" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 0067" mirror="N" mathclass="A" comment="/scr g"/>
          <latex>\mathscr{g}</latex>
          <mathlatex set="unicode-math">\mscrg</mathlatex>
          <Wolfram>ScriptG</Wolfram>
@@ -38677,7 +38677,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SCRIPT SMALL G</description>
       </character>
       <character id="U0210B" dec="8459" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0048" mirror="N" unicode1="SCRIPT H" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0048" mirror="N" unicode1="SCRIPT H" mathclass="A" comment="/scr H"/>
          <afii>EB22</afii>
          <latex>\mathscr{H}</latex>
          <mathlatex set="unicode-math">\mscrH</mathlatex>
@@ -38720,7 +38720,7 @@ Barbara Beeton for the STIX project
          <description unicode="14">SCRIPT CAPITAL H roundhand style</description>
       </character>
       <character id="U0210C" dec="8460" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0048" mirror="N" unicode1="BLACK-LETTER H" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0048" mirror="N" unicode1="BLACK-LETTER H" mathclass="A" comment="/frak H"/>
          <afii>EB2B</afii>
          <latex>\mathfrak{H}</latex>
          <mathlatex set="unicode-math">\mfrakH</mathlatex>
@@ -38741,7 +38741,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK-LETTER CAPITAL H</description>
       </character>
       <character id="U0210D" dec="8461" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0048" mirror="N" unicode1="DOUBLE-STRUCK H" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0048" mirror="N" unicode1="DOUBLE-STRUCK H" mathclass="A" comment="/Bbb H"/>
          <latex>\mathbb{H}</latex>
          <mathlatex set="unicode-math">\BbbH</mathlatex>
          <Wolfram id="F7AB">DoubleStruckCapitalH</Wolfram>
@@ -38766,7 +38766,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PLANCK CONSTANT</description>
       </character>
       <character id="U0210F" dec="8463" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 0127" mirror="N" unicode1="PLANCK CONSTANT OVER 2 PI" mathclass="N"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 0127" mirror="N" unicode1="PLANCK CONSTANT OVER 2 PI" mathclass="N" comment="/hslash - variant"/>
          <afii>EF68</afii>
          <latex>\hslash </latex>
          <mathlatex set="unicode-math">\hslash</mathlatex>
@@ -38803,7 +38803,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PLANCK CONSTANT OVER TWO PI</description>
       </character>
       <character id="U02110" dec="8464" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0049" mirror="N" unicode1="SCRIPT I" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0049" mirror="N" unicode1="SCRIPT I" mathclass="A" comment="/scr I"/>
          <afii>EB23</afii>
          <latex>\mathscr{I}</latex>
          <mathlatex set="unicode-math">\mscrI</mathlatex>
@@ -38832,7 +38832,7 @@ Barbara Beeton for the STIX project
          <description unicode="14">SCRIPT CAPITAL I roundhand style</description>
       </character>
       <character id="U02111" dec="8465" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0049" mirror="N" unicode1="BLACK-LETTER I" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0049" mirror="N" unicode1="BLACK-LETTER I" mathclass="A" comment="imaginary part"/>
          <afii>22A9</afii>
          <latex>\mathfrak{I}</latex>
          <mathlatex set="unicode-math">\Im</mathlatex>
@@ -38868,7 +38868,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK-LETTER CAPITAL I</description>
       </character>
       <character id="U02112" dec="8466" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 004C" mirror="N" unicode1="SCRIPT L" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 004C" mirror="N" unicode1="SCRIPT L" mathclass="A" comment="Lagrangian"/>
          <afii>EE44</afii>
          <latex>\mathscr{L}</latex>
          <mathlatex set="unicode-math">\mscrL</mathlatex>
@@ -38911,7 +38911,7 @@ Barbara Beeton for the STIX project
          <description unicode="14">SCRIPT CAPITAL L roundhand style</description>
       </character>
       <character id="U02113" dec="8467" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 006C" mirror="N" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 006C" mirror="N" mathclass="A" comment="cursive small l"/>
          <afii>EF69</afii>
          <latex>\mathscr{l}</latex>
          <mathlatex set="unicode-math">\ell</mathlatex>
@@ -38939,7 +38939,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">L B BAR SYMBOL</description>
       </character>
       <character id="U02115" dec="8469" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 004E" mirror="N" unicode1="DOUBLE-STRUCK N" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 004E" mirror="N" unicode1="DOUBLE-STRUCK N" mathclass="A" comment="/Bbb N, open face N"/>
          <afii>EFAD</afii>
          <latex>\mathbb{N}</latex>
          <mathlatex set="unicode-math">\BbbN</mathlatex>
@@ -38982,7 +38982,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SOUND RECORDING COPYRIGHT</description>
       </character>
       <character id="U02118" dec="8472" mode="math" type="alphabetic">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="SCRIPT P" mathclass="A"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="SCRIPT P" mathclass="A" comment="Weierstrass p (Unicode name is a misnomer)"/>
          <afii>22A6</afii>
          <latex>\wp </latex>
          <mathlatex set="unicode-math">\wp</mathlatex>
@@ -39013,7 +39013,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SCRIPT CAPITAL P</description>
       </character>
       <character id="U02119" dec="8473" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0050" mirror="N" unicode1="DOUBLE-STRUCK P" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0050" mirror="N" unicode1="DOUBLE-STRUCK P" mathclass="A" comment="/Bbb P, open face P"/>
          <afii>EB21</afii>
          <latex>\mathbb{P}</latex>
          <mathlatex set="unicode-math">\BbbP</mathlatex>
@@ -39032,7 +39032,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOUBLE-STRUCK CAPITAL P</description>
       </character>
       <character id="U0211A" dec="8474" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0051" mirror="N" unicode1="DOUBLE-STRUCK Q" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0051" mirror="N" unicode1="DOUBLE-STRUCK Q" mathclass="A" comment="/Bbb Q, open face Q"/>
          <afii>22E7</afii>
          <latex>\mathbb{Q}</latex>
          <mathlatex set="unicode-math">\BbbQ</mathlatex>
@@ -39050,7 +39050,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOUBLE-STRUCK CAPITAL Q</description>
       </character>
       <character id="U0211B" dec="8475" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0052" mirror="N" unicode1="SCRIPT R" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0052" mirror="N" unicode1="SCRIPT R" mathclass="A" comment="/scr R"/>
          <afii>EE43</afii>
          <latex>\mathscr{R}</latex>
          <mathlatex set="unicode-math">\mscrR</mathlatex>
@@ -39114,7 +39114,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK-LETTER CAPITAL R</description>
       </character>
       <character id="U0211D" dec="8477" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0052" mirror="N" unicode1="DOUBLE-STRUCK R" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0052" mirror="N" unicode1="DOUBLE-STRUCK R" mathclass="A" comment="/Bbb R, open face R"/>
          <afii>EFAE</afii>
          <latex>\mathbb{R}</latex>
          <mathlatex set="unicode-math">\BbbR</mathlatex>
@@ -39190,7 +39190,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">VERSICLE</description>
       </character>
       <character id="U02124" dec="8484" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 005A" mirror="N" unicode1="DOUBLE-STRUCK Z" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 005A" mirror="N" unicode1="DOUBLE-STRUCK Z" mathclass="A" comment="/Bbb Z, open face Z"/>
          <afii>EFAF</afii>
          <latex>\mathbb{Z}</latex>
          <mathlatex set="unicode-math">\BbbZ</mathlatex>
@@ -39216,14 +39216,14 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">OUNCE SIGN</description>
       </character>
       <character id="U02126" dec="8486" mode="math" type="normal">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="03A9" mirror="N" unicode1="OHM" lower="03C9" mathclass="N"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="03A9" mirror="N" unicode1="OHM" lower="03C9" mathclass="N" comment="(deprecated in math, use greek letter)"/>
          <afii>00E0</afii>
          <latex>\Omega </latex>
          <font name="hlcrm" pos="10"/>
          <description unicode="1.1">OHM SIGN</description>
       </character>
       <character id="U02127" dec="8487" mode="math" type="normal">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="MHO" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="MHO" mathclass="N" comment="conductance"/>
          <afii>227C</afii>
          <latex>\mho </latex>
          <mathlatex set="unicode-math">\mho</mathlatex>
@@ -39243,7 +39243,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">INVERTED OHM SIGN</description>
       </character>
       <character id="U02128" dec="8488" mode="math" type="normal">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 005A" mirror="N" unicode1="BLACK-LETTER Z" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 005A" mirror="N" unicode1="BLACK-LETTER Z" mathclass="A" comment="/frak Z"/>
          <latex>\mathfrak{Z}</latex>
          <mathlatex set="unicode-math">\mfrakZ</mathlatex>
          <Wolfram>GothicCapitalZ</Wolfram>
@@ -39262,7 +39262,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK-LETTER CAPITAL Z</description>
       </character>
       <character id="U02129" dec="8489" mode="math" type="alphabetic">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="inverted iota"/>
          <afii>EBD0</afii>
          <latex>\ElsevierGlyph{2129}</latex>
          <mathlatex set="unicode-math">\turnediota</mathlatex>
@@ -39283,7 +39283,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">KELVIN SIGN</description>
       </character>
       <character id="U0212B" dec="8491" mode="text" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="00C5" mirror="N" unicode1="ANGSTROM UNIT" lower="00E5" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="00C5" mirror="N" unicode1="ANGSTROM UNIT" lower="00E5" mathclass="A" comment="Angstrom capital A, ring (deprecated in math)"/>
          <afii>F128</afii>
          <latex>\AA </latex>
          <mathlatex set="unicode-math">\Angstrom</mathlatex>
@@ -39300,7 +39300,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ANGSTROM SIGN</description>
       </character>
       <character id="U0212C" dec="8492" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0042" mirror="N" unicode1="SCRIPT B" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0042" mirror="N" unicode1="SCRIPT B" mathclass="A" comment="Bernoulli function"/>
          <afii>DB43</afii>
          <latex>\mathscr{B}</latex>
          <mathlatex set="unicode-math">\mscrB</mathlatex>
@@ -39364,7 +39364,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ESTIMATED SYMBOL</description>
       </character>
       <character id="U0212F" dec="8495" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 0065" mirror="N" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 0065" mirror="N" mathclass="A" comment="/scr e"/>
          <latex>\mathscr{e}</latex>
          <mathlatex set="unicode-math">\mscre</mathlatex>
          <Wolfram>ScriptE</Wolfram>
@@ -39379,7 +39379,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SCRIPT SMALL E</description>
       </character>
       <character id="U02130" dec="8496" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0045" mirror="N" unicode1="SCRIPT E" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0045" mirror="N" unicode1="SCRIPT E" mathclass="A" comment="/scr E"/>
          <afii>D856</afii>
          <latex>\mathscr{E}</latex>
          <mathlatex set="unicode-math">\mscrE</mathlatex>
@@ -39405,7 +39405,7 @@ Barbara Beeton for the STIX project
          <description unicode="14">SCRIPT CAPITAL E roundhand style</description>
       </character>
       <character id="U02131" dec="8497" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0046" mirror="N" unicode1="SCRIPT F" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 0046" mirror="N" unicode1="SCRIPT F" mathclass="A" comment="/scr F"/>
          <afii>D857</afii>
          <latex>\mathscr{F}</latex>
          <mathlatex set="unicode-math">\mscrF</mathlatex>
@@ -39436,7 +39436,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">TURNED CAPITAL F</description>
       </character>
       <character id="U02133" dec="8499" mode="math" type="alphabetic">
-         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 004D" mirror="N" unicode1="SCRIPT M" mathclass="A"/>
+         <unicodedata category="Lu" combclass="0" bidi="L" decomp="&lt;font&gt; 004D" mirror="N" unicode1="SCRIPT M" mathclass="A" comment="physics M-matrix"/>
          <afii>EB5E</afii>
          <latex>\mathscr{M}</latex>
          <mathlatex set="unicode-math">\mscrM</mathlatex>
@@ -39479,7 +39479,7 @@ Barbara Beeton for the STIX project
          <description unicode="14">SCRIPT CAPITAL M roundhand style</description>
       </character>
       <character id="U02134" dec="8500" mode="math" type="alphabetic">
-         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 006F" mirror="N" mathclass="A"/>
+         <unicodedata category="Ll" combclass="0" bidi="L" decomp="&lt;font&gt; 006F" mirror="N" mathclass="A" comment="order of"/>
          <afii>DB6E</afii>
          <latex>\mathscr{o}</latex>
          <mathlatex set="unicode-math">\mscro</mathlatex>
@@ -39508,7 +39508,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SCRIPT SMALL O</description>
       </character>
       <character id="U02135" dec="8501" mode="math" type="alphabetic">
-         <unicodedata category="Lo" combclass="0" bidi="L" decomp="&lt;compat&gt; 05D0" mirror="N" unicode1="FIRST TRANSFINITE CARDINAL" mathclass="A"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" decomp="&lt;compat&gt; 05D0" mirror="N" unicode1="FIRST TRANSFINITE CARDINAL" mathclass="A" comment="aleph, Hebrew"/>
          <afii>E140</afii>
          <latex>\aleph </latex>
          <mathlatex set="unicode-math">\aleph</mathlatex>
@@ -39534,7 +39534,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ALEF SYMBOL</description>
       </character>
       <character id="U02136" dec="8502" mode="math" type="alphabetic">
-         <unicodedata category="Lo" combclass="0" bidi="L" decomp="&lt;compat&gt; 05D1" mirror="N" unicode1="SECOND TRANSFINITE CARDINAL" mathclass="A"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" decomp="&lt;compat&gt; 05D1" mirror="N" unicode1="SECOND TRANSFINITE CARDINAL" mathclass="A" comment="beth, Hebrew"/>
          <afii>E141</afii>
          <latex>\beth </latex>
          <mathlatex set="unicode-math">\beth</mathlatex>
@@ -39557,7 +39557,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BET SYMBOL</description>
       </character>
       <character id="U02137" dec="8503" mode="math" type="alphabetic">
-         <unicodedata category="Lo" combclass="0" bidi="L" decomp="&lt;compat&gt; 05D2" mirror="N" unicode1="THIRD TRANSFINITE CARDINAL" mathclass="A"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" decomp="&lt;compat&gt; 05D2" mirror="N" unicode1="THIRD TRANSFINITE CARDINAL" mathclass="A" comment="gimel, Hebrew"/>
          <afii>E142</afii>
          <latex>\gimel </latex>
          <mathlatex set="unicode-math">\gimel</mathlatex>
@@ -39580,7 +39580,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GIMEL SYMBOL</description>
       </character>
       <character id="U02138" dec="8504" mode="math" type="alphabetic">
-         <unicodedata category="Lo" combclass="0" bidi="L" decomp="&lt;compat&gt; 05D3" mirror="N" unicode1="FOURTH TRANSFINITE CARDINAL" mathclass="A"/>
+         <unicodedata category="Lo" combclass="0" bidi="L" decomp="&lt;compat&gt; 05D3" mirror="N" unicode1="FOURTH TRANSFINITE CARDINAL" mathclass="A" comment="daleth, Hebrew"/>
          <afii>E143</afii>
          <latex>\daleth </latex>
          <mathlatex set="unicode-math">\daleth</mathlatex>
@@ -40108,7 +40108,7 @@ Barbara Beeton for the STIX project
          <description unicode="8.0">TURNED DIGIT THREE</description>
       </character>
       <character id="U02190" dec="8592" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="LEFT ARROW" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="LEFT ARROW" mathclass="R" comment="/leftarrow /gets"/>
          <combref style="above" ref="U20D6"/>
          <afii>EEAC</afii>
          <latex>\leftarrow </latex>
@@ -40184,7 +40184,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS ARROW</description>
       </character>
       <character id="U02192" dec="8594" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT ARROW" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT ARROW" mathclass="R" comment="/rightarrow /to"/>
          <combref style="above" ref="U020D7"/>
          <combref style="above" ref="U020EF"/>
          <afii>EEAE</afii>
@@ -40262,7 +40262,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS ARROW</description>
       </character>
       <character id="U02194" dec="8596" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="left and right arrow"/>
          <afii>EF52</afii>
          <latex>\leftrightarrow </latex>
          <mathlatex set="unicode-math">\leftrightarrow</mathlatex>
@@ -40297,7 +40297,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFT RIGHT ARROW</description>
       </character>
       <character id="U02195" dec="8597" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="up and down arrow"/>
          <afii>EEB5</afii>
          <latex>\updownarrow </latex>
          <mathlatex set="unicode-math">\updownarrow</mathlatex>
@@ -40329,7 +40329,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UP DOWN ARROW</description>
       </character>
       <character id="U02196" dec="8598" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UPPER LEFT ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UPPER LEFT ARROW" mathclass="R" comment="NW pointing arrow"/>
          <afii>EF3C</afii>
          <latex>\nwarrow </latex>
          <mathlatex set="unicode-math">\nwarrow</mathlatex>
@@ -40361,7 +40361,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NORTH WEST ARROW</description>
       </character>
       <character id="U02197" dec="8599" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UPPER RIGHT ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UPPER RIGHT ARROW" mathclass="R" comment="NE pointing arrow"/>
          <afii>EF3E</afii>
          <latex>\nearrow </latex>
          <mathlatex set="unicode-math">\nearrow</mathlatex>
@@ -40393,7 +40393,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NORTH EAST ARROW</description>
       </character>
       <character id="U02198" dec="8600" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LOWER RIGHT ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LOWER RIGHT ARROW" mathclass="R" comment="SE pointing arrow"/>
          <afii>EF3D</afii>
          <latex>\searrow </latex>
          <mathlatex set="unicode-math">\searrow</mathlatex>
@@ -40425,7 +40425,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SOUTH EAST ARROW</description>
       </character>
       <character id="U02199" dec="8601" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LOWER LEFT ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LOWER LEFT ARROW" mathclass="R" comment="SW pointing arrow"/>
          <afii>EF3F</afii>
          <latex>\swarrow </latex>
          <mathlatex set="unicode-math">\swarrow</mathlatex>
@@ -40457,7 +40457,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SOUTH WEST ARROW</description>
       </character>
       <character id="U0219A" dec="8602" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2190 0338" mirror="N" unicode1="LEFT ARROW WITH STROKE" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2190 0338" mirror="N" unicode1="LEFT ARROW WITH STROKE" mathclass="R" comment="not left arrow"/>
          <afii>EEF7</afii>
          <latex>\nleftarrow </latex>
          <mathlatex set="unicode-math">\nleftarrow</mathlatex>
@@ -40484,7 +40484,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS ARROW WITH STROKE</description>
       </character>
       <character id="U0219B" dec="8603" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2192 0338" mirror="N" unicode1="RIGHT ARROW WITH STROKE" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2192 0338" mirror="N" unicode1="RIGHT ARROW WITH STROKE" mathclass="R" comment="not right arrow"/>
          <afii>EEF8</afii>
          <latex>\nrightarrow </latex>
          <mathlatex set="unicode-math">\nrightarrow</mathlatex>
@@ -40511,7 +40511,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS ARROW WITH STROKE</description>
       </character>
       <character id="U0219C" dec="8604" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT WAVE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT WAVE ARROW" mathclass="R" comment="left arrow-wavy"/>
          <afii>D8B6</afii>
          <latex>\arrowwaveleft </latex>
          <mathlatex set="unicode-math">\leftwavearrow</mathlatex>
@@ -40521,7 +40521,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS WAVE ARROW</description>
       </character>
       <character id="U0219D" dec="8605" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT WAVE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT WAVE ARROW" mathclass="R" comment="right arrow-wavy"/>
          <afii>EF53</afii>
          <latex>\arrowwaveright </latex>
          <mathlatex set="unicode-math">\rightwavearrow</mathlatex>
@@ -40634,7 +40634,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS TWO HEADED ARROW</description>
       </character>
       <character id="U021A2" dec="8610" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT ARROW WITH TAIL" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT ARROW WITH TAIL" mathclass="R" comment="left arrow-tailed"/>
          <afii>224C</afii>
          <latex>\leftarrowtail </latex>
          <mathlatex set="unicode-math">\leftarrowtail</mathlatex>
@@ -40660,7 +40660,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS ARROW WITH TAIL</description>
       </character>
       <character id="U021A3" dec="8611" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT ARROW WITH TAIL" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT ARROW WITH TAIL" mathclass="R" comment="right arrow-tailed"/>
          <afii>224D</afii>
          <latex>\rightarrowtail </latex>
          <mathlatex set="unicode-math">\rightarrowtail</mathlatex>
@@ -40686,7 +40686,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS ARROW WITH TAIL</description>
       </character>
       <character id="U021A4" dec="8612" mode="unknown" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT ARROW FROM BAR" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT ARROW FROM BAR" mathclass="R" comment="maps to, leftward"/>
          <mathlatex set="unicode-math">\mapsfrom</mathlatex>
          <Wolfram>LeftTeeArrow</Wolfram>
          <entity id="LeftTeeArrow" set="mmlalias">
@@ -40699,7 +40699,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS ARROW FROM BAR</description>
       </character>
       <character id="U021A5" dec="8613" mode="unknown" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP ARROW FROM BAR" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP ARROW FROM BAR" mathclass="R" comment="maps to, upward"/>
          <mathlatex set="unicode-math">\mapsup</mathlatex>
          <Wolfram>UpTeeArrow</Wolfram>
          <entity id="UpTeeArrow" set="mmlalias">
@@ -40712,7 +40712,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS ARROW FROM BAR</description>
       </character>
       <character id="U021A6" dec="8614" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT ARROW FROM BAR" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT ARROW FROM BAR" mathclass="R" comment="maps to, rightward"/>
          <afii>226B</afii>
          <latex>\mapsto </latex>
          <mathlatex set="unicode-math">\mapsto</mathlatex>
@@ -40744,7 +40744,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS ARROW FROM BAR</description>
       </character>
       <character id="U021A7" dec="8615" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN ARROW FROM BAR" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN ARROW FROM BAR" mathclass="R" comment="maps to, downward"/>
          <mathlatex set="unicode-math">\mapsdown</mathlatex>
          <Wolfram>DownTeeArrow</Wolfram>
          <entity id="DownTeeArrow" set="mmlalias">
@@ -40757,7 +40757,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS ARROW FROM BAR</description>
       </character>
       <character id="U021A8" dec="8616" type="other" mode="unknown">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="up and down arrow, bar under"/>
          <mathlatex set="unicode-math">\updownarrowbar</mathlatex>
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="340" stretchy="true"/>
          <description unicode="1.1">UP DOWN ARROW WITH BASE</description>
@@ -40871,7 +40871,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS ARROW WITH LOOP</description>
       </character>
       <character id="U021AD" dec="8621" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="left and right arrow-wavy"/>
          <afii>2252</afii>
          <latex>\leftrightsquigarrow </latex>
          <mathlatex set="unicode-math">\leftrightsquigarrow</mathlatex>
@@ -40897,7 +40897,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFT RIGHT WAVE ARROW</description>
       </character>
       <character id="U021AE" dec="8622" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2194 0338" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2194 0338" mirror="N" mathclass="R" comment="not left and right arrow"/>
          <afii>EEF9</afii>
          <latex>\nleftrightarrow </latex>
          <mathlatex set="unicode-math">\nleftrightarrow</mathlatex>
@@ -40930,7 +40930,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS ZIGZAG ARROW</description>
       </character>
       <character id="U021B0" dec="8624" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP ARROW WITH TIP LEFT" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP ARROW WITH TIP LEFT" mathclass="R" comment="/Lsh"/>
          <afii>2250</afii>
          <latex>\Lsh </latex>
          <mathlatex set="unicode-math">\Lsh</mathlatex>
@@ -40956,7 +40956,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS ARROW WITH TIP LEFTWARDS</description>
       </character>
       <character id="U021B1" dec="8625" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP ARROW WITH TIP RIGHT" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP ARROW WITH TIP RIGHT" mathclass="R" comment="/Rsh"/>
          <afii>2251</afii>
          <latex>\Rsh </latex>
          <mathlatex set="unicode-math">\Rsh</mathlatex>
@@ -40982,7 +40982,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS ARROW WITH TIP RIGHTWARDS</description>
       </character>
       <character id="U021B2" dec="8626" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN ARROW WITH TIP LEFT" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN ARROW WITH TIP LEFT" mathclass="R" comment="left down angled arrow"/>
          <afii>22EE</afii>
          <mathlatex set="unicode-math">\Ldsh</mathlatex>
          <entity id="ldsh" set="9573-1991-isoamsa">
@@ -40995,7 +40995,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS ARROW WITH TIP LEFTWARDS</description>
       </character>
       <character id="U021B3" dec="8627" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN ARROW WITH TIP RIGHT" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN ARROW WITH TIP RIGHT" mathclass="R" comment="right down angled arrow"/>
          <afii>22EF</afii>
          <latex>\ElsevierGlyph{21B3}</latex>
          <mathlatex set="unicode-math">\Rdsh</mathlatex>
@@ -41029,7 +41029,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS ARROW WITH CORNER LEFTWARDS</description>
       </character>
       <character id="U021B6" dec="8630" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="left curved arrow"/>
          <afii>EEF2</afii>
          <latex>\curvearrowleft </latex>
          <mathlatex set="unicode-math">\curvearrowleft</mathlatex>
@@ -41056,7 +41056,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ANTICLOCKWISE TOP SEMICIRCLE ARROW</description>
       </character>
       <character id="U021B7" dec="8631" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="right curved arrow"/>
          <afii>EEF3</afii>
          <latex>\curvearrowright </latex>
          <mathlatex set="unicode-math">\curvearrowright</mathlatex>
@@ -41137,7 +41137,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CLOCKWISE OPEN CIRCLE ARROW</description>
       </character>
       <character id="U021BC" dec="8636" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT HARPOON WITH BARB UP" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT HARPOON WITH BARB UP" mathclass="R" comment="left harpoon-up"/>
          <afii>2256</afii>
          <latex>\leftharpoonup </latex>
          <mathlatex set="unicode-math">\leftharpoonup</mathlatex>
@@ -41169,7 +41169,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS HARPOON WITH BARB UPWARDS</description>
       </character>
       <character id="U021BD" dec="8637" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT HARPOON WITH BARB DOWN" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT HARPOON WITH BARB DOWN" mathclass="R" comment="left harpoon-down"/>
          <afii>2257</afii>
          <latex>\leftharpoondown </latex>
          <mathlatex set="unicode-math">\leftharpoondown</mathlatex>
@@ -41201,7 +41201,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS HARPOON WITH BARB DOWNWARDS</description>
       </character>
       <character id="U021BE" dec="8638" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP HARPOON WITH BARB RIGHT" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP HARPOON WITH BARB RIGHT" mathclass="R" comment="/upharpoonright /restriction up harpoon-right"/>
          <afii>224A</afii>
          <latex>\upharpoonright </latex>
          <mathlatex set="unicode-math">\upharpoonright</mathlatex>
@@ -41232,7 +41232,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS HARPOON WITH BARB RIGHTWARDS</description>
       </character>
       <character id="U021BF" dec="8639" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP HARPOON WITH BARB LEFT" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP HARPOON WITH BARB LEFT" mathclass="R" comment="up harpoon-left"/>
          <afii>2248</afii>
          <latex>\upharpoonleft </latex>
          <mathlatex set="unicode-math">\upharpoonleft</mathlatex>
@@ -41263,7 +41263,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS HARPOON WITH BARB LEFTWARDS</description>
       </character>
       <character id="U021C0" dec="8640" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT HARPOON WITH BARB UP" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT HARPOON WITH BARB UP" mathclass="R" comment="right harpoon-up"/>
          <afii>2258</afii>
          <latex>\rightharpoonup </latex>
          <mathlatex set="unicode-math">\rightharpoonup</mathlatex>
@@ -41295,7 +41295,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS HARPOON WITH BARB UPWARDS</description>
       </character>
       <character id="U021C1" dec="8641" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT HARPOON WITH BARB DOWN" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT HARPOON WITH BARB DOWN" mathclass="R" comment="right harpoon-down"/>
          <afii>2259</afii>
          <latex>\rightharpoondown </latex>
          <mathlatex set="unicode-math">\rightharpoondown</mathlatex>
@@ -41327,7 +41327,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS HARPOON WITH BARB DOWNWARDS</description>
       </character>
       <character id="U021C2" dec="8642" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN HARPOON WITH BARB RIGHT" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN HARPOON WITH BARB RIGHT" mathclass="R" comment="down harpoon-right"/>
          <afii>224B</afii>
          <latex>\downharpoonright </latex>
          <mathlatex set="unicode-math">\downharpoonright</mathlatex>
@@ -41358,7 +41358,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS HARPOON WITH BARB RIGHTWARDS</description>
       </character>
       <character id="U021C3" dec="8643" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN HARPOON WITH BARB LEFT" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN HARPOON WITH BARB LEFT" mathclass="R" comment="down harpoon-left"/>
          <afii>2249</afii>
          <latex>\downharpoonleft </latex>
          <mathlatex set="unicode-math">\downharpoonleft</mathlatex>
@@ -41389,7 +41389,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS HARPOON WITH BARB LEFTWARDS</description>
       </character>
       <character id="U021C4" dec="8644" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT ARROW OVER LEFT ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT ARROW OVER LEFT ARROW" mathclass="R" comment="right arrow over left arrow"/>
          <afii>EE50</afii>
          <latex>\rightleftarrows </latex>
          <mathlatex set="unicode-math">\rightleftarrows</mathlatex>
@@ -41420,7 +41420,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS ARROW OVER LEFTWARDS ARROW</description>
       </character>
       <character id="U021C5" dec="8645" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP ARROW LEFT OF DOWN ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP ARROW LEFT OF DOWN ARROW" mathclass="R" comment="up arrow, down arrow"/>
          <afii>EB2E</afii>
          <latex>\dblarrowupdown </latex>
          <mathlatex set="unicode-math">\updownarrows</mathlatex>
@@ -41442,7 +41442,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW</description>
       </character>
       <character id="U021C6" dec="8646" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT ARROW OVER RIGHT ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT ARROW OVER RIGHT ARROW" mathclass="R" comment="left arrow over right arrow"/>
          <afii>EF51</afii>
          <latex>\leftrightarrows </latex>
          <mathlatex set="unicode-math">\leftrightarrows</mathlatex>
@@ -41474,7 +41474,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS ARROW OVER RIGHTWARDS ARROW</description>
       </character>
       <character id="U021C7" dec="8647" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT PAIRED ARROWS" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT PAIRED ARROWS" mathclass="R" comment="two left arrows"/>
          <afii>2240</afii>
          <latex>\leftleftarrows </latex>
          <mathlatex set="unicode-math">\leftleftarrows</mathlatex>
@@ -41500,7 +41500,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS PAIRED ARROWS</description>
       </character>
       <character id="U021C8" dec="8648" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP PAIRED ARROWS" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP PAIRED ARROWS" mathclass="R" comment="two up arrows"/>
          <afii>2242</afii>
          <latex>\upuparrows </latex>
          <mathlatex set="unicode-math">\upuparrows</mathlatex>
@@ -41526,7 +41526,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS PAIRED ARROWS</description>
       </character>
       <character id="U021C9" dec="8649" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT PAIRED ARROWS" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT PAIRED ARROWS" mathclass="R" comment="two right arrows"/>
          <afii>2241</afii>
          <latex>\rightrightarrows </latex>
          <mathlatex set="unicode-math">\rightrightarrows</mathlatex>
@@ -41553,7 +41553,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS PAIRED ARROWS</description>
       </character>
       <character id="U021CA" dec="8650" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN PAIRED ARROWS" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN PAIRED ARROWS" mathclass="R" comment="two down arrows"/>
          <afii>2243</afii>
          <latex>\downdownarrows </latex>
          <mathlatex set="unicode-math">\downdownarrows</mathlatex>
@@ -41580,7 +41580,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS PAIRED ARROWS</description>
       </character>
       <character id="U021CB" dec="8651" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT HARPOON OVER RIGHT HARPOON" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT HARPOON OVER RIGHT HARPOON" mathclass="R" comment="left harpoon over right"/>
          <afii>EEF6</afii>
          <latex>\leftrightharpoons </latex>
          <mathlatex set="unicode-math">\leftrightharpoons</mathlatex>
@@ -41611,7 +41611,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON</description>
       </character>
       <character id="U021CC" dec="8652" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT HARPOON OVER LEFT HARPOON" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT HARPOON OVER LEFT HARPOON" mathclass="R" comment="right harpoon over left"/>
          <afii>EF50</afii>
          <latex>\rightleftharpoons </latex>
          <mathlatex set="unicode-math">\rightleftharpoons</mathlatex>
@@ -41643,7 +41643,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON</description>
       </character>
       <character id="U021CD" dec="8653" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" decomp="21D0 0338" mirror="N" unicode1="LEFT DOUBLE ARROW WITH STROKE" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" decomp="21D0 0338" mirror="N" unicode1="LEFT DOUBLE ARROW WITH STROKE" mathclass="R" comment="not implied by"/>
          <afii>EEFA</afii>
          <latex>\nLeftarrow </latex>
          <mathlatex set="unicode-math">\nLeftarrow</mathlatex>
@@ -41669,7 +41669,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS DOUBLE ARROW WITH STROKE</description>
       </character>
       <character id="U021CE" dec="8654" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="21D4 0338" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="21D4 0338" mirror="N" mathclass="R" comment="not left and right double arrows"/>
          <afii>EEFC</afii>
          <latex>\nLeftrightarrow </latex>
          <mathlatex set="unicode-math">\nLeftrightarrow</mathlatex>
@@ -41695,7 +41695,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFT RIGHT DOUBLE ARROW WITH STROKE</description>
       </character>
       <character id="U021CF" dec="8655" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="21D2 0338" mirror="N" unicode1="RIGHT DOUBLE ARROW WITH STROKE" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="21D2 0338" mirror="N" unicode1="RIGHT DOUBLE ARROW WITH STROKE" mathclass="R" comment="not implies"/>
          <afii>EEFB</afii>
          <latex>\nRightarrow </latex>
          <mathlatex set="unicode-math">\nRightarrow</mathlatex>
@@ -41721,7 +41721,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS DOUBLE ARROW WITH STROKE</description>
       </character>
       <character id="U021D0" dec="8656" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT DOUBLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT DOUBLE ARROW" mathclass="R" comment="is implied by"/>
          <afii>EF4D</afii>
          <latex>\Leftarrow </latex>
          <mathlatex set="unicode-math">\Leftarrow</mathlatex>
@@ -41756,7 +41756,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS DOUBLE ARROW</description>
       </character>
       <character id="U021D1" dec="8657" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP DOUBLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UP DOUBLE ARROW" mathclass="R" comment="up double arrow"/>
          <afii>2260</afii>
          <latex>\Uparrow </latex>
          <mathlatex set="unicode-math">\Uparrow</mathlatex>
@@ -41791,7 +41791,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UPWARDS DOUBLE ARROW</description>
       </character>
       <character id="U021D2" dec="8658" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT DOUBLE ARROW" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT DOUBLE ARROW" mathclass="R" comment="implies"/>
          <afii>EF4F</afii>
          <latex>\Rightarrow </latex>
          <mathlatex set="unicode-math">\Rightarrow</mathlatex>
@@ -41828,7 +41828,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RIGHTWARDS DOUBLE ARROW</description>
       </character>
       <character id="U021D3" dec="8659" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN DOUBLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="DOWN DOUBLE ARROW" mathclass="R" comment="down double arrow"/>
          <afii>2261</afii>
          <latex>\Downarrow </latex>
          <mathlatex set="unicode-math">\Downarrow</mathlatex>
@@ -41863,7 +41863,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOWNWARDS DOUBLE ARROW</description>
       </character>
       <character id="U021D4" dec="8660" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="left and right double arrow"/>
          <afii>EF4E</afii>
          <latex>\Leftrightarrow </latex>
          <mathlatex set="unicode-math">\Leftrightarrow</mathlatex>
@@ -41907,7 +41907,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFT RIGHT DOUBLE ARROW</description>
       </character>
       <character id="U021D5" dec="8661" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="up and down double arrow"/>
          <afii>EE51</afii>
          <latex>\Updownarrow </latex>
          <mathlatex set="unicode-math">\Updownarrow</mathlatex>
@@ -41939,7 +41939,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UP DOWN DOUBLE ARROW</description>
       </character>
       <character id="U021D6" dec="8662" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UPPER LEFT DOUBLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UPPER LEFT DOUBLE ARROW" mathclass="R" comment="NW pointing double arrow"/>
          <afii>D9C6</afii>
          <mathlatex set="unicode-math">\Nwarrow</mathlatex>
          <entity id="nwArr" set="9573-1991-isoamsa">
@@ -41952,7 +41952,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NORTH WEST DOUBLE ARROW</description>
       </character>
       <character id="U021D7" dec="8663" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UPPER RIGHT DOUBLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="UPPER RIGHT DOUBLE ARROW" mathclass="R" comment="NE pointing double arrow"/>
          <afii>D9BE</afii>
          <mathlatex set="unicode-math">\Nearrow</mathlatex>
          <entity id="neArr" set="9573-1991-isoamsa">
@@ -41965,7 +41965,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NORTH EAST DOUBLE ARROW</description>
       </character>
       <character id="U021D8" dec="8664" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LOWER RIGHT DOUBLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LOWER RIGHT DOUBLE ARROW" mathclass="R" comment="SE pointing double arrow"/>
          <afii>D9DC</afii>
          <mathlatex set="unicode-math">\Searrow</mathlatex>
          <entity id="seArr" set="9573-1991-isoamsa">
@@ -41978,7 +41978,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SOUTH EAST DOUBLE ARROW</description>
       </character>
       <character id="U021D9" dec="8665" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LOWER LEFT DOUBLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LOWER LEFT DOUBLE ARROW" mathclass="R" comment="SW pointing double arrow"/>
          <afii>D9E1</afii>
          <mathlatex set="unicode-math">\Swarrow</mathlatex>
          <entity id="swArr" set="9573-1991-isoamsa">
@@ -41991,7 +41991,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SOUTH WEST DOUBLE ARROW</description>
       </character>
       <character id="U021DA" dec="8666" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT TRIPLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="LEFT TRIPLE ARROW" mathclass="R" comment="left triple arrow"/>
          <afii>2244</afii>
          <latex>\Lleftarrow </latex>
          <mathlatex set="unicode-math">\Lleftarrow</mathlatex>
@@ -42017,7 +42017,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS TRIPLE ARROW</description>
       </character>
       <character id="U021DB" dec="8667" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT TRIPLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT TRIPLE ARROW" mathclass="R" comment="right triple arrow"/>
          <afii>2245</afii>
          <latex>\Rrightarrow </latex>
          <mathlatex set="unicode-math">\Rrightarrow</mathlatex>
@@ -42049,7 +42049,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LEFTWARDS SQUIGGLE ARROW</description>
       </character>
       <character id="U021DD" dec="8669" mode="math" type="relation">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT SQUIGGLE ARROW" mathclass="R"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="RIGHT SQUIGGLE ARROW" mathclass="R" comment="right zig-zag arrow"/>
          <afii>EBCB</afii>
          <latex>\rightsquigarrow </latex>
          <mathlatex set="unicode-math">\rightsquigarrow</mathlatex>
@@ -42426,7 +42426,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">PARTIAL DIFFERENTIAL with slash</description>
       </character>
       <character id="U02203" dec="8707" mode="math" type="normal">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="U"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="U" comment="at least one exists"/>
          <afii>EFB4</afii>
          <latex>\exists </latex>
          <mathlatex set="unicode-math">\exists</mathlatex>
@@ -42459,7 +42459,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">THERE EXISTS</description>
       </character>
       <character id="U02204" dec="8708" mode="math" type="normal">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2203 0338" mirror="Y" mathclass="U"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2203 0338" mirror="Y" mathclass="U" comment="negated exists"/>
          <afii>EE71</afii>
          <latex>\nexists </latex>
          <mathlatex set="unicode-math">\nexists</mathlatex>
@@ -42489,7 +42489,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">THERE DOES NOT EXIST</description>
       </character>
       <character id="U02205" dec="8709" mode="math" type="normal">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="N" comment="circle, slash"/>
          <afii>EF61</afii>
          <latex>\varnothing </latex>
          <mathlatex set="unicode-math">\varnothing</mathlatex>
@@ -42532,13 +42532,13 @@ Barbara Beeton for the STIX project
          <description unicode="9">EMPTY SET zero with long diagonal stroke</description>
       </character>
       <character id="U02206" dec="8710" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="U"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="U" comment="Laplacian (Delta, nabla^2)"/>
          <mathlatex set="unicode-math">\increment</mathlatex>
          <operator-dictionary form="infix" lspace="0" rspace="0" priority="720"/>
          <description unicode="1.1">INCREMENT</description>
       </character>
       <character id="U02207" dec="8711" mode="math" type="normal">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="U"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="U" comment="nabla, del, Hamilton operator"/>
          <afii>EFB9</afii>
          <latex>\nabla </latex>
          <mathlatex set="unicode-math">\nabla</mathlatex>
@@ -42579,7 +42579,7 @@ Barbara Beeton for the STIX project
          <description>MULTIPLE CHARACTER OPERATOR: u2207 + u22c5</description>
       </character>
       <character id="U02208" dec="8712" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="set membership, variant"/>
          <afii>DB5A</afii>
          <latex>\in </latex>
          <mathlatex set="unicode-math">\in</mathlatex>
@@ -42623,7 +42623,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">ELEMENT OF with vertical line</description>
       </character>
       <character id="U02209" dec="8713" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2208 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2208 0338" mirror="Y" mathclass="R" comment="negated set membership"/>
          <afii>EF4B</afii>
          <latex>\not\in </latex>
          <mathlatex set="unicode-math">\notin</mathlatex>
@@ -42674,7 +42674,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SMALL ELEMENT OF with vertical line</description>
       </character>
       <character id="U0220B" dec="8715" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="contains, variant"/>
          <afii>DB5F</afii>
          <latex>\ni </latex>
          <mathlatex set="unicode-math">\ni</mathlatex>
@@ -42719,7 +42719,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">CONTAINS AS MEMBER with vertical line</description>
       </character>
       <character id="U0220C" dec="8716" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="220B 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="220B 0338" mirror="Y" mathclass="R" comment="negated contains, variant"/>
          <afii>EBBB</afii>
          <latex>\not\ni </latex>
          <mathlatex set="unicode-math">\nni</mathlatex>
@@ -42746,7 +42746,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOES NOT CONTAIN AS MEMBER</description>
       </character>
       <character id="U0220D" dec="8717" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="/ni /owns contains"/>
          <afii>EF4C</afii>
          <mathlatex set="unicode-math">\smallni</mathlatex>
          <Wolfram>SuchThat</Wolfram>
@@ -42763,7 +42763,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">END OF PROOF</description>
       </character>
       <character id="U0220F" dec="8719" mode="math" type="large">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="L"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="L" comment="product operator"/>
          <afii>EB67</afii>
          <latex>\prod </latex>
          <mathlatex set="unicode-math">\prod</mathlatex>
@@ -42795,7 +42795,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">N-ARY PRODUCT</description>
       </character>
       <character id="U02210" dec="8720" mode="math" type="large">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="L"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="L" comment="coproduct operator"/>
          <afii>22B7</afii>
          <latex>\coprod </latex>
          <mathlatex set="unicode-math">\coprod</mathlatex>
@@ -42826,7 +42826,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">N-ARY COPRODUCT</description>
       </character>
       <character id="U02211" dec="8721" mode="math" type="large">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="L"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="L" comment="summation operator"/>
          <afii>EB66</afii>
          <latex>\sum </latex>
          <mathlatex set="unicode-math">\sum</mathlatex>
@@ -42923,7 +42923,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MINUS-OR-PLUS SIGN</description>
       </character>
       <character id="U02214" dec="8724" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="plus sign, dot above"/>
          <afii>EE2B</afii>
          <latex>\dotplus </latex>
          <mathlatex set="unicode-math">\dotplus</mathlatex>
@@ -42956,7 +42956,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DIVISION SLASH</description>
       </character>
       <character id="U02216" dec="8726" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="B" comment="small set minus (cf. reverse solidus)"/>
          <afii>005C</afii>
          <latex>\setminus </latex>
          <mathlatex set="unicode-math">\setminus</mathlatex>
@@ -42996,7 +42996,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SET MINUS</description>
       </character>
       <character id="U02217" dec="8727" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="centered asterisk"/>
          <afii>EE7D</afii>
          <latex>{_\ast}</latex>
          <mathlatex set="unicode-math">\ast</mathlatex>
@@ -43022,7 +43022,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">ASTERISK OPERATOR</description>
       </character>
       <character id="U02218" dec="8728" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="composite function (small circle)"/>
          <afii>EB5A</afii>
          <latex>\circ </latex>
          <mathlatex set="unicode-math">\vysmwhtcircle</mathlatex>
@@ -43062,7 +43062,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BULLET OPERATOR</description>
       </character>
       <character id="U0221A" dec="8730" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="L"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="L" comment="radical"/>
          <afii>EF7C</afii>
          <latex>\surd </latex>
          <mathlatex set="unicode-math">\sqrt</mathlatex>
@@ -43184,7 +43184,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">INFINITY</description>
       </character>
       <character id="U0221F" dec="8735" mode="math" type="normal">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="N" comment="(90 degree)"/>
          <afii>EEDD</afii>
          <latex>\rightangle </latex>
          <mathlatex set="unicode-math">\rightangle</mathlatex>
@@ -43305,7 +43305,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SPHERICAL ANGLE</description>
       </character>
       <character id="U02223" dec="8739" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="/mid"/>
          <afii>EF46</afii>
          <latex>\mid </latex>
          <mathlatex set="unicode-math">\mid</mathlatex>
@@ -43347,7 +43347,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DIVIDES</description>
       </character>
       <character id="U02224" dec="8740" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2223 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2223 0338" mirror="Y" mathclass="R" comment="negated mid"/>
          <afii>EF47</afii>
          <latex>\nmid </latex>
          <mathlatex set="unicode-math">\nmid</mathlatex>
@@ -43472,7 +43472,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT PARALLEL TO</description>
       </character>
       <character id="U02227" dec="8743" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="/wedge /land"/>
          <afii>22B2</afii>
          <latex>\wedge </latex>
          <mathlatex set="unicode-math">\wedge</mathlatex>
@@ -43504,7 +43504,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LOGICAL AND</description>
       </character>
       <character id="U02228" dec="8744" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="/vee /lor"/>
          <afii>22B3</afii>
          <latex>\vee </latex>
          <mathlatex set="unicode-math">\vee</mathlatex>
@@ -43718,7 +43718,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CONTOUR INTEGRAL</description>
       </character>
       <character id="U0222F" dec="8751" mode="math" type="large">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;compat&gt; 222E 222E" mirror="Y" mathclass="L"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;compat&gt; 222E 222E" mirror="Y" mathclass="L" comment="double contour integral operator"/>
          <afii>EB36</afii>
          <latex>\surfintegral </latex>
          <mathlatex set="unicode-math">\oiint</mathlatex>
@@ -43742,7 +43742,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SURFACE INTEGRAL</description>
       </character>
       <character id="U02230" dec="8752" mode="math" type="large">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;compat&gt; 222E 222E 222E" mirror="Y" mathclass="L"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="&lt;compat&gt; 222E 222E 222E" mirror="Y" mathclass="L" comment="triple contour integral operator"/>
          <afii>EB37</afii>
          <latex>\volintegral </latex>
          <mathlatex set="unicode-math">\oiiint</mathlatex>
@@ -43905,7 +43905,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">RATIO</description>
       </character>
       <character id="U02237" dec="8759" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment=" colons"/>
          <afii>EF6E</afii>
          <latex>\Colon </latex>
          <mathlatex set="unicode-math">\Colon</mathlatex>
@@ -43929,7 +43929,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PROPORTION</description>
       </character>
       <character id="U02238" dec="8760" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="minus sign, dot above"/>
          <afii>EE3B</afii>
          <latex>\ElsevierGlyph{2238}</latex>
          <mathlatex set="unicode-math">\dotminus</mathlatex>
@@ -43951,13 +43951,13 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOT MINUS</description>
       </character>
       <character id="U02239" dec="8761" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="excess (-:)"/>
          <mathlatex set="unicode-math">\dashcolon</mathlatex>
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="320"/>
          <description unicode="1.1">EXCESS</description>
       </character>
       <character id="U0223A" dec="8762" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="minus with four dots, geometric properties"/>
          <afii>EE64</afii>
          <latex>\mathbin{{:}\!\!{-}\!\!{:}}</latex>
          <mathlatex set="unicode-math">\dotsminusdots</mathlatex>
@@ -43994,7 +43994,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">HOMOTHETIC</description>
       </character>
       <character id="U0223C" dec="8764" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="similar"/>
          <afii>EE7E</afii>
          <latex>\sim </latex>
          <mathlatex set="unicode-math">\sim</mathlatex>

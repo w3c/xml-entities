@@ -37,7 +37,7 @@
 # ------------------------------------------------
 # This file is a classification of characters based on their usage in
 # mathematical notation</xsl:text>
-<xsl:if test="$ex=yes"> and providing a mapping to standard entity
+<xsl:if test="$ex='yes'"> and providing a mapping to standard entity
 # sets commonly used for SGML and MathML documents</xsl:if><xsl:text>.
 #
 # While the contents of this file represent the best information
@@ -52,8 +52,7 @@
 #
 # The data consists of </xsl:text>
 <xsl:value-of select ="if($ex='yes') then
-  '8  fields. The number and type of fields may change
-  # in future versions of this file.'
+  '8 fields. The number and type of fields may change&#10;# in future versions of this file.'
   else '2 fields.'"/>
 <xsl:text>
 #
@@ -133,7 +132,7 @@
       <xsl:value-of select="'#',replace(../@id,'^U0?',''),';C',';;; # '[$ex='yes'],'&#10;'" separator=""/>
     </xsl:when>
     <xsl:when test="../@id=('U0FE35','U0FE36','U0FE37','U0FE38')">
-      <xsl:value-of select="'#',replace(../@id,'^U0?',''),';',';;; # '[$ex='yes'],'&#10;'" separator=""/>
+      <xsl:value-of select="'#',replace(../@id,'^U0?',''),';',';;;(deprecated for math use) # '[$ex='yes'],'&#10;'" separator=""/>
     </xsl:when>
     <xsl:when test="self::bmp">
       <xsl:value-of select="'#',replace(../@id,'^U0?',''),'=',
@@ -148,7 +147,7 @@
 			@mathclass, (';',
 			replace(string-join(distinct-values(../entity[@set=$html5]/@id),' '), 'amp AMP','AMP amp'), ';',
 			if (../entity[@set=$html5]/@id) then 'HTML-MathML' else '', ';',
-			(), ' # ',
+			@comment, ' # ',
 			 @category, ' ',
 			'(',codepoints-to-string(../@dec),') ',
 			../description)[$ex='yes'],
