@@ -45756,7 +45756,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NEITHER GREATER-THAN NOR EQUAL TO</description>
       </character>
       <character id="U02272" dec="8818" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="LESS THAN OR EQUIVALENT TO" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="LESS THAN OR EQUIVALENT TO" mathclass="R" comment="less, similar"/>
          <afii>EE6E</afii>
          <latex>\lessequivlnt </latex>
          <mathlatex set="unicode-math">\lesssim</mathlatex>
@@ -45796,7 +45796,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">LESS-THAN OR EQUIVALENT TO - following the slant of the lower leg</description>
       </character>
       <character id="U02273" dec="8819" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="GREATER THAN OR EQUIVALENT TO" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="GREATER THAN OR EQUIVALENT TO" mathclass="R" comment="greater, similar"/>
          <afii>EE6F</afii>
          <latex>\greaterequivlnt </latex>
          <mathlatex set="unicode-math">\gtrsim</mathlatex>
@@ -45837,7 +45837,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">GREATER-THAN OR EQUIVALENT TO - following the slant of the lower leg</description>
       </character>
       <character id="U02274" dec="8820" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2272 0338" mirror="Y" unicode1="NEITHER LESS THAN NOR EQUIVALENT TO" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2272 0338" mirror="Y" unicode1="NEITHER LESS THAN NOR EQUIVALENT TO" mathclass="R" comment="not less, similar"/>
          <afii>21D9</afii>
          <latex>\ElsevierGlyph{2274}</latex>
          <mathlatex set="unicode-math">\nlesssim</mathlatex>
@@ -45859,7 +45859,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NEITHER LESS-THAN NOR EQUIVALENT TO</description>
       </character>
       <character id="U02275" dec="8821" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2273 0338" mirror="Y" unicode1="NEITHER GREATER THAN NOR EQUIVALENT TO" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2273 0338" mirror="Y" unicode1="NEITHER GREATER THAN NOR EQUIVALENT TO" mathclass="R" comment="not greater, similar"/>
          <afii>21DA</afii>
          <latex>\ElsevierGlyph{2275}</latex>
          <mathlatex set="unicode-math">\ngtrsim</mathlatex>
@@ -45881,7 +45881,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NEITHER GREATER-THAN NOR EQUIVALENT TO</description>
       </character>
       <character id="U02276" dec="8822" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="LESS THAN OR GREATER THAN" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="LESS THAN OR GREATER THAN" mathclass="R" comment="less, greater"/>
          <afii>EE6C</afii>
          <latex>\lessgtr </latex>
          <mathlatex set="unicode-math">\lessgtr</mathlatex>
@@ -45917,7 +45917,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">LESS-THAN NOR GREATER-THAN with vertical line</description>
       </character>
       <character id="U02277" dec="8823" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="GREATER THAN OR LESS THAN" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="GREATER THAN OR LESS THAN" mathclass="R" comment="greater, less"/>
          <afii>EE6D</afii>
          <latex>\gtrless </latex>
          <mathlatex set="unicode-math">\gtrless</mathlatex>
@@ -46067,7 +46067,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SUCCEEDS with vertical line</description>
       </character>
       <character id="U0227C" dec="8828" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="precedes, curly equals"/>
          <afii>2152</afii>
          <latex>\preccurlyeq </latex>
          <mathlatex set="unicode-math">\preccurlyeq</mathlatex>
@@ -46101,7 +46101,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">PRECEDES OR EQUAL TO with vertical line</description>
       </character>
       <character id="U0227D" dec="8829" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="succeeds, curly equals"/>
          <afii>2153</afii>
          <latex>\succcurlyeq </latex>
          <varlatex>\succeq</varlatex>
@@ -46132,7 +46132,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SUCCEEDS OR EQUAL TO</description>
       </character>
       <character id="U0227E" dec="8830" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="precedes, similar"/>
          <afii>21A1</afii>
          <latex>\precapprox </latex>
          <varlatex>\precsim</varlatex>
@@ -46172,7 +46172,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">PRECEDES OR EQUIVALENT TO with slash</description>
       </character>
       <character id="U0227F" dec="8831" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="succeeds, similar"/>
          <afii>21A2</afii>
          <latex>\succapprox </latex>
          <varlatex>\succsim</varlatex>
@@ -46219,7 +46219,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SUCCEEDS OR EQUIVALENT TO with vertical line</description>
       </character>
       <character id="U02280" dec="8832" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="227A 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="227A 0338" mirror="Y" mathclass="R" comment="not precedes"/>
          <afii>21D0</afii>
          <latex>\not\prec </latex>
          <mathlatex set="unicode-math">\nprec</mathlatex>
@@ -46250,7 +46250,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOES NOT PRECEDE</description>
       </character>
       <character id="U02281" dec="8833" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="227B 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="227B 0338" mirror="Y" mathclass="R" comment="not succeeds"/>
          <afii>21D1</afii>
          <latex>\not\succ </latex>
          <mathlatex set="unicode-math">\nsucc</mathlatex>
@@ -46281,7 +46281,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOES NOT SUCCEED</description>
       </character>
       <character id="U02282" dec="8834" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="subset or is implied by"/>
          <afii>EF5B</afii>
          <latex>\subset </latex>
          <mathlatex set="unicode-math">\subset</mathlatex>
@@ -46331,7 +46331,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SUBSET OF with vertical line</description>
       </character>
       <character id="U02283" dec="8835" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="superset or implies"/>
          <afii>EF5A</afii>
          <latex>\supset </latex>
          <mathlatex set="unicode-math">\supset</mathlatex>
@@ -46442,7 +46442,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT A SUPERSET OF</description>
       </character>
       <character id="U02286" dec="8838" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="subset, equals"/>
          <afii>EF59</afii>
          <latex>\subseteq </latex>
          <varlatex>\subseteqq</varlatex>
@@ -46482,7 +46482,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SUBSET OF OR EQUAL TO with vertical line</description>
       </character>
       <character id="U02287" dec="8839" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="superset, equals"/>
          <afii>EF58</afii>
          <latex>\supseteq </latex>
          <varlatex>\supseteqq</varlatex>
@@ -46522,7 +46522,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SUPERSET OF OR EQUAL TO with vertical line</description>
       </character>
       <character id="U02288" dec="8840" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2286 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2286 0338" mirror="Y" mathclass="R" comment="not subset, equals"/>
          <afii>EF5D</afii>
          <latex>\not\subseteq </latex>
          <varlatex>\nsubseteqq</varlatex>
@@ -46554,7 +46554,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NEITHER A SUBSET OF NOR EQUAL TO</description>
       </character>
       <character id="U02289" dec="8841" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2287 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2287 0338" mirror="Y" mathclass="R" comment="not superset, equals"/>
          <afii>EF5C</afii>
          <latex>\not\supseteq </latex>
          <varlatex>\nsupseteqq</varlatex>
@@ -46586,7 +46586,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NEITHER A SUPERSET OF NOR EQUAL TO</description>
       </character>
       <character id="U0228A" dec="8842" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="SUBSET OF OR NOT EQUAL TO" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="SUBSET OF OR NOT EQUAL TO" mathclass="R" comment="subset, not equals"/>
          <afii>21C5</afii>
          <latex>\subsetneq </latex>
          <varlatex>\subsetneqq</varlatex>
@@ -46636,7 +46636,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">SUBSET OF WITH NOT EQUAL TO - variant with stroke through bottom members</description>
       </character>
       <character id="U0228B" dec="8843" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="SUPERSET OF OR NOT EQUAL TO" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="SUPERSET OF OR NOT EQUAL TO" mathclass="R" comment="superset, not equals"/>
          <afii>21C6</afii>
          <latex>\supsetneq </latex>
          <varlatex>\supsetneqq</varlatex>
@@ -46697,7 +46697,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MULTISET</description>
       </character>
       <character id="U0228D" dec="8845" mode="unknown" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="union, with dot"/>
          <afii>EB32</afii>
          <mathlatex set="unicode-math">\cupdot</mathlatex>
          <AMS>\cupdot</AMS>
@@ -46711,7 +46711,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MULTISET MULTIPLICATION</description>
       </character>
       <character id="U0228E" dec="8846" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="plus sign in union"/>
          <afii>22AB</afii>
          <latex>\uplus </latex>
          <mathlatex set="unicode-math">\uplus</mathlatex>
@@ -46739,7 +46739,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MULTISET UNION</description>
       </character>
       <character id="U0228F" dec="8847" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="square subset"/>
          <afii>EE52</afii>
          <latex>\sqsubset </latex>
          <mathlatex set="unicode-math">\sqsubset</mathlatex>
@@ -46788,7 +46788,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SQUARE IMAGE OF with vertical line</description>
       </character>
       <character id="U02290" dec="8848" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="square superset"/>
          <afii>EE53</afii>
          <latex>\sqsupset </latex>
          <mathlatex set="unicode-math">\sqsupset</mathlatex>
@@ -46837,7 +46837,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SQUARE ORIGINAL OF with vertical line</description>
       </character>
       <character id="U02291" dec="8849" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="square subset, equals"/>
          <afii>22B0</afii>
          <latex>\sqsubseteq </latex>
          <mathlatex set="unicode-math">\sqsubseteq</mathlatex>
@@ -46872,7 +46872,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SQUARE IMAGE OF OR EQUAL TO with vertical line</description>
       </character>
       <character id="U02292" dec="8850" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="square superset, equals"/>
          <afii>22B1</afii>
          <latex>\sqsupseteq </latex>
          <mathlatex set="unicode-math">\sqsupseteq</mathlatex>
@@ -46907,7 +46907,7 @@ Barbara Beeton for the STIX project
          <description unicode="combination">SQUARE ORIGINAL OF OR EQUAL TO with vertical line</description>
       </character>
       <character id="U02293" dec="8851" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="square intersection"/>
          <afii>22AE</afii>
          <latex>\sqcap </latex>
          <mathlatex set="unicode-math">\sqcap</mathlatex>
@@ -46948,7 +46948,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">SQUARE CAP with serifs</description>
       </character>
       <character id="U02294" dec="8852" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="square union"/>
          <afii>22AD</afii>
          <latex>\sqcup </latex>
          <mathlatex set="unicode-math">\sqcup</mathlatex>
@@ -46989,7 +46989,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">SQUARE CUP with serifs</description>
       </character>
       <character id="U02295" dec="8853" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="plus sign in circle"/>
          <afii>2273</afii>
          <latex>\oplus </latex>
          <mathlatex set="unicode-math">\oplus</mathlatex>
@@ -47026,7 +47026,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">CIRCLED PLUS with white rim</description>
       </character>
       <character id="U02296" dec="8854" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="minus sign in circle"/>
          <afii>2274</afii>
          <latex>\ominus </latex>
          <mathlatex set="unicode-math">\ominus</mathlatex>
@@ -47056,7 +47056,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CIRCLED MINUS</description>
       </character>
       <character id="U02297" dec="8855" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="multiply sign in circle"/>
          <afii>2275</afii>
          <latex>\otimes </latex>
          <mathlatex set="unicode-math">\otimes</mathlatex>
@@ -47092,7 +47092,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">CIRCLED TIMES with white rim</description>
       </character>
       <character id="U02298" dec="8856" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="B" comment="solidus in circle"/>
          <afii>2276</afii>
          <latex>\oslash </latex>
          <mathlatex set="unicode-math">\oslash</mathlatex>
@@ -47116,7 +47116,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CIRCLED DIVISION SLASH</description>
       </character>
       <character id="U02299" dec="8857" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="middle dot in circle"/>
          <afii>22BD</afii>
          <latex>\odot </latex>
          <mathlatex set="unicode-math">\odot</mathlatex>
@@ -47145,7 +47145,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CIRCLED DOT OPERATOR</description>
       </character>
       <character id="U0229A" dec="8858" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="small circle in circle"/>
          <afii>22F5</afii>
          <latex>\circledcirc </latex>
          <mathlatex set="unicode-math">\circledcirc</mathlatex>
@@ -47172,7 +47172,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CIRCLED RING OPERATOR</description>
       </character>
       <character id="U0229B" dec="8859" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="asterisk in circle"/>
          <afii>2178</afii>
          <latex>\circledast </latex>
          <mathlatex set="unicode-math">\circledast</mathlatex>
@@ -47199,7 +47199,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CIRCLED ASTERISK OPERATOR</description>
       </character>
       <character id="U0229C" dec="8860" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="equal in circle"/>
          <mathlatex set="unicode-math">\circledequal</mathlatex>
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="320"/>
          <description unicode="1.1">CIRCLED EQUALS</description>
@@ -47209,7 +47209,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">CIRCLED EQUALS - equal sign inside and touching the circle</description>
       </character>
       <character id="U0229D" dec="8861" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="hyphen in circle"/>
          <afii>2177</afii>
          <latex>\circleddash </latex>
          <mathlatex set="unicode-math">\circleddash</mathlatex>
@@ -47235,7 +47235,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">CIRCLED DASH</description>
       </character>
       <character id="U0229E" dec="8862" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="plus sign in box \boxplus"/>
          <afii>222F</afii>
          <latex>\boxplus </latex>
          <mathlatex set="unicode-math">\boxplus</mathlatex>
@@ -47261,7 +47261,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SQUARED PLUS</description>
       </character>
       <character id="U0229F" dec="8863" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="minus sign in box \boxminus"/>
          <afii>2230</afii>
          <latex>\boxminus </latex>
          <mathlatex set="unicode-math">\boxminus</mathlatex>
@@ -47287,7 +47287,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SQUARED MINUS</description>
       </character>
       <character id="U022A0" dec="8864" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="multiply sign in box \boxtimes"/>
          <afii>2231</afii>
          <latex>\boxtimes </latex>
          <mathlatex set="unicode-math">\boxtimes</mathlatex>
@@ -47314,7 +47314,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SQUARED TIMES</description>
       </character>
       <character id="U022A1" dec="8865" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="small dot in box \dotsquare \boxdot"/>
          <afii>2232</afii>
          <latex>\boxdot </latex>
          <mathlatex set="unicode-math">\boxdot</mathlatex>
@@ -47933,7 +47933,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">HERMITIAN CONJUGATE MATRIX</description>
       </character>
       <character id="U022BA" dec="8890" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="intercal"/>
          <afii>EEA1</afii>
          <latex>\intercal </latex>
          <mathlatex set="unicode-math">\intercal</mathlatex>
@@ -47956,7 +47956,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">INTERCALATE</description>
       </character>
       <character id="U022BB" dec="8891" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="logical or, bar below (large vee), exclusive disjunction"/>
          <afii>EB7A</afii>
          <latex>\veebar </latex>
          <mathlatex set="unicode-math">\veebar</mathlatex>
@@ -47980,7 +47980,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">XOR</description>
       </character>
       <character id="U022BC" dec="8892" mode="math" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="bar, wedge (large wedge)"/>
          <afii>EBB8</afii>
          <mathlatex set="unicode-math">\barwedge</mathlatex>
          <Wolfram>Nand</Wolfram>
@@ -47989,7 +47989,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NAND</description>
       </character>
       <character id="U022BD" dec="8893" mode="unknown" type="binaryop">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="B" comment="bar, vee (large vee)"/>
          <afii>EBB9</afii>
          <mathlatex set="unicode-math">\barvee</mathlatex>
          <Wolfram>Nor</Wolfram>
@@ -48003,7 +48003,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOR</description>
       </character>
       <character id="U022BE" dec="8894" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="N"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="N" comment="right angle-measured [with arc]"/>
          <afii>DBAA</afii>
          <latex>\rightanglearc </latex>
          <mathlatex set="unicode-math">\measuredrightangle</mathlatex>
@@ -49938,12 +49938,12 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BOTTOM RIGHT CORNER</description>
       </character>
       <character id="U02320" dec="8992" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="G" comment="(integral parts)"/>
          <mathlatex set="unicode-math">\inttop</mathlatex>
          <description unicode="1.1">TOP HALF INTEGRAL</description>
       </character>
       <character id="U02321" dec="8993" type="other" mode="unknown">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="G"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="G" comment="(integral parts)"/>
          <mathlatex set="unicode-math">\intbottom</mathlatex>
          <description unicode="1.1">BOTTOM HALF INTEGRAL</description>
       </character>
