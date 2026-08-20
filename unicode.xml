@@ -48767,7 +48767,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">LESS-THAN slanted EQUAL TO OR GREATER-THAN</description>
       </character>
       <character id="U022DB" dec="8923" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="GREATER THAN EQUAL TO OR LESS THAN" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="GREATER THAN EQUAL TO OR LESS THAN" mathclass="R" comment="greater, equals, less"/>
          <afii>214F</afii>
          <latex>\gtreqless </latex>
          <varlatex>\gtreqqless</varlatex>
@@ -48813,7 +48813,7 @@ Barbara Beeton for the STIX project
          <description unicode="3.2">GREATER-THAN slanted EQUAL TO OR LESS-THAN</description>
       </character>
       <character id="U022DC" dec="8924" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="EQUAL TO OR LESS THAN" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="EQUAL TO OR LESS THAN" mathclass="R" comment="equal-or-less"/>
          <afii>D922</afii>
          <mathlatex set="unicode-math">\eqless</mathlatex>
          <font name="ptmlucrm" pos="226"/>
@@ -48821,7 +48821,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">EQUAL TO OR LESS-THAN</description>
       </character>
       <character id="U022DD" dec="8925" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="EQUAL TO OR GREATER THAN" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="EQUAL TO OR GREATER THAN" mathclass="R" comment="equal-or-greater"/>
          <afii>DBFE</afii>
          <mathlatex set="unicode-math">\eqgtr</mathlatex>
          <font name="ptmlucrm" pos="227"/>
@@ -48829,7 +48829,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">EQUAL TO OR GREATER-THAN</description>
       </character>
       <character id="U022DE" dec="8926" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="curly equals, precedes"/>
          <afii>2154</afii>
          <latex>\curlyeqprec </latex>
          <mathlatex set="unicode-math">\curlyeqprec</mathlatex>
@@ -48855,7 +48855,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">EQUAL TO OR PRECEDES</description>
       </character>
       <character id="U022DF" dec="8927" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="curly equals, succeeds"/>
          <afii>2155</afii>
          <latex>\curlyeqsucc </latex>
          <mathlatex set="unicode-math">\curlyeqsucc</mathlatex>
@@ -48881,7 +48881,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">EQUAL TO OR SUCCEEDS</description>
       </character>
       <character id="U022E0" dec="8928" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="227C 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="227C 0338" mirror="Y" mathclass="R" comment="not precedes, curly equals"/>
          <afii>21D6</afii>
          <mathlatex set="unicode-math">\npreccurlyeq</mathlatex>
          <Wolfram>NotPrecedesSlantEqual</Wolfram>
@@ -48899,7 +48899,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOES NOT PRECEDE OR EQUAL</description>
       </character>
       <character id="U022E1" dec="8929" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="227D 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="227D 0338" mirror="Y" mathclass="R" comment="not succeeds, curly equals"/>
          <afii>D972</afii>
          <mathlatex set="unicode-math">\nsucccurlyeq</mathlatex>
          <Wolfram>NotSucceedsSlantEqual</Wolfram>
@@ -48917,7 +48917,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOES NOT SUCCEED OR EQUAL</description>
       </character>
       <character id="U022E2" dec="8930" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2291 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2291 0338" mirror="Y" mathclass="R" comment="not, square subset, equals"/>
          <afii>21EE</afii>
          <latex>\not\sqsubseteq </latex>
          <mathlatex set="unicode-math">\nsqsubseteq</mathlatex>
@@ -48939,7 +48939,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT SQUARE IMAGE OF OR EQUAL TO</description>
       </character>
       <character id="U022E3" dec="8931" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2292 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="2292 0338" mirror="Y" mathclass="R" comment="not, square superset, equals"/>
          <afii>21EF</afii>
          <latex>\not\sqsupseteq </latex>
          <mathlatex set="unicode-math">\nsqsupseteq</mathlatex>
@@ -48980,7 +48980,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SQUARE ORIGINAL OF OR NOT EQUAL TO</description>
       </character>
       <character id="U022E6" dec="8934" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="LESS THAN BUT NOT EQUIVALENT TO" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="LESS THAN BUT NOT EQUIVALENT TO" mathclass="R" comment="less, not similar"/>
          <afii>21E4</afii>
          <latex>\lnsim </latex>
          <mathlatex set="unicode-math">\lnsim</mathlatex>
@@ -49002,7 +49002,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">LESS-THAN BUT NOT EQUIVALENT TO</description>
       </character>
       <character id="U022E7" dec="8935" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="GREATER THAN BUT NOT EQUIVALENT TO" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" unicode1="GREATER THAN BUT NOT EQUIVALENT TO" mathclass="R" comment="greater, not similar"/>
          <afii>21E5</afii>
          <latex>\gnsim </latex>
          <mathlatex set="unicode-math">\gnsim</mathlatex>
@@ -49025,7 +49025,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">GREATER-THAN BUT NOT EQUIVALENT TO</description>
       </character>
       <character id="U022E8" dec="8936" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="precedes, not similar"/>
          <afii>21B1</afii>
          <latex>\precedesnotsimilar </latex>
          <mathlatex set="unicode-math">\precnsim</mathlatex>
@@ -49052,7 +49052,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">PRECEDES BUT NOT EQUIVALENT TO</description>
       </character>
       <character id="U022E9" dec="8937" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="succeeds, not similar"/>
          <afii>21B2</afii>
          <latex>\succnsim </latex>
          <varlatex>\succnapprox</varlatex>
@@ -49080,7 +49080,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">SUCCEEDS BUT NOT EQUIVALENT TO</description>
       </character>
       <character id="U022EA" dec="8938" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="22B2 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="22B2 0338" mirror="Y" mathclass="R" comment="not left triangle"/>
          <afii>21BB</afii>
          <latex>\ntriangleleft </latex>
          <mathlatex set="unicode-math">\nvartriangleleft</mathlatex>
@@ -49110,7 +49110,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT NORMAL SUBGROUP OF</description>
       </character>
       <character id="U022EB" dec="8939" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="22B3 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="22B3 0338" mirror="Y" mathclass="R" comment="not right triangle"/>
          <afii>21BC</afii>
          <latex>\ntriangleright </latex>
          <mathlatex set="unicode-math">\nvartriangleright</mathlatex>
@@ -49140,7 +49140,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOES NOT CONTAIN AS NORMAL SUBGROUP</description>
       </character>
       <character id="U022EC" dec="8940" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="22B4 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="22B4 0338" mirror="Y" mathclass="R" comment="not left triangle, equals"/>
          <afii>21BD</afii>
          <latex>\ntrianglelefteq </latex>
          <mathlatex set="unicode-math">\ntrianglelefteq</mathlatex>
@@ -49170,7 +49170,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">NOT NORMAL SUBGROUP OF OR EQUAL TO</description>
       </character>
       <character id="U022ED" dec="8941" mode="math" type="relation">
-         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="22B5 0338" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" decomp="22B5 0338" mirror="Y" mathclass="R" comment="not right triangle, equals"/>
          <afii>21BE</afii>
          <latex>\ntrianglerighteq </latex>
          <mathlatex set="unicode-math">\ntrianglerighteq</mathlatex>
@@ -49200,7 +49200,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL</description>
       </character>
       <character id="U022EE" dec="8942" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="vertical ellipsis"/>
          <afii>2F2B</afii>
          <latex>\vdots </latex>
          <mathlatex set="unicode-math">\vdots</mathlatex>
@@ -49221,7 +49221,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">VERTICAL ELLIPSIS</description>
       </character>
       <character id="U022EF" dec="8943" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" mathclass="R" comment="three dots, centered"/>
          <afii>DB48</afii>
          <latex>\cdots </latex>
          <mathlatex set="unicode-math">\unicodecdots</mathlatex>
@@ -49242,7 +49242,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">MIDLINE HORIZONTAL ELLIPSIS</description>
       </character>
       <character id="U022F0" dec="8944" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="three dots, ascending"/>
          <afii>DB7B</afii>
          <latex>\upslopeellipsis </latex>
          <mathlatex set="unicode-math">\adots</mathlatex>
@@ -49262,7 +49262,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">UP RIGHT DIAGONAL ELLIPSIS</description>
       </character>
       <character id="U022F1" dec="8945" mode="math" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="R" comment="three dots, descending"/>
          <afii>DB4C</afii>
          <latex>\downslopeellipsis </latex>
          <mathlatex set="unicode-math">\ddots</mathlatex>
@@ -53191,7 +53191,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK UP-POINTING TRIANGLE</description>
       </character>
       <character id="U025B3" dec="9651" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE UP POINTING TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE UP POINTING TRIANGLE" mathclass="B" comment="big up triangle, open"/>
          <afii>2224</afii>
          <latex>\bigtriangleup </latex>
          <mathlatex set="unicode-math">\bigtriangleup</mathlatex>
@@ -53220,7 +53220,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">WHITE UP-POINTING TRIANGLE</description>
       </character>
       <character id="U025B4" dec="9652" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK UP POINTING SMALL TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK UP POINTING SMALL TRIANGLE" mathclass="B" comment="up triangle, filled"/>
          <afii>22B4</afii>
          <latex>\blacktriangle </latex>
          <mathlatex set="unicode-math">\blacktriangle</mathlatex>
@@ -53243,7 +53243,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK UP-POINTING SMALL TRIANGLE</description>
       </character>
       <character id="U025B5" dec="9653" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE UP POINTING SMALL TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE UP POINTING SMALL TRIANGLE" mathclass="B" comment="/triangle - up triangle, open"/>
          <afii>2270</afii>
          <latex>\vartriangle </latex>
          <mathlatex set="unicode-math">\vartriangle</mathlatex>
@@ -53265,18 +53265,18 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">WHITE UP-POINTING SMALL TRIANGLE</description>
       </character>
       <character id="U025B6" dec="9654" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK RIGHT POINTING TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK RIGHT POINTING TRIANGLE" mathclass="B" comment="(large) right triangle, filled"/>
          <mathlatex set="unicode-math">\blacktriangleright</mathlatex>
          <Wolfram>FilledRightTriangle</Wolfram>
          <description unicode="1.1">BLACK RIGHT-POINTING TRIANGLE</description>
       </character>
       <character id="U025B7" dec="9655" mode="unknown" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="WHITE RIGHT POINTING TRIANGLE" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="WHITE RIGHT POINTING TRIANGLE" mathclass="B" comment="(large) right triangle, open, Z notation range restriction"/>
          <mathlatex set="unicode-math">\triangleright</mathlatex>
          <description unicode="1.1">WHITE RIGHT-POINTING TRIANGLE</description>
       </character>
       <character id="U025B8" dec="9656" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK RIGHT POINTING SMALL TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK RIGHT POINTING SMALL TRIANGLE" mathclass="B" comment="right triangle, filled"/>
          <afii>EB6C</afii>
          <latex>\blacktriangleright </latex>
          <mathlatex set="unicode-math">\smallblacktriangleright</mathlatex>
@@ -53299,7 +53299,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK RIGHT-POINTING SMALL TRIANGLE</description>
       </character>
       <character id="U025B9" dec="9657" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE RIGHT POINTING SMALL TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE RIGHT POINTING SMALL TRIANGLE" mathclass="B" comment="right triangle, open"/>
          <afii>22BB</afii>
          <latex>\triangleright </latex>
          <mathlatex set="unicode-math">\smalltriangleright</mathlatex>
@@ -53332,7 +53332,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">WHITE RIGHT-POINTING POINTER</description>
       </character>
       <character id="U025BC" dec="9660" mode="text" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK DOWN POINTING TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK DOWN POINTING TRIANGLE" mathclass="B" comment="big down triangle, filled"/>
          <afii>2227</afii>
          <latex>\ding{116}</latex>
          <mathlatex set="unicode-math">\bigblacktriangledown</mathlatex>
@@ -53342,7 +53342,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK DOWN-POINTING TRIANGLE</description>
       </character>
       <character id="U025BD" dec="9661" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE DOWN POINTING TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE DOWN POINTING TRIANGLE" mathclass="B" comment="big down triangle, open"/>
          <afii>2226</afii>
          <latex>\bigtriangledown </latex>
          <mathlatex set="unicode-math">\bigtriangledown</mathlatex>
@@ -53371,7 +53371,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">WHITE DOWN-POINTING TRIANGLE</description>
       </character>
       <character id="U025BE" dec="9662" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK DOWN POINTING SMALL TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK DOWN POINTING SMALL TRIANGLE" mathclass="B" comment="down triangle, filled"/>
          <afii>22B5</afii>
          <latex>\blacktriangledown </latex>
          <mathlatex set="unicode-math">\blacktriangledown</mathlatex>
@@ -53394,7 +53394,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK DOWN-POINTING SMALL TRIANGLE</description>
       </character>
       <character id="U025BF" dec="9663" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE DOWN POINTING SMALL TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE DOWN POINTING SMALL TRIANGLE" mathclass="B" comment="down triangle, open"/>
          <afii>227B</afii>
          <latex>\triangledown </latex>
          <mathlatex set="unicode-math">\triangledown</mathlatex>
@@ -53416,18 +53416,18 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">WHITE DOWN-POINTING SMALL TRIANGLE</description>
       </character>
       <character id="U025C0" dec="9664" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK LEFT POINTING TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK LEFT POINTING TRIANGLE" mathclass="B" comment="(large) left triangle, filled"/>
          <mathlatex set="unicode-math">\blacktriangleleft</mathlatex>
          <Wolfram>FilledLeftTriangle</Wolfram>
          <description unicode="1.1">BLACK LEFT-POINTING TRIANGLE</description>
       </character>
       <character id="U025C1" dec="9665" mode="unknown" type="other">
-         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="WHITE LEFT POINTING TRIANGLE" mathclass="B"/>
+         <unicodedata category="Sm" combclass="0" bidi="ON" mirror="N" unicode1="WHITE LEFT POINTING TRIANGLE" mathclass="B" comment="(large) left triangle, open, Z notation domain restriction"/>
          <mathlatex set="unicode-math">\triangleleft</mathlatex>
          <description unicode="1.1">WHITE LEFT-POINTING TRIANGLE</description>
       </character>
       <character id="U025C2" dec="9666" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK LEFT POINTING SMALL TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="BLACK LEFT POINTING SMALL TRIANGLE" mathclass="B" comment="left triangle, filled"/>
          <afii>EB6D</afii>
          <latex>\blacktriangleleft </latex>
          <mathlatex set="unicode-math">\smallblacktriangleleft</mathlatex>
@@ -53450,7 +53450,7 @@ Barbara Beeton for the STIX project
          <description unicode="1.1">BLACK LEFT-POINTING SMALL TRIANGLE</description>
       </character>
       <character id="U025C3" dec="9667" mode="math" type="other">
-         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE LEFT POINTING SMALL TRIANGLE" mathclass="B"/>
+         <unicodedata category="So" combclass="0" bidi="ON" mirror="N" unicode1="WHITE LEFT POINTING SMALL TRIANGLE" mathclass="B" comment="left triangle, open"/>
          <afii>22BC</afii>
          <latex>\triangleleft </latex>
          <mathlatex set="unicode-math">\smalltriangleleft</mathlatex>
