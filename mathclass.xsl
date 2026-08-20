@@ -129,13 +129,13 @@
       <xsl:value-of select="'#',replace(../@id,'^U0?',''),';O',';;;left broken bracket # '[$ex='yes'],'&#10;'" separator=""/>
     </xsl:when>
     <xsl:when test="../@id=('U02329','U03018')">
-      <xsl:value-of select="'#',replace(../@id,'^U0?',''),';O',';;; # '[$ex='yes'],'&#10;'" separator=""/>
+      <xsl:value-of select="'#',replace(../@id,'^U0?',''),';O',(';;;',@comment,' # ')[$ex='yes'],'&#10;'" separator=""/>
     </xsl:when>
     <xsl:when test="../@id=('U03015')">
       <xsl:value-of select="'#',replace(../@id,'^U0?',''),';C',';;;right broken bracket # '[$ex='yes'],'&#10;'" separator=""/>
     </xsl:when>
     <xsl:when test="../@id=('U0232A','U03019')">
-      <xsl:value-of select="'#',replace(../@id,'^U0?',''),';C',';;; # '[$ex='yes'],'&#10;'" separator=""/>
+      <xsl:value-of select="'#',replace(../@id,'^U0?',''),';C',(';;;',@comment,' # ')[$ex='yes'],'&#10;'" separator=""/>
     </xsl:when>
     <xsl:when test="../@id=('U0FE35','U0FE36','U0FE37','U0FE38')">
       <xsl:value-of select="'#',replace(../@id,'^U0?',''),';',';;;(deprecated for math use) # '[$ex='yes'],'&#10;'" separator=""/>
