@@ -61959,7 +61959,7 @@ Barbara Beeton for the STIX project
       </character>
       <character id="U02A3C-0FE00" dec="10812-65024" mode="math" type="binaryop">
          <unicodedata/>
-         <description unicode="3.2">RIGHTHAND INTERIOR PRODUCT - tall variant with narrow foot</description>
+         <description unicode="3.2">INTERIOR PRODUCT - tall variant with narrow foot</description>
       </character>
       <character id="U02A3D" dec="10813" mode="math" type="binaryop">
          <unicodedata category="Sm" combclass="0" bidi="ON" mirror="Y" mathclass="B"/>
