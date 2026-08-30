@@ -60373,7 +60373,7 @@ Barbara Beeton for the STIX project
          <operator-dictionary form="infix" lspace="5" rspace="5" priority="320"/>
          <description unicode="3.2">CIRCLED PARALLEL</description>
       </character>
-      <character id="U029B7-0FE00" dec="8923-65024" mode="math" type="relation">
+      <character id="U029B7-0FE00" dec="10679-65024" mode="math" type="relation">
          <unicodedata/>
          <description unicode="17">CIRCLED PARALLEL with parallel lines touching the circle</description>
       </character>      
